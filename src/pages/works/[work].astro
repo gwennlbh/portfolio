@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from "astro"
+import { getCollection, getEntry } from "astro:content"
+import Translated from "../../components/Translated.astro"
+import WIPIndicator from "../../components/WIPIndicator.astro"
+import Layout from "../../layouts/Layout.astro"
+import TagReference from "../../components/TagReference.astro"
+import StrongHeader from "../../components/StrongHeader.astro"
+
+export const getStaticPaths = (async () => {
+  return await getCollection("works").then((works) =>
+    works.map((work) => ({ params: { work: work.id } }))
+  )
+}) satisfies GetStaticPaths
+
+const entry = await getEntry("works", Astro.params.work!.toString())
+if (!entry) return Astro.rewrite("/404")
+
+const {
+  content,
+  metadata: { tags, wip, madeWith, started, colors },
+} = entry.data
+---
+
+<Layout colors={colors}>
+  <StrongHeader
+    title={{ fr: content.fr.title, en: content.en.title }}
+    wip={wip}
+  >
+    <section class="tags">
+      <ul>
+        {tags?.map((tag) => <TagReference tag={tag} />)}
+      </ul>
+    </section>
+  </StrongHeader>
+</Layout>
+
+<style>
+  .tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+  }
+</style>

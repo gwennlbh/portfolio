@@ -32,7 +32,8 @@ export const collections = {
           .nullable()
           .default([]),
         tags: z.array(reference("tags")).optional().nullable().default([]),
-        thumbnail: z.string().optional(),
+        thumbnail: z.record(z.string()).nullable().default({}),
+        thumbnailSource: z.string().optional(),
         titleStyle: z.string().optional(),
         colors: z.object({
           primary: z.string(),

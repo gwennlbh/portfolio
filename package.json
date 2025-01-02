@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "database": "ortfodb --config ./ortfodb.yaml --no-progressbar --scattered build works.json"
   },
   "dependencies": {
     "astro": "^5.1.1",

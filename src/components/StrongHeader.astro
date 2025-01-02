@@ -1,0 +1,30 @@
+---
+import Translated from "./Translated.astro"
+import WIPIndicator from "./WIPIndicator.astro"
+
+interface Props {
+  title: string | { fr?: string; en?: string }
+  wip?: boolean
+}
+
+const { title: title, wip } = Astro.props
+---
+
+<header>
+  <h1>
+    {typeof title === "string" ? title : <Translated {...title} />}
+    {wip && <WIPIndicator />}
+  </h1>
+  <slot />
+</header>
+
+<style>
+  header {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  h1 {
+    font-size: 2.8em;
+  }
+</style>

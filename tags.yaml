@@ -27,6 +27,8 @@
 
 - singular: poster
   plural:   posters
+  aliases:
+    - poster
   detect:
     made with: [photoshop, gimp]
 
@@ -72,10 +74,12 @@
 
 - singular: program
   plural:   programs
+  aliases:
+    - program
 
 - singular: command-line
   plural:   command-line
-  aliases:  [cli, command line]
+  aliases:  [cli, command line, commandline]
   description: Programs that run in the terminal, a text-based interface for computers.
   learn more at: https://www.hostinger.com/tutorials/what-is-cli
 
@@ -96,6 +100,7 @@
 
 - singular: illustration
   plural:   illustrations
+  aliases: [illustration]
 
 - singular: typography
   plural:   typography
