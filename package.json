@@ -9,6 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.1.1"
+    "astro": "^5.1.1",
+    "slug": "^10.0.0",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/slug": "^5.0.9"
   }
 }
