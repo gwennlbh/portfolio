@@ -50,6 +50,7 @@ export const collections = {
                 z.union([z.string().nullable(), z.array(z.string().nullable())])
               )
               .optional(),
+            created: nullableDate
           })
           .nullable(),
         databaseMetadata: z.object({
@@ -60,6 +61,7 @@ export const collections = {
       content: z.record(
         z.object({
           layout: z.array(z.array(z.string())),
+          cssGridAreas: z.string(),
           title: z.string(),
           footnotes: z.record(z.string()),
           abbreviations: z.record(z.string()),
@@ -126,8 +128,8 @@ export const collections = {
       title: translatedString,
       description: translatedString.optional(),
       includes: z.string(),
-      singular: z.string(),
-      plural: z.string(),
+      singular: z.string().optional(),
+      plural: z.string().optional(),
     })
   ),
   tags: yamlDataCollection(

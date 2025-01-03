@@ -8,14 +8,14 @@
 #   plural: experiments
 
 # TODO use a superwork instead.
-# acf-vd:
-#   title: {fr: ACF-Vd, en: ACF-Vd}
-#   aliases: [association-cause-freudienne, acf]
-#   includes: acf-*
-#   description:
-#     en: _Association de la Cause freudienne en Voie domitienne_, a [regional delegation of the École de la Cause freudienne](https://causefreudienne.net/activites/en-regions/voie-domitienne) pyschoanalysis association.
-#     fr: L'association de la Cause freudienne en Voie domitienne, une [délégation régionale de l'École de la Cause freudienne](https://causefreudienne.net/activites/en-regions/voie-domitienne), une association de psychanalyse.
-#   learn more at: https://www.acfvoiedomitienne.fr/l-acf
+acf-vd:
+  title: {fr: ACF-Vd, en: ACF-Vd}
+  aliases: [association-cause-freudienne, acf]
+  includes: acf-*
+  description:
+    en: _Association de la Cause freudienne en Voie domitienne_, a [regional delegation of the École de la Cause freudienne](https://causefreudienne.net/activites/en-regions/voie-domitienne) pyschoanalysis association.
+    fr: L'association de la Cause freudienne en Voie domitienne, une [délégation régionale de l'École de la Cause freudienne](https://causefreudienne.net/activites/en-regions/voie-domitienne), une association de psychanalyse.
+  learn more at: https://www.acfvoiedomitienne.fr/l-acf
 
 music:
   title: {en: music, fr: musique}
@@ -25,6 +25,11 @@ music:
     fr: J'expérimente les sons, leurs textures et leur musicalité depuis que j'ai 7 ans.
   singular: release
   plural: releases
+
+smol:
+  title: {en: smol, fr: smol}
+  includes: hexstring or permbits
+  description: {fr: tout pitits projets, en: smaller projects}
 
 software:
   title: {en: software, fr: code}

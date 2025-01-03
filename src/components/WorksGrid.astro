@@ -14,15 +14,29 @@ const isoDate = (date: Date) => formatISO(date, { representation: "date" })
 const preferredDate = ({
   started,
   finished,
+  additionalMetadata
 }: {
   started: Date | null
   finished: Date | null
-}) => finished ?? started
+  additionalMetadata?: {created?: Date|null}
+}) => finished ?? started ?? additionalMetadata?.created
+
+function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): Record<K, T> {
+    return items.reduce((acc, current) => {
+    if (!acc[key(current)]) {
+      acc[key(current)] = [];
+    }
+    acc[key(current)].push(current);
+    return acc;
+  }, {});
+}
 ---
+
+{Object.entries(groupBy(Astro.props.works, (({metadata}) => preferredDate(metadata)?.getFullYear()))).sort(([a], [b]) => b - a).map(([year, works]) => (
+<p class="year">{year}</p>
 <div class="works-grid">
-    
     {
-      Astro.props.works
+      works
         .sort(({ metadata: a }, { metadata: b }) =>
           compareDesc(
             preferredDate(a) ?? new Date(),
@@ -58,14 +72,14 @@ const preferredDate = ({
                   )}
                   <section class="text">
                       <h2>
-                        <Translated fr={content.fr?.title} en={content.en?.title} />
+                        <Translated fr={content.fr?.title ?? id} en={content.en?.title ?? id} />
                         {wip && <WIPIndicator />}
                       </h2>
                       {date && (
                         <time datetime={isoDate(date)}>
                           <Translated
-                            fr={format(date, "dd MMM yyyy", { locale: frFR }).replace(". ", " ")}
-                            en={format(date, "MMM dd, yyyy", { locale: enUS })}
+                            fr={format(date, "MMMM yyyy", { locale: frFR })}
+                            en={format(date, "MMMM, yyyy", { locale: enUS })}
                           />
                         </time>
                       )}
@@ -76,7 +90,7 @@ const preferredDate = ({
           }
         )
     }
-</div>
+</div>))}
 
 <style>
     .works-grid {
@@ -84,7 +98,7 @@ const preferredDate = ({
         display: grid;
         gap: 1em;
         grid-template-rows: masonry;
-        grid-template-columns: repeat(auto-fit, minmax(var(--size), 1fr));
+        grid-template-columns: repeat(auto-fit, var(--size));
     }
 
     .works-grid a:focus-visible img, .works-grid a:hover img {
@@ -115,6 +129,6 @@ const preferredDate = ({
     text-decoration: none;
   }
   time {
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 </style>

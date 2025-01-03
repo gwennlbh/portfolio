@@ -2,6 +2,7 @@
 
 - slug: aftereffects
   name: After Effects
+  aliases: [after effects]
   by: Adobe
   files: ["*.aep"]
   learn more at: https://www.adobe.com/fr/products/aftereffects.html
@@ -96,7 +97,7 @@
 - slug: flstudio
   name: FL Studio
   files: ["*.flp"]
-  aliases: ["fruityloops"]
+  aliases: ["fruityloops", fl studio]
   by: Image-Line
   learn more at: https://www.image-line.com/flstudio/
   description: |

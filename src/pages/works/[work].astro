@@ -44,11 +44,14 @@ if (!entry) return Astro.rewrite("/404")
 
 const {
   metadata,
-  metadata: { tags, wip, madeWith, started, colors },
+  metadata: { tags, wip, started, colors },
 } = entry.data
 const content = Object.keys(entry.data.content).includes("default")
   ? { fr: entry.data.content.default, en: entry.data.content.default }
   : entry.data.content
+const madeWith = await Promise.all(
+  metadata.madeWith?.map((tech) => getEntry("technologies", tech.id)) ?? []
+)
 ---
 
 <Layout colors={colors}>
@@ -68,10 +71,10 @@ const content = Object.keys(entry.data.content).includes("default")
     {
       Object.entries(content)
         .filter(([lang]) => import.meta.env.PROD || lang === "en")
-        .map(([lang, { blocks, layout }]) => (
+        .map(([lang, { blocks, layout, cssGridAreas }]) => (
           <section
             i18n-keep-on={lang}
-            style={`grid-template-areas: ${layout.map((row) => "'" + row.map((cell) => `_${cell}`).join(" ") + "'").join(" ")}`}
+            style={`grid-template-areas: ${cssGridAreas}`}
           >
             {blocks.map((block) => (
               <div
@@ -79,7 +82,7 @@ const content = Object.keys(entry.data.content).includes("default")
                 class={`block ${isLoneRow(block.id, layout) && hasMediaRowBefore(block.id, layout, blocks) ? "indent" : ""}`}
                 data-type={block.type}
                 data-block-id={block.id}
-                style={`grid-area: _${block.id}`}
+                style={`grid-area: ${block.id}`}
               >
                 {block.type === "paragraph" && <BlockParagraph {...block} />}
                 {block.type === "link" && <BlockLink {...block} />}
@@ -90,6 +93,16 @@ const content = Object.keys(entry.data.content).includes("default")
         ))
     }
   </main>
+
+  {madeWith && 
+  <section class="made-with">
+    <h2 i18n>Made with</h2>
+    <ul class="technologies">
+      {madeWith.map(tech => <li>
+       <a href={`/using/${tech.id}`} >{tech.data.name}</a>
+        </li>)}
+    </ul>
+  </section>}
 
   <section class="metadata">
     <pre>{YAML.stringify(metadata)}</pre>
@@ -124,11 +137,16 @@ const content = Object.keys(entry.data.content).includes("default")
 
     .block[data-type="media"] :global(img, video) {
       object-position: left;
-      max-height: 60vh;
+      /* max-height: 60vh; */
     }
 
     .block[data-type="paragraph"].indent {
       margin-left: 2em;
+    }
+
+    .block {
+      min-height:0;
+      min-width:0;
     }
   }
 

@@ -11,6 +11,9 @@ dependencies:
   date-fns:
     specifier: ^4.1.0
     version: 4.1.0
+  picomatch:
+    specifier: ^4.0.2
+    version: 4.0.2
   slug:
     specifier: ^10.0.0
     version: 10.0.0
@@ -19,6 +22,9 @@ dependencies:
     version: 2.7.0
 
 devDependencies:
+  '@types/picomatch':
+    specifier: ^3.0.1
+    version: 3.0.1
   '@types/slug':
     specifier: ^5.0.9
     version: 5.0.9
@@ -994,6 +1000,10 @@ packages:
     dependencies:
       '@types/unist': 3.0.3
     dev: false
+
+  /@types/picomatch@3.0.1:
+    resolution: {integrity: sha512-1MRgzpzY0hOp9pW/kLRxeQhUWwil6gnrUYd3oEpeYBqp/FexhaCPv3F8LsYr47gtUU45fO2cm1dbwkSrHEo8Uw==}
+    dev: true
 
   /@types/slug@5.0.9:
     resolution: {integrity: sha512-6Yp8BSplP35Esa/wOG1wLNKiqXevpQTEF/RcL/NV6BBQaMmZh4YlDwCgrrFSoUE4xAGvnKd5c+lkQJmPrBAzfQ==}
