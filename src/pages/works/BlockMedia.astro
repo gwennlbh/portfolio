@@ -1,10 +1,10 @@
 ---
 import type { InferEntrySchema } from "astro:content"
 
-type BlockParagraph =
+type Block =
   InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number]
 
-interface Props extends BlockParagraph {}
+interface Props extends Block {}
 
 const {
   alt,
@@ -14,7 +14,7 @@ const {
   thumbnails,
   dimensions,
 } = Astro.props
-const generalContentType = contentType.split("/")[0]
+const generalContentType = contentType?.split("/")[0] ?? ""
 const distSource = `https://media.gwen.works/${Astro.props.distSource}`
 const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
   .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
