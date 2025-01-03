@@ -96,7 +96,7 @@
 - slug: flstudio
   name: FL Studio
   files: ["*.flp"]
-  aliases: ["fruityloops", fl studio]
+  aliases: ["fruityloops"]
   by: Image-Line
   learn more at: https://www.image-line.com/flstudio/
   description: |

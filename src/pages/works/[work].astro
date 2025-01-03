@@ -1,11 +1,13 @@
 ---
 import type { GetStaticPaths } from "astro"
+import * as YAML from "yaml"
+import BlockParagraph from "./BlockParagraph.astro"
 import { getCollection, getEntry } from "astro:content"
-import Translated from "../../components/Translated.astro"
-import WIPIndicator from "../../components/WIPIndicator.astro"
-import Layout from "../../layouts/Layout.astro"
-import TagReference from "../../components/TagReference.astro"
 import StrongHeader from "../../components/StrongHeader.astro"
+import TagReference from "../../components/TagReference.astro"
+import Layout from "../../layouts/Layout.astro"
+import BlockLink from "./BlockLink.astro"
+import BlockMedia from "./BlockMedia.astro"
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
@@ -13,18 +15,46 @@ export const getStaticPaths = (async () => {
   )
 }) satisfies GetStaticPaths
 
-const entry = await getEntry("works", Astro.params.work!.toString())
+// lone row: the cell is the only one of its kind in all of the rows it's in
+const isLoneRow = (cell: string, layout: string[][]) =>
+  layout.some((row) => row.every((c) => c === cell)) &&
+  !layout.some((row) => row.includes(cell) && !row.every((c) => c === cell))
+
+const hasMediaRowBefore = (
+  cell: string,
+  layout: string[][],
+  blocks: { id: string; type: string }[]
+) => {
+  return (
+    layout
+      // keep all rows up to the current one
+      .slice(
+        0,
+        layout.findIndex((row) => row.includes(cell))
+      )
+      // search for a media-type block in the row's cells
+      .some((row) =>
+        row.some((cell) => blocks.find((b) => b.id === cell)?.type === "media")
+      )
+  )
+}
+
+const entry = await getEntry("works", decodeURI(Astro.params.work!.toString()))
 if (!entry) return Astro.rewrite("/404")
 
 const {
-  content,
+  metadata,
   metadata: { tags, wip, madeWith, started, colors },
 } = entry.data
+const content = Object.keys(entry.data.content).includes("default")
+  ? { fr: entry.data.content.default, en: entry.data.content.default }
+  : entry.data.content
 ---
 
 <Layout colors={colors}>
   <StrongHeader
-    title={{ fr: content.fr.title, en: content.en.title }}
+    back="/"
+    title={{ fr: content.fr?.title, en: content.en?.title }}
     wip={wip}
   >
     <section class="tags">
@@ -33,6 +63,37 @@ const {
       </ul>
     </section>
   </StrongHeader>
+
+  <main>
+    {
+      Object.entries(content)
+        .filter(([lang]) => import.meta.env.PROD || lang === "en")
+        .map(([lang, { blocks, layout }]) => (
+          <section
+            i18n-keep-on={lang}
+            style={`grid-template-areas: ${layout.map((row) => "'" + row.map((cell) => `_${cell}`).join(" ") + "'").join(" ")}`}
+          >
+            {blocks.map((block) => (
+              <div
+                id={block.anchor || undefined}
+                class={`block ${isLoneRow(block.id, layout) && hasMediaRowBefore(block.id, layout, blocks) ? "indent" : ""}`}
+                data-type={block.type}
+                data-block-id={block.id}
+                style={`grid-area: _${block.id}`}
+              >
+                {block.type === "paragraph" && <BlockParagraph {...block} />}
+                {block.type === "link" && <BlockLink {...block} />}
+                {block.type === "media" && <BlockMedia {...block} />}
+              </div>
+            ))}
+          </section>
+        ))
+    }
+  </main>
+
+  <section class="metadata">
+    <pre>{YAML.stringify(metadata)}</pre>
+  </section>
 </Layout>
 
 <style>
@@ -40,5 +101,42 @@ const {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em 1em;
+  }
+
+  main > section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 80rem;
+  }
+
+  section.metadata pre {
+    font-family:
+      Victor Mono,
+      monospace;
+    opacity: 0.5;
+  }
+
+  @media (min-width: 800px) {
+    main > section {
+      display: grid;
+    }
+
+    .block[data-type="media"] :global(img, video) {
+      object-position: left;
+      max-height: 60vh;
+    }
+
+    .block[data-type="paragraph"].indent {
+      margin-left: 2em;
+    }
+  }
+
+  .block[data-type="paragraph"] :global(li) {
+    margin-bottom: 0.5em;
+  }
+  .block[data-type="paragraph"] :global(a:hover, a:focus-visible) {
+    /* Otherwise it breaks text flow on hover/focus */
+    font-weight: normal;
   }
 </style>

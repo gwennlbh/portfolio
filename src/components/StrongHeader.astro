@@ -4,13 +4,15 @@ import WIPIndicator from "./WIPIndicator.astro"
 
 interface Props {
   title: string | { fr?: string; en?: string }
+  back?: string
   wip?: boolean
 }
 
-const { title: title, wip } = Astro.props
+const { title, wip, back } = Astro.props
 ---
 
 <header>
+  {back && <a class="back" href={back}>&lt;- back</a>}
   <h1>
     {typeof title === "string" ? title : <Translated {...title} />}
     {wip && <WIPIndicator />}
@@ -26,5 +28,9 @@ const { title: title, wip } = Astro.props
   }
   h1 {
     font-size: 2.8em;
+  }
+  a.back {
+    z-index: 2;
+    text-decoration: none;
   }
 </style>

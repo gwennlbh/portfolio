@@ -1,0 +1,120 @@
+---
+import type { InferEntrySchema } from "astro:content"
+import { formatISO, format } from "date-fns"
+import { fr as frFR, enUS } from "date-fns/locale"
+import { compareDesc } from "date-fns"
+import Translated from "./Translated.astro"
+import WIPIndicator from "./WIPIndicator.astro"
+
+interface Props {
+  works: InferEntrySchema<"works">[]
+}
+
+const isoDate = (date: Date) => formatISO(date, { representation: "date" })
+const preferredDate = ({
+  started,
+  finished,
+}: {
+  started: Date | null
+  finished: Date | null
+}) => finished ?? started
+---
+<div class="works-grid">
+    
+    {
+      Astro.props.works
+        .sort(({ metadata: a }, { metadata: b }) =>
+          compareDesc(
+            preferredDate(a) ?? new Date(),
+            preferredDate(b) ?? new Date()
+          )
+        )
+        .map(
+          ({
+            id,
+            content,
+            metadata: { wip, colors, started, finished, thumbnail },
+          }) => {
+            const date = preferredDate({ started, finished })
+            return (
+              <a href={`/${id}`}>
+                <article
+                  style={
+                    colors
+                      ? `--primary: ${colors.primary};
+                        --secondary: ${colors.secondary};
+                        --tertiary: ${colors.tertiary}`
+                      : undefined
+                  }
+                >
+                  {thumbnail && (
+                    <img
+                      srcset={Object.entries(thumbnail)
+                        .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
+                        .join(", ")}
+                      alt=""
+                      style={{ width: "100%", height: "auto", objectFit: "cover" }}
+                    />
+                  )}
+                  <section class="text">
+                      <h2>
+                        <Translated fr={content.fr?.title} en={content.en?.title} />
+                        {wip && <WIPIndicator />}
+                      </h2>
+                      {date && (
+                        <time datetime={isoDate(date)}>
+                          <Translated
+                            fr={format(date, "dd MMM yyyy", { locale: frFR }).replace(". ", " ")}
+                            en={format(date, "MMM dd, yyyy", { locale: enUS })}
+                          />
+                        </time>
+                      )}
+                  </section>
+                </article>
+              </a>
+            )
+          }
+        )
+    }
+</div>
+
+<style>
+    .works-grid {
+        --size: 300px;
+        display: grid;
+        gap: 1em;
+        grid-template-rows: masonry;
+        grid-template-columns: repeat(auto-fit, minmax(var(--size), 1fr));
+    }
+
+    .works-grid a:focus-visible img, .works-grid a:hover img {
+        scale: 1.11;
+
+    }
+
+    article img {
+        transition: scale 0.125s;
+    }
+
+  article {
+    color: var(--primary, black);
+    background: var(--secondary, white);
+    padding: 1rem;
+    max-width: var(--size);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  section.text {
+    display: flex;
+    flex-direction:column;
+    gap: 0.25em;
+  }
+  a {
+    text-decoration: none;
+  }
+  time {
+    text-transform: uppercase;
+  }
+</style>

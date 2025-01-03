@@ -1,7 +1,8 @@
 ---
 import type { GetStaticPaths } from "astro"
 import { getCollection, getEntry } from "astro:content"
-import Translated from "../../components/Translated.astro"
+import StrongHeader from "../../components/StrongHeader.astro"
+import WorksGrid from "../../components/WorksGrid.astro"
 import Layout from "../../layouts/Layout.astro"
 
 export const getStaticPaths = (async () => {
@@ -9,7 +10,7 @@ export const getStaticPaths = (async () => {
   return tags.map((t) => ({ params: { tag: t.id } }))
 }) satisfies GetStaticPaths
 
-const entry = await getEntry("tags", Astro.params.tag!.replace("%20", " "))
+const entry = await getEntry("tags", decodeURI(Astro.params.tag!.toString()))
 if (!entry) return Astro.rewrite("/404")
 
 const {
@@ -32,36 +33,20 @@ const works = await getCollection("works").then((works) =>
 ---
 
 <Layout>
-  <h1>{plural}</h1>
-
-  <section class="description">
-    <p>{description}</p>
-    {
-      learnMoreAt && (
-        <a href={learnMoreAt} class="learn-more" i18n>
-          learn more
-        </a>
-      )
-    }
-  </section>
+  <StrongHeader title={plural}>
+    <section class="description">
+      <p>{description}</p>
+      {
+        learnMoreAt && (
+          <a href={learnMoreAt} class="learn-more" i18n>
+            learn more
+          </a>
+        )
+      }
+    </section>
+  </StrongHeader>
 
   <main>
-    <ul>
-      {
-        works.map((work) => (
-          <li>
-            <a href={`/${work.id}`}>
-              <article>
-                <Translated
-                  Tag="h2"
-                  fr={work.content.fr?.title}
-                  en={work.content.en?.title}
-                />
-              </article>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+    <WorksGrid works={works} />
   </main>
 </Layout>

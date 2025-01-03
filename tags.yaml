@@ -27,8 +27,6 @@
 
 - singular: poster
   plural:   posters
-  aliases:
-    - poster
   detect:
     made with: [photoshop, gimp]
 
@@ -74,8 +72,6 @@
 
 - singular: program
   plural:   programs
-  aliases:
-    - program
 
 - singular: command-line
   plural:   command-line
@@ -100,7 +96,6 @@
 
 - singular: illustration
   plural:   illustrations
-  aliases: [illustration]
 
 - singular: typography
   plural:   typography

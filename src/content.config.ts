@@ -145,7 +145,8 @@ export const collections = {
         })
         .optional(),
     }),
-    (tag) => tag.plural
+    (tag) => tag.plural,
+    (tag) => [tag.singular]
   ),
   technologies: yamlDataCollection(
     "technologies.yaml",
@@ -168,7 +169,8 @@ function yamlDataCollection<
 >(
   filename: string,
   schema: Schema,
-  slugify?: (data: z.infer<Schema>) => string
+  slugify?: (data: z.infer<Schema>) => string,
+  additionalAliases?: (data: z.infer<Schema>) => string[]
 ) {
   return defineCollection({
     schema,
@@ -188,7 +190,13 @@ function yamlDataCollection<
                 })
                 .safeParse(out)
 
-              if (aliasable.success) {
+              if (aliasable.success || additionalAliases) {
+                if (additionalAliases) {
+                  out.aliases = [
+                    ...(out.aliases ?? []),
+                    ...additionalAliases(data),
+                  ]
+                }
                 return makeAliasEntries(out)
               }
 

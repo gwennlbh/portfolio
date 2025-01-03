@@ -1,0 +1,20 @@
+---
+import type { InferEntrySchema } from "astro:content"
+
+type BlockParagraph =
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number]
+
+interface Props extends BlockParagraph {}
+---
+
+<a href={Astro.props.url} class="block-link">{Astro.props.text}</a>
+
+<style>
+  a {
+    font-size: 2em;
+    text-decoration: none;
+  }
+  a::before {
+    content: '->';
+  }
+</style>
