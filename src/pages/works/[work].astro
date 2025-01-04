@@ -1,13 +1,13 @@
 ---
 import type { GetStaticPaths } from "astro"
-import * as YAML from "yaml"
-import BlockParagraph from "./BlockParagraph.astro"
 import { getCollection, getEntry } from "astro:content"
+import * as YAML from "yaml"
 import StrongHeader from "../../components/StrongHeader.astro"
 import TagReference from "../../components/TagReference.astro"
 import Layout from "../../layouts/Layout.astro"
 import BlockLink from "./BlockLink.astro"
 import BlockMedia from "./BlockMedia.astro"
+import BlockParagraph from "./BlockParagraph.astro"
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
@@ -24,34 +24,33 @@ const hasMediaRowBefore = (
   cell: string,
   layout: string[][],
   blocks: { id: string; type: string }[]
-) => {
-  return (
-    layout
-      // keep all rows up to the current one
-      .slice(
-        0,
-        layout.findIndex((row) => row.includes(cell))
-      )
-      // search for a media-type block in the row's cells
-      .some((row) =>
-        row.some((cell) => blocks.find((b) => b.id === cell)?.type === "media")
-      )
-  )
-}
+) =>
+  layout
+    // keep all rows up to the current one
+    .slice(
+      0,
+      layout.findIndex((row) => row.includes(cell))
+    )
+    // search for a media-type block in the row's cells
+    .some((row) =>
+      row.some((cell) => blocks.find((b) => b.id === cell)?.type === "media")
+    )
 
 const entry = await getEntry("works", decodeURI(Astro.params.work!.toString()))
 if (!entry) return Astro.rewrite("/404")
 
 const {
   metadata,
-  metadata: { tags, wip, started, colors },
+  metadata: { tags, wip, colors },
 } = entry.data
+
 const content = Object.keys(entry.data.content).includes("default")
   ? { fr: entry.data.content.default, en: entry.data.content.default }
   : entry.data.content
+
 const madeWith = await Promise.all(
   metadata.madeWith?.map((tech) => getEntry("technologies", tech.id)) ?? []
-)
+).then((techs) => techs.filter((x) => !!x))
 ---
 
 <Layout colors={colors}>
@@ -74,7 +73,7 @@ const madeWith = await Promise.all(
         .map(([lang, { blocks, layout, cssGridAreas }]) => (
           <section
             i18n-keep-on={lang}
-            style={`grid-template-areas: ${cssGridAreas}`}
+            style={`grid-template-areas: ${cssGridAreas}; display: ${cssGridAreas ? "grid" : "block"}`}
           >
             {blocks.map((block) => (
               <div
@@ -94,15 +93,20 @@ const madeWith = await Promise.all(
     }
   </main>
 
-  {madeWith && 
-  <section class="made-with">
-    <h2 i18n>Made with</h2>
-    <ul class="technologies">
-      {madeWith.map(tech => <li>
-       <a href={`/using/${tech.id}`} >{tech.data.name}</a>
-        </li>)}
-    </ul>
-  </section>}
+  {
+    madeWith && madeWith.length > 0 && (
+      <section class="made-with">
+        <h2 i18n>made with</h2>
+        <ul class="technologies">
+          {madeWith.map(({ id, data: { name } }) => (
+            <li>
+              <a href={`/using/${id}`}>{name}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
 
   <section class="metadata">
     <pre>{YAML.stringify(metadata)}</pre>
@@ -121,6 +125,18 @@ const madeWith = await Promise.all(
     flex-direction: column;
     gap: 2em;
     max-width: 80rem;
+  }
+  section.made-with h2 {
+    font-size: 2.8em;
+  }
+  section.made-with {
+    font-size: 1.7rem;
+  }
+  section.made-with ul {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
   }
 
   section.metadata pre {
@@ -145,8 +161,8 @@ const madeWith = await Promise.all(
     }
 
     .block {
-      min-height:0;
-      min-width:0;
+      min-height: 0;
+      min-width: 0;
     }
   }
 

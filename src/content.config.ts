@@ -50,7 +50,7 @@ export const collections = {
                 z.union([z.string().nullable(), z.array(z.string().nullable())])
               )
               .optional(),
-            created: nullableDate
+            created: nullableDate,
           })
           .nullable(),
         databaseMetadata: z.object({
@@ -111,6 +111,39 @@ export const collections = {
       ),
     }),
   }),
+  experiences: yamlDataCollection(
+    "experiences.yaml",
+    z.object({
+      time: z.coerce.string(),
+      title: z.string(),
+      company: z.object({
+        name: z.string(),
+        url: z.string().url().optional(),
+        description: z.string(),
+      }),
+      location: z.string(),
+      description: z.string(),
+      skills: z.array(z.string()).optional(),
+    }),
+    (exp) => exp.time.toString()
+  ),
+  education: yamlDataCollection(
+    "education.yaml",
+    z.object({
+      time: z.coerce.string(),
+      title: z.string(),
+      school: z.object({
+        name: z.string(),
+        url: z.string().url().optional(),
+      }),
+      location: z.string(),
+      diploma: z.object({
+        results: z.union([z.string(), z.record(z.string())]).optional(),
+        name: z.string()
+      })
+    }),
+    (exp) => exp.time.toString()
+  ),
   sites: yamlDataCollection(
     "sites.yaml",
     z.object({

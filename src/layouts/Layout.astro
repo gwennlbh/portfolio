@@ -34,7 +34,15 @@ const colors = Astro.props.colors
   <body>
     <slot />
     <footer>
-      &lt;3 Gwenn {new Date().getFullYear()}
+      <p>
+        made with <a href="/ortfo">ortfo/db</a> &amp; <a
+          href="https://astro.build">astro</a
+        >
+      </p>
+
+      <p>&lt;3 Gwenn {new Date().getFullYear()}</p>
+
+      <p>generative ai cannot make art</p>
 
       <ul>
         {
@@ -108,13 +116,15 @@ const colors = Astro.props.colors
 
   footer {
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     font-family:
       Victor Mono,
       monospace;
   }
 
   footer ul {
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 0.5em;

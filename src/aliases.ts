@@ -18,12 +18,13 @@ export function makeAliasEntries<
   ]
 }
 
-export function resolveAliased(entry: { aliases: string[]; slug: string }) {
+export function resolveAliased(entry: { aliases?: null|string[]; slug: string }) {
+  if (!entry.aliases) return entry.slug
   if (entry.aliases.includes(IS_ALIAS_TAG) && entry.aliases.length === 2)
     return entry.aliases[1]
   return entry.slug
 }
 
-export function isAliased(entry: { aliases: string[]; slug: string }) {
+export function isAliased(entry: { aliases?: null|string[]; slug: string }) {
   return resolveAliased(entry) !== entry.slug
 }

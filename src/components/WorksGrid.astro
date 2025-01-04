@@ -18,21 +18,21 @@ const preferredDate = ({
 }: {
   started: Date | null
   finished: Date | null
-  additionalMetadata?: {created?: Date|null}
+  additionalMetadata?: {created?: Date|null|undefined}
 }) => finished ?? started ?? additionalMetadata?.created
 
-function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): Record<K, T> {
+function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): Record<K, T[]> {
     return items.reduce((acc, current) => {
     if (!acc[key(current)]) {
       acc[key(current)] = [];
     }
     acc[key(current)].push(current);
     return acc;
-  }, {});
+  }, {} as Record<K, T[]>);
 }
 ---
 
-{Object.entries(groupBy(Astro.props.works, (({metadata}) => preferredDate(metadata)?.getFullYear()))).sort(([a], [b]) => b - a).map(([year, works]) => (
+{Object.entries(groupBy(Astro.props.works, (({metadata}) => preferredDate(metadata)?.getFullYear().toString() ?? "Unknown"))).sort(([a], [b]) => b - a).map(([year, works]) => (
 <p class="year">{year}</p>
 <div class="works-grid">
     {
@@ -108,6 +108,13 @@ function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): R
 
     article img {
         transition: scale 0.125s;
+    }
+
+    .year {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 1em 0;
+      font-family: Victor Mono, monospace;
     }
 
   article {

@@ -17,6 +17,10 @@ acf-vd:
     fr: L'association de la Cause freudienne en Voie domitienne, une [délégation régionale de l'École de la Cause freudienne](https://causefreudienne.net/activites/en-regions/voie-domitienne), une association de psychanalyse.
   learn more at: https://www.acfvoiedomitienne.fr/l-acf
 
+besties:
+  title: {en: best works, fr: best works}
+  includes: emotions or graphinx or churros or loca7 or neptune or acf-écoute-à-interprétation or infrasonic-village
+
 music:
   title: {en: music, fr: musique}
   includes: '#music'

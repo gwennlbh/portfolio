@@ -12,42 +12,47 @@ export const getStaticPaths = (async () => {
   return tags.map((t) => ({ params: { collection: t.id } }))
 }) satisfies GetStaticPaths
 
-const entry = await getEntry("collections", decodeURI(Astro.params.collection!.toString()))
+const entry = await getEntry(
+  "collections",
+  decodeURI(Astro.params.collection!.toString())
+)
 if (!entry) return Astro.rewrite("/404")
 
-const {
-    title, includes, description, singular, plural
-} = entry.data
+const { title, includes, description, singular, plural } = entry.data
 
-function matchesIncludeExpresion(expr: string, work:{id: string; metadata: {tags: Array<{id: string; collection: "tags"}>}}) {
-    const disjunctions = expr.split(' or ')
-    return disjunctions.some(
-        clause => {
-            const conjunctions = clause.split(' and ')
-            return conjunctions.every(term => {
-                if (!term.startsWith('#')) {
-                    return picomatch(term)(work.id)
-                }
-                return work.metadata.tags?.some(t => t.id === term.replace(/^#/, ''))
-            })
-        }
-    )
+function matchesIncludeExpresion(
+  expr: string,
+  work: {
+    id: string
+    metadata: {
+      aliases: string[] | undefined
+      tags: Array<{ id: string; collection: "tags" }>
+    }
+  }
+) {
+  const disjunctions = expr.split(" or ")
+  return disjunctions.some((clause) => {
+    const conjunctions = clause.split(" and ")
+    return conjunctions.every((term) => {
+      if (!term.startsWith("#")) {
+        return [work.id, ...(work.metadata.aliases ?? [])].some(picomatch(term))
+      }
+      return work.metadata.tags?.some((t) => t.id === term.replace(/^#/, ""))
+    })
+  })
 }
 
 const works = await getCollection("works").then((works) =>
   works
     .map((w) => w.data)
-    .filter(
-      (w) =>
-        !w.metadata.private && matchesIncludeExpresion(includes, w)
-    )
+    .filter((w) => !w.metadata.private && matchesIncludeExpresion(includes, w))
 )
 ---
 
 <Layout>
-<StrongHeader title={title}>
+  <StrongHeader title={title}>
     <Translated Tag="p" {...description} />
-</StrongHeader>
+  </StrongHeader>
 
-<WorksGrid works={works} />
+  <WorksGrid works={works} />
 </Layout>

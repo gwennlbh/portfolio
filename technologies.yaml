@@ -259,6 +259,8 @@
 
 - slug: premierepro
   name: Premiere Pro
+  aliases:
+    - premiere pro
   by: Adobe
   files: ["*.aep"]
   learn more at: https://www.adobe.com/fr/products/premiere.html

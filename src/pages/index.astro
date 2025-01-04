@@ -13,5 +13,5 @@ const smolWorks = (await getEntry("collections", "smol"))?.data?.includes.split(
 		<p i18n>I'm Gwenn Le Bihan :3</p>
 	</StrongHeader>
 
-	<WorksGrid works={works.filter(w => !smolWorks.includes(w.id))} />
+	<WorksGrid works={works.filter(w => !smolWorks?.includes(w.id))} />
 </Layout>
