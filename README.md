@@ -1,5 +1,5 @@
 
-# ewen.works
+# gwen.works
 My personal website, built with [ortfo/db](https://ortfo.org/db) and [go-templ](https://templ.guide)
 ## Setup
 Run this before any command
@@ -48,8 +48,8 @@ rm -f database.json
 ## Deploy
 
 ```sh
-rsync -av media/* YOUR_SSH:~/www/media.ewen.works/
-rsync -avz public/* YOUR_SSH:~/www/assets.ewen.works/
+rsync -av media/* YOUR_SSH:~/www/media.gwenn°.works/
+rsync -avz public/* YOUR_SSH:~/www/assets.gwenn°.works/
 rsync -av database.json YOUR_SSH:~/portfolio/
 ssh YOUR_SSH "tmux send-keys -t 0:0.0 C-c 'git pull --autostash --rebase' Enter 'just start' Enter"
 ```
