@@ -1,12 +1,12 @@
 - name: "spotify"
   url: "https://open.spotify.com/artist/6tUc6r8aNeiiT1mElcnMx9?si=yCM83yThR4WVCkC4Kd5p7Q"
   purpose: "my music"
-  username: "Ewen-lbh"
+  username: Postamble
 
 - name: "applemusic"
   url: "https://music.apple.com/fr/artist/ewen-lbh/1506892811"
   purpose: "my music"
-  username: "Ewen-lbh"
+  username: Postamble
 
 - name: "bluesky"
   url: "https://bsky.app/profile/gwen.works"
@@ -16,24 +16,20 @@
 - name: "github"
   url: "https://github.com/gwennlbh"
   purpose: "open-source code"
-  username: "ewen-lbh"
+  username: gwennlbh
 
 - name: "youtube"
   url: "https://youtube.com/@postamble"
   purpose: "visual+music"
-  username: "ewen-lbh"
+  username: postamble
 
 - name: "deezer"
   url: "https://deezer.page.link/keZbR1mRNyp5ba6W9"
   purpose: "my music"
-  username: "Ewen-lbh"
-
-- name: fiverr
-  url: https://fiverr.com/ewen_lbh
-  purpose: i can work for you
+  username: Postamble
 
 - name: "mail"
-  url: "mailto:hey@ewen.works"
+  url: "mailto:gwenn.lebihan7@gmail.com"
   purpose: "contact"
 
 - name: instagram
@@ -41,5 +37,5 @@
   purpose: multimedia work
 
 - name: linkedin
-  url: https://linkedin.com/in/ewen-lbh
+  url: https://linkedin.com/in/gwennlbh
   purpose: "my carreer"
