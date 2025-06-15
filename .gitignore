@@ -1,52 +1,31 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go
-# Edit at https://www.toptal.com/developers/gitignore?templates=go
+# build output
+dist/
 
-### Go ###
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# generated types
+.astro/
 
-# Test binary, built with `go test -c`
-*.test
+# dependencies
+node_modules/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
-
-# End of https://www.toptal.com/developers/gitignore/api/go
-
-# Environment variables
+# environment variables
 .env
+.env.production
 
-# Go Templ
-*_templ.go
+# macOS-specific files
+.DS_Store
 
-tmp/
-
-# Database
-*.json
-!database.json
-.lastbuild.yaml
+# jetbrains setting folder
+.idea/
+pkg
 media
+.ortfodb-build-lock
 
-# i18n
-*.mo
-dist
-go.work.sum
-database.json
-.env
-deadlinks.log
 
-mails/*.txt
-mails/*.json
+# act secrets
+.secrets

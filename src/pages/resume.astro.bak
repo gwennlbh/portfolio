@@ -1,0 +1,237 @@
+---
+import { getCollection } from "astro:content";
+import { getSecret } from "astro:env/server";
+import { intervalToDuration, formatDuration } from "date-fns";
+import { isAliased } from "../aliases.js";
+import StrongHeader from "../components/StrongHeader.astro";
+import Layout from "../layouts/Layout.astro";
+
+const timeSpentIn = await fetch(
+  `https://wakatime.com/api/v1/users/current/stats/all_time`,
+  {
+    headers: {
+      Authorization: `Basic ${getSecret("WAKATIME_API_KEY")}`,
+    },
+  },
+)
+  .then((response) => response.json())
+  .then(
+    (json: {
+      data: { languages: Array<{ name: string; total_seconds: number }> };
+    }) =>
+      Object.fromEntries(
+        json.data.languages.map(({ name, total_seconds }) => [
+          name.toLowerCase(),
+          total_seconds,
+        ]),
+      ),
+  );
+
+const works = await getCollection("works");
+const experiences = await getCollection("experiences");
+const education = await getCollection("education");
+
+const technologies = await getCollection("technologies").then((techs) =>
+  techs
+    .filter(({ data }) => !isAliased(data))
+    .map(({ data, id }) => ({
+      id,
+      ...data,
+      timeSpentHours: Math.round(
+        [id, ...(data.aliases ?? [])].reduce(
+          (total, name) =>
+            total + (timeSpentIn[name.toLowerCase()] ?? 0) / 3600,
+          0,
+        ),
+      ),
+      timeSpent: intervalToDuration({
+        start: 0,
+        end:
+          1000 *
+          [id, ...(data.aliases ?? [])].reduce(
+            (total, name) => total + (timeSpentIn[name.toLowerCase()] ?? 0),
+            0,
+          ),
+      }),
+      projectsCount: works.filter(
+        ({ data }) =>
+          !data.metadata.private &&
+          data.metadata.madeWith?.some((tech) =>
+            [id, ...(data.metadata.aliases ?? [])].includes(tech.id),
+          ),
+      ).length,
+    })),
+);
+---
+
+<Layout>
+  <StrongHeader title="Curriculum Vitæ">
+    <p>
+      Hi! I&#39;m Gwenn Le Bihan, interested in almost anything that is both
+      creative and digital.
+    </p>
+    <p>
+      I work on a lot of projects and also do <a
+        href="https://open.spotify.com/artist/6tUc6r8aNeiiT1mElcnMx9?si=ezLedPQ4Qimkep9xmsjpQA"
+        >music</a
+      > and <a href="https://gwen.works">graphism/motion design</a> on top of that
+    </p>
+  </StrongHeader>
+
+  <section class="skills">
+    <h2 i18n>Skills</h2>
+    <p i18n>
+      Time spent tracked via <a href="https://wakatime.com">WakaTime</a>
+    </p>
+    <ul>
+      {
+        technologies
+          .filter(
+            ({ timeSpent, timeSpentHours, projectsCount }) =>
+              (!timeSpentHours && projectsCount > 2) ||
+              (timeSpent.days ?? 0) >= 1,
+          )
+          .sort((a, b) => b.timeSpentHours - a.timeSpentHours)
+          .map(({ name, timeSpentHours, projectsCount, slug }) => (
+            <li>
+              <strong>{name}</strong>
+              <p>{timeSpentHours ? `${timeSpentHours} hours` : ""}</p>
+              <p>
+                {projectsCount && (
+                  <>
+                    {projectsCount}&nbsp;<a href={`/using/${slug}`}>projects</a>
+                  </>
+                )}
+              </p>
+            </li>
+          ))
+      }
+    </ul>
+  </section>
+
+  <section class="experience">
+    <h2 i18n>Experience</h2>
+    <ul>
+      {
+        experiences
+          .sort((b, a) =>
+            a.data.time.toString().localeCompare(b.data.time.toString()),
+          )
+          .map(({ data: exp }) => (
+            <li>
+              <strong>{exp.time}</strong>
+              {exp.company.name}
+              <span class="location">@ {exp.location}</span>
+              <p>
+                {exp.title}, {exp.company.description}
+              </p>
+              <p set:html={exp.description.replace("\n", "<br>")} />
+              <p>
+                {exp.company.url && (
+                  <a href={exp.company.url}>
+                    {exp.company.url.replace(/https?:\/\/([\w\.]+).*/, "$1")}
+                  </a>
+                )}
+              </p>
+              <ul class="skills">
+                {exp.skills?.map((skill) => {
+                  const tech = technologies.find((t) =>
+                    [t.id, ...(t.aliases ?? [])].includes(skill),
+                  );
+                  if (!tech) return <li>{skill.id}</li>;
+                  return (
+                    <li>
+                      <a href={`/using/${tech.id}`}>{tech.name}</a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </li>
+          ))
+      }
+    </ul>
+  </section>
+
+  <section class="education">
+    <h2 i18n>Education</h2>
+    <ul>
+      {
+        education
+          .sort((b, a) =>
+            a.data.time.toString().localeCompare(b.data.time.toString()),
+          )
+          .map(({ data: ed }) => (
+            <li>
+              <strong>{ed.time}</strong>
+              {ed.school.name}
+              <span class="location">@ {ed.location}</span>
+              <p>{ed.title}</p>
+              <p>
+                {ed.school.url && (
+                  <a href={ed.school.url}>
+                    {ed.school.url.replace(/https?:\/\/([\w\.]+).*/, "$1")}
+                  </a>
+                )}
+              </p>
+              {ed.diploma && (
+                <>
+                  <p>{ed.diploma.name}</p>
+                  {ed.diploma.results &&
+                  typeof ed.diploma.results === "string" ? (
+                    <p>{ed.diploma.results}</p>
+                  ) : (
+                    <dl>
+                      {Object.entries(ed.diploma.results).map(
+                        ([name, results]) => (
+                          <>
+                            <dt>{name}</dt>
+                            <dd>{results}</dd>
+                          </>
+                        ),
+                      )}
+                    </dl>
+                  )}
+                </>
+              )}
+            </li>
+          ))
+      }
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  section h2 {
+    font-size: 2.1em;
+  }
+  section {
+    font-size: 1.7rem;
+  }
+  ul {
+    max-width: 80rem;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(var(--columns, 15rem), 1fr)
+    );
+    gap: 1em;
+  }
+  section.experience,
+  section.education {
+    --columns: 80rem;
+  }
+  section.experience ul.skills {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    gap: 0;
+  }
+  section.experience ul.skills li:first-child::before {
+    content: "";
+  }
+  section.experience ul.skills li::before {
+    content: "  •  ";
+    white-space: pre;
+  }
+</style>

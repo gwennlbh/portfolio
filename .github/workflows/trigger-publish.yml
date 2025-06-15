@@ -1,0 +1,22 @@
+name: Trigger build and deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    name: Trigger
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [en, fr]
+    steps:
+      - name: Dispatch workflow
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: gwennlbh/portfolio-build-${{ matrix.language }}
+          event-type: build
+          token: ${{ secrets.REPOSITORY_DISPATCH_PAT }}

@@ -1,0 +1,41 @@
+gwen.works {
+	@french header Accept-Language *fr*
+
+	redir @french https://fr.gwen.works{uri} permanent
+	redir https://en.gwen.works{uri} permanent
+}
+
+(localized) {
+	{args[0]}.gwen.works {
+		respond /.well-known/atproto-did "did:plc:dpng6jhpwdz7yifx722rh7w6" 200
+		respond /.well-known/discord "dh=8c2dc57336ddeaf6cbe1ee82d2ea6a453a233597" 200
+
+		route /works.json {
+			header Content-Type application/json
+			try_files /home/ewen/portfolio/works.json
+		}
+
+		redirects /home/uwun/projects.local/portfolio/sites.yaml
+	}
+}
+
+import localized fr
+import localized en
+
+media.gwen.works {
+	file_server {
+		root /home/ewen/www/media.ewen.works
+		hide .private .unlisted _penrose
+		browse
+	}
+}
+
+assets.gwen.works {
+	file_server {
+		root /home/ewen/www/assets.ewen.works
+		hide .private .unlisted _penrose
+		browse
+	}
+
+	header Access-Control-Allow-Origin *
+}

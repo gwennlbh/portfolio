@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import { isAliased } from "../aliases";
+const tags = await getCollection("tags");
+---
+
+<h1>Tags</h1>
+
+<ul>
+  {
+    tags
+      .filter((t) => !isAliased(t.data))
+      .map((t) => (
+        <li>
+          <a href={`/${t.id}`}>{t.data.plural}</a>
+        </li>
+      ))
+  }
+</ul>

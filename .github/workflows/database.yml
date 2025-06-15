@@ -1,0 +1,51 @@
+name: Rebuild database
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Every day at midnight
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-database:
+    runs-on: ubuntu-latest
+    name: Rebuild database
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install native dependencies
+        run: |
+          sudo add-apt-repository ppa:alessandro-strada/ppa --yes
+          sudo apt update
+          sudo apt-get install --yes imagemagick curl unzip jq google-drive-ocamlfuse
+      - name: Install ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+      - name: Install github cli
+        uses: sersoft-gmbh/setup-gh-cli-action@v2
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.24"
+      - name: Install ortfo/db
+        run: |
+          go install github.com/ortfo/db/cmd@v1.7.2
+          mv ~/go/bin/cmd /usr/bin/ortfodb
+      - name: Write service account key file
+        uses: mobiledevops/secret-to-file-action@v1
+        with:
+          base64-encoded-secret: ${{ secrets.GOOGLE_DRIVE_CLIENT_SERVICE_ACCOUNT_KEY_BASE64 }}
+          filename: .serviceaccount.json
+          working-directory: ./
+          is-executable: false
+      - name: Setup projects directory
+        run: mkdir -p ~/projects
+      - name: Setup google drive directory
+        run: |
+          google-drive-ocamlfuse -id ${{ secrets.GOOGLE_DRIVE_CLIENT_ID }} -secret ${{ secrets.GOOGLE_DRIVE_CLIENT_SECRET }} -serviceaccountpath .serviceaccount.json 
+          google-drive-ocamlfuse ~/projects
+      - name: Rebuild database
+        run: ortfodb --scattered build database.json
+        env:
+          GH_TOKEN: ${{ github.token }}

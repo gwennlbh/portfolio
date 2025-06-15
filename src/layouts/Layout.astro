@@ -1,0 +1,150 @@
+---
+import { getCollection } from "astro:content";
+import { setCssColors } from "../colors";
+import Navigation from "../components/Navigation.astro";
+
+interface Props {
+  colors?: { primary: string; secondary: string; tertiary: string };
+  clientSideRedirect?: string;
+}
+---
+
+<!doctype html>
+<html lang="en" style={setCssColors(Astro.props.colors)}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    {
+      Astro.props.clientSideRedirect ? (
+        <>
+          <title>Redirecting to {Astro.props.clientSideRedirect}</title>
+          <meta
+            http-equiv="refresh"
+            content={`0; url=${Astro.props.clientSideRedirect}`}
+          />
+          <link rel="canonical" href={Astro.props.clientSideRedirect} />
+        </>
+      ) : (
+        <title>gwen.works</title>
+      )
+    }
+  </head>
+  <body>
+    <Navigation />
+    <slot />
+    <footer>
+      <p>
+        made with <a href="/ortfo">ortfo/db</a> &amp; <a
+          href="https://astro.build">astro</a
+        >
+      </p>
+
+      <p>&lt;3 Gwenn {new Date().getFullYear()}</p>
+
+      <p>generative ai cannot make art</p>
+
+      <ul>
+        {
+          (await getCollection("sites")).map(
+            ({ data: { name, url, purpose } }) => (
+              <>
+                <li>
+                  <a href={url}>{`/to/${name}`.padEnd(15)}</a>
+                  <span class="purpose">{purpose}</span>
+                </li>
+              </>
+            ),
+          )
+        }
+      </ul>
+    </footer>
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: "Manrope", sans-serif;
+    color: var(--primary, black);
+    background: var(--secondary, white);
+    line-height: 1;
+  }
+  body {
+    --pad: 2rem;
+    padding: var(--pad);
+    width: calc(100% - 2 * var(--pad));
+    height: calc(100% - 2 * var(--pad));
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  :global(p, p > *) {
+    line-height: 1.2;
+  }
+  :global(ul, li, h1, h2, p) {
+    padding: 0;
+    margin: 0;
+  }
+  :global(pre) {
+    font-family: inherit;
+    font-size: 1em;
+  }
+  :global(a:not(.block-link)) {
+    color: var(--primary, black);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1.5px;
+    transition: all 0.125s;
+  }
+  :global(a:not(.block-link):hover, a:not(.block-link):focus-visible) {
+    font-weight: bold;
+    text-underline-offset: calc(5px - 1px);
+    text-decoration-thickness: 3px;
+  }
+  :global(ul) {
+    list-style: none;
+  }
+  :global(ul li::before) {
+    content: "— ";
+    opacity: 0.5;
+    font-weight: bold;
+  }
+
+  footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family:
+      Victor Mono,
+      monospace;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    list-style: none;
+    padding: 0;
+  }
+
+  footer ul a {
+    white-space: pre;
+  }
+
+  footer ul .purpose {
+    font-style: italic;
+    opacity: 0.75;
+  }
+</style>

@@ -1,0 +1,18 @@
+---
+import type { InferEntrySchema } from "astro:content";
+
+type Block =
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
+
+interface Props extends Block {}
+---
+
+<div class="block-paragraph-content" set:html={Astro.props.content} />
+
+<style>
+  .block-paragraph-content {
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: 40rem;
+  }
+</style>

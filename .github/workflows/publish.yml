@@ -1,0 +1,44 @@
+# Copy pasted from portfolio-build-*  repositories for ease of access
+# Does nothing here
+
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - build
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: |
+          # Extract the language from the repository name
+          # e.g., "portfolio-build-en" gives "en"
+          lang=$(echo ${{ github.repository }} | sed 's:${{ github.repository_owner }}/portfolio-build-::')
+          LANG=$lang BUILD_COMMIT=${{ github.sha }} npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder the action should deploy.

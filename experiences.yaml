@@ -1,0 +1,56 @@
+- time: 2017
+  title: Intern
+  company:
+    name: Pages & Images
+    description: audiovisual agency
+  location: Montpellier
+  description: ""
+  skills: [premiere pro]
+
+- time: 2018
+  title: Intern
+  company:
+    name: Satellite
+    description: audiovisual agency
+  location: Montpellier
+  description: ""
+  skills: [premiere pro, html, css, js, php]
+
+- time: 2019
+  title: Intern
+  company:
+    name: l'Atelier
+    description: printing & graphic design
+  location: Lunel
+  description: ""
+  skills: [photoshop, figma]
+
+- time: 2020
+  title: Intern
+  company:
+    name: Sophia Engineering
+    description: engineering consulting
+  location: Sophia
+  description: ""
+
+- time: 2024
+  title: Intern
+  company:
+    name: IRIT
+    description: computer science research lab
+    url: https://irit.fr
+  location: Toulouse
+  description: research on intrinsic physical representation of sound data
+  skills: [python, kivy, android]
+
+- time: 2023-2024
+  title: President
+  company:
+    name: net7
+    description: student association
+    url: https://net7.dev/equipe.html#:~:text=Pr%C3%A9sidente%20:%20Gwen-,Le%20Bihan,-Vice%2DPr%C3%A9sident%20:%20T%C3%A9o
+  location: Toulouse
+  description: |
+    web infrastructure & development
+    services used by ~2k students
+  skills: [kubernetes, svelte, graphql, go]

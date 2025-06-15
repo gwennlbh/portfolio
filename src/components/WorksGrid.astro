@@ -1,0 +1,175 @@
+---
+import type { InferEntrySchema } from "astro:content";
+import { formatISO, format } from "date-fns";
+import { fr as frFR, enUS } from "date-fns/locale";
+import { compareDesc } from "date-fns";
+import Translated from "./Translated.astro";
+import WIPIndicator from "./WIPIndicator.astro";
+import { setCssColors } from "../colors";
+
+interface Props {
+  works: InferEntrySchema<"works">[];
+}
+
+const isoDate = (date: Date) => formatISO(date, { representation: "date" });
+const preferredDate = ({
+  started,
+  finished,
+  additionalMetadata,
+}: {
+  started: Date | null;
+  finished: Date | null;
+  additionalMetadata?: { created?: Date | null | undefined };
+}) => finished ?? started ?? additionalMetadata?.created;
+
+function groupBy<T, K extends string | number>(
+  items: T[],
+  key: (item: T) => K,
+): Record<K, T[]> {
+  return items.reduce(
+    (acc, current) => {
+      if (!acc[key(current)]) {
+        acc[key(current)] = [];
+      }
+      acc[key(current)].push(current);
+      return acc;
+    },
+    {} as Record<K, T[]>,
+  );
+}
+
+function findThumbnailSourcemap(
+  content: InferEntrySchema<"works">["content"],
+  sourcePath: string,
+) {
+  return Object.entries(content)
+    .flatMap(([_, { blocks }]) => blocks)
+    .find(
+      (block) => block.type === "media" && block.relativeSource === sourcePath,
+    )?.thumbnails;
+}
+---
+
+{
+  Object.entries(
+    groupBy(
+      Astro.props.works,
+      ({ metadata }) =>
+        preferredDate(metadata)?.getFullYear().toString() ?? "Unknown",
+    ),
+  )
+    .sort(([a], [b]) => b - a)
+    .map(([year, works]) => (
+      <>
+        <p class="year">{year}</p>
+        <div class="works-grid">
+          {works
+            .sort(({ metadata: a }, { metadata: b }) =>
+              compareDesc(
+                preferredDate(a) ?? new Date(),
+                preferredDate(b) ?? new Date(),
+              ),
+            )
+            .map(
+              ({
+                id,
+                content,
+                metadata: { wip, colors, started, finished, thumbnail },
+              }) => {
+                const date = preferredDate({ started, finished });
+                const thumb = findThumbnailSourcemap(content, thumbnail ?? "");
+                return (
+                  <a href={`/${id}`}>
+                    <article style={setCssColors(colors)}>
+                      {thumb && (
+                        <img
+                          srcset={Object.entries(thumb)
+                            .map(
+                              ([size, path]) =>
+                                `https://media.gwen.works/${path} ${size}w`,
+                            )
+                            .join(", ")}
+                          alt=""
+                          style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "cover",
+                          }}
+                        />
+                      )}
+                      <section class="text">
+                        <h2>
+                          <Translated
+                            fr={content.fr?.title ?? id}
+                            en={content.en?.title ?? id}
+                          />
+                          {wip && <WIPIndicator />}
+                        </h2>
+                        {date && (
+                          <time datetime={isoDate(date)}>
+                            <Translated
+                              fr={format(date, "MMMM yyyy", { locale: frFR })}
+                              en={format(date, "MMMM, yyyy", { locale: enUS })}
+                            />
+                          </time>
+                        )}
+                      </section>
+                    </article>
+                  </a>
+                );
+              },
+            )}
+        </div>
+      </>
+    ))
+}
+
+<style>
+  .works-grid {
+    --size: 300px;
+    display: grid;
+    gap: 1em;
+    grid-template-rows: masonry;
+    grid-template-columns: repeat(auto-fit, var(--size));
+  }
+
+  .works-grid a:focus-visible img,
+  .works-grid a:hover img {
+    scale: 1.11;
+  }
+
+  article img {
+    transition: scale 0.125s;
+  }
+
+  .year {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+    font-family:
+      Victor Mono,
+      monospace;
+  }
+
+  article {
+    color: var(--primary, black);
+    background: var(--secondary, white);
+    padding: 1rem;
+    max-width: var(--size);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  section.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25em;
+  }
+  a {
+    text-decoration: none;
+  }
+  time {
+    text-transform: capitalize;
+  }
+</style>

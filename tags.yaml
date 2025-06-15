@@ -2,119 +2,119 @@
 
 # todo: deprecate
 - singular: school
-  plural:   school
+  plural: school
   description: School projects and school-related projects
 
 - singular: science
-  plural:   science
+  plural: science
   description: With a scientific side
 
 - singular: card
-  plural:   cards
+  plural: cards
 
 # todo: deprecate
 - singular: cover art
-  plural:   cover arts
+  plural: cover arts
   description: Music covers for albums, EPs and singles
 
 - singular: game
-  plural:   games
+  plural: games
 
 - singular: graphism
-  plural:   graphism
+  plural: graphism
   detect:
     made with: [photoshop, gimp]
 
 - singular: poster
-  plural:   posters
+  plural: posters
   detect:
     made with: [photoshop, gimp]
 
 - singular: flyer
-  plural:   flyers
+  plural: flyers
   detect:
     made with: [photoshop, gimp]
 
 - singular: automation
-  plural:   automation
+  plural: automation
 
 - singular: web
-  plural:   web
+  plural: web
   description: Web sites, web apps and web-related libraries
   detect:
     made with: [html, css, svelte, vue]
 
 - singular: intro
-  plural:   intros
+  plural: intros
   description: Short introductory video sequences typically played at the beginning of every video
 
 - singular: thumbnail
-  plural:   thumbnails
+  plural: thumbnails
   description: Images that represent a media, such as a video, in a single glance. Might be shown at a small size.
 
-
 - singular: music
-  plural:   music
+  plural: music
   detect:
     made with: [fl studio]
 
 - singular: app
-  plural:   apps
+  plural: apps
+  aliases: [app]
 
 - singular: book
-  plural:   books
+  plural: books
 
 - singular: api
-  plural:   apis
+  plural: apis
   description: Application Programming Interfaces, mostly _Web_ APIs, meaning machine-redable sites that allow data processing and interaction without going to the client-facing website
   learn more at: https://en.wikipedia.org/wiki/Web_API
 
 - singular: program
-  plural:   programs
+  plural: programs
 
 - singular: command-line
-  plural:   command-line
-  aliases:  [cli, command line]
+  plural: command-line
+  aliases: [cli, command line, commandline]
   description: Programs that run in the terminal, a text-based interface for computers.
   learn more at: https://www.hostinger.com/tutorials/what-is-cli
 
 - singular: video
-  plural:   videos
+  plural: videos
   aliases: [motion design]
-  descripion: |
+  description: |
     Any piece of work that involves motion: animations in user interfaces, video effects in movies, et cætera.
 
 - singular: compositing
-  plural:   compositing
+  plural: compositing
   description: A graphism technique that involves the composition of multiple images into a single, cohesive one
 
 - singular: visual identity
-  plural:   visual identities
-  aliases:  [logo, logos, banner, banners]
+  plural: visual identities
+  aliases: [logo, logos, banner, banners]
   description: A set of brand resources like logos and banners that make up a brand's visal identity
 
 - singular: illustration
-  plural:   illustrations
+  plural: illustrations
 
 - singular: typography
-  plural:   typography
+  plural: typography
 
 - singular: drawing
-  plural:   drawings
+  plural: drawings
 
 - singular: icons
-  plural:   icons
+  plural: icons
 
 - singular: site
-  plural:   sites
+  plural: sites
 
 - singular: language
-  plural:   languages
+  plural: languages
   description: Any piece of work related to languages (programming languages or natural languages)
 
 - singular: math
-  plural:   math
-  aliases:  [maths, mathematics]
+  plural: math
+  aliases: [maths, mathematics]
 
 - singular: hardware
   plural: hardware
@@ -155,7 +155,6 @@
 - singular: library
   plural: libraries
   description: A collection of useful things to be used by plenty of different projects. In software, a collection of functions and types.
-
 # WAITING for ortfo/db#
 # - singular: math experiment
 #   plural: math experiments

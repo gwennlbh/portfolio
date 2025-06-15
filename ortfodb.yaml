@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ortfo/db/main/schemas/configuration.schema.json
+
 extract colors:
   extract: []
   default files: []
@@ -10,6 +12,9 @@ make gifs:
 make thumbnails:
   input file: ""
   enabled: true
+  pdf: false
+  videos: false
+  gifs: false
   sizes:
     - 100
     - 400
@@ -19,6 +24,7 @@ make thumbnails:
 
 media:
   at: media/
+  audio analysis: false
 
 scattered mode folder: .ortfo
 
@@ -29,7 +35,6 @@ technologies:
   repository: ~/projects/portfolio/technologies.yaml
 
 projects at: ~/projects
-
 # exporters:
 #   copy:
 #     paths:
@@ -41,4 +46,18 @@ projects at: ~/projects
 #     path: projects
 #     remotes: [penrose]
 #     quiet: yes
-# 
+
+# importers:
+#   github:
+#     verbose: true
+#     username: gwennlbh
+#     topic: uses-ortfo
+#     additional:
+#       - hyprland-community/hyprls
+#       - inp-net/churros
+#       - inp-net/automirror
+#       - inp-net/loca7
+#       - ortfo/db
+#       - cigaleapp/cigale
+#
+#
