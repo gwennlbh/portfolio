@@ -1,8 +1,13 @@
+# Copy pasted from portfolio-build-*  repositories for ease of access
+# Does nothing here
+
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - build
 
 permissions:
   contents: write
@@ -27,9 +32,13 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: BUILD_COMMIT=${{ github.sha }} npm run build
+        run: |
+          # Extract the language from the repository name
+          # e.g., "portfolio-build-en" gives "en"
+          lang=$(echo ${{ github.repository }} | sed 's:${{ github.repository_owner }}/portfolio-build-::')
+          LANG=$lang BUILD_COMMIT=${{ github.sha }} npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
