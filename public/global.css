@@ -1,15 +1,17 @@
 /* Import font(s) */
 
 :root {
-	--mono: "Lucida Console", Monaco, monospace;
+  --mono: "Lucida Console", Monaco, monospace;
 }
 
 body {
-	margin: 0;
-	font-size: 14px;
-	line-height: 1.5;
-	font-family: Manrope Variable, Manrope;
-	font-weight: 500;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family:
+    Manrope Variable,
+    Manrope;
+  font-weight: 500;
 }
 
 h1,
@@ -18,36 +20,36 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5em 0;
-	font-weight: 400;
-	line-height: 1.2;
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 a {
-	color: inherit;
+  color: inherit;
 }
 
 code,
 pre {
-	font-family: "Lucida Console", Monaco, monospace;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 @media (min-width: 400px) {
-	body {
-		font-size: 16px;
-	}
+  body {
+    font-size: 16px;
+  }
 }
 
 pre {
-	overflow: auto;
+  overflow: auto;
 }
 
 .blog-entry pre {
-	font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .blog-entry h2,
@@ -55,37 +57,37 @@ pre {
 .blog-entry h4,
 .blog-entry h5,
 .blog-entry h6 {
-	font-weight: bold;
-	margin: 2rem 0;
+  font-weight: bold;
+  margin: 2rem 0;
 }
 
 .blog-entry :where(h2, h3, h4, h5, h6)::before {
-	color: lightgray;
-	font-weight: bold;
-	margin-right: 1ch;
-	font-family: var(--mono);
+  color: lightgray;
+  font-weight: bold;
+  margin-right: 1ch;
+  font-family: var(--mono);
 }
 
 .blog-entry h2::before {
-	content: '##';
+  content: "##";
 }
 
 .blog-entry h3::before {
-	content: '###';
+  content: "###";
 }
 
 .blog-entry h4::before {
-	content: '####';
+  content: "####";
 }
 
 .blog-entry h5::before {
-	content: '#####';
+  content: "#####";
 }
 
 .blog-entry h6::before {
-	content: '######';
+  content: "######";
 }
 
 .blog-entry img {
-	max-width: 100%;
+  max-width: 100%;
 }

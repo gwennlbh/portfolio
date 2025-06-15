@@ -5,12 +5,11 @@ tags: [math]
 mathjax: yes
 ---
 
-
 This is a sort of "theorem" that I made up in my mind has been itching me since my years in higher math education.
 
 ## Context
 
-Let $E$ a set and $o \in E^2 \to E$, such that $(E, o)$ forms a [monoid](https://en.wikipedia.org/wiki/Monoid). 
+Let $E$ a set and $o \in E^2 \to E$, such that $(E, o)$ forms a [monoid](https://en.wikipedia.org/wiki/Monoid).
 
 We then define $\mathcal O$ as the _repeated variant_ of the binary operator $o$:
 
@@ -23,14 +22,12 @@ $$
 
 using an infix notation for $o$, defined as you would expect: $A\ o\ B = o(A, B)$.
 
-
 This is why we need $(E, o)$ to be a monoid, instead of a unital magma: we need the operator to be associative, so that the repeated application of the operator is well-defined.
 
 Note how repeated operators have their argument in a sequence space instead of a set. This is because:
 
 1. we need to _iterate_ over the elements, which requires a well-defined order on the elements (otherwise, we would need $o$ to be commutative and therefore $(E, o)$ to be a group instead of just a monoid)
 1. We also want to be able to represent repeated operations on duplicates, which sets cannot represent.
-
 
 ## Theorem
 
@@ -58,9 +55,9 @@ Now, we can prove these statements with the preceding theorem:
 
 1. $\bigwedge$ is the repeated variant of $\land$.
 1. $(\{\top, \bot\}, \land)$ is a monoid:
-    - $\land$ is a binary operation on $\{\top, \bot\}$.
-    - $\land$ is associative: $a \land (b \land c) = (a \land b) \land c$.
-    - $\land$ has a unit element $\top$ (as $a \land \top = a$ for any $a$) and $\top \in \{\top, \bot\}$.
+   - $\land$ is a binary operation on $\{\top, \bot\}$.
+   - $\land$ is associative: $a \land (b \land c) = (a \land b) \land c$.
+   - $\land$ has a unit element $\top$ (as $a \land \top = a$ for any $a$) and $\top \in \{\top, \bot\}$.
 1. $\operatorname{unit} \{\top, \bot\} = \top$.
 
 Therefore, $\bigwedge(()) = \top$.
@@ -134,13 +131,13 @@ So, $\mathcal O(()) = e$.
 
 ## Applications
 
-| Operation | Application |  |
-| --------- | ------------------------------------------------------ |-- |
-| $+$ | $\sum_\emptyset = 0$ | |
-| $\cdot$ | $\prod_\emptyset = 1$ | |
-| $\max$ | $\max_\emptyset = -\infty$ | |
-| $\min$ | $\min_\emptyset = \infty$ | |
-| $\land$ | $\forall \emptyset = \top$ | |
-| $\lor$ | $\exists \emptyset = \bot$ | |
-| $\cup$ | $\bigcup_\emptyset = \emptyset$ | |
-| $\cap$ | $\bigcap_\emptyset = \mathbb U$ | where $\mathbb U$ is the universe set |
+| Operation | Application                     |                                       |
+| --------- | ------------------------------- | ------------------------------------- |
+| $+$       | $\sum_\emptyset = 0$            |                                       |
+| $\cdot$   | $\prod_\emptyset = 1$           |                                       |
+| $\max$    | $\max_\emptyset = -\infty$      |                                       |
+| $\min$    | $\min_\emptyset = \infty$       |                                       |
+| $\land$   | $\forall \emptyset = \top$      |                                       |
+| $\lor$    | $\exists \emptyset = \bot$      |                                       |
+| $\cup$    | $\bigcup_\emptyset = \emptyset$ |                                       |
+| $\cap$    | $\bigcap_\emptyset = \mathbb U$ | where $\mathbb U$ is the universe set |

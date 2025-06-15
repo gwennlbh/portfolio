@@ -12,7 +12,7 @@ This is good, you're following best practices and preventing XSS. Or are you?
 
 As you turn around to your client code, you get that generated HTML _string_, and include it somewhere on your page, telling your templating engin / js framework “it's fine, this is safe for HTML inclusion”.
 
-A few months pass, you add more and more features, and suddenly your API has _a lot_of fields, some that output HTML and some that output plain text.
+A few months pass, you add more and more features, and suddenly your API has \_a lot_of fields, some that output HTML and some that output plain text.
 
 As a documentation feature, you create a separate `HTML` scalar type to signal fields that have HTML content (and thus cannot be inserted into the page as simple text).
 

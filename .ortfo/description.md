@@ -2,20 +2,20 @@
 started: "2018-10-20"
 aliases: [ewen.works]
 made with:
-    - css
-    - figma
-    - go
-    - html
-    - javascript
-    - markdown
-    - yaml
-    - svg
-    - ortfo
-    - go-templ
+  - css
+  - figma
+  - go
+  - html
+  - javascript
+  - markdown
+  - yaml
+  - svg
+  - ortfo
+  - go-templ
 tags:
-    - web
-    - icons
-    - site
+  - web
+  - icons
+  - site
 ---
 
 # ewen.works
