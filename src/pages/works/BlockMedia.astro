@@ -1,24 +1,18 @@
 ---
-import type { InferEntrySchema } from "astro:content"
+import type { InferEntrySchema } from "astro:content";
 
 type Block =
-  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number]
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
 
 interface Props extends Block {}
 
-const {
-  alt,
-  caption,
-  attributes,
-  contentType,
-  thumbnails,
-  dimensions,
-} = Astro.props
-const generalContentType = contentType?.split("/")[0] ?? ""
-const distSource = `https://media.gwen.works/${Astro.props.distSource}`
+const { alt, caption, attributes, contentType, thumbnails, dimensions } =
+  Astro.props;
+const generalContentType = contentType?.split("/")[0] ?? "";
+const distSource = `https://media.gwen.works/${Astro.props.distSource}`;
 const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
   .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
-  .join(", ")
+  .join(", ");
 ---
 
 <figure>
@@ -71,7 +65,9 @@ const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
   figcaption {
     font-size: 1.3rem;
     margin-top: 0.5em;
-    font-family: Victor Mono, monospace;
+    font-family:
+      Victor Mono,
+      monospace;
     font-style: italic;
   }
   img,

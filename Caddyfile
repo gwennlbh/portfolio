@@ -1,8 +1,3 @@
-{
-	order redirects before respond
-	order i18n before file_server
-}
-
 gwen.works {
 	@french header Accept-Language *fr*
 
@@ -21,18 +16,6 @@ gwen.works {
 		}
 
 		redirects /home/uwun/projects.local/portfolio/sites.yaml
-
-		# See https://github.com/ewen-lbh/caddy-i18n
-		i18n {
-			languages {args[0]}
-			source_language en
-			translations /home/ewen/portfolio/i18n
-		}
-
-		file_server {
-			root /home/ewen/www/{args[0]}.gwen.works
-			hide .private .unlisted
-		}
 	}
 }
 

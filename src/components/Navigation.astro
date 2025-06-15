@@ -2,35 +2,35 @@
   function toggleNav({
     currentTarget,
   }: MouseEvent & { currentTarget: HTMLButtonElement }) {
-    const nav = document.getElementById("nav")!
-    const closeIcon: SVGElement = currentTarget.querySelector(".icon-close")!
-    const openIcon: SVGElement = currentTarget.querySelector(".icon-open")!
+    const nav = document.getElementById("nav")!;
+    const closeIcon: SVGElement = currentTarget.querySelector(".icon-close")!;
+    const openIcon: SVGElement = currentTarget.querySelector(".icon-open")!;
 
     if (nav.dataset.state === "open") {
       // Unlock body scroll
-      document.body.style.overflow = "auto"
-      closeIcon.style.display = "none"
-      openIcon.style.display = "block"
-      nav.dataset.state = "closed"
+      document.body.style.overflow = "auto";
+      closeIcon.style.display = "none";
+      openIcon.style.display = "block";
+      nav.dataset.state = "closed";
     } else {
       // Lock body scroll
-      document.body.style.overflow = "hidden"
-      closeIcon.style.display = "block"
-      openIcon.style.display = "none"
-      nav.dataset.state = "open"
+      document.body.style.overflow = "hidden";
+      closeIcon.style.display = "block";
+      openIcon.style.display = "none";
+      nav.dataset.state = "open";
     }
   }
 
-document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
-    if (!event.currentTarget) return
-    if (!(event.currentTarget instanceof HTMLButtonElement)) return
+  document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
+    if (!event.currentTarget) return;
+    if (!(event.currentTarget instanceof HTMLButtonElement)) return;
     // @ts-ignore
-    toggleNav(event)
-})
+    toggleNav(event);
+  });
 </script>
 
 <nav id="nav" data-state="closed">
-  <button id="nav-toggle" 
+  <button id="nav-toggle"
     ><svg
       class="icon icon-open"
       width="21"
@@ -64,7 +64,7 @@ document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
         y="17.126282"></rect></svg
     >
     <svg
-    class="icon icon-close"
+      class="icon icon-close"
       style="display: none;"
       width="21"
       height="21"
@@ -99,8 +99,13 @@ document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
     </li><li>
       <a href="/contact">contact</a>
     </li><li>
-      <a i18n-keep-on="fr" href="https://en.gwen.works/">in english</a>
-      <a i18n-keep-on="en" href="https://fr.gwen.works/">en français</a>
+      {
+        Astro.locals.lang === "fr" ? (
+          <a href="https://en.gwen.works/">in english</a>
+        ) : (
+          <a href="https://fr.gwen.works/">en français</a>
+        )
+      }
     </li>
   </ul>
 </nav>
@@ -128,7 +133,7 @@ document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
     list-style: none;
     padding: 1rem 2rem;
     margin: 0;
-    gap: .75rem;
+    gap: 0.75rem;
   }
 
   li {

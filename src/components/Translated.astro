@@ -1,34 +1,10 @@
 ---
 interface Props {
-  fr?: string
-  en?: string
-  Tag?: string
+  fr?: string;
+  en?: string;
 }
 
-const { fr, en, Tag = "span" } = Astro.props
+const { fr, en } = Astro.props;
 ---
 
-{
-  import.meta.env.DEV ? (
-    <Tag data-phantom={!Tag}>{fr ?? en ?? ""}</Tag>
-  ) : (
-    <>
-      {fr && (
-        <Tag data-phantom={!Tag} i18n-keep-on="fr">
-          {fr}
-        </Tag>
-      )}
-      {en && (
-        <Tag data-phantom={!Tag} i18n-keep-on="en">
-          {en}
-        </Tag>
-      )}
-    </>
-  )
-}
-
-<style>
-  [data-phantom="true"] {
-    display: contents;
-  }
-</style>
+{Astro.locals.lang === "fr" ? fr : en}

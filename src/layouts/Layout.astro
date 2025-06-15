@@ -1,19 +1,16 @@
 ---
-import { getCollection } from "astro:content"
+import { getCollection } from "astro:content";
 import { setCssColors } from "../colors";
 import Navigation from "../components/Navigation.astro";
 
 interface Props {
-  colors?: { primary: string; secondary: string; tertiary: string }
+  colors?: { primary: string; secondary: string; tertiary: string };
+  clientSideRedirect?: string;
 }
-
 ---
 
 <!doctype html>
-<html
-  lang="en"
-  style={setCssColors(Astro.props.colors)}
->
+<html lang="en" style={setCssColors(Astro.props.colors)}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -25,7 +22,20 @@ interface Props {
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
-    <title>Astro Basics</title>
+    {
+      Astro.props.clientSideRedirect ? (
+        <>
+          <title>Redirecting to {Astro.props.clientSideRedirect}</title>
+          <meta
+            http-equiv="refresh"
+            content={`0; url=${Astro.props.clientSideRedirect}`}
+          />
+          <link rel="canonical" href={Astro.props.clientSideRedirect} />
+        </>
+      ) : (
+        <title>gwen.works</title>
+      )
+    }
   </head>
   <body>
     <Navigation />
@@ -51,7 +61,7 @@ interface Props {
                   <span class="purpose">{purpose}</span>
                 </li>
               </>
-            )
+            ),
           )
         }
       </ul>

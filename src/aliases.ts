@@ -1,4 +1,4 @@
-const IS_ALIAS_TAG = "__is_alias"
+const IS_ALIAS_TAG = "__is_alias";
 
 /**
  * Create aliased entries for a given entry
@@ -6,7 +6,7 @@ const IS_ALIAS_TAG = "__is_alias"
  * @returns the aliases array for that aliased entry
  */
 export function makeAliasEntries<
-  Entry extends { aliases: string[]; slug: string }
+  Entry extends { aliases: string[]; slug: string },
 >(entry: Entry) {
   return [
     entry,
@@ -15,16 +15,19 @@ export function makeAliasEntries<
       slug: alias,
       aliases: [IS_ALIAS_TAG, entry.slug],
     })),
-  ]
+  ];
 }
 
-export function resolveAliased(entry: { aliases?: null|string[]; slug: string }) {
-  if (!entry.aliases) return entry.slug
+export function resolveAliased(entry: {
+  aliases?: null | string[];
+  slug: string;
+}) {
+  if (!entry.aliases) return entry.slug;
   if (entry.aliases.includes(IS_ALIAS_TAG) && entry.aliases.length === 2)
-    return entry.aliases[1]
-  return entry.slug
+    return entry.aliases[1];
+  return entry.slug;
 }
 
-export function isAliased(entry: { aliases?: null|string[]; slug: string }) {
-  return resolveAliased(entry) !== entry.slug
+export function isAliased(entry: { aliases?: null | string[]; slug: string }) {
+  return resolveAliased(entry) !== entry.slug;
 }

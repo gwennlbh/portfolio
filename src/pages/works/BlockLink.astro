@@ -1,8 +1,8 @@
 ---
-import type { InferEntrySchema } from "astro:content"
+import type { InferEntrySchema } from "astro:content";
 
 type Block =
-  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number]
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
 
 interface Props extends Block {}
 ---
@@ -18,8 +18,9 @@ interface Props extends Block {}
     padding: 0.125em;
     text-decoration: none;
   }
-  a:hover, a:focus-visible{
-    color: var(--tertiary, yellow)
+  a:hover,
+  a:focus-visible {
+    color: var(--tertiary, yellow);
   }
   a::before {
     content: "-> ";

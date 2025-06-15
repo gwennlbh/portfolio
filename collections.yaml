@@ -9,7 +9,7 @@
 
 # TODO use a superwork instead.
 acf-vd:
-  title: {fr: ACF-Vd, en: ACF-Vd}
+  title: { fr: ACF-Vd, en: ACF-Vd }
   aliases: [association-cause-freudienne, acf]
   includes: acf-*
   description:
@@ -18,12 +18,12 @@ acf-vd:
   learn more at: https://www.acfvoiedomitienne.fr/l-acf
 
 besties:
-  title: {en: best works, fr: best works}
+  title: { en: best works, fr: best works }
   includes: emotions or graphinx or churros or loca7 or neptune or acf-écoute-à-interprétation or infrasonic-village
 
 music:
-  title: {en: music, fr: musique}
-  includes: '#music'
+  title: { en: music, fr: musique }
+  includes: "#music"
   description:
     en: I've been experimenting with sounds, their textures and their musicality since I was 7 years old.
     fr: J'expérimente les sons, leurs textures et leur musicalité depuis que j'ai 7 ans.
@@ -31,19 +31,19 @@ music:
   plural: releases
 
 smol:
-  title: {en: smol, fr: smol}
+  title: { en: smol, fr: smol }
   includes: hexstring or permbits
-  description: {fr: tout pitits projets, en: smaller projects}
+  description: { fr: tout pitits projets, en: smaller projects }
 
 software:
-  title: {en: software, fr: code}
-  includes: '#programs or #web or #libraries'
+  title: { en: software, fr: code }
+  includes: "#programs or #web or #libraries"
   singular: code
   plural: code
 
 design:
-  title: {en: design, fr: design}
-  includes: '#graphism'
+  title: { en: design, fr: design }
+  includes: "#graphism"
   # includes: '
   #   made with photoshop or
   #   made with illustrator or

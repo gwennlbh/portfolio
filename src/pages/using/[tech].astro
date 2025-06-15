@@ -1,30 +1,30 @@
 ---
-import type { GetStaticPaths } from "astro"
-import { getCollection, getEntry } from "astro:content"
-import StrongHeader from "../../components/StrongHeader.astro"
-import Layout from "../../layouts/Layout.astro"
-import WorksGrid from "../../components/WorksGrid.astro"
+import type { GetStaticPaths } from "astro";
+import { getCollection, getEntry } from "astro:content";
+import StrongHeader from "../../components/StrongHeader.astro";
+import Layout from "../../layouts/Layout.astro";
+import WorksGrid from "../../components/WorksGrid.astro";
 export const getStaticPaths = (async () => {
   return await getCollection("technologies").then((techs) =>
-    techs.map((tech) => ({ params: { tech: tech.id } }))
-  )
-}) satisfies GetStaticPaths
+    techs.map((tech) => ({ params: { tech: tech.id } })),
+  );
+}) satisfies GetStaticPaths;
 
 const tech = await getEntry(
   "technologies",
-  decodeURI(Astro.params.tech!.toString())
-)
-if (!tech) return Astro.rewrite("/404")
+  decodeURI(Astro.params.tech!.toString()),
+);
+if (!tech) return Astro.rewrite("/404");
 
 const works = await getCollection("works").then((works) =>
   works
     .filter(
       ({ data: work }) =>
         !work.metadata.private &&
-        work.metadata.madeWith?.some((mw) => mw.id === tech.id)
+        work.metadata.madeWith?.some((mw) => mw.id === tech.id),
     )
-    .map((w) => w.data)
-)
+    .map((w) => w.data),
+);
 ---
 
 <Layout>

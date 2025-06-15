@@ -1,18 +1,24 @@
 ---
-import Translated from "./Translated.astro"
-import WIPIndicator from "./WIPIndicator.astro"
+import Translated from "./Translated.astro";
+import WIPIndicator from "./WIPIndicator.astro";
 
 interface Props {
-  title: string | { fr?: string; en?: string }
-  back?: string
-  wip?: boolean
+  title: string | { fr?: string; en?: string };
+  back?: string;
+  wip?: boolean;
 }
 
-const { title, wip, back } = Astro.props
+const { title, wip, back } = Astro.props;
 ---
 
 <header>
-  {back && <a class="back" href={back}>&lt;- back</a>}
+  {
+    back && (
+      <a class="back" href={back}>
+        &lt;- <i18n>back</i18n>
+      </a>
+    )
+  }
   <h1>
     {typeof title === "string" ? title : <Translated {...title} />}
     {wip && <WIPIndicator />}

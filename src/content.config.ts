@@ -1,21 +1,24 @@
-import { file } from "astro/loaders"
-import type { ZodObject, ZodRawShape } from "astro/zod"
-import { defineCollection, reference, z } from "astro:content"
-import * as YAML from "yaml"
-import { makeAliasEntries } from "./aliases"
+import { file, glob } from "astro/loaders";
+import type { ZodObject, ZodRawShape } from "astro/zod";
+import { defineCollection, reference, z } from "astro:content";
+import * as YAML from "yaml";
+import PO from "pofile";
+import { makeAliasEntries } from "./aliases";
 
 const translatedString = z.object({
   en: z.string(),
   fr: z.string(),
-})
+});
 
 const nullableDate = z
   .string()
   .nullable()
   .optional()
-  .transform((value) => (value ? new Date(value) : null))
+  .transform((value) => (value ? new Date(value) : null));
 
 export const collections = {
+  frenchMessages: gettextPoMessages("i18n/fr.po"),
+  englishMessages: gettextPoMessages("i18n/en.po"),
   works: defineCollection({
     loader: file("works.json"),
     schema: z.object({
@@ -47,7 +50,10 @@ export const collections = {
           .object({
             layout: z
               .array(
-                z.union([z.string().nullable(), z.array(z.string().nullable())])
+                z.union([
+                  z.string().nullable(),
+                  z.array(z.string().nullable()),
+                ]),
               )
               .optional(),
             created: nullableDate,
@@ -104,9 +110,9 @@ export const collections = {
               text: z.string(),
               title: z.string(),
               url: z.string(),
-            })
+            }),
           ),
-        })
+        }),
       ),
     }),
   }),
@@ -124,7 +130,7 @@ export const collections = {
       description: z.string(),
       skills: z.array(z.string()).optional(),
     }),
-    (exp) => exp.time.toString()
+    (exp) => exp.time.toString(),
   ),
   education: yamlDataCollection(
     "education.yaml",
@@ -138,10 +144,10 @@ export const collections = {
       location: z.string(),
       diploma: z.object({
         results: z.union([z.string(), z.record(z.string())]).optional(),
-        name: z.string()
-      })
+        name: z.string(),
+      }),
     }),
-    (exp) => exp.time.toString()
+    (exp) => exp.time.toString(),
   ),
   sites: yamlDataCollection(
     "sites.yaml",
@@ -152,7 +158,7 @@ export const collections = {
       username: z.string().optional(),
       slug: z.string(),
     }),
-    (site) => site.name
+    (site) => site.name,
   ),
   collections: yamlDataCollection(
     "collections.yaml",
@@ -162,7 +168,7 @@ export const collections = {
       includes: z.string(),
       singular: z.string().optional(),
       plural: z.string().optional(),
-    })
+    }),
   ),
   tags: yamlDataCollection(
     "tags.yaml",
@@ -180,7 +186,7 @@ export const collections = {
         .optional(),
     }),
     (tag) => tag.plural,
-    (tag) => [tag.singular]
+    (tag) => [tag.singular],
   ),
   technologies: yamlDataCollection(
     "technologies.yaml",
@@ -193,56 +199,76 @@ export const collections = {
       description: z.string().optional(),
       aliases: z.array(z.string()).optional(),
       autodetect: z.array(z.string()).optional(),
-    })
+    }),
   ),
-}
+};
 
 function yamlDataCollection<
   Shape extends ZodRawShape,
-  Schema extends ZodObject<Shape>
+  Schema extends ZodObject<Shape>,
 >(
   filename: string,
   schema: Schema,
   slugify?: (data: z.infer<Schema>) => string,
-  additionalAliases?: (data: z.infer<Schema>) => string[]
+  additionalAliases?: (data: z.infer<Schema>) => string[],
 ) {
   return defineCollection({
     schema,
     loader: file(filename, {
       parser(content) {
-        const parsed = YAML.parse(content)
+        const parsed = YAML.parse(content);
         if (Array.isArray(parsed)) {
           const out = parsed
             .map((data) => {
-              const out = { ...data }
-              if (slugify) out.slug ??= slugify(data)
+              const out = { ...data };
+              if (slugify) out.slug ??= slugify(data);
 
               const aliasable = z
                 .object({
                   aliases: z.array(z.string()),
                   slug: z.string(),
                 })
-                .safeParse(out)
+                .safeParse(out);
 
               if (aliasable.success || additionalAliases) {
                 if (additionalAliases) {
                   out.aliases = [
                     ...(out.aliases ?? []),
                     ...additionalAliases(data),
-                  ]
+                  ];
                 }
-                return makeAliasEntries(out)
+                return makeAliasEntries(out);
               }
 
-              return [out]
+              return [out];
             })
-            .flat()
+            .flat();
 
-          return out
+          return out;
         }
 
-        return parsed
+        return parsed;
       },
     }),
-  })
+  });
+}
+
+function gettextPoMessages(filename: string) {
+  return defineCollection({
+    schema: z.object({
+      msgid: z.string(),
+      msgstr: z.string(),
+      msgctxt: z.string().optional(),
+    }),
+    loader: file(filename, {
+      parser(text) {
+        return PO.parse(text).items.map((item) => ({
+          id: item.msgid,
+          ...item,
+          msgstr: item.msgstr[0],
+          msgctxt: item.msgctxt || undefined,
+        }));
+      },
+    }),
+  });
 }

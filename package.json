@@ -7,18 +7,24 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "format": "prettier --write .",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json"
   },
   "dependencies": {
     "astro": "^5.1.1",
     "date-fns": "^4.1.0",
+    "jsdom": "^26.1.0",
     "picomatch": "^4.0.2",
+    "pofile": "^1.1.4",
     "slug": "^10.0.0",
     "tinycolor2": "^1.6.0",
     "yaml": "^2.7.0"
   },
   "devDependencies": {
+    "@types/jsdom": "^21.1.7",
     "@types/picomatch": "^3.0.1",
-    "@types/slug": "^5.0.9"
+    "@types/slug": "^5.0.9",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
