@@ -3,7 +3,7 @@
   purpose: "my music"
   username: "Ewen-lbh"
 
-- name: "apple music"
+- name: "applemusic"
   url: "https://music.apple.com/fr/artist/ewen-lbh/1506892811"
   purpose: "my music"
   username: "Ewen-lbh"
@@ -14,12 +14,12 @@
   username: "gwen.works"
 
 - name: "github"
-  url: "https://github.com/ewen-lbh"
+  url: "https://github.com/gwennlbh"
   purpose: "open-source code"
   username: "ewen-lbh"
 
 - name: "youtube"
-  url: "https://youtube.com/c/ewen-lbh"
+  url: "https://youtube.com/@postamble"
   purpose: "visual+music"
   username: "ewen-lbh"
 
@@ -38,7 +38,7 @@
 
 - name: instagram
   url: https://instagram.com/gwen_lbh
-  purpose: personal account
+  purpose: multimedia work
 
 - name: linkedin
   url: https://linkedin.com/in/ewen-lbh

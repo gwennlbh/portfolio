@@ -1,0 +1,19 @@
+---
+import WorksGrid from "../components/WorksGrid.astro";
+import StrongHeader from "../components/StrongHeader.astro";
+import Layout from "../layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+
+const works = (await getCollection("works")).map((w) => w.data);
+const smolWorks = (await getEntry("collections", "smol"))?.data?.includes.split(
+  " or ",
+);
+---
+
+<Layout>
+  <StrongHeader title="Hiya!">
+    <p i18n>I'm Gwenn Le Bihan :3</p>
+  </StrongHeader>
+
+  <WorksGrid works={works.filter((w) => !smolWorks?.includes(w.id))} />
+</Layout>

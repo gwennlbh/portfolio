@@ -1,0 +1,28 @@
+---
+import type { InferEntrySchema } from "astro:content";
+
+type Block =
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
+
+interface Props extends Block {}
+---
+
+<a href={Astro.props.url} class="block-link">{Astro.props.text}</a>
+
+<style>
+  a.block-link {
+    font-size: 2em;
+    color: var(--secondary, white);
+    background: var(--primary, black);
+    display: inline-block;
+    padding: 0.125em;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus-visible {
+    color: var(--tertiary, yellow);
+  }
+  a::before {
+    content: "-> ";
+  }
+</style>

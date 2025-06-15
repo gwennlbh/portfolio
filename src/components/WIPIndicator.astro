@@ -1,0 +1,21 @@
+<sup class="wip-indicator">
+  <abbr title="Work In Progress">WIP</abbr>
+</sup>
+
+<style>
+  .wip-indicator::before {
+    content: "";
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: var(--primary, red);
+    display: inline-block;
+  }
+
+  .wip-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5ch;
+    font-size: 0.4em;
+  }
+</style>

@@ -1,55 +1,48 @@
-
-# gwen.works
-My personal website, built with [ortfo/db](https://ortfo.org/db) and [go-templ](https://templ.guide)
-## Setup
-Run this before any command
-```sh
-cp .env.example .env
-# fill values in .env
-source .env
-```
-
-Below are how to do various things like start/build/etc
-([generated](./readme_from_justfile.rb) from [the Justfile](./Justfile))
-## Dev
+# Astro Starter Kit: Basics
 
 ```sh
-ENV=development air
+npm create astro@latest -- --template basics
 ```
 
-## Start
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-```sh
-# Run Build's commands
-ENV=production ./tmp/main
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-## Build
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-```sh
-templ generate
-go build -o ./tmp/main .
-```
+## 🧞 Commands
 
-## Db
+All commands are run from the root of the project, from a terminal:
 
-```sh
-ortfodb --scattered build database.json
-```
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## Clean
+## 👀 Want to learn more?
 
-```sh
-rm -f */*_templ.go
-rm -rf dist/
-rm -f database.json
-```
-
-## Deploy
-
-```sh
-rsync -av media/* YOUR_SSH:~/www/media.gwenn°.works/
-rsync -avz public/* YOUR_SSH:~/www/assets.gwenn°.works/
-rsync -av database.json YOUR_SSH:~/portfolio/
-ssh YOUR_SSH "tmux send-keys -t 0:0.0 C-c 'git pull --autostash --rebase' Enter 'just start' Enter"
-```
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

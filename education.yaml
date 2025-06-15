@@ -1,0 +1,29 @@
+- time: 2017
+  title: Bachelor of Science
+  school:
+    name: Lycée D'Alzon
+  location: Nîmes
+  diploma:
+    results: 16.26/20
+    name: Scientific Baccalaureate
+
+- time: 2020
+  title: Preparatory Classes, Mathematics & Physics
+  school:
+    name: Lycée Daudet
+    url: https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles
+  location: Nîmes
+  diploma:
+    name: Entrance exams
+    results:
+      CCINP: 1104th out of 7862
+      Mines-Télécom: 1791st out of 5467
+
+- time: 2022
+  title: Computer Science Engineering, Multimedia & Networks
+  school:
+    name: INP-ENSEEIHT
+    url: https://www.enseeiht.fr
+  location: Toulouse
+  diploma:
+    name: Double Degree (Engineering & Master's)

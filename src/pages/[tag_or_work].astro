@@ -1,0 +1,28 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, getEntry } from "astro:content";
+
+export const getStaticPaths = (async () => {
+  const tags = await getCollection("tags");
+  const works = await getCollection("works");
+  const collections = await getCollection("collections");
+  return [...tags, ...works, ...collections].map(({ id }) => ({
+    params: { tag_or_work: id },
+  }));
+}) satisfies GetStaticPaths;
+
+const { tag_or_work } = Astro.params;
+
+if (!tag_or_work) return Astro.rewrite("/404");
+
+const collection = await getEntry("collections", tag_or_work);
+if (collection) return Astro.rewrite(`/collections/${collection.id}`);
+
+const tag = await getEntry("tags", tag_or_work);
+if (tag) return Astro.rewrite(`/tags/${tag.id}`);
+
+const work = await getEntry("works", tag_or_work);
+if (work) return Astro.rewrite(`/works/${work.id}`);
+
+return Astro.rewrite("/404");
+---

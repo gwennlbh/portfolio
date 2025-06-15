@@ -1,0 +1,10 @@
+---
+interface Props {
+  fr?: string;
+  en?: string;
+}
+
+const { fr, en } = Astro.props;
+---
+
+{Astro.locals.lang === "fr" ? fr : en}

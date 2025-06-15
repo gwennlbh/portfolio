@@ -1,0 +1,81 @@
+---
+import type { InferEntrySchema } from "astro:content";
+
+type Block =
+  InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
+
+interface Props extends Block {}
+
+const { alt, caption, attributes, contentType, thumbnails, dimensions } =
+  Astro.props;
+const generalContentType = contentType?.split("/")[0] ?? "";
+const distSource = `https://media.gwen.works/${Astro.props.distSource}`;
+const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
+  .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
+  .join(", ");
+---
+
+<figure>
+  {
+    generalContentType === "image" && (
+      <a href={distSource}>
+        <img
+          src={distSource}
+          srcset={thumbnailsSrcSet}
+          alt={alt}
+          height={dimensions.height}
+          width={dimensions.width}
+        />
+      </a>
+    )
+  }
+  {
+    generalContentType === "video" && (
+      <video
+        {...attributes}
+        height={dimensions.height}
+        width={dimensions.width}
+      >
+        <source src={distSource} type={contentType} />
+      </video>
+    )
+  }
+  {
+    generalContentType === "audio" && (
+      <audio {...attributes}>
+        <source src={distSource} type={contentType} />
+      </audio>
+    )
+  }
+  {
+    contentType === "application/pdf" && (
+      <a href={distSource}>
+        <img srcset={thumbnailsSrcSet} alt={alt} />
+      </a>
+    )
+  }
+
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+
+<style>
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    font-size: 1.3rem;
+    margin-top: 0.5em;
+    font-family:
+      Victor Mono,
+      monospace;
+    font-style: italic;
+  }
+  img,
+  video,
+  audio {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+    height: fit-content;
+  }
+</style>

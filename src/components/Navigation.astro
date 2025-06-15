@@ -1,0 +1,229 @@
+<script>
+  function toggleNav({
+    currentTarget,
+  }: MouseEvent & { currentTarget: HTMLButtonElement }) {
+    const nav = document.getElementById("nav")!;
+    const closeIcon: SVGElement = currentTarget.querySelector(".icon-close")!;
+    const openIcon: SVGElement = currentTarget.querySelector(".icon-open")!;
+
+    if (nav.dataset.state === "open") {
+      // Unlock body scroll
+      document.body.style.overflow = "auto";
+      closeIcon.style.display = "none";
+      openIcon.style.display = "block";
+      nav.dataset.state = "closed";
+    } else {
+      // Lock body scroll
+      document.body.style.overflow = "hidden";
+      closeIcon.style.display = "block";
+      openIcon.style.display = "none";
+      nav.dataset.state = "open";
+    }
+  }
+
+  document.getElementById("nav-toggle")!.addEventListener("click", (event) => {
+    if (!event.currentTarget) return;
+    if (!(event.currentTarget instanceof HTMLButtonElement)) return;
+    // @ts-ignore
+    toggleNav(event);
+  });
+</script>
+
+<nav id="nav" data-state="closed">
+  <button id="nav-toggle"
+    ><svg
+      class="icon icon-open"
+      width="21"
+      height="21"
+      viewBox="0 0 21 21"
+      fill="none"
+      version="1.1"
+      id="svg4"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      ><rect
+        style="fill:currentColor;stroke:none;stroke-width:1.21228"
+        id="rect267"
+        width="21.059233"
+        height="3.8504581"
+        x="-0.060698148"
+        y="-0.019991903"></rect>
+      <rect
+        style="fill:currentColor;stroke:none;stroke-width:1.21228"
+        id="rect267-3"
+        width="21.059233"
+        height="3.8504581"
+        x="-0.059473194"
+        y="8.125473"></rect>
+      <rect
+        style="fill:currentColor;stroke:none;stroke-width:1.21228"
+        id="rect267-3-6"
+        width="21.059233"
+        height="3.8504581"
+        x="-0.058047015"
+        y="17.126282"></rect></svg
+    >
+    <svg
+      class="icon icon-close"
+      style="display: none;"
+      width="21"
+      height="21"
+      viewBox="0 0 21 21"
+      fill="none"
+      version="1.1"
+      id="svg4"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      ><path
+        style="fill:none;stroke:currentColor;stroke-width:2.92512;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+        d="M 1.1074475,1.058842 19.968611,19.968194"
+        id="path1195"
+        sodipodi:nodetypes="cc"></path>
+      <path
+        style="fill:none;stroke:currentColor;stroke-width:2.92512;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+        d="M 19.930427,1.0451515 1.0692456,19.954514"
+        id="path1195-6"
+        sodipodi:nodetypes="cc"></path></svg
+    ></button
+  ><ul>
+    <li>
+      <a href="/">works</a>
+    </li><li>
+      <a href="/blog">blog</a>
+    </li><li>
+      <a href="/design">design</a>
+    </li><li>
+      <a href="/music">music</a>
+    </li><li>
+      <a href="/software">code</a>
+    </li><li>
+      <a href="/contact">contact</a>
+    </li><li>
+      {
+        Astro.locals.lang === "fr" ? (
+          <a href="https://en.gwen.works/">in english</a>
+        ) : (
+          <a href="https://fr.gwen.works/">en français</a>
+        )
+      }
+    </li>
+  </ul>
+</nav>
+
+<style type="text/css">
+  #nav-toggle {
+    font-size: 3rem;
+    cursor: pointer;
+    color: var(--primary, black);
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    z-index: 10;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    gap: 0.75rem;
+  }
+
+  li {
+    display: block;
+    text-align: right;
+  }
+
+  li::before {
+    content: "";
+  }
+
+  a {
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: all 0.125s ease;
+  }
+
+  a:hover,
+  a:focus-visible {
+    opacity: 1;
+    font-weight: 800;
+  }
+
+  @media (max-width: 600px) {
+    #nav-toggle {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 5rem;
+      height: 5rem;
+      z-index: 100;
+      padding: 0.5rem;
+      outline: none;
+      border: none;
+      background-color: var(--secondary, #fff);
+      box-shadow: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #nav-toggle .icon {
+      height: 1em;
+      width: 1em;
+      color: var(--primary, #000);
+    }
+
+    nav#nav:not([data-state="open"]) > ul {
+      display: none;
+    }
+
+    nav#nav[data-state="open"] {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100;
+      background-color: var(--secondary, #fff);
+      overflow: auto;
+      display: flex;
+      justify-content: end;
+    }
+
+    nav#nav[data-state="open"] ul a {
+      font-size: calc(min(12vw, 10vh));
+    }
+
+    nav#nav[data-state="open"] ul {
+      flex-direction: column-reverse;
+      align-content: center;
+      justify-content: end;
+      margin-right: 2rem;
+      margin-bottom: 5rem;
+    }
+
+    nav#nav[data-state="open"] ul li {
+      padding: 0;
+      text-align: right;
+    }
+  }
+
+  @media (min-width: 600px) {
+    #nav-toggle {
+      display: none;
+    }
+
+    main {
+      padding-top: 5rem;
+    }
+  }
+</style>

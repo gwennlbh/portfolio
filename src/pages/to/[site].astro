@@ -1,0 +1,16 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import StrongHeader from "../../components/StrongHeader.astro";
+import { getEntry } from "astro:content";
+const target = await getEntry("sites", Astro.params.site ?? "");
+
+if (!target) return Astro.rewrite("/404");
+---
+
+<Layout clientSideRedirect={target.data.url}>
+  <StrongHeader title={`Redirecting to ${target.data.name}`}>
+    <p>
+      Go to <a href={target.data.url}>{target.data.name}</a>
+    </p>
+  </StrongHeader>
+</Layout>

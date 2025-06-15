@@ -543,3 +543,8 @@ msgstr "projets"
 msgid "Your e-mail address"
 msgstr "Votre adresse mail"
 
+msgid "back"
+msgstr "retour"
+
+msgid "I'm Gwenn Le Bihan :3"
+msgstr "Je suis Gwenn Le Bihan"
