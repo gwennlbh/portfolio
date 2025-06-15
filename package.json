@@ -7,13 +7,14 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "database": "ortfodb --config ./ortfodb.yaml --no-progressbar --scattered build works.json"
+    "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json"
   },
   "dependencies": {
     "astro": "^5.1.1",
     "date-fns": "^4.1.0",
     "picomatch": "^4.0.2",
     "slug": "^10.0.0",
+    "tinycolor2": "^1.6.0",
     "yaml": "^2.7.0"
   },
   "devDependencies": {

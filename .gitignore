@@ -25,3 +25,7 @@ pnpm-debug.log*
 pkg
 media
 .ortfodb-build-lock
+
+
+# act secrets
+.secrets

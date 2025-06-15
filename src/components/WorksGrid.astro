@@ -5,6 +5,7 @@ import { fr as frFR, enUS } from "date-fns/locale"
 import { compareDesc } from "date-fns"
 import Translated from "./Translated.astro"
 import WIPIndicator from "./WIPIndicator.astro"
+import { setCssColors } from "../colors"
 
 interface Props {
   works: InferEntrySchema<"works">[]
@@ -30,6 +31,10 @@ function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): R
     return acc;
   }, {} as Record<K, T[]>);
 }
+
+function findThumbnailSourcemap(content: InferEntrySchema<"works">["content"], sourcePath: string) {
+  return Object.entries(content).flatMap(([_, {blocks}]) => blocks).find(block => block.type === "media" && block.relativeSource === sourcePath)?.thumbnails
+}
 ---
 
 {Object.entries(groupBy(Astro.props.works, (({metadata}) => preferredDate(metadata)?.getFullYear().toString() ?? "Unknown"))).sort(([a], [b]) => b - a).map(([year, works]) => (
@@ -50,20 +55,20 @@ function groupBy<T, K extends string|number>(items: T[], key: (item: T )=> K): R
             metadata: { wip, colors, started, finished, thumbnail },
           }) => {
             const date = preferredDate({ started, finished })
+            const thumb = findThumbnailSourcemap(content, thumbnail??'')
             return (
               <a href={`/${id}`}>
                 <article
                   style={
-                    colors
-                      ? `--primary: ${colors.primary};
-                        --secondary: ${colors.secondary};
-                        --tertiary: ${colors.tertiary}`
-                      : undefined
+                     setCssColors(colors 
+
+                    ) 
                   }
                 >
-                  {thumbnail && (
+                  {thumb && (
                     <img
-                      srcset={Object.entries(thumbnail)
+                      srcset={
+                        Object.entries(thumb)
                         .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
                         .join(", ")}
                       alt=""

@@ -70,7 +70,11 @@ const madeWith = await Promise.all(
     {
       Object.entries(content)
         .filter(([lang]) => import.meta.env.PROD || lang === "en")
-        .map(([lang, { blocks, layout, cssGridAreas }]) => (
+        .map(([lang, { blocks, layout }]) => {
+         const cssGridAreas = layout
+            .map((row) => '"' + row.map((cell) => `_${cell}`).join(" ") + '"')
+            .join(" ") 
+          return (
           <section
             i18n-keep-on={lang}
             style={`grid-template-areas: ${cssGridAreas}; display: ${cssGridAreas ? "grid" : "block"}`}
@@ -81,7 +85,7 @@ const madeWith = await Promise.all(
                 class={`block ${isLoneRow(block.id, layout) && hasMediaRowBefore(block.id, layout, blocks) ? "indent" : ""}`}
                 data-type={block.type}
                 data-block-id={block.id}
-                style={`grid-area: ${block.id}`}
+                style={`grid-area: _${block.id}`}
               >
                 {block.type === "paragraph" && <BlockParagraph {...block} />}
                 {block.type === "link" && <BlockLink {...block} />}
@@ -89,7 +93,7 @@ const madeWith = await Promise.all(
               </div>
             ))}
           </section>
-        ))
+        )})
     }
   </main>
 

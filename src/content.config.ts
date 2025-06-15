@@ -32,7 +32,7 @@ export const collections = {
           .nullable()
           .default([]),
         tags: z.array(reference("tags")).optional().nullable().default([]),
-        thumbnail: z.record(z.string()).nullable().default({}),
+        thumbnail: z.string().optional(),
         thumbnailSource: z.string().optional(),
         titleStyle: z.string().optional(),
         colors: z.object({
@@ -61,7 +61,6 @@ export const collections = {
       content: z.record(
         z.object({
           layout: z.array(z.array(z.string())),
-          cssGridAreas: z.string(),
           title: z.string(),
           footnotes: z.record(z.string()),
           abbreviations: z.record(z.string()),

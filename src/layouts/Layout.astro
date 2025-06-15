@@ -1,22 +1,18 @@
 ---
 import { getCollection } from "astro:content"
+import { setCssColors } from "../colors";
+import Navigation from "../components/Navigation.astro";
 
 interface Props {
   colors?: { primary: string; secondary: string; tertiary: string }
 }
 
-const colors = Astro.props.colors
 ---
 
 <!doctype html>
 <html
   lang="en"
-  style={colors
-    ? `
-        --primary: ${colors.primary};
-        --secondary: ${colors.secondary};
-        --tertiary: ${colors.tertiary};`
-    : undefined}
+  style={setCssColors(Astro.props.colors)}
 >
   <head>
     <meta charset="UTF-8" />
@@ -32,6 +28,7 @@ const colors = Astro.props.colors
     <title>Astro Basics</title>
   </head>
   <body>
+    <Navigation />
     <slot />
     <footer>
       <p>
