@@ -189,7 +189,7 @@ func (h Handler) Initialize(ctx context.Context, params *protocol.InitializePara
 As with `Initialize`, hovering over the types of the parameters will help you greatly.
 
 ```go
-// IMPORTANT: You _can't_ take a pointer to your handler struct as the receiver, 
+// IMPORTANT: You _can't_ take a pointer to your handler struct as the receiver,
 // your handler will no longer implement protocol.Server if you do that.
 func (h Handler) Definition(ctx context.Context, params *protocol.DefinitionParams) ([]protocol.Location, error) {
 	// ... do your processing ...
