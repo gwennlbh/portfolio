@@ -1,7 +1,14 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import type { GetStaticPaths } from "astro";
+import { getCollection, getEntry } from "astro:content";
 import StrongHeader from "../../components/StrongHeader.astro";
-import { getEntry } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+
+export const getStaticPaths = (async () =>
+  getCollection("sites").then((sites) =>
+    sites.map((site) => ({ params: { site: site.data.name } })),
+  )) satisfies GetStaticPaths;
+
 const target = await getEntry("sites", Astro.params.site ?? "");
 
 if (!target) return Astro.rewrite("/404");
