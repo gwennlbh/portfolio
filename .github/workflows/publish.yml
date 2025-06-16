@@ -63,6 +63,11 @@ jobs:
         with:
           folder: source/dist # The folder the action should deploy.
 
+      - name: Echo out URL
+        run: |
+          lang=$(echo ${{ github.repository }} | sed 's:${{ github.repository_owner }}/portfolio-build-::')
+          echo Deployed to https://beta.$lang.gwen.works
+
       - name: Update workflow file from source repository
         run: cp source/.github/workflows/publish.yml .github/workflows/publish.yml
 
