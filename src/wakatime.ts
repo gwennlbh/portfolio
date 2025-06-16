@@ -14,7 +14,11 @@ export async function wakatimeCollection(cachepath: string) {
       total_seconds: z.number(),
     }),
     loader: file(cachepath, {
-      parser: (text) => JSON.parse(text).data.languages,
+      parser: (text) =>
+        JSON.parse(text).data.languages.map((l) => ({
+          id: l.name,
+          ...l,
+        })),
     }),
   });
 }
@@ -28,18 +32,18 @@ export async function refreshWakatimeCache(cachepath: string) {
     }
   } catch {}
 
-  const response = fetch(
+  const response = await fetch(
     `https://wakatime.com/api/v1/users/current/stats/all_time`,
     {
       headers: {
         Authorization: `Basic ${getSecret("WAKATIME_API_KEY")}`,
       },
-    }
+    },
   ).then((response) => response.json());
 
   await mkdir(path.dirname(cachepath), { recursive: true });
   await writeFile(
     cachepath,
-    JSON.stringify({ ...response, writtenAt: new Date().toISOString() })
+    JSON.stringify({ ...response, writtenAt: new Date().toISOString() }),
   );
 }
