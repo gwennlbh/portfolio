@@ -64,6 +64,7 @@ const cssGridAreas = layout
 <Layout colors={colors}>
   <StrongHeader
     back="/"
+    editButton={entry.data.source}
     title={{ fr: content.fr?.title, en: content.en?.title }}
     wip={wip}
   >
@@ -115,6 +116,18 @@ const cssGridAreas = layout
 
   <section class="metadata">
     <pre>{YAML.stringify(metadata)}</pre>
+    <div class="swatches">
+      {
+        Object.entries(colors ?? {}).map(([name, color]) => (
+          <code
+            class="swatch"
+            style={`background-color: ${color}; color: var(--${name === "primary" ? "secondary" : "primary"}, black)`}
+          >
+            {name.charAt(0).toUpperCase()}
+          </code>
+        ))
+      }
+    </div>
   </section>
 </Layout>
 
@@ -144,10 +157,14 @@ const cssGridAreas = layout
     gap: 0.5em;
   }
 
-  section.metadata pre {
+  pre,
+  code {
     font-family:
       Victor Mono,
       monospace;
+  }
+
+  section.metadata pre {
     opacity: 0.5;
   }
 
@@ -177,5 +194,25 @@ const cssGridAreas = layout
   .block[data-type="paragraph"] :global(a:hover, a:focus-visible) {
     /* Otherwise it breaks text flow on hover/focus */
     font-weight: normal;
+  }
+
+  .block[data-type="paragraph"] :global(blockquote) {
+    margin: 0.5em 0;
+    padding-left: 1em;
+    border-left: 4px solid color-mix(in srgb, var(--primary) 50%, transparent);
+    opacity: 0.8;
+  }
+
+  .swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  .swatches .swatch {
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.1);
+    transition: transform 0.125s ease;
   }
 </style>

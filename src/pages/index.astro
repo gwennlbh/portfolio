@@ -13,7 +13,31 @@ const smolWorks = (await getEntry("collections", "smol"))?.data?.includes.split(
 <Layout>
   <StrongHeader title="Hiya!">
     <p i18n>I'm Gwenn Le Bihan :3</p>
+    <nav class="webring">
+      <a href="https://n7webring.neocities.org/gwenn/prev">&lt;-</a>
+      <a href="https://n7webring.neocities.org">n7webring</a>
+      <a href="https://n7webring.neocities.org/gwenn/next">-&gt;</a>
+    </nav>
   </StrongHeader>
 
   <WorksGrid works={works.filter((w) => !smolWorks?.includes(w.id))} />
 </Layout>
+
+<style>
+  nav.webring {
+    opacity: 0.7;
+    margin-top: 0.75em;
+  }
+
+  nav.webring a {
+    text-decoration: none;
+  }
+
+  nav.webring a[href="https://n7webring.neocities.org"]
+  {
+    font-family:
+      Victor Mono,
+      monospace;
+    font-size: 0.8em;
+  }
+</style>

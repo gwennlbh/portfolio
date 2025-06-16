@@ -7,7 +7,7 @@ type Block =
 interface Props extends Block {}
 ---
 
-<a href={Astro.props.url} class="block-link">{Astro.props.text}</a>
+<a href={Astro.props.url} class="block-link" set:html={Astro.props.text} />
 
 <style>
   a.block-link {
@@ -17,11 +17,31 @@ interface Props extends Block {}
     display: inline-block;
     padding: 0.125em;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
   }
-  a:hover,
-  a:focus-visible {
+
+  a.block-link::after {
+    --supermargin: 0.5em;
+    content: "";
+    background: var(--primary, black);
+    position: absolute;
+    inset: calc(var(--supermargin) / 2);
+    z-index: -1;
+    transition: inset 0.1s;
+  }
+
+  a.block-link:is(:hover, :focus-visible)::after {
+    inset: calc(-1 * var(--supermargin));
+  }
+  a.block-link:is(:hover, :focus-visible) {
     color: var(--tertiary, yellow);
   }
+  /* a:hover::after,
+  a:focus-visible::after {
+    scale: 1.5;
+    font-size: 1.5em;
+  } */
   a::before {
     content: "-> ";
   }

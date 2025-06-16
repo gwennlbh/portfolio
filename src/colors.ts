@@ -21,6 +21,12 @@ export function setCssColors(
     | undefined
     | null,
 ) {
+  colors = {
+    primary: colors?.primary || "#000000",
+    secondary: colors?.secondary || "#ffffff",
+    tertiary: colors?.tertiary || "#f00",
+  };
+
   return colors
     ? `
         --primary: ${ensureReadable(colors.secondary, colors.primary)};

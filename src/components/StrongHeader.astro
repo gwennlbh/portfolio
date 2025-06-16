@@ -5,20 +5,46 @@ import WIPIndicator from "./WIPIndicator.astro";
 interface Props {
   title: string | { fr?: string; en?: string };
   back?: string;
+  editButton?: string;
   wip?: boolean;
 }
 
-const { title, wip, back } = Astro.props;
+const { title, wip, back, editButton } = Astro.props;
 ---
+
+<script>
+  if (document.querySelector("#edit")) {
+    window.addEventListener("keypress", (e) => {
+      if (e.key === "e") {
+        window.location.href = document.querySelector("#edit").href;
+      }
+    });
+  }
+</script>
 
 <header>
   {
-    back && (
-      <a class="back" href={back}>
-        &lt;- <i18n>back</i18n>
-      </a>
+    (editButton || back) && (
+      <section class="links">
+        {back && (
+          <a class="back" href={back}>
+            &lt;- <i18n>back</i18n>
+          </a>
+        )}
+        {editButton && (
+          <a
+            id="edit"
+            class="edit-button"
+            href={`vscode://file/${editButton.replace("/home/uwun/", "C:/Users/ewen/")}`}
+            title="edit (if you're me only :3)"
+          >
+            /ed
+          </a>
+        )}
+      </section>
     )
   }
+
   <h1>
     {typeof title === "string" ? title : <Translated {...title} />}
     {wip && <WIPIndicator />}
@@ -36,8 +62,23 @@ const { title, wip, back } = Astro.props;
   h1 {
     font-size: 2.8em;
   }
-  a.back {
+
+  a.back,
+  a.edit-button {
     z-index: 2;
     text-decoration: none;
+  }
+
+  section.links a:not(:last-child)::before {
+    margin-left: 0.5em;
+  }
+
+  a.edit-button {
+    color: transparent;
+    margin-left: 1em;
+  }
+
+  a.edit-button:hover {
+    color: var(--primary, black);
   }
 </style>

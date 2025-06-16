@@ -27,6 +27,7 @@ export const collections = {
       id: z.string(),
       builtAt: z.coerce.date(),
       descriptionHash: z.string(),
+      source: z.string(),
       metadata: z.object({
         aliases: z.array(z.string()).optional().nullable().default([]),
         finished: nullableDate,
