@@ -13,6 +13,9 @@ jobs:
     strategy:
       matrix:
         language: [en, fr]
+    environment:
+      name: Repository ${{ matrix.language}}
+      url: https://github.com/gwennlbh/portfolio-build-${{ matrix.language }}
     steps:
       - name: Dispatch workflow
         uses: peter-evans/repository-dispatch@v3
