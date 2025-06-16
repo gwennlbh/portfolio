@@ -1,46 +1,51 @@
 ---
 import { getCollection } from "astro:content";
-import { getSecret } from "astro:env/server";
-import { intervalToDuration, formatDuration } from "date-fns";
+import { intervalToDuration } from "date-fns";
 import { isAliased } from "../aliases.js";
 import StrongHeader from "../components/StrongHeader.astro";
 import Layout from "../layouts/Layout.astro";
 
-
 const works = await getCollection("works");
 const experiences = await getCollection("experiences");
 const education = await getCollection("education");
+const timeSpentIn = Object.fromEntries(
+  Object.entries(
+    Object.groupBy(await getCollection("wakatime"), (l) => l.id),
+  ).map(([id, [{ data }]]) => [id, data.total_seconds]),
+);
 
 const technologies = await getCollection("technologies").then((techs) =>
   techs
     .filter(({ data }) => !isAliased(data))
-    .map(({ data, id }) => ({
-      id,
-      ...data,
-      timeSpentHours: Math.round(
-        [id, ...(data.aliases ?? [])].reduce(
-          (total, name) =>
-            total + (timeSpentIn[name.toLowerCase()] ?? 0) / 3600,
-          0,
-        ),
-      ),
-      timeSpent: intervalToDuration({
-        start: 0,
-        end:
-          1000 *
+    .map(({ data, id }) => {
+      return {
+        id,
+        ...data,
+        timeSpentHours: Math.round(
           [id, ...(data.aliases ?? [])].reduce(
-            (total, name) => total + (timeSpentIn[name.toLowerCase()] ?? 0),
+            (total, name) =>
+              total + (timeSpentIn[name.toLowerCase()] ?? 0) / 3600,
             0,
           ),
-      }),
-      projectsCount: works.filter(
-        ({ data }) =>
-          !data.metadata.private &&
-          data.metadata.madeWith?.some((tech) =>
-            [id, ...(data.metadata.aliases ?? [])].includes(tech.id),
-          ),
-      ).length,
-    })),
+        ),
+        timeSpent: intervalToDuration({
+          start: 0,
+          end:
+            1000 *
+            [id, ...(data.aliases ?? [])].reduce(
+              (total, name) => total + (timeSpentIn[name.toLowerCase()] ?? 0),
+              0,
+            ),
+        }),
+        projectsCount: works.filter(
+          ({ data }) =>
+            !data.metadata.private &&
+            data.metadata.madeWith?.some((tech) =>
+              [id, ...(data.metadata.aliases ?? [])].includes(tech.id),
+            ),
+        ).length,
+      };
+    }),
 );
 ---
 
@@ -157,20 +162,20 @@ const technologies = await getCollection("technologies").then((techs) =>
                 <>
                   <p>{ed.diploma.name}</p>
                   {ed.diploma.results &&
-                  typeof ed.diploma.results === "string" ? (
-                    <p>{ed.diploma.results}</p>
-                  ) : (
-                    <dl>
-                      {Object.entries(ed.diploma.results).map(
-                        ([name, results]) => (
-                          <>
-                            <dt>{name}</dt>
-                            <dd>{results}</dd>
-                          </>
-                        ),
-                      )}
-                    </dl>
-                  )}
+                    (typeof ed.diploma.results === "string" ? (
+                      <p>{ed.diploma.results}</p>
+                    ) : (
+                      <dl>
+                        {Object.entries(ed.diploma.results).map(
+                          ([name, results]) => (
+                            <>
+                              <dt>{name}</dt>
+                              <dd>{results}</dd>
+                            </>
+                          ),
+                        )}
+                      </dl>
+                    ))}
                 </>
               )}
             </li>

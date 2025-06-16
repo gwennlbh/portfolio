@@ -16,7 +16,7 @@ export async function wakatimeCollection(cachepath: string) {
     loader: file(cachepath, {
       parser: (text) =>
         JSON.parse(text).data.languages.map((l) => ({
-          id: l.name,
+          id: l.name.toLowerCase(),
           ...l,
         })),
     }),
