@@ -40,17 +40,15 @@ jobs:
 
       - name: Cache wakatime API response
         uses: actions/cache@v4
-        with: 
+        with:
           key: wakatime
           path: source/.wakatime-cache.json
 
       - name: Build project
-        run: |
-          cd source
-          # Extract the language from the repository name
-          # e.g., "portfolio-build-en" gives "en"
-          lang=$(echo ${{ github.repository }} | sed 's:${{ github.repository_owner }}/portfolio-build-::')
-          LANG=$lang BUILD_COMMIT=${{ github.sha }} npm run build
+        run: cd source && npm run build
+        env:
+          LANG: ${{ github.event.client_payload.lang }}
+          BUILD_COMMIT: ${{ github.sha }}
 
       - name: Save cached wakatime API response
         uses: actions/cache/save@v4
@@ -64,9 +62,9 @@ jobs:
           folder: source/dist # The folder the action should deploy.
 
       - name: Echo out URL
-        run: |
-          lang=$(echo ${{ github.repository }} | sed 's:${{ github.repository_owner }}/portfolio-build-::')
-          echo Deployed to https://beta.$lang.gwen.works
+        run: echo Deployed to https://beta.$LANG.gwen.works
+        env:
+          LANG: ${{ github.event.client_payload.lang }}
 
       - name: Update workflow file from source repository
         run: cp source/.github/workflows/publish.yml .github/workflows/publish.yml
@@ -77,4 +75,3 @@ jobs:
           add: .github/workflows/publish.yml
           default_author: github_actions
           message: 👷‍♀️ Update workflow definition
-          

@@ -22,5 +22,5 @@ jobs:
         with:
           repository: gwennlbh/portfolio-build-${{ matrix.language }}
           event-type: build
-          client-payload: '{ "ref": "${{ github.sha }}" }'
+          client-payload: '{ "ref": "${{ github.sha }}", "lang": "${{ matrix.language }}" }'
           token: ${{ secrets.REPOSITORY_DISPATCH_PAT }}
