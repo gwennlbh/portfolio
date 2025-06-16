@@ -1,0 +1,6 @@
+[submodule "portfolio-build-fr"]
+	path = portfolio-build-fr
+	url = https://github.com/gwennlbh/portfolio-build-fr
+[submodule "portfolio-build-en"]
+	path = portfolio-build-en
+	url = https://github.com/gwennlbh/portfolio-build-en
