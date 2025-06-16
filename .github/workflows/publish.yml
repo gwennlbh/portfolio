@@ -27,8 +27,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.WORKFLOW_SYNC_PAT }}
 
       - name: Checkout source code repository
         uses: actions/checkout@v4
@@ -72,14 +70,3 @@ jobs:
         run: echo Deployed to https://beta.$LANG.gwen.works
         env:
           LANG: ${{ github.event.client_payload.lang }}
-
-      - name: Update workflow file from source repository
-        run: cp source/.github/workflows/publish.yml .github/workflows/publish.yml
-
-      - name: Commit changes to the workflow file from the source repository
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: .github/workflows/publish.yml
-          default_author: github_actions
-          message: 👷‍♀️ Update workflow definition
-          push: origin main --set-upstream
