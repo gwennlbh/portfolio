@@ -35,17 +35,11 @@ technologies:
   repository: ~/projects/portfolio/technologies.yaml
 
 projects at: ~/projects
-# exporters:
-#   copy:
-#     paths:
-#       - ~/projects/database.json
-#       - ~/projects/ortfo/website/public/example-database.json
-#   ssh:
-#     ssh: ewen@ewen.works:~/www/media.ewen.works/works.json
-#   cloud:
-#     path: projects
-#     remotes: [penrose]
-#     quiet: yes
+
+exporters:
+  ssh:
+    database: ewen@ewen.works:~/www/media.ewen.works/works.json
+    media: ewen@ewen.works:~/www/media.ewen.works
 
 # importers:
 #   github:

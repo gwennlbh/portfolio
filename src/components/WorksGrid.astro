@@ -42,11 +42,18 @@ function findThumbnailSourcemap(
   content: InferEntrySchema<"works">["content"],
   sourcePath: string,
 ) {
-  return Object.entries(content)
+  const sourcemap = Object.entries(content)
     .flatMap(([_, { blocks }]) => blocks)
     .find(
       (block) => block.type === "media" && block.relativeSource === sourcePath,
     )?.thumbnails;
+
+  if (!sourcemap)
+    return Object.values(content)
+      .flatMap(({ blocks }) => blocks)
+      .find(({ type }) => type === "media")?.thumbnails;
+
+  return sourcemap;
 }
 ---
 
