@@ -6,26 +6,6 @@ import { isAliased } from "../aliases.js";
 import StrongHeader from "../components/StrongHeader.astro";
 import Layout from "../layouts/Layout.astro";
 
-const timeSpentIn = await fetch(
-  `https://wakatime.com/api/v1/users/current/stats/all_time`,
-  {
-    headers: {
-      Authorization: `Basic ${getSecret("WAKATIME_API_KEY")}`,
-    },
-  },
-)
-  .then((response) => response.json())
-  .then(
-    (json: {
-      data: { languages: Array<{ name: string; total_seconds: number }> };
-    }) =>
-      Object.fromEntries(
-        json.data.languages.map(({ name, total_seconds }) => [
-          name.toLowerCase(),
-          total_seconds,
-        ]),
-      ),
-  );
 
 const works = await getCollection("works");
 const experiences = await getCollection("experiences");
