@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  
 
 jobs:
   build:
@@ -18,6 +19,10 @@ jobs:
       contents: write
 
     runs-on: ubuntu-latest
+
+    environment:
+      name: Beta, ${{ github.event.client_payload.lang }} subdomain
+      url: https://beta.${{ github.event.client_payload.lang }}.gwen.works
 
     steps:
       - name: Checkout repository
