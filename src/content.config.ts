@@ -20,7 +20,7 @@ const nullableDate = z
 export const collections = {
   frenchMessages: gettextPoMessages("i18n/fr.po"),
   englishMessages: gettextPoMessages("i18n/en.po"),
-  wakatime: wakatimeCollection(".wakatime-cache.json"),
+  wakatime: await wakatimeCollection(".wakatime-cache.json"),
   works: defineCollection({
     loader: file("works.json"),
     schema: z.object({
