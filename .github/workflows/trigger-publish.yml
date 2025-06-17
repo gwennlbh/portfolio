@@ -8,7 +8,7 @@ on:
 
 jobs:
   trigger:
-    name: Trigger
+    name: ${{ matrix.locale }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
