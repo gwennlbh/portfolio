@@ -1,0 +1,64 @@
+---
+import { getCollection } from "astro:content";
+import StrongHeader from "../../components/StrongHeader.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const posts = await getCollection("blogEntries");
+const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
+  dateStyle: "short",
+});
+---
+
+<Layout>
+  <StrongHeader title="my blog~" editButton="~/projects.local/portfolio/blog/">
+    <p>
+      Things I've written about! You can subscribe to the RSS feed:
+      <a href="/blog/rss.xml">/blog/rss.xml</a>
+    </p>
+  </StrongHeader>
+  <main>
+    <ul>
+      {
+        posts
+          .filter(({ data: { draft } }) => !draft)
+          .map(({ id, data: { date, title } }) => (
+            <li>
+              <code class="date">{dateFormatter.format(date)}</code>
+              <a href={`/blog/${id}`}>{title}</a>
+            </li>
+          ))
+      }
+    </ul>
+
+    <section class="drafts">
+        <h2 i18n>(drafts)</h2>
+        <ul>
+          {
+            posts
+              .filter(({ data: { draft } }) => draft)
+              .map(({ id, data: { title } }) => (
+                <li>
+                  <a href={`/blog/${id}`}>{title}</a>
+                </li>
+              ))
+          }
+        </ul>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  code {
+    font-family: "Victor Mono", monospace;
+  }
+
+  main {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  section.drafts {
+    margin-top: 2rem;
+    opacity: 0.7;
+  }
+</style>

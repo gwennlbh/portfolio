@@ -557,3 +557,9 @@ msgstr "dm bluesky"
 
 msgid "interested in anything that touches art, technology or both"
 msgstr "intéressée par tout ce qui touche l'art, la technologie ou les deux à la fois"
+
+msgid "published on"
+msgstr "publié le"
+
+msgid "(drafts)"
+msgstr "(brouillons)"
