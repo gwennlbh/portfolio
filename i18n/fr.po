@@ -554,3 +554,6 @@ msgstr "via..."
 
 msgid "bluesky direct message"
 msgstr "dm bluesky"
+
+msgid "interested in anything that touches art, technology or both"
+msgstr "intéressée par tout ce qui touche l'art, la technologie ou les deux à la fois"
