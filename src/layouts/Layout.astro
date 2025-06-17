@@ -69,7 +69,12 @@ interface Props {
         }
       </ul>
 
-      <pre>{Astro.locals.commit}</pre>
+      <pre
+        set:html={JSON.stringify(Astro.locals).replace(
+          Astro.locals.buildCommit ?? "",
+          `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit}</a>`,
+        )}
+      />
     </footer>
   </body>
 </html>
