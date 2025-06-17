@@ -10,7 +10,10 @@ interface Props {
 ---
 
 <!doctype html>
-<html lang="en" style={setCssColors(Astro.props.colors)}>
+<html
+  lang={Astro.locals.locale || Astro.locals.lang}
+  style={setCssColors(Astro.props.colors)}
+>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />

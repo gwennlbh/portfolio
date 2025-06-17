@@ -4,6 +4,7 @@ import { JSDOM } from "jsdom";
 
 export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
   locals.lang = process.env.LANG === "fr" ? "fr" : "en";
+  locals.locale = process.env.LOCALE;
   const response = await next();
   const dom = new JSDOM(await response.text(), {
     url: url.toString(),
