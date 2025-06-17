@@ -56,6 +56,17 @@ const { blocks, layout } =
   Object.entries(content).find(([lang]) => lang === Astro.locals.lang)?.[1] ??
   Object.values(content)[0];
 
+const layoutWidth = Math.max(...layout.map((row) => new Set(row).size));
+
+/**
+ * Screen width below which the layout switches to a single column.
+ * Depends on how wide the layout is, since the goal is to prevent ridiculously small images.
+ * This equation was derived from the following constraints:
+ * - 500 = m * 2 + p (cutoff at 500px for 2-cell wide layouts)
+ * - 700 = m * 3 + p (cutoff at 700px for 3-cell wide layouts)
+ */
+const portraitModeCutoff = 200 * layoutWidth + 100;
+
 const cssGridAreas = layout
   .map((row) => '"' + row.map((cell) => `_${cell}`).join(" ") + '"')
   .join(" ");
@@ -131,6 +142,28 @@ const cssGridAreas = layout
   </section>
 </Layout>
 
+<div
+  set:html={`<style>@media (min-width: ${portraitModeCutoff}px) {
+    main > section {
+      display: grid;
+    }
+
+    .block[data-type="media"] :global(img, video) {
+      object-position: left;
+      /* max-height: 60vh; */
+    }
+
+    .block[data-type="paragraph"].indent {
+      margin-left: 2em;
+    }
+
+    .block {
+      min-height: 0;
+      min-width: 0;
+    }
+  }</style>`}
+/>
+
 <style>
   .tags ul {
     display: flex;
@@ -166,26 +199,6 @@ const cssGridAreas = layout
 
   section.metadata pre {
     opacity: 0.5;
-  }
-
-  @media (min-width: 800px) {
-    main > section {
-      display: grid;
-    }
-
-    .block[data-type="media"] :global(img, video) {
-      object-position: left;
-      /* max-height: 60vh; */
-    }
-
-    .block[data-type="paragraph"].indent {
-      margin-left: 2em;
-    }
-
-    .block {
-      min-height: 0;
-      min-width: 0;
-    }
   }
 
   .block[data-type="paragraph"] :global(li) {
