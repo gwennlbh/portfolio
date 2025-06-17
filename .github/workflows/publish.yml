@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     environment:
-      name: Beta, ${{ github.event.client_payload.lang }} subdomain
+      name: Beta, ${{ github.event.client_payload.language }} subdomain
       url: https://beta.${{ github.event.client_payload.lang }}.gwen.works
 
     steps:
@@ -53,6 +53,7 @@ jobs:
         run: cd source && npm run build
         env:
           LANG: ${{ github.event.client_payload.lang }}
+          LOCALE: ${{ github.event.client_payload.locale }}
           BUILD_COMMIT: ${{ github.sha }}
 
       - name: Save cached wakatime API response
