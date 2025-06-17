@@ -70,9 +70,10 @@ interface Props {
       </ul>
 
       <pre
-        set:html={JSON.stringify(Astro.locals).replace(
+        class="locals"
+        set:html={JSON.stringify(Astro.locals, null, 2).replace(
           Astro.locals.buildCommit ?? "",
-          `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit}</a>`,
+          `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit?.slice(0, 8)}</a>`,
         )}
       />
     </footer>
@@ -156,5 +157,11 @@ interface Props {
   footer ul .purpose {
     font-style: italic;
     opacity: 0.75;
+  }
+
+  footer .locals {
+    max-width: 80vw;
+    white-space: wrap;
+    overflow-x: hidden;
   }
 </style>
