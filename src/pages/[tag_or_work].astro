@@ -6,7 +6,13 @@ export const getStaticPaths = (async () => {
   const tags = await getCollection("tags");
   const works = await getCollection("works");
   const collections = await getCollection("collections");
-  return [...tags, ...works, ...collections].map(({ id }) => ({
+
+  const ids = [
+    ...[...tags, ...works, ...collections].map(({ id }) => id),
+    ...works.flatMap((w) => w.data.metadata.aliases ?? []),
+  ];
+
+  return ids.map((id) => ({
     params: { tag_or_work: id },
   }));
 }) satisfies GetStaticPaths;
@@ -23,6 +29,12 @@ if (tag) return Astro.rewrite(`/tags/${tag.id}`);
 
 const work = await getEntry("works", tag_or_work);
 if (work) return Astro.rewrite(`/works/${work.id}`);
+
+const allWorks = await getCollection("works");
+const workByAlias = allWorks.find((w) =>
+  w.data.metadata.aliases?.includes(tag_or_work),
+);
+if (workByAlias) return Astro.rewrite(`/works/${workByAlias.id}`);
 
 return Astro.rewrite("/404");
 ---
