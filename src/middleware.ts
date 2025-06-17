@@ -21,7 +21,7 @@ export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
     const translation =
       locals.lang === "fr"
         ? await getEntry("frenchMessages", key)
-        : key
+        : { data: { msgstr: key }}
 
     translatable.removeAttribute("i18n");
     if (translation) {
@@ -36,7 +36,7 @@ export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
     const translation =
       locals.lang === "fr"
         ? await getEntry("frenchMessages", key)
-        : await getEntry("englishMessages", key);
+        : undefined
 
     translatable.outerHTML = translation?.data.msgstr ?? key;
   }
