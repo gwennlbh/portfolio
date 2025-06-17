@@ -1,4 +1,4 @@
-import { file } from "astro/loaders";
+import { file, glob } from "astro/loaders";
 import type { ZodObject, ZodRawShape } from "astro/zod";
 import { defineCollection, reference, z } from "astro:content";
 import * as YAML from "yaml";
@@ -21,6 +21,15 @@ export const collections = {
   frenchMessages: gettextPoMessages("i18n/fr.po"),
   englishMessages: gettextPoMessages("i18n/en.po"),
   wakatime: await wakatimeCollection(".wakatime-cache.json"),
+  blogEntries: defineCollection({
+    loader: glob({ pattern: "*.md", base: "./blog" }),
+    schema: z.object({
+      title: z.string(),
+      date: z.coerce.date(),
+      works: z.array(reference("works")).optional().default([]),
+      draft: z.boolean().optional().default(false),
+    }),
+  }),
   works: defineCollection({
     loader: file("works.json"),
     schema: z.object({

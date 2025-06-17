@@ -2,9 +2,8 @@
 date: 2024-08-04
 title: End-to-end XSS protection for GraphQL clients
 works: [churros]
+draft: true
 ---
-
-# End-to-end XSS protection for GraphQL clients
 
 There you are, accepting Markdown content from your users, and exposing on your API a field that resolves to a XSS-safe HTML rendering of that user-generated content.
 

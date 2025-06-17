@@ -1,0 +1,84 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import StrongHeader from "../../components/StrongHeader.astro";
+
+export const getStaticPaths = (async () => {
+  const entries = await getCollection("blogEntries");
+  return entries.map(({ id }) => ({
+    params: { entry: id },
+  }));
+}) satisfies GetStaticPaths;
+
+const {
+  data: { date, title, draft },
+  rendered,
+} = await getEntry("blogEntries", Astro.params.entry)!;
+
+const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
+  dateStyle: "long",
+});
+---
+
+<Layout>
+  <StrongHeader
+    title={{ en: title, fr: title }}
+    wip={draft}
+    back="/blog"
+    editButton={`~/projects.local/portfolio/blog/${Astro.params.entry}.md`}
+  >
+    <p>
+      <span i18n>published on</span>
+      <time datetime={date.toISOString()}>
+        {dateFormatter.format(date)}
+      </time>
+    </p>
+  </StrongHeader>
+
+  <main set:html={rendered!.html} />
+</Layout>
+
+<style>
+  main {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 80ch;
+    margin: 0 auto;
+  }
+
+  main :global([aria-hidden="true"]) {
+    display: none;
+  }
+
+  main :global(p:not(:has(img)), ul, dl, ol) {
+    margin-bottom: 0.5em;
+    max-width: 60ch;
+    margin: 0 auto;
+  }
+
+  main :global(p:has(img), pre.astro-code) {
+    width: 100%;
+    max-width: 80ch;
+    margin: 2em auto;
+  }
+
+  main :global(p > img) {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  main :global(h1, h2, h3, h4, h5, h6) {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  main :global(pre.astro-code) {
+    font-family: "Victor Mono", monospace;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 1.2em;
+  }
+</style>

@@ -36,7 +36,7 @@ const { title, wip, back, editButton } = Astro.props;
           <a
             id="edit"
             class="edit-button"
-            href={`vscode://file/${editButton.replace("/home/uwun/", "C:/Users/ewen/")}`}
+            href={`vscode://file/${editButton.replace("/home/uwun/", "C:/Users/ewen/").replace("~/", "C:/Users/ewen/")}`}
             title="edit (if you're me only :3)"
           >
             /ed
