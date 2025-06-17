@@ -2,12 +2,13 @@
 import Translated from "./Translated.astro";
 import WIPIndicator from "./WIPIndicator.astro";
 
-interface Props {
-  title: string | { fr?: string; en?: string };
+type Props = {
   back?: string;
   editButton?: string;
-  wip?: boolean;
-}
+} & (
+  | { title: string; wip?: undefined }
+  | { title: { fr: string; en: string }; wip?: boolean }
+);
 
 const { title, wip, back, editButton } = Astro.props;
 ---
@@ -45,10 +46,17 @@ const { title, wip, back, editButton } = Astro.props;
     )
   }
 
-  <h1>
-    {typeof title === "string" ? title : <Translated {...title} />}
-    {wip && <WIPIndicator />}
-  </h1>
+  {
+    typeof title === "string" ? (
+      <h1 i18n>{title}</h1>
+    ) : (
+      <h1>
+        <Translated {...title} />
+        {wip && <WIPIndicator />}
+      </h1>
+    )
+  }
+
   <slot />
 </header>
 

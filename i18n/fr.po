@@ -548,3 +548,9 @@ msgstr "retour"
 
 msgid "I'm Gwenn Le Bihan :3"
 msgstr "Je suis Gwenn Le Bihan"
+
+msgid "via..."
+msgstr "via..."
+
+msgid "bluesky direct message"
+msgstr "dm bluesky"
