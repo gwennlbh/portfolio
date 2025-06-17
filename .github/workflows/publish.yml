@@ -54,7 +54,7 @@ jobs:
         env:
           LANG: ${{ github.event.client_payload.lang }}
           LOCALE: ${{ github.event.client_payload.locale }}
-          BUILD_COMMIT: ${{ github.sha }}
+          BUILD_COMMIT: ${{ github.event.client_payload.ref }}
 
       - name: Save cached wakatime API response
         uses: actions/cache/save@v4
