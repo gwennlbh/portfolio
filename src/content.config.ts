@@ -53,7 +53,10 @@ export const collections = {
           .object({
             layout: z
               .array(
-                z.union([z.string().nullable(), z.array(z.string().nullable())])
+                z.union([
+                  z.string().nullable(),
+                  z.array(z.string().nullable()),
+                ]),
               )
               .optional(),
             created: nullableDate,
@@ -110,9 +113,9 @@ export const collections = {
               text: z.string(),
               title: z.string(),
               url: z.string(),
-            })
+            }),
           ),
-        })
+        }),
       ),
     }),
   }),
@@ -130,7 +133,7 @@ export const collections = {
       description: z.string(),
       skills: z.array(z.string()).optional(),
     }),
-    (exp) => exp.time.toString()
+    (exp) => exp.time.toString(),
   ),
   education: yamlDataCollection(
     "education.yaml",
@@ -147,7 +150,7 @@ export const collections = {
         name: z.string(),
       }),
     }),
-    (exp) => exp.time.toString()
+    (exp) => exp.time.toString(),
   ),
   sites: yamlDataCollection(
     "sites.yaml",
@@ -158,7 +161,7 @@ export const collections = {
       username: z.string().optional(),
       slug: z.string(),
     }),
-    (site) => site.name
+    (site) => site.name,
   ),
   collections: yamlDataCollection(
     "collections.yaml",
@@ -168,7 +171,7 @@ export const collections = {
       includes: z.string(),
       singular: z.string().optional(),
       plural: z.string().optional(),
-    })
+    }),
   ),
   tags: yamlDataCollection(
     "tags.yaml",
@@ -186,7 +189,7 @@ export const collections = {
         .optional(),
     }),
     (tag) => tag.plural,
-    (tag) => [tag.singular]
+    (tag) => [tag.singular],
   ),
   technologies: yamlDataCollection(
     "technologies.yaml",
@@ -199,18 +202,18 @@ export const collections = {
       description: z.string().optional(),
       aliases: z.array(z.string()).optional(),
       autodetect: z.array(z.string()).optional(),
-    })
+    }),
   ),
 };
 
 function yamlDataCollection<
   Shape extends ZodRawShape,
-  Schema extends ZodObject<Shape>
+  Schema extends ZodObject<Shape>,
 >(
   filename: string,
   schema: Schema,
   slugify?: (data: z.infer<Schema>) => string,
-  additionalAliases?: (data: z.infer<Schema>) => string[]
+  additionalAliases?: (data: z.infer<Schema>) => string[],
 ) {
   return defineCollection({
     schema,
