@@ -1,0 +1,34 @@
+---
+import { getEntry } from "astro:content";
+import StrongHeader from "../components/StrongHeader.astro";
+import Layout from "../layouts/Layout.astro";
+
+const bsky = await getEntry("sites", "bluesky");
+const insta = await getEntry("sites", "instagram");
+---
+
+<Layout>
+  <StrongHeader title="Contact me">
+    <p i18n>via...</p>
+    <dl>
+      <dt>email</dt>
+      <dd>
+        <a href="/to/mail">gwenn.lebihan7 (at) gmail.com</a>
+      </dd>
+      <dt i18n>bluesky direct message</dt>
+      <dd>
+        <a href="/to/bluesky">@{bsky?.data.username}</a>
+      </dd>
+      <dt>instagram</dt>
+      <dd>
+        <a href="/to/instagram">@{insta?.data.username}</a>
+      </dd>
+    </dl>
+  </StrongHeader>
+</Layout>
+
+<style>
+  dd {
+    margin-bottom: 0.5em;
+  }
+</style>
