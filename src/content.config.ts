@@ -149,7 +149,7 @@ export const collections = {
   education: yamlDataCollection(
     "education.yaml",
     z.object({
-      time: z.coerce.string(),
+      time: z.number().min(2003).max(new Date().getFullYear()).int(),
       title: z.string(),
       school: z.object({
         name: z.string(),
