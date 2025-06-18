@@ -5,6 +5,8 @@ import * as YAML from "yaml";
 import PO from "pofile";
 import { makeAliasEntries } from "./aliases";
 import { wakatimeCollection } from "./wakatime";
+import { readFile } from "node:fs/promises";
+import slug from "slug";
 
 const translatedString = z.object({
   en: z.string(),
@@ -226,13 +228,21 @@ function yamlDataCollection<
 ) {
   return defineCollection({
     schema,
-    loader: file(filename, {
-      parser(content) {
-        const parsed = YAML.parse(content);
+    loader: {
+      name: "YAML Loader",
+      async load({ renderMarkdown, store }) {
+        const raw = await readFile(filename);
+        const parsed: Array<z.infer<Schema>> | Record<string, z.infer<Schema>> =
+          YAML.parse(raw.toString());
+
         if (Array.isArray(parsed)) {
-          const out = parsed
+          const entries = parsed
             .map((data) => {
-              const out = { ...data };
+              const out: z.infer<Schema> & {
+                slug?: string;
+                aliases?: string[];
+              } = { ...data };
+
               if (slugify) out.slug ??= slugify(data);
 
               const aliasable = z
@@ -243,11 +253,9 @@ function yamlDataCollection<
                 .safeParse(out);
 
               if (aliasable.success || additionalAliases) {
+                out.aliases ??= [];
                 if (additionalAliases) {
-                  out.aliases = [
-                    ...(out.aliases ?? []),
-                    ...additionalAliases(data),
-                  ];
+                  out.aliases = [...out.aliases, ...additionalAliases(data)];
                 }
                 return makeAliasEntries(out);
               }
@@ -256,12 +264,38 @@ function yamlDataCollection<
             })
             .flat();
 
-          return out;
+          store.clear();
+          for (const entry of entries) {
+            store.set({
+              id: entry.slug ?? slug(entry.title),
+              data: entry,
+              rendered: await renderMarkdown(
+                "description" in entry
+                  ? typeof entry.description === "string"
+                    ? entry.description
+                    : entry.description[process.env.LANG === "fr" ? "fr" : "en"]
+                  : "",
+              ),
+            });
+          }
+        } else {
+          store.clear();
+          for (const [key, data] of Object.entries(parsed)) {
+            store.set({
+              id: key,
+              data: data as z.infer<Schema>,
+              rendered: await renderMarkdown(
+                "description" in data
+                  ? typeof data.description === "string"
+                    ? data.description
+                    : data.description[process.env.LANG === "fr" ? "fr" : "en"]
+                  : "",
+              ),
+            });
+          }
         }
-
-        return parsed;
       },
-    }),
+    },
   });
 }
 

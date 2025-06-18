@@ -28,9 +28,19 @@ const works = await getCollection("works").then((works) =>
 ---
 
 <Layout>
-  <StrongHeader back="/" title={tech.data.name}>
-    <p i18n>{tech.data.description}</p>
-    <a i18n href={tech.data["learn more at"]}>learn more</a>
+  <StrongHeader
+    back="/"
+    title={tech.data.name}
+    editButton="~/projects.local/portfolio/technologies.yaml"
+  >
+    <div class="description" i18n set:html={tech.rendered!.html} />
+    {
+      tech.data["learn more at"] && (
+        <a i18n href={tech.data["learn more at"]}>
+          learn more
+        </a>
+      )
+    }
   </StrongHeader>
 
   <WorksGrid works={works} />
