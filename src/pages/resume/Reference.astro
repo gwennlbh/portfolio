@@ -1,0 +1,13 @@
+---
+interface Props {
+  url: string;
+  parens?: boolean;
+}
+
+const { parens = false } = Astro.props;
+const url = new URL("https://" + Astro.props.url);
+---
+
+{parens && "("}<a href={url} target="_blank">{url.hostname + url.pathname}</a>{
+  parens && ")"
+}
