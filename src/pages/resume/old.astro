@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import { intervalToDuration } from "date-fns";
 import { isAliased } from "../aliases.js";
 import StrongHeader from "../components/StrongHeader.astro";
-import Layout from "../layouts/Layout.astro";
+import Layout from "../layouts/Regular.astro";
 
 const works = await getCollection("works");
 const experiences = await getCollection("experiences");

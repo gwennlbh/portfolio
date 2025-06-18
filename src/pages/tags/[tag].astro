@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import { getCollection, getEntry } from "astro:content";
 import StrongHeader from "../../components/StrongHeader.astro";
 import WorksGrid from "../../components/WorksGrid.astro";
-import Layout from "../../layouts/Layout.astro";
+import Layout from "../../layouts/Regular.astro";
 
 export const getStaticPaths = (async () => {
   const tags = await getCollection("tags");

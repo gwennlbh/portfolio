@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import StrongHeader from "../../components/StrongHeader.astro";
-import Layout from "../../layouts/Layout.astro";
+import Layout from "../../layouts/Regular.astro";
 
 const posts = await getCollection("blogEntries");
 const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {

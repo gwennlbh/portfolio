@@ -1,0 +1,63 @@
+---
+interface Props {
+  /**
+   * Attributes to add to the `<html>` tag.
+   */
+  htmlAttributes?: Record<string, any>;
+  /**
+   * Styles on the `<body>` tag.
+   */
+  bodyStyles?: Record<string, any>;
+}
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      data-domain="beta.gwen.works"
+      src="https://stats.gwen.works/js/script.js"></script>
+    <slot name="head" />
+  </head>
+  <body
+    style={Object.entries(Astro.props.bodyStyles || {})
+      .map(([k, v]) => `${k}: ${v}`)
+      .join("; ")}
+  >
+    <slot />
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: "Manrope", sans-serif;
+    color: var(--primary, black);
+    background: var(--secondary, white);
+    line-height: 1;
+  }
+  body {
+    --pad: 0;
+    padding: var(--pad);
+    width: calc(100% - 2 * var(--pad));
+    height: calc(100% - 2 * var(--pad));
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+</style>

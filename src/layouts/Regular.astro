@@ -1,0 +1,145 @@
+---
+import { getCollection } from "astro:content";
+import Bare from "./Bare.astro";
+import { setCssColors } from "../colors";
+import Navigation from "../components/Navigation.astro";
+
+interface Props {
+  /**
+   * Colors to use for the layout.
+   * Sets CSS variables --primary, --secondary, and ---tertiary.
+   */
+  colors?: { primary: string; secondary: string; tertiary: string };
+  /**
+   * Client-side redirect URL.
+   */
+  clientSideRedirect?: string;
+}
+---
+
+<Bare
+  htmlAttributes={{
+    lang: Astro.locals.locale || Astro.locals.lang,
+    style: setCssColors(Astro.props.colors),
+  }}
+>
+  {
+    Astro.props.clientSideRedirect ? (
+      <Fragment slot="head">
+        <title>Redirecting to {Astro.props.clientSideRedirect}</title>
+        <meta
+          http-equiv="refresh"
+          content={`0; url=${Astro.props.clientSideRedirect}`}
+        />
+        <link rel="canonical" href={Astro.props.clientSideRedirect} />
+      </Fragment>
+    ) : (
+      <title slot="head">gwen.works</title>
+    )
+  }
+  <Navigation />
+  <slot />
+  <footer>
+    <p>
+      made with <a href="/ortfo">ortfo/db</a> &amp; <a
+        href="https://astro.build">astro</a
+      >
+    </p>
+
+    <p>&lt;3 Gwenn {new Date().getFullYear()}</p>
+
+    <p>generative ai cannot make art</p>
+
+    <ul>
+      {
+        (await getCollection("sites")).map(
+          ({ data: { name, url, purpose } }) => (
+            <>
+              <li>
+                <a href={url}>{`/to/${name}`.padEnd(15)}</a>
+                <span class="purpose">{purpose}</span>
+              </li>
+            </>
+          ),
+        )
+      }
+    </ul>
+
+    <pre
+      class="locals"
+      set:html={JSON.stringify(Astro.locals, null, 2).replace(
+        Astro.locals.buildCommit ?? "",
+        `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit?.slice(0, 8)}</a>`,
+      )}
+    />
+  </footer>
+</Bare>
+
+<style>
+  footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-family:
+      Victor Mono,
+      monospace;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    list-style: none;
+    padding: 0;
+  }
+
+  footer ul a {
+    white-space: pre;
+  }
+
+  footer ul .purpose {
+    font-style: italic;
+    opacity: 0.75;
+  }
+
+  footer .locals {
+    max-width: 80vw;
+    white-space: wrap;
+    overflow-x: hidden;
+  }
+
+  :global(p, p > *) {
+    line-height: 1.2;
+  }
+  :global(ul, li, h1, h2, p) {
+    padding: 0;
+    margin: 0;
+  }
+  :global(pre) {
+    font-family: inherit;
+    font-size: 1em;
+  }
+  :global(a:not(.block-link)) {
+    color: var(--primary, black);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1.5px;
+    transition: all 0.125s;
+  }
+  :global(a:not(.block-link):hover, a:not(.block-link):focus-visible) {
+    font-weight: bold;
+    text-underline-offset: calc(5px - 1px);
+    text-decoration-thickness: 3px;
+  }
+  :global(ul) {
+    list-style: none;
+  }
+  :global(ul li::before) {
+    content: "— ";
+    opacity: 0.5;
+    font-weight: bold;
+  }
+  body {
+    --pad: 2rem;
+  }
+</style>

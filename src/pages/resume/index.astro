@@ -1,0 +1,407 @@
+---
+import { getCollection } from "astro:content";
+import Bare from "../../layouts/Bare.astro";
+import Tech from "./Tech.astro";
+import Reference from "./Reference.astro";
+
+const wakatime = await getCollection("wakatime").then((entries) =>
+  Object.fromEntries(
+    entries.map((entry) => [
+      entry.id,
+      Math.floor(entry.data.total_seconds / 3600),
+    ]),
+  ),
+);
+
+const timeSpent = {
+  htmlcssjs: wakatime.html + wakatime.css + wakatime.javascript,
+  python: wakatime.python,
+};
+
+const education = await getCollection("education").then((entries) =>
+  entries.map(({ data }) => data),
+);
+---
+
+<Bare
+  bodyStyles={{
+    color: "var(--gray)",
+    background: "var(--void)",
+    "--pad": "1.5em",
+  }}
+>
+  <header>
+    <h1>Gwenn Le Bihan</h1>
+    <p class="intro" i18n>
+      I am interested in almost anything that is both creative &amp; digital.
+    </p>
+    <dl>
+      <dt>Portfolio</dt>
+      <dd><a href="https://gwen.works">gwen.works</a></dd>
+      <dt>Email</dt>
+      <dd>
+        <a href="https://gwen.works/to/email">gwenn.lebihan7 (at) gmail.com</a>
+      </dd>
+    </dl>
+  </header>
+
+  <main>
+    <h2>Skills</h2>
+    <section class="skills">
+      <div class="language">
+        <h3>Language</h3>
+        <h4>French</h4>
+        <ul>
+          <li>Native</li>
+        </ul>
+        <h4>English</h4>
+        <ul>
+          <li>
+            <strong>950/990</strong>
+            (<a href="https://www.etsglobal.org/fr/en">TOEIC</a>)
+          </li>
+          <li>
+            <strong>176/180</strong>
+            (<a
+              href="https://www.etsglobal.org/fr/en/test-type-family/toeic-bridge-test"
+              >TOEIC Bridge</a
+            >)
+          </li>
+          <li>
+            <strong>C1</strong>
+            (<a
+              href="https://www.cambridgeenglish.org/fr/exams-and-tests/linguaskill/"
+              >Cambridge LinguaSkill</a
+            >)
+          </li>
+        </ul>
+        <h4>Japanese</h4>
+        <ul>
+          <li>Japanese</li>
+        </ul>
+      </div>
+      <div class="programming">
+        <h3>Programming</h3>
+        <h4>Web</h4>
+        <ul>
+          <li>
+            <strong>{timeSpent.htmlcssjs}+</strong> hours of
+            <Tech name="html" />, <Tech name="css" /> and <Tech
+              name="javascript"
+            />
+          </li>
+          <li>
+            Large platform in <Tech name="graphql" />+<Tech name="sveltekit" />
+            <Reference parens url="github.com/inp-net/churros" />
+          </li>
+          <li>
+            Technical GraphQL documentation site generator <Reference
+              parens
+              url="github.com/graphinx/graphinx"
+            />
+          </li>
+          <li>
+            Deployment of several services on a <Tech name="Kubernetes" /> cluster
+          </li>
+        </ul>
+        <h4>Data science</h4>
+        <ul>
+          <li>
+            <strong>{timeSpent.python}+</strong> hours of <Tech name="python" />
+          </li>
+          <li>
+            Detection &amp; classification webapp to help entomoly research
+            using <strong><a href="/neural networks">neural networks</a></strong
+            >
+            <Reference parens url="github.com/cigaleapp/cigale" />
+          </li>
+        </ul>
+        <h4>Miscelleanous</h4>
+        <ul>
+          <li>
+            CLI programs in Python, <Tech name="Ruby" /> or <Tech name="Go" />
+            <Reference parens url="gwen.works/terminal" />
+          </li>
+          <li>
+            Homework and class notes taken in <Tech name="LaTeX" /> &amp; <Tech
+              name="Typst"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="social">
+        <h3>Social</h3>
+        <ul>
+          <li>
+            Active member of multiple <strong>student associations</strong>
+          </li>
+          <li>
+            <strong>Organized &amp; taught</strong> web programming <strong
+              >classes</strong
+            >
+          </li>
+          <li>
+            <strong>Performed</strong> electronic music <strong>live</strong>
+          </li>
+          <li>
+            Was a <strong>point of contact</strong> between users and developers
+            for a large student web platform
+          </li>
+        </ul>
+      </div>
+      <div class="media">
+        <h3>Design</h3>
+        <h4>User interfaces</h4>
+        <ul>
+          <li>
+            Designed in
+            <Tech name="Figma" /> or <Tech name="Penpot" />
+            prior to implementation
+          </li>
+        </ul>
+        <h4>Media</h4>
+        <ul>
+          <li>
+            Posters for associations using Adobe <Tech name="Photoshop" />, <Tech
+              name="InDesign"
+            /> and <Tech name="Illustrator" />
+          </li>
+          <li>
+            Short films with Adobe <Tech name="Premiere Pro" /> and <Tech
+              name="After Effects"
+            />
+          </li>
+          <li>
+            Electronic music production w/ <Tech name="FL Studio" />
+            <Reference parens url="gwen.works/music" />
+          </li>
+        </ul>
+      </div>
+      <div class="transdisciplinary">
+        <h3>Transdisciplinary</h3>
+        <ul>
+          <li>
+            2D Video engine made for music video creation with <abbr
+              title="Digial Audio Workstation, such as FL Studio for example"
+              >DAW</abbr
+            > integrations & <Tech name="WASM" /> support using Rust <Reference
+              parens
+              url="gwen.works/shapemaker"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <dl class="timeline">
+        <dt>now</dt>
+        {
+          education
+            .sort((a, b) => a.time - b.time)
+            .reverse()
+            .map(({ time, title, school, location, diploma }) => (
+              <dd>
+                <h3>
+                  <span class="main">
+                    {school.name}
+                  </span>
+                  <span class="secondary">
+                    @ {location}
+                  </span>
+                </h3>
+                <p>
+                  {title}
+                  <br>
+                  {'results' in diploma ? "" : diploma.name}
+                </p>
+              </dd>
+              <dt>
+                {time}
+              </dt>
+            ))
+        }
+      </dl>
+    </section>
+    <section>
+      <h2>Experience</h2>
+    </section>
+  </main>
+</Bare>
+
+<style>
+  @media print {
+    :root {
+      font-size: 0.7rem;
+    }
+  }
+
+  section.skills {
+    columns: 2;
+  }
+
+  @media screen and (max-width: 800px) {
+    section.skills {
+      columns: 1;
+    }
+  }
+
+  section.skills > div {
+    break-inside: avoid;
+  }
+
+  section.education dd {
+    margin-top: 3ch;
+  }
+
+  section.education dt {
+    text-align: center;
+    width: 100%;
+    color: var(--gold);
+    background-color: var(--void);
+    height: 1lh;
+    line-height: 1.2;
+    padding: 1ch 0;
+    z-index: 1;
+  }
+
+  section.education dl {
+    position: relative;
+  }
+
+  section.education dl::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0.5ch;
+    left: 2ch;
+    background: var(--gold);
+    z-index: 1;
+  }
+
+  section.education h3 .main {
+    font-weight: bold;
+    color: var(--quartz);
+  }
+
+  section.education h3 .secondary {
+    font-weight: normal;
+    color: var(--jade);
+  }
+
+
+  :root {
+    --diamond: #39c6df;
+    --jade: #73daca;
+    --gold: #e4ab6a;
+    --gray: #7982a9;
+    --quartz: #f5f5f5;
+    --void: #16161e;
+    --ruby: #f7768e;
+    --lapis: #60a2f7;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: max-content 2fr;
+    gap: 0.5ch 2ch;
+  }
+
+  dd,
+  dt {
+    margin: 0;
+  }
+
+  h1 {
+    color: var(--jade);
+    font-size: 2.5em;
+    margin: 0;
+    margin-bottom: 0.25ch;
+    line-height: 1;
+  }
+
+  h2 {
+    color: var(--jade);
+    font-size: 2em;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  section.skills h3 {
+    color: var(--lapis);
+    font-family: "Victor Mono", monospace;
+  }
+  section.skills h3::after {
+    content: "-------------------------------------";
+    display: block;
+  }
+
+  h4 {
+    font-size: 1em;
+    margin: 0;
+    font-family: "Victor Mono", monospace;
+    color: var(--jade);
+  }
+
+  .intro {
+    font-family: "Victor Mono", monospace;
+    font-style: italic;
+    color: var(--jade);
+  }
+
+  main {
+    line-height: 1.4;
+  }
+
+  h3,
+  li,
+  dt,
+  dd {
+    font-family: "Victor Mono", monospace;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  ul {
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 2ch;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  li::before {
+    content: "— ";
+    color: var(--ruby);
+  }
+
+  :global(a, a:visited) {
+    color: var(--diamond);
+    text-decoration-color: currentColor;
+  }
+
+  :global(a:hover, a:focus-visible) {
+    color: var(--jade);
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 2px;
+  }
+
+  :global(strong, strong a) {
+    font-weight: normal;
+    color: var(--gold);
+  }
+
+  :global(strong a:is(:hover, :focus-visible)) {
+    color: var(--ruby);
+  }
+
+</style>
