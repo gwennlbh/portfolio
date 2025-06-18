@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://ortfo.org/technologies.schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/ortfo/db/main/schemas/technologies.schema.json
 
 - slug: aftereffects
   name: After Effects
@@ -181,15 +181,13 @@
 - slug: markdown
   name: Markdown
   files:
-    [
-      "*.markdown",
-      "*.mdown",
-      "*.md",
-      "!README.md",
-      "!CHANGELOG.md",
-      "!LICENSE.md",
-      "!.ortfo/description.md",
-    ]
+    - "*.markdown"
+    - "*.mdown"
+    - "*.md"
+    - "!README.md"
+    - "!CHANGELOG.md"
+    - "!LICENSE.md"
+    - "!.ortfo/description.md"
   learn more at: https://daringfireball.net/projects/markdown/
   description: |
     A text-to-HTML conversion tool and language for web writers. The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible: a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions.
@@ -317,7 +315,7 @@
 - slug: sveltekit
   name: SvelteKit
   by: Svelte
-  alias: [sapper]
+  aliases: [sapper]
   # extends: [svelte]
   autodetect: ["@sveltejs/kit in package.json"]
   learn more at: https://kit.svelte.dev
@@ -326,7 +324,7 @@
 
 - slug: sass
   name: SASS
-  alias: [scss]
+  aliases: [scss]
   learn more at: https://sass-lang.com/
   files: ["*.scss", "*.sass"]
   # extends: [css]
@@ -450,7 +448,8 @@
   files: [ortfodb.yaml]
   autodetect:
     - "$schema=https://ortfo.org/ in *.yaml"
-  learn more at: https://ortfo.org/
+    - "$schema=https://raw.githubusercontent.com/ortfo/ in *.yaml"
+  learn more at: https://github.com/ortfo
   description: Un système de génération de portfolios faits maison.
 
 - slug: ada
