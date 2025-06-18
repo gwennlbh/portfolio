@@ -6,11 +6,11 @@ const IS_ALIAS_TAG = "__is_alias";
  * @returns the aliases array for that aliased entry
  */
 export function makeAliasEntries<
-  Entry extends { aliases: string[]; slug: string },
+  Entry extends { aliases?: string[] | undefined; slug?: string | undefined },
 >(entry: Entry) {
   return [
     entry,
-    ...entry.aliases.map((alias) => ({
+    ...(entry.aliases ?? []).map((alias) => ({
       ...entry,
       slug: alias,
       aliases: [IS_ALIAS_TAG, entry.slug],

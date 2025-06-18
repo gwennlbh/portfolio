@@ -33,9 +33,13 @@ const works = await getCollection("works").then((works) =>
 ---
 
 <Layout>
-  <StrongHeader title={plural}>
+  <StrongHeader
+    back="/"
+    title={plural}
+    editButton="~/projects.local/portfolio/tags.yaml"
+  >
     <section class="description">
-      <p>{description}</p>
+      <div i18n class="description" set:html={entry.rendered!.html} />
       {
         learnMoreAt && (
           <a href={learnMoreAt} class="learn-more" i18n>

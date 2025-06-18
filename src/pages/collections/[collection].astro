@@ -51,10 +51,12 @@ const works = await getCollection("works").then((works) =>
 ---
 
 <Layout>
-  <StrongHeader title={title}>
-    <p>
-      <Translated {...description} />
-    </p>
+  <StrongHeader
+    back="/"
+    title={title}
+    editButton="~/projects.local/portfolio/collections.yaml"
+  >
+    <div set:html={entry.rendered!.html} />
   </StrongHeader>
 
   <WorksGrid works={works} />
