@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://ortfo.org/tags.schema.json
 
 # todo: deprecate
 - singular: school
@@ -162,3 +161,10 @@
 #     Expriments on mathematics and art, mostly visual interpretations of concepts that could lead to new insights on said concept.
 #   combines: math and experiments and (graphism or video or music or sound)
 #
+
+- singular: neural network
+  plural: neural networks
+  aliases: [nn, neural-networks, machine learning, ml]
+  description: |
+    A type of machine learning model that is inspired by the structure and function of the human brain, used for tasks such as image recognition, natural language processing, and more.
+  learn more at: https://en.wikipedia.org/wiki/Neural_network

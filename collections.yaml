@@ -25,8 +25,24 @@ music:
   title: { en: music, fr: musique }
   includes: "#music"
   description:
-    en: I've been experimenting with sounds, their textures and their musicality since I was 7 years old.
-    fr: J'expérimente les sons, leurs textures et leur musicalité depuis que j'ai 7 ans.
+    en: |
+      I've been experimenting with sounds, their textures and their musicality since I was 7 years old. 
+      
+      I'm on streaming platforms! 
+
+      - [Spotify](https://gwen.works/to/spotify)
+      - [Deezer](https://gwen.works/to/deezer)
+      - [Apple Music](https://gwen.works/to/applemusic)
+      - [YouTube](https://gwen.works/to/youtube)
+    fr: |
+      J'expérimente les sons, leurs textures et leur musicalité depuis que j'ai 7 ans.
+
+      Je suis sur les plateformes de streaming !
+
+      - [Spotify](https://gwen.works/to/spotify)
+      - [Deezer](https://gwen.works/to/deezer)
+      - [Apple Music](https://gwen.works/to/applemusic)
+      - [YouTube](https://gwen.works/to/youtube)
   singular: release
   plural: releases
 
