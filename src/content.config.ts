@@ -230,7 +230,7 @@ function yamlDataCollection<
     schema,
     loader: {
       name: "YAML Loader",
-      async load({ renderMarkdown, store }) {
+      async load({ renderMarkdown, store, generateDigest }) {
         const raw = await readFile(filename);
         const parsed: Array<z.infer<Schema>> | Record<string, z.infer<Schema>> =
           YAML.parse(raw.toString());
@@ -269,6 +269,7 @@ function yamlDataCollection<
             store.set({
               id: entry.slug ?? slug(entry.title),
               data: entry,
+              digest: generateDigest(JSON.stringify(entry)),
               rendered: await renderMarkdown(
                 "description" in entry
                   ? typeof entry.description === "string"
@@ -284,6 +285,7 @@ function yamlDataCollection<
             store.set({
               id: key,
               data: data as z.infer<Schema>,
+              digest: generateDigest(JSON.stringify(data)),
               rendered: await renderMarkdown(
                 "description" in data
                   ? typeof data.description === "string"
