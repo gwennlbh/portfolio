@@ -1,6 +1,6 @@
 import { file, glob } from "astro/loaders";
 import type { ZodObject, ZodRawShape } from "astro/zod";
-import { defineCollection, reference, z, getCollection } from "astro:content";
+import { defineCollection, reference, z } from "astro:content";
 import * as YAML from "yaml";
 import PO from "pofile";
 import { makeAliasEntries } from "./aliases";
