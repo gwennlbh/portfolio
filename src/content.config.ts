@@ -19,6 +19,8 @@ const nullableDate = z
   .optional()
   .transform((value) => (value ? new Date(value) : null));
 
+const year = z.number().min(2003).max(new Date().getFullYear()).int();
+
 export const collections = {
   frenchMessages: gettextPoMessages("i18n/fr.po"),
   englishMessages: gettextPoMessages("i18n/en.po"),
@@ -133,8 +135,9 @@ export const collections = {
   experiences: yamlDataCollection(
     "experiences.yaml",
     z.object({
-      time: z.coerce.string(),
+      time: z.union([year, z.tuple([year, year])]),
       title: z.string(),
+      links: z.array(z.string().url()).optional().default([]),
       company: z.object({
         name: z.string(),
         url: z.string().url().optional(),
@@ -144,12 +147,12 @@ export const collections = {
       description: z.string(),
       skills: z.array(z.string()).optional(),
     }),
-    (exp) => exp.time.toString(),
+    (exp) => `${exp.company.name}, ${exp.time}`,
   ),
   education: yamlDataCollection(
     "education.yaml",
     z.object({
-      time: z.number().min(2003).max(new Date().getFullYear()).int(),
+      time: year,
       title: z.string(),
       school: z.object({
         name: z.string(),
@@ -157,7 +160,12 @@ export const collections = {
       }),
       location: z.string(),
       diploma: z.object({
-        results: z.union([z.string(), z.record(z.string())]).optional(),
+        results: z
+          .object({
+            location: z.string().optional(),
+            scores: z.record(z.tuple([z.string(), z.string()])),
+          })
+          .optional(),
         name: z.string(),
       }),
     }),
@@ -230,10 +238,12 @@ function yamlDataCollection<
     schema,
     loader: {
       name: "YAML Loader",
-      async load({ renderMarkdown, store, generateDigest }) {
+      async load({ renderMarkdown, store, generateDigest, watcher }) {
         const raw = await readFile(filename);
         const parsed: Array<z.infer<Schema>> | Record<string, z.infer<Schema>> =
           YAML.parse(raw.toString());
+
+        watcher?.add(filename);
 
         if (Array.isArray(parsed)) {
           const entries = parsed
