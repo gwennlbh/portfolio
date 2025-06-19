@@ -217,8 +217,16 @@ export const collections = {
   ),
 };
 
+const ids: Record<string, string[]> = {}
+for (const name of Object.keys(collections)) {
+  ids[name] = []
+  for (const entry of await getCollection(name)) {
+    ids[name].push(entry.id)
+  }
+}
+
 console.info("Loaded collections")
-console.info(JSON.stringify(Object.fromEntries(Object.entries(collections).map(([name, coll]) => [name, coll.map(e => e.id)])), null, 2))
+console.info(JSON.stringify(ids, null, 2))
 
 function yamlDataCollection<
   Shape extends ZodRawShape,
