@@ -2,7 +2,24 @@ import { defineMiddleware } from "astro:middleware";
 import { getEntry } from "astro:content";
 import { JSDOM } from "jsdom";
 
+let loggedCollections = false
+
 export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
+  if (!loggedCollections) {
+    const ids: Record<string, string[]> = {}
+    for (const name of Object.keys(collections)) {
+      ids[name] = []
+      for (const entry of await getCollection(name)) {
+        ids[name].push(entry.id)
+      }
+    }
+
+    console.info("Loaded collections")
+    console.info(JSON.stringify(ids, null, 2))
+
+    loggedCollections = true
+  }
+
   locals.lang = process.env.LANG === "fr" ? "fr" : "en";
   locals.locale = process.env.LOCALE as
     | `${typeof locals.lang}-${string}`
