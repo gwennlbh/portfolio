@@ -217,6 +217,9 @@ export const collections = {
   ),
 };
 
+console.info("Loaded collections")
+console.info(JSON.stringify(Object.fromEntries(Object.entries(collections).map(([name, coll]) => [name, coll.map(e => e.id)])), null, 2))
+
 function yamlDataCollection<
   Shape extends ZodRawShape,
   Schema extends ZodObject<Shape>,
