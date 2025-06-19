@@ -1,6 +1,7 @@
 import { defineMiddleware } from "astro:middleware";
-import { getEntry } from "astro:content";
+import { getEntry, getCollection } from "astro:content";
 import { JSDOM } from "jsdom";
+import { collections } from './content.config.ts';
 
 let loggedCollections = false
 
