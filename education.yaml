@@ -4,8 +4,10 @@
     name: Lycée D'Alzon
   location: Nîmes
   diploma:
-    results: mention “very good” 16.26/20
     name: Scientific Baccalaureate
+    results:
+      scores:
+        mention “very good”: [16.26, / 20]
 
 - time: 2020
   title: Preparatory Classes, Mathematics & Physics
@@ -16,8 +18,10 @@
   diploma:
     name: Entrance exams
     results:
-      CCINP: 1104th out of 7862
-      Mines-Télécom: 1791st out of 5467
+      location: Paris
+      scores:
+        CCINP: [1104th, of 7862]
+        Mines-Télécom: [1791st, of 5467]
 
 - time: 2022
   title: Computer Science Engineering, Multimedia & Networks

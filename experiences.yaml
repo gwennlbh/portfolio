@@ -1,56 +1,82 @@
 - time: 2017
   title: Intern
+  location: Montpellier
+  skills: [premiere pro]
   company:
     name: Pages & Images
     description: audiovisual agency
-  location: Montpellier
-  description: ""
-  skills: [premiere pro]
+    url: http://pagesimages.com/
 
 - time: 2018
   title: Intern
+  location: Montpellier
+  skills: [premiere pro, html, css, js, php]
   company:
     name: Satellite
     description: audiovisual agency
-  location: Montpellier
-  description: ""
-  skills: [premiere pro, html, css, js, php]
+    url: https://agence-satellite.com/
 
 - time: 2019
   title: Intern
+  location: Lunel
+  skills: [photoshop, figma]
   company:
     name: l'Atelier
     description: printing & graphic design
-  location: Lunel
-  description: ""
-  skills: [photoshop, figma]
+    url: https://latelier34.fr/
 
 - time: 2020
   title: Intern
+  location: Sophia
   company:
     name: Sophia Engineering
     description: engineering consulting
-  location: Sophia
-  description: ""
+    url: https://sophiaengineering.com/
 
 - time: 2024
   title: Intern
+  location: Toulouse
+  description: research on intrinsic physical representation of sound data
+  skills: [python, kivy, android]
   company:
     name: IRIT
     description: computer science research lab
     url: https://irit.fr
-  location: Toulouse
-  description: research on intrinsic physical representation of sound data
-  skills: [python, kivy, android]
 
-- time: 2023-2024
+- time: [2023, 2024]
   title: President
+  location: Toulouse
+  skills: [kubernetes, svelte, graphql, go]
   company:
     name: net7
     description: student association
-    url: https://net7.dev/equipe.html#:~:text=Pr%C3%A9sidente%20:%20Gwen-,Le%20Bihan,-Vice%2DPr%C3%A9sident%20:%20T%C3%A9o
-  location: Toulouse
+    url: https://net7.dev/equipe.html
   description: |
     web infrastructure & development
     services used by ~2k students
-  skills: [kubernetes, svelte, graphql, go]
+
+- time: [2023, 2024]
+  title: Head of IT
+  location: Toulouse
+  company:
+    name: TVn7
+    description: Video production student association
+    url: https://tvn7.fr/anciens-membres
+
+- time: 2025
+  title: Contractor
+  location: Toulouse
+  links:
+    - https://github.com/cigaleapp/cigale
+  company:
+    name: SETE-CNRS
+    description: Theoretical and Experimental Ecology Station
+    url: https://sete-moulis-cnrs.fr/en/
+
+- time: 2025
+  title: Paid intern
+  location: Toulouse
+  company:
+    name: LAAS-CNRS
+    description: NixOS in robotics research
+    url: https://laas.fr/en/annuaire/1785

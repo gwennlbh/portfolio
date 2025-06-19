@@ -21,6 +21,10 @@ const timeSpent = {
 const education = await getCollection("education").then((entries) =>
   entries.map(({ data }) => data),
 );
+
+const experience = await getCollection("experiences").then((entries) =>
+  entries.map(({ data }) => data),
+);
 ---
 
 <Bare
@@ -48,38 +52,6 @@ const education = await getCollection("education").then((entries) =>
   <main>
     <h2>Skills</h2>
     <section class="skills">
-      <div class="language">
-        <h3>Language</h3>
-        <h4>French</h4>
-        <ul>
-          <li>Native</li>
-        </ul>
-        <h4>English</h4>
-        <ul>
-          <li>
-            <strong>950/990</strong>
-            (<a href="https://www.etsglobal.org/fr/en">TOEIC</a>)
-          </li>
-          <li>
-            <strong>176/180</strong>
-            (<a
-              href="https://www.etsglobal.org/fr/en/test-type-family/toeic-bridge-test"
-              >TOEIC Bridge</a
-            >)
-          </li>
-          <li>
-            <strong>C1</strong>
-            (<a
-              href="https://www.cambridgeenglish.org/fr/exams-and-tests/linguaskill/"
-              >Cambridge LinguaSkill</a
-            >)
-          </li>
-        </ul>
-        <h4>Japanese</h4>
-        <ul>
-          <li>Japanese</li>
-        </ul>
-      </div>
       <div class="programming">
         <h3>Programming</h3>
         <h4>Web</h4>
@@ -149,6 +121,38 @@ const education = await getCollection("education").then((entries) =>
           </li>
         </ul>
       </div>
+      <div class="language">
+        <h3>Language</h3>
+        <h4>French</h4>
+        <ul>
+          <li>Native</li>
+        </ul>
+        <h4>English</h4>
+        <ul>
+          <li>
+            <strong>950/990</strong>
+            (<a href="https://www.etsglobal.org/fr/en">TOEIC</a>)
+          </li>
+          <li>
+            <strong>176/180</strong>
+            (<a
+              href="https://www.etsglobal.org/fr/en/test-type-family/toeic-bridge-test"
+              >TOEIC Bridge</a
+            >)
+          </li>
+          <li>
+            <strong>C1</strong>
+            (<a
+              href="https://www.cambridgeenglish.org/fr/exams-and-tests/linguaskill/"
+              >Cambridge LinguaSkill</a
+            >)
+          </li>
+        </ul>
+        <h4>Japanese</h4>
+        <ul>
+          <li>Japanese</li>
+        </ul>
+      </div>
       <div class="media">
         <h3>Design</h3>
         <h4>User interfaces</h4>
@@ -184,48 +188,141 @@ const education = await getCollection("education").then((entries) =>
             2D Video engine made for music video creation with <abbr
               title="Digial Audio Workstation, such as FL Studio for example"
               >DAW</abbr
-            > integrations & <Tech name="WASM" /> support using Rust <Reference
-              parens
-              url="gwen.works/shapemaker"
+            > integrations & <Tech name="WASM" /> support using <Tech
+              name="Rust"
             />
+            <Reference parens url="gwen.works/shapemaker" />
           </li>
         </ul>
       </div>
     </section>
-    <section class="education">
-      <h2>Education</h2>
-      <dl class="timeline">
-        <dt>now</dt>
-        {
-          education
-            .sort((a, b) => a.time - b.time)
-            .reverse()
-            .map(({ time, title, school, location, diploma }) => (
-              <dd>
-                <h3>
-                  <span class="main">
-                    {school.name}
-                  </span>
-                  <span class="secondary">
-                    @ {location}
-                  </span>
-                </h3>
-                <p>
-                  {title}
-                  <br>
-                  {'results' in diploma ? "" : diploma.name}
-                </p>
-              </dd>
-              <dt>
-                {time}
-              </dt>
-            ))
-        }
-      </dl>
-    </section>
-    <section>
-      <h2>Experience</h2>
-    </section>
+    <div class="edu-exp">
+      <section class="education">
+        <h2>Education</h2>
+        <dl class="timeline times">
+          <dt>now</dt>
+          {
+            education
+              .sort((a, b) => a.time - b.time)
+              .reverse()
+              .map(({ time, title, school, location, diploma }) => (
+                <>
+                  <dd>
+                    <h3>
+                      <span class="main">{school.name}</span>
+                      <span class="secondary">@ {location}</span>
+                    </h3>
+                    <p>
+                      {title}
+                      <br />
+                      {"results" in diploma &&
+                      diploma.results &&
+                      "location" in diploma.results ? (
+                        ""
+                      ) : (
+                        <>
+                          {diploma.name}
+                          <br />
+                          {diploma.results?.scores &&
+                            Object.entries(diploma.results.scores).map(
+                              ([label, [score, max]]) => (
+                                <>
+                                  <br />
+                                  {label}&nbsp;<strong>{score}</strong> {max}
+                                </>
+                              ),
+                            )}
+                        </>
+                      )}
+                    </p>
+                    {"results" in diploma &&
+                      diploma.results &&
+                      "location" in diploma.results && (
+                        <>
+                          <h3 class="results">
+                            <span class="main">{diploma.name}</span>
+                            <span class="secondary">
+                              @ {diploma.results.location}
+                            </span>
+                          </h3>
+                          <dl class="results">
+                            {Object.entries(diploma.results.scores).map(
+                              ([label, [score, max]]) => (
+                                <>
+                                  <dt>{label}</dt>
+                                  <dd>
+                                    <strong>{score}</strong> {max}
+                                  </dd>
+                                </>
+                              ),
+                            )}
+                          </dl>
+                        </>
+                      )}
+                  </dd>
+                  <dt>
+                    {typeof time === "number" ? (
+                      time
+                    ) : (
+                      <>
+                        {time[0]}
+                        <br />-<br />
+                        {time[1]}
+                      </>
+                    )}
+                  </dt>
+                </>
+              ))
+          }
+        </dl>
+      </section>
+      <section>
+        <h2>Experience</h2>
+        <dl class="times">
+          {
+            experience
+              .sort((a, b) => {
+                const sortee = ({ time }: { time: number | number[] }) =>
+                  typeof time === "number" ? time : Math.min(...time);
+                return sortee(a) - sortee(b);
+              })
+              .reverse()
+              .map(({ time, title, company, links }) => (
+                <>
+                  {" "}
+                  <dt>
+                    <strong>
+                      {typeof time === "number" ? (
+                        time
+                      ) : (
+                        <>
+                          {time[0]}
+                          <br />-<br />
+                          {time[1]}
+                        </>
+                      )}
+                    </strong>
+                  </dt>
+                  <dd>
+                    <h3>
+                      <span class="main">{title}</span>
+                      <span class="secondary">@ {company.name}</span>
+                    </h3>
+                    <p>{company.description}</p>
+                    <p class="links">
+                      {[company.url, ...(links ?? [])].map((u) => (
+                        <a href={u} target="_blank">
+                          {new URL(u).hostname}
+                        </a>
+                      ))}
+                    </p>
+                  </dd>
+                </>
+              ))
+          }
+        </dl>
+      </section>
+    </div>
   </main>
 </Bare>
 
@@ -236,25 +333,44 @@ const education = await getCollection("education").then((entries) =>
     }
   }
 
-  section.skills {
+  .edu-exp {
+    margin-top: 3em;
+  }
+
+  section.skills,
+  .edu-exp {
     columns: 2;
   }
 
   @media screen and (max-width: 800px) {
-    section.skills {
+    section.skills,
+    .edu-exp {
       columns: 1;
     }
   }
 
-  section.skills > div {
+  section.skills > div,
+  .edu-exp > section {
     break-inside: avoid;
   }
 
-  section.education dd {
+  dl.timeline h3.results {
+    margin-top: 1ch;
+  }
+
+  dl.results {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.5ch 2ch;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+  }
+
+  dl.timeline > dd {
     margin-top: 3ch;
   }
 
-  section.education dt {
+  dl.timeline > dt {
     text-align: center;
     width: 100%;
     color: var(--gold);
@@ -265,11 +381,15 @@ const education = await getCollection("education").then((entries) =>
     z-index: 1;
   }
 
-  section.education dl {
+  dl.times:not(.timeline) {
+    gap: 2ch;
+  }
+
+  dl.timeline {
     position: relative;
   }
 
-  section.education dl::before {
+  dl.timeline::before {
     content: "";
     position: absolute;
     top: 0;
@@ -280,22 +400,27 @@ const education = await getCollection("education").then((entries) =>
     z-index: 1;
   }
 
-  section.education h3 .main {
+  dl.times h3 .main {
     font-weight: bold;
     color: var(--quartz);
   }
 
-  section.education h3 .secondary {
+  dl.times h3 .secondary {
     font-weight: normal;
     color: var(--jade);
   }
 
+  dl.times .links {
+    display: flex;
+    align-items: center;
+    gap: 2ch;
+  }
 
   :root {
     --diamond: #39c6df;
     --jade: #73daca;
     --gold: #e4ab6a;
-    --gray: #7982a9;
+    --gray: #7a88c5;
     --quartz: #f5f5f5;
     --void: #16161e;
     --ruby: #f7768e;
@@ -403,5 +528,4 @@ const education = await getCollection("education").then((entries) =>
   :global(strong a:is(:hover, :focus-visible)) {
     color: var(--ruby);
   }
-
 </style>
