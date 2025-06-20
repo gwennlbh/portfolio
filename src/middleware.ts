@@ -18,6 +18,9 @@ export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
     console.info("Loaded collections")
     console.info(JSON.stringify(ids, null, 2))
 
+    const emtns = await getEntry("works", "emoti∗ns")
+    console.info(JSON.stringify({"emoti∗ns": emtns}, null, 2))
+
     loggedCollections = true
   }
 
