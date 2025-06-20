@@ -11,7 +11,7 @@ import BlockParagraph from "./BlockParagraph.astro";
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
-    works.flatMap(({ id, data: { metadata: { aliases = [] }}}) => [id, ...aliases]).map((id) => ({ params: { work: id } })),
+    works.flatMap(({ id, data: { metadata: { aliases = [] }}}) => [id, ...(aliases??[])]).map((id) => ({ params: { work: id } })),
   );
 }) satisfies GetStaticPaths;
 
