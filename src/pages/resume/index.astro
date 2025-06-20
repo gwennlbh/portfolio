@@ -289,11 +289,14 @@ const experience = await getCollection("experiences").then((entries) =>
               .reverse()
               .map(({ time, title, company, links }) => (
                 <>
-                  {" "}
                   <dt>
                     <strong>
                       {typeof time === "number" ? (
-                        time
+                        <>
+                          <br />
+                          {time}
+                          <br />
+                        </>
                       ) : (
                         <>
                           {time[0]}
@@ -371,7 +374,6 @@ const experience = await getCollection("experiences").then((entries) =>
   }
 
   dl.timeline > dt {
-    text-align: center;
     width: 100%;
     color: var(--gold);
     background-color: var(--void);
@@ -398,6 +400,11 @@ const experience = await getCollection("experiences").then((entries) =>
     left: 2ch;
     background: var(--gold);
     z-index: 1;
+  }
+
+
+  dl.times > dt {
+    text-align: center;
   }
 
   dl.times h3 .main {
