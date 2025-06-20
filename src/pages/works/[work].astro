@@ -11,7 +11,7 @@ import BlockParagraph from "./BlockParagraph.astro";
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
-    works.flatMap(({ id, data: { aliases = [] }}) => [id, ...aliases]).map((id) => ({ params: { work: id } })),
+    works.flatMap(({ id, data: { metadata: { aliases = [] }}}) => [id, ...aliases]).map((id) => ({ params: { work: id } })),
   );
 }) satisfies GetStaticPaths;
 
@@ -35,6 +35,12 @@ const hasMediaRowBefore = (
     .some((row) =>
       row.some((cell) => blocks.find((b) => b.id === cell)?.type === "media"),
     );
+
+  console.log(`Getting entry:
+  
+ raw: ${Astro.params.work} 
+ dec: ${decodeURI(Astro.params.work!.toString())}
+  `)
 
 const entry = await getEntry("works", decodeURI(Astro.params.work!.toString()));
 if (!entry) return Astro.rewrite("/404");
