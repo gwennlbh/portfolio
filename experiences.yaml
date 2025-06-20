@@ -47,6 +47,9 @@
   title: President
   location: Toulouse
   skills: [kubernetes, svelte, graphql, go]
+  links:
+    - https://github.com/inp-net
+    - https://git.inpt.fr/net7 
   company:
     name: net7
     description: student association
@@ -76,6 +79,8 @@
 - time: 2025
   title: Paid intern
   location: Toulouse
+  links:
+    - https://github.com/gepetto
   company:
     name: LAAS-CNRS
     description: NixOS in robotics research
