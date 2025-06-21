@@ -315,7 +315,7 @@ const experience = await getCollection("experiences").then((entries) =>
                     <p class="links">
                       {[company.url, ...(links ?? [])].map((u) => (
                         <a href={u} target="_blank">
-                          {new URL(u).hostname}
+                          {new URL(u).hostname.replace(/^www\./, "")}
                         </a>
                       ))}
                     </p>
