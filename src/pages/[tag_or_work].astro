@@ -8,7 +8,10 @@ export const getStaticPaths = (async () => {
   const collections = await getCollection("collections");
 
   const ids = [
-    ...[...tags, ...works, ...collections].map(({ id }) => id),
+    ...[...tags, ...works, ...collections].flatMap(({ id }) => [
+      id,
+      `${id}.json`,
+    ]),
     ...works.flatMap((w) => w.data.metadata.aliases ?? []),
   ];
 
@@ -27,18 +30,22 @@ if (collection) return Astro.rewrite(`/collections/${collection.id}`);
 const tag = await getEntry("tags", tag_or_work);
 if (tag) return Astro.rewrite(`/tags/${tag.id}`);
 
-
 const work = await getEntry("works", tag_or_work);
 if (work) {
-  console.log(`Rewriting /${tag_or_work} -> /works/${work.id}`)
+  console.log(`Rewriting /${tag_or_work} -> /works/${work.id}`);
   return Astro.rewrite(`/works/${work.id}`);
 }
 
 const allWorks = await getCollection("works");
 const workByAlias = allWorks.find((w) =>
-  w.data.metadata.aliases?.some(a => a.id === tag_or_work)
+  w.data.metadata.aliases?.some((a) => a.id === tag_or_work),
 );
 if (workByAlias) return Astro.rewrite(`/works/${workByAlias.id}`);
+
+if (tag_or_work.endsWith(".json")) {
+  const workId = tag_or_work.replace(/\.json$/, "");
+  return Astro.rewrite(`/works/${workId}.json`);
+}
 
 return Astro.rewrite("/404");
 ---
