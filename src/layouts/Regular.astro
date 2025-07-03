@@ -141,5 +141,11 @@ interface Props {
   }
   body {
     --pad: 2rem;
+    padding: var(--pad);
+    width: calc(100% - 2 * var(--pad));
+    height: calc(100% - 2 * var(--pad));
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 </style>
