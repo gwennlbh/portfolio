@@ -1,5 +1,7 @@
 {
-  "plugins": ["prettier-plugin-astro"],
+  "jsonRecursiveSort": true,
+  "jsonSortOrder": "{\"*\": \"lexical\"}",
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-sort-json"],
   "overrides": [
     {
       "files": "*.astro",

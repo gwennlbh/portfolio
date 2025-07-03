@@ -9,7 +9,7 @@
     "astro": "astro",
     "format": "prettier --write .",
     "syncworkflow": "cp .github/workflows/publish.yml builders/en/.github/workflows; cd builders/en; git add .github; git commit -m 'Update workflow'; git push; cd ../..; cp .github/workflows/publish.yml builders/fr/.github/workflows; cd builders/fr; git add .github; git commit -m 'Update workflow'; git push",
-    "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json"
+    "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json; prettier --write works.json"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
@@ -29,6 +29,7 @@
     "@types/slug": "^5.0.9",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-sort-json": "^4.1.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
   }
