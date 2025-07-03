@@ -135,7 +135,7 @@ const cssGridAreas = layout
   }
 
   {
-    Object.keys(footnotes).length && (
+    Object.keys(footnotes).length ? (
       <section class="footnotes">
         <h2 i18n>footnotes</h2>
         <ul>
@@ -149,7 +149,7 @@ const cssGridAreas = layout
           ))}
         </ul>
       </section>
-    )
+    ) : null
   }
 
   <section class="metadata">
