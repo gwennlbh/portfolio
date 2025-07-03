@@ -10577,7 +10577,7 @@
             "url": ""
           },
           {
-            "alt": "Screenshot of the application, a photo cropped to a single insect with a field to assign its species, including suggestions and a description with a reference photo",
+            "alt": "Capture d’écran de l’application, une photo recadrée à un insecte, et un champ pour lui assigner l’espèce souhaitée, qui propose des suggestions et affiche une description et une photo de référence de la suggestion",
             "analyzed": true,
             "anchor": "screenshot-classify",
             "attributes": {
@@ -10616,7 +10616,7 @@
               "400": "cigale/i1fIuqg7Hz@400.webp",
               "600": "cigale/i1fIuqg7Hz@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:47.544860946+02:00",
+            "thumbnailsBuiltAt": "2025-07-04T00:54:51.59375253+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -31642,7 +31642,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-07-04T01:15:05.047197261+02:00",
+    "builtAt": "2025-07-04T01:36:53.339650539+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -31895,6 +31895,46 @@
           {
             "alt": "",
             "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<pre tabindex=\"0\" style=\"background-color:#fff;\"><code><span style=\"display:flex;\"><span><span style=\"color:#000;font-weight:bold\">import</span> { type } from <span style=\"color:#d14\">&#34;arktype&#34;</span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#000;font-weight:bold\">import</span> { Client, Server } from <span style=\"color:#d14\">&#34;swarpc&#34;</span>\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Define (shared file)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span><span style=\"color:#000;font-weight:bold\">const</span> procedures <span style=\"color:#000;font-weight:bold\">=</span> {\n</span></span><span style=\"display:flex;\"><span>  sum<span style=\"color:#000;font-weight:bold\">:</span> {\n</span></span><span style=\"display:flex;\"><span>    input<span style=\"color:#000;font-weight:bold\">:</span> type([<span style=\"color:#d14\">&#34;number&#34;</span>, <span style=\"color:#d14\">&#34;number&#34;</span>]),\n</span></span><span style=\"display:flex;\"><span>    progress<span style=\"color:#000;font-weight:bold\">:</span> type(<span style=\"color:#d14\">&#34;0 &lt;= number &lt;= 100&#34;</span>),\n</span></span><span style=\"display:flex;\"><span>    success<span style=\"color:#000;font-weight:bold\">:</span> type(<span style=\"color:#d14\">&#34;number&#34;</span>),\n</span></span><span style=\"display:flex;\"><span>  },\n</span></span><span style=\"display:flex;\"><span>}\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Implement (service worker)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span>server <span style=\"color:#000;font-weight:bold\">=</span> Server(procedures)\n</span></span><span style=\"display:flex;\"><span>server.sum(<span style=\"color:#000;font-weight:bold\">async</span> ([a, b], setProgress) =&gt; {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#000;font-weight:bold\">while</span> (a <span style=\"color:#000;font-weight:bold\">&lt;</span> b) {\n</span></span><span style=\"display:flex;\"><span>    a <span style=\"color:#000;font-weight:bold\">+=</span> <span style=\"color:#099\">1</span>\n</span></span><span style=\"display:flex;\"><span>    setProgress((a <span style=\"color:#000;font-weight:bold\">/</span> b) <span style=\"color:#000;font-weight:bold\">*</span> <span style=\"color:#099\">100</span>)\n</span></span><span style=\"display:flex;\"><span>  }\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#000;font-weight:bold\">return</span> a\n</span></span><span style=\"display:flex;\"><span>})\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span>server.start()\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Call (web page)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span><span style=\"color:#000;font-weight:bold\">await</span> Client(procedures)\n</span></span><span style=\"display:flex;\"><span>  .sum([<span style=\"color:#099\">2</span>, <span style=\"color:#099\">2</span>], (p) =&gt; {\n</span></span><span style=\"display:flex;\"><span>    console.log(<span style=\"color:#d14\">`[</span><span style=\"color:#d14\">${</span>p<span style=\"color:#d14\">}</span><span style=\"color:#d14\">%] Computing…`</span>)\n</span></span><span style=\"display:flex;\"><span>  })\n</span></span><span style=\"display:flex;\"><span>  .then(console.info)\n</span></span></code></pre>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "IcEstabn7Z",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
             "anchor": "source-code",
             "attributes": {
               "autoplay": false,
@@ -32020,13 +32060,62 @@
           "4": "<p>Locations in the code where a function gets called <a href=\"#fnref:4\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          ["zNfSlGPWwb", "zNfSlGPWwb", "zNfSlGPWwb"],
-          ["ggGqgGYKL-", "ggGqgGYKL-", "ggGqgGYKL-"],
-          ["JfOk4MwXWA", "JfOk4MwXWA", "JfOk4MwXWA"],
-          ["C8n7XmlVV3", "C8n7XmlVV3", "C8n7XmlVV3"],
-          ["BXg-bsinLW", "BXg-bsinLW", "BXg-bsinLW"],
-          ["DrqgsWiNG7", "DrqgsWiNG7", "DrqgsWiNG7"],
-          ["hCXsc0viQI", "aW0pE7jpbZ", "eScdvIhsPg"]
+          [
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb"
+          ],
+          [
+            "ggGqgGYKL-",
+            "ggGqgGYKL-",
+            "ggGqgGYKL-",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "JfOk4MwXWA",
+            "JfOk4MwXWA",
+            "JfOk4MwXWA",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "C8n7XmlVV3",
+            "C8n7XmlVV3",
+            "C8n7XmlVV3",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "BXg-bsinLW",
+            "BXg-bsinLW",
+            "BXg-bsinLW",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "DrqgsWiNG7",
+            "DrqgsWiNG7",
+            "DrqgsWiNG7",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "hCXsc0viQI",
+            "hCXsc0viQI",
+            "aW0pE7jpbZ",
+            "aW0pE7jpbZ",
+            "eScdvIhsPg",
+            "eScdvIhsPg"
+          ]
         ],
         "title": "swarpc"
       },
@@ -32281,6 +32370,46 @@
           {
             "alt": "",
             "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<pre tabindex=\"0\" style=\"background-color:#fff;\"><code><span style=\"display:flex;\"><span><span style=\"color:#000;font-weight:bold\">import</span> { type } from <span style=\"color:#d14\">&#34;arktype&#34;</span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#000;font-weight:bold\">import</span> { Client, Server } from <span style=\"color:#d14\">&#34;swarpc&#34;</span>\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Define (shared file)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span><span style=\"color:#000;font-weight:bold\">const</span> procedures <span style=\"color:#000;font-weight:bold\">=</span> {\n</span></span><span style=\"display:flex;\"><span>  sum<span style=\"color:#000;font-weight:bold\">:</span> {\n</span></span><span style=\"display:flex;\"><span>    input<span style=\"color:#000;font-weight:bold\">:</span> type([<span style=\"color:#d14\">&#34;number&#34;</span>, <span style=\"color:#d14\">&#34;number&#34;</span>]),\n</span></span><span style=\"display:flex;\"><span>    progress<span style=\"color:#000;font-weight:bold\">:</span> type(<span style=\"color:#d14\">&#34;0 &lt;= number &lt;= 100&#34;</span>),\n</span></span><span style=\"display:flex;\"><span>    success<span style=\"color:#000;font-weight:bold\">:</span> type(<span style=\"color:#d14\">&#34;number&#34;</span>),\n</span></span><span style=\"display:flex;\"><span>  },\n</span></span><span style=\"display:flex;\"><span>}\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Implement (service worker)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span>server <span style=\"color:#000;font-weight:bold\">=</span> Server(procedures)\n</span></span><span style=\"display:flex;\"><span>server.sum(<span style=\"color:#000;font-weight:bold\">async</span> ([a, b], setProgress) =&gt; {\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#000;font-weight:bold\">while</span> (a <span style=\"color:#000;font-weight:bold\">&lt;</span> b) {\n</span></span><span style=\"display:flex;\"><span>    a <span style=\"color:#000;font-weight:bold\">+=</span> <span style=\"color:#099\">1</span>\n</span></span><span style=\"display:flex;\"><span>    setProgress((a <span style=\"color:#000;font-weight:bold\">/</span> b) <span style=\"color:#000;font-weight:bold\">*</span> <span style=\"color:#099\">100</span>)\n</span></span><span style=\"display:flex;\"><span>  }\n</span></span><span style=\"display:flex;\"><span>  <span style=\"color:#000;font-weight:bold\">return</span> a\n</span></span><span style=\"display:flex;\"><span>})\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span>server.start()\n</span></span><span style=\"display:flex;\"><span>\n</span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\">// Call (web page)\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#998;font-style:italic\"></span><span style=\"color:#000;font-weight:bold\">await</span> Client(procedures)\n</span></span><span style=\"display:flex;\"><span>  .sum([<span style=\"color:#099\">2</span>, <span style=\"color:#099\">2</span>], (p) =&gt; {\n</span></span><span style=\"display:flex;\"><span>    console.log(<span style=\"color:#d14\">`[</span><span style=\"color:#d14\">${</span>p<span style=\"color:#d14\">}</span><span style=\"color:#d14\">%] Computing…`</span>)\n</span></span><span style=\"display:flex;\"><span>  })\n</span></span><span style=\"display:flex;\"><span>  .then(console.info)\n</span></span></code></pre>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "IcEstabn7Z",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
             "anchor": "code-source",
             "attributes": {
               "autoplay": false,
@@ -32446,22 +32575,79 @@
           "4": "<p>Emplacement dans le code où une fonction est appelée <a href=\"#fnref:4\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          ["zNfSlGPWwb", "zNfSlGPWwb", "zNfSlGPWwb"],
-          ["6A8Q0OsoJV", "6A8Q0OsoJV", "6A8Q0OsoJV"],
-          ["nioV1Ncf5l", "nioV1Ncf5l", "nioV1Ncf5l"],
-          ["fjblkST2xb", "fjblkST2xb", "fjblkST2xb"],
-          ["-_4psrSal-", "-_4psrSal-", "-_4psrSal-"],
-          ["VObbymoJnN", "VObbymoJnN", "VObbymoJnN"],
-          ["hCXsc0viQI", "aW0pE7jpbZ", "eScdvIhsPg"]
+          [
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb",
+            "zNfSlGPWwb"
+          ],
+          [
+            "6A8Q0OsoJV",
+            "6A8Q0OsoJV",
+            "6A8Q0OsoJV",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "nioV1Ncf5l",
+            "nioV1Ncf5l",
+            "nioV1Ncf5l",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "fjblkST2xb",
+            "fjblkST2xb",
+            "fjblkST2xb",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "-_4psrSal-",
+            "-_4psrSal-",
+            "-_4psrSal-",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "VObbymoJnN",
+            "VObbymoJnN",
+            "VObbymoJnN",
+            "IcEstabn7Z",
+            "IcEstabn7Z",
+            "IcEstabn7Z"
+          ],
+          [
+            "hCXsc0viQI",
+            "hCXsc0viQI",
+            "aW0pE7jpbZ",
+            "aW0pE7jpbZ",
+            "eScdvIhsPg",
+            "eScdvIhsPg"
+          ]
         ],
         "title": "swarpc"
       }
     },
-    "descriptionHash": "92j6UgHErjZcf2LVHlBXNg==",
+    "descriptionHash": "6E+K7JUB/D2rcQeuEgRYkA==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
-        "layout": ["m1", "p1", "p2", "p3", "p4", "p5", ["l1", "l2", "l3"]],
+        "layout": [
+          "m1",
+          ["p1", "p6"],
+          ["p2", "p6"],
+          ["p3", "p6"],
+          ["p4", "p6"],
+          ["p5", "p6"],
+          ["l1", "l2", "l3"]
+        ],
         "made_with": ["javascript"]
       },
       "aliases": ["sw&rpc"],
