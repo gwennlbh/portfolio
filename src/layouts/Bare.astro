@@ -52,12 +52,11 @@ interface Props {
     line-height: 1;
   }
   body {
-    --pad: 0;
+    display: flex;
+    flex-direction: column;
     padding: var(--pad);
     width: calc(100% - 2 * var(--pad));
     height: calc(100% - 2 * var(--pad));
-    display: flex;
-    flex-direction: column;
     gap: 2rem;
   }
 </style>
