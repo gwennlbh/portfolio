@@ -10274,6 +10274,1521 @@
     },
     "source": "/home/uwun/projects/churros/.ortfo/description.md"
   },
+  "cigale": {
+    "Partial": false,
+    "builtAt": "2025-07-04T00:54:52.620006553+02:00",
+    "content": {
+      "en": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "Logo de cigale",
+            "analyzed": true,
+            "anchor": "favicon",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2A054B",
+              "secondary": "#24C3BC",
+              "tertiary": "#285B7F"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 394,
+              "width": 394
+            },
+            "distSource": "cigale/static/favicon.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ZUqaOk2C/rSnhEsoBbgdpA==",
+            "id": "7wm4-E2i3p",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/favicon.png",
+            "size": 19340,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/7wm4-E2i3p@100.webp",
+              "1200": "cigale/7wm4-E2i3p@1200.webp",
+              "400": "cigale/7wm4-E2i3p@400.webp",
+              "600": "cigale/7wm4-E2i3p@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:42.08389512+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>A web application to support entomological research, particularly in the cropping and classification of insect photographs.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "iQH3gmECXl",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>The idea is to offer an application where, at the end of a transect<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>, you can upload your photos, let a neural network detect one or more insects in each image in order to crop them, verify and adjust these croppings, and then classify them—for example, by identifying the insect species, again with the help of a neural network.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "sbXUPHVnFa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, imported insect photos with boxes highlighting insects detected by the neural network",
+            "analyzed": true,
+            "anchor": "screenshot-import",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Photo import, insect detection",
+            "colors": {
+              "primary": "#5D702A",
+              "secondary": "#9CB068",
+              "tertiary": "#EBF0E9"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.56078,
+              "height": 872,
+              "width": 1361
+            },
+            "distSource": "cigale/static/screenshot-import.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "axmc7XYoIcvP+c6KRsKKtw==",
+            "id": "LY-m2iPjPR",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-import.png",
+            "size": 450529,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/LY-m2iPjPR@100.webp",
+              "1200": "cigale/LY-m2iPjPR@1200.webp",
+              "400": "cigale/LY-m2iPjPR@400.webp",
+              "600": "cigale/LY-m2iPjPR@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:44.335440744+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, a photo is displayed with bounding boxes around detected insects, and tools to modify, add, or delete these boxes",
+            "analyzed": true,
+            "anchor": "screenshot-crop",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Cropping",
+            "colors": {
+              "primary": "#3F4F1A",
+              "secondary": "#6E7F44",
+              "tertiary": "#BCB292"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.558691,
+              "height": 886,
+              "width": 1381
+            },
+            "distSource": "cigale/static/screenshot-crop.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "dnVIRjAYMiHq2A2z7zjpXQ==",
+            "id": "SdIz9fXz8C",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-crop.png",
+            "size": 1362274,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/SdIz9fXz8C@100.webp",
+              "1200": "cigale/SdIz9fXz8C@1200.webp",
+              "400": "cigale/SdIz9fXz8C@400.webp",
+              "600": "cigale/SdIz9fXz8C@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:46.371128993+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>This need arises from a recurring issue in the current landscape of computer-assisted tools in this field of research: there is no “all-in-one” solution, and it is often difficult to install the necessary software correctly—especially when it involves neural networks.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BwhtQpfHC9",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>The project was therefore to create an all-in-one solution, from the camera’s SD card all the way to cropped and annotated images. Moreover, the application is a <em>web app</em>, which means no installation is required. Thanks to a range of modern web platform technologies—often grouped under the banner of <a href=\"https://developer.mozilla.org/en/docs/Web/Progressive_web_apps\"><em>PWA</em> (Progressive Web Apps)</a>—the application is available offline after the first use, and performs all neural network inference locally on the device. This improves performance (no need to send images to a remote server), protects privacy, and simplifies deployment of the app.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ZmetzLHYXm",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, a photo cropped to a single insect with a field to assign its species, including suggestions and a description with a reference photo",
+            "analyzed": true,
+            "anchor": "screenshot-classify",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Classification",
+            "colors": {
+              "primary": "#6C7A35",
+              "secondary": "#B6BFB7",
+              "tertiary": "#EEEFEF"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.560502,
+              "height": 876,
+              "width": 1367
+            },
+            "distSource": "cigale/static/screenshot-classify.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "OR7sQyfi2on4vD8CYKT26Q==",
+            "id": "i1fIuqg7Hz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-classify.png",
+            "size": 634988,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/i1fIuqg7Hz@100.webp",
+              "1200": "cigale/i1fIuqg7Hz@1200.webp",
+              "400": "cigale/i1fIuqg7Hz@400.webp",
+              "600": "cigale/i1fIuqg7Hz@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:47.544860946+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of a spreadsheet showing exported annotations, linking each image to the corresponding species",
+            "analyzed": true,
+            "anchor": "screenshot-exports-csv",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Annotations export",
+            "colors": {
+              "primary": "#989799",
+              "secondary": "#BBBAB9",
+              "tertiary": "#A8A7A7"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 4.131147,
+              "height": 183,
+              "width": 756
+            },
+            "distSource": "cigale/static/screenshot-exports-csv.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "WazlQ0Qr6uTd7bd8bBGCXg==",
+            "id": "aLeJAsG5aM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-exports-csv.png",
+            "size": 42762,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/aLeJAsG5aM@100.webp",
+              "1200": "cigale/aLeJAsG5aM@1200.webp",
+              "400": "cigale/aLeJAsG5aM@400.webp",
+              "600": "cigale/aLeJAsG5aM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:48.034887063+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>The application is also designed to be generic, adaptable to different scientific protocols, various fields, and potentially even other areas of research. This is made possible by the concept of <em>protocols</em>, which can be defined by anyone and imported into the application. These protocols specify what metadata is relevant to annotate and which neural network models to use for cropping and annotation suggestions.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "laGyR5Dx5m",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, dialog allowing you to choose between several classification models",
+            "analyzed": true,
+            "anchor": "screenshot-choose-protocol",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Protocol Choice",
+            "colors": {
+              "primary": "#B8BABA",
+              "secondary": "#919292",
+              "tertiary": "#A9A9A9"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.435211,
+              "height": 710,
+              "width": 1019
+            },
+            "distSource": "cigale/static/screenshot-choose-protocol.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "na04Yc91FT0cum4b+e3a7Q==",
+            "id": "MYgFQeiplh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-choose-protocol.png",
+            "size": 56869,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/MYgFQeiplh@100.webp",
+              "1200": "cigale/MYgFQeiplh@1200.webp",
+              "400": "cigale/MYgFQeiplh@400.webp",
+              "600": "cigale/MYgFQeiplh@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:48.556578302+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Originally a final-year group project (“Long Project”) for my 3rd year at <a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, it has since grown beyond that initial scope. Development is now funded by the <a href=\"https://sete-moulis-cnrs.fr/en\">SETE (Theoretical and Experimental Ecology Station)</a> unit of the <a href=\"https://www.cnrs.fr\">CNRS</a>, and I continue to work on it in collaboration with the original academic team and other contributors, who provide insect images and descriptions, neural network models, and more.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "jg7OwWM0II",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "application",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BIvV27MTi0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Application",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://cigaleapp.github.io/cigale/#/"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "source-code",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BSctam24T8",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Source code",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/cigaleapp/cigale"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "ui-prototype",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "XZO6adykpS",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "UI Prototype",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.figma.com/design/2TY5zZvwfuxyotEtRMlWq7/PL-Maquettes?node-id=0-1&t=05apNwzgY3Cr1UBJ-1"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "group-project-presentation",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "jj7qvkiSNJ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Group project presentation",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.canva.com/design/DAGgr_TmduM/XTPUkJkY0ug1t_0951ds-w/view?utm_content=DAGgr_TmduM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9b580f19ed"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>This project also spawned two JavaScript library projects, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "HJDdCAIySc",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          }
+        ],
+        "footnotes": {
+          "1": "<p>Fieldwork in a defined area to observe and photograph insects. <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
+        },
+        "layout": [
+          ["7wm4-E2i3p", "7wm4-E2i3p"],
+          ["iQH3gmECXl", "iQH3gmECXl"],
+          ["sbXUPHVnFa", "sbXUPHVnFa"],
+          ["LY-m2iPjPR", "SdIz9fXz8C"],
+          ["BwhtQpfHC9", "BwhtQpfHC9"],
+          ["ZmetzLHYXm", "ZmetzLHYXm"],
+          ["i1fIuqg7Hz", "aLeJAsG5aM"],
+          ["laGyR5Dx5m", "MYgFQeiplh"],
+          ["jg7OwWM0II", "BIvV27MTi0"],
+          ["jg7OwWM0II", "BSctam24T8"],
+          ["jg7OwWM0II", "XZO6adykpS"],
+          ["jg7OwWM0II", "jj7qvkiSNJ"],
+          ["HJDdCAIySc", "HJDdCAIySc"]
+        ],
+        "title": "CIGALE"
+      },
+      "fr": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "Logo de cigale",
+            "analyzed": true,
+            "anchor": "favicon",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2A054B",
+              "secondary": "#24C3BC",
+              "tertiary": "#285B7F"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 394,
+              "width": 394
+            },
+            "distSource": "cigale/static/favicon.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ZUqaOk2C/rSnhEsoBbgdpA==",
+            "id": "7wm4-E2i3p",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/favicon.png",
+            "size": 19340,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/7wm4-E2i3p@100.webp",
+              "1200": "cigale/7wm4-E2i3p@1200.webp",
+              "400": "cigale/7wm4-E2i3p@400.webp",
+              "600": "cigale/7wm4-E2i3p@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:42.08389512+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Une application web d’assistance à la recherche en entomologie, en particulier dans le recadrage et la classification de photographies d’insectes.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Ycrubz0kai",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’idée est de proposer une application où l’on peut, à l’issue d’un transect<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>, déposer ses photos, laisser un réseau neuronal détecter un ou plusieurs insectes dans chaque image afin de les recadrer, corriger et vérifier ces recadrages, puis les classifier, notamment en identifiant l’espèce de l’insecte, là aussi avec de l’assistance à la classification par un réseau neuronal.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "piAgP1Hy_B",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, imported insect photos with boxes highlighting insects detected by the neural network",
+            "analyzed": true,
+            "anchor": "screenshot-import",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Photo import, insect detection",
+            "colors": {
+              "primary": "#5D702A",
+              "secondary": "#9CB068",
+              "tertiary": "#EBF0E9"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.56078,
+              "height": 872,
+              "width": 1361
+            },
+            "distSource": "cigale/static/screenshot-import.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "axmc7XYoIcvP+c6KRsKKtw==",
+            "id": "LY-m2iPjPR",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-import.png",
+            "size": 450529,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/LY-m2iPjPR@100.webp",
+              "1200": "cigale/LY-m2iPjPR@1200.webp",
+              "400": "cigale/LY-m2iPjPR@400.webp",
+              "600": "cigale/LY-m2iPjPR@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:44.335440744+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, a photo is displayed with bounding boxes around detected insects, and tools to modify, add, or delete these boxes",
+            "analyzed": true,
+            "anchor": "screenshot-crop",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Cropping",
+            "colors": {
+              "primary": "#3F4F1A",
+              "secondary": "#6E7F44",
+              "tertiary": "#BCB292"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.558691,
+              "height": 886,
+              "width": 1381
+            },
+            "distSource": "cigale/static/screenshot-crop.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "dnVIRjAYMiHq2A2z7zjpXQ==",
+            "id": "SdIz9fXz8C",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-crop.png",
+            "size": 1362274,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/SdIz9fXz8C@100.webp",
+              "1200": "cigale/SdIz9fXz8C@1200.webp",
+              "400": "cigale/SdIz9fXz8C@400.webp",
+              "600": "cigale/SdIz9fXz8C@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:46.371128993+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ce besoin provient d’un constant sur le paysage actuel des outils informatiques d’assistance dans ce champ de recherche: il n’existe pas de solution “tout en un”, et il est en plus parfois difficile d’arriver à correcter installer les logiciels, en particulier lorsqu’ils embarquent des réseaux neuronaux.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "VuC2V4XnKQ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Le projet été donc de proposer une solution tout-en-un, qui va de la carte SD de l’appareil photo, jusqu’aux images recadrées et annotées. De plus, l’application est une <em>webapp</em>, et ne nécéssite donc aucune installation. Grâce à diverses technologies modernes des plateformes web, souvent regroupées sous la bannière des <a href=\"https://developer.mozilla.org/fr/docs/Web/Progressive_web_apps\"><em>PWA</em> (Progressive Web Apps)</a>, l’application est disponible hors ligne après la première utilisation, et effectue toute inférence par réseau neuronal sur l’appareil, ce qui améliore la performance (pas besoin d’envoyer les images sur un serveur distant), la confidentialité et la facilité de déploiement.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "0mnO_LIVeD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Capture d’écran de l’application, une photo recadrée à un insecte, et un champ pour lui assigner l’espèce souhaitée, qui propose des suggestions et affiche une description et une photo de référence de la suggestion",
+            "analyzed": true,
+            "anchor": "screenshot-classify",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Classification",
+            "colors": {
+              "primary": "#6C7A35",
+              "secondary": "#B6BFB7",
+              "tertiary": "#EEEFEF"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.560502,
+              "height": 876,
+              "width": 1367
+            },
+            "distSource": "cigale/static/screenshot-classify.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "OR7sQyfi2on4vD8CYKT26Q==",
+            "id": "i1fIuqg7Hz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-classify.png",
+            "size": 634988,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/i1fIuqg7Hz@100.webp",
+              "1200": "cigale/i1fIuqg7Hz@1200.webp",
+              "400": "cigale/i1fIuqg7Hz@400.webp",
+              "600": "cigale/i1fIuqg7Hz@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:51.59375253+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of a spreadsheet showing exported annotations, linking each image to the corresponding species",
+            "analyzed": true,
+            "anchor": "screenshot-exports-csv",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Annotations export",
+            "colors": {
+              "primary": "#989799",
+              "secondary": "#BBBAB9",
+              "tertiary": "#A8A7A7"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 4.131147,
+              "height": 183,
+              "width": 756
+            },
+            "distSource": "cigale/static/screenshot-exports-csv.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "WazlQ0Qr6uTd7bd8bBGCXg==",
+            "id": "aLeJAsG5aM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-exports-csv.png",
+            "size": 42762,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/aLeJAsG5aM@100.webp",
+              "1200": "cigale/aLeJAsG5aM@1200.webp",
+              "400": "cigale/aLeJAsG5aM@400.webp",
+              "600": "cigale/aLeJAsG5aM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:48.034887063+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’application est également pensée pour être générique, s’adaptant à différents protocoles scientifiques, différents domaines et éventuellement même d’autres champs de recherche. Ceci est rendu possible par une notion de <em>protocoles</em>, définissables par n’importe qui, et importables dans l’application, qui spécifient qu’est ce qu’il est pertinent d’annoter (les <em>métadonnées</em>), et avec quels modèles de réseaux neuronaux proposer des suggestions de recadrages et d’annotations.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "GYCI5zh1w-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Screenshot of the application, dialog allowing you to choose between several classification models",
+            "analyzed": true,
+            "anchor": "screenshot-choose-protocol",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Protocol Choice",
+            "colors": {
+              "primary": "#B8BABA",
+              "secondary": "#919292",
+              "tertiary": "#A9A9A9"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.435211,
+              "height": 710,
+              "width": 1019
+            },
+            "distSource": "cigale/static/screenshot-choose-protocol.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "na04Yc91FT0cum4b+e3a7Q==",
+            "id": "MYgFQeiplh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/screenshot-choose-protocol.png",
+            "size": 56869,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/MYgFQeiplh@100.webp",
+              "1200": "cigale/MYgFQeiplh@1200.webp",
+              "400": "cigale/MYgFQeiplh@400.webp",
+              "600": "cigale/MYgFQeiplh@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:48.556578302+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>À la base un projet de groupe de fin d’études (“Projet long”) de 3e année à l’<a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, il a aujourd’hui dépassé ce cadre. Le développement est financé par l’unité <a href=\"https://sete-moulis-cnrs.fr\">SETE (Station d’Écologie Théorique et Expérimentale)</a> du <a href=\"https://www.cnrs.fr\">CNRS</a>, et je continue de la développer en collaboration avec l’équipe éducative initiale, ainsi que d’autres contributeurices, qui fournissent images et descriptions d’insectes, modèles de réseaux neuronaux,…</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "gQWbclJjnU",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "application",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BIvV27MTi0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Application",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://cigaleapp.github.io/cigale/#/"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "code-source",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BSctam24T8",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Code source",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/cigaleapp/cigale"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "prototype-dinterface",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "XZO6adykpS",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Prototype d’interface",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.figma.com/design/2TY5zZvwfuxyotEtRMlWq7/PL-Maquettes?node-id=0-1&t=05apNwzgY3Cr1UBJ-1"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "presentation-du-projet-de-groupe",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "jj7qvkiSNJ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Présentation du projet de groupe",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.canva.com/design/DAGgr_TmduM/XTPUkJkY0ug1t_0951ds-w/view?utm_content=DAGgr_TmduM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9b580f19ed"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ce projet a aussi engendré le développement de deux bibliothèques JavaScript, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "tuyOCTr_qa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          }
+        ],
+        "footnotes": {
+          "1": "<p>Sortie sur le terrain dans une zone donnée pour observer et photographier des insectes <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
+        },
+        "layout": [
+          ["7wm4-E2i3p", "7wm4-E2i3p"],
+          ["Ycrubz0kai", "Ycrubz0kai"],
+          ["piAgP1Hy_B", "piAgP1Hy_B"],
+          ["LY-m2iPjPR", "SdIz9fXz8C"],
+          ["VuC2V4XnKQ", "VuC2V4XnKQ"],
+          ["0mnO_LIVeD", "0mnO_LIVeD"],
+          ["i1fIuqg7Hz", "aLeJAsG5aM"],
+          ["GYCI5zh1w-", "MYgFQeiplh"],
+          ["gQWbclJjnU", "BIvV27MTi0"],
+          ["gQWbclJjnU", "BSctam24T8"],
+          ["gQWbclJjnU", "XZO6adykpS"],
+          ["gQWbclJjnU", "jj7qvkiSNJ"],
+          ["tuyOCTr_qa", "tuyOCTr_qa"]
+        ],
+        "title": "CIGALE"
+      }
+    },
+    "descriptionHash": "XmpuZwg6aup+Jvz1J9sK9Q==",
+    "id": "cigale",
+    "metadata": {
+      "additionalMetadata": {
+        "layout": [
+          "m1",
+          "p1",
+          "p2",
+          ["m2", "m3"],
+          "p3",
+          "p4",
+          ["m4", "m5"],
+          ["p5", "m6"],
+          ["p6", "l1"],
+          ["p6", "l2"],
+          ["p6", "l3"],
+          ["p6", "l4"],
+          "p7"
+        ],
+        "using": ["javascript", "svelte", "onnx", "figma"]
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "#0D0114",
+        "secondary": "#25B1B1",
+        "tertiary": "#2A0C50"
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "2024-11-07",
+      "tags": ["web", "app", "school", "science"],
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": false
+    },
+    "source": "/home/uwun/projects/cigale/.ortfo/description.md"
+  },
   "circular": {
     "Partial": false,
     "builtAt": "2025-06-09T14:49:18.8748077+02:00",
@@ -30127,7 +31642,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-07-03T20:20:22.264946896+02:00",
+    "builtAt": "2025-07-04T01:15:05.047197261+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30145,26 +31660,26 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#272501",
-              "secondary": "#979206",
-              "tertiary": "#F6F00A"
+              "primary": "#252401",
+              "secondary": "#9C9706",
+              "tertiary": "#F9F20A"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
               "aspectRatio": 3.947826,
-              "height": 115,
-              "width": 454
+              "height": 460,
+              "width": 1816
             },
             "distSource": "swarpc/logo.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "2yrFDuO91iTDNiK80ebfSQ==",
+            "hash": "ZaikqIJpgtnORz/9HWnfJw==",
             "id": "zNfSlGPWwb",
             "index": 0,
             "online": false,
             "relativeSource": "../logo.png",
-            "size": 7861,
+            "size": 33884,
             "text": "",
             "thumbnails": {
               "100": "swarpc/zNfSlGPWwb@100.webp",
@@ -30172,7 +31687,7 @@
               "400": "swarpc/zNfSlGPWwb@400.webp",
               "600": "swarpc/zNfSlGPWwb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-03T20:10:51.455432557+02:00",
+            "thumbnailsBuiltAt": "2025-07-03T20:40:45.296854159+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -30456,6 +31971,46 @@
             "title": "",
             "type": "link",
             "url": "https://gwennlbh.github.io/swarpc/docs"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "on-npm",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "eScdvIhsPg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "on NPM",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.npmjs.com/package/swarpc"
           }
         ],
         "footnotes": {
@@ -30465,13 +32020,13 @@
           "4": "<p>Locations in the code where a function gets called <a href=\"#fnref:4\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          ["zNfSlGPWwb", "zNfSlGPWwb"],
-          ["ggGqgGYKL-", "ggGqgGYKL-"],
-          ["JfOk4MwXWA", "JfOk4MwXWA"],
-          ["C8n7XmlVV3", "C8n7XmlVV3"],
-          ["BXg-bsinLW", "BXg-bsinLW"],
-          ["DrqgsWiNG7", "DrqgsWiNG7"],
-          ["hCXsc0viQI", "aW0pE7jpbZ"]
+          ["zNfSlGPWwb", "zNfSlGPWwb", "zNfSlGPWwb"],
+          ["ggGqgGYKL-", "ggGqgGYKL-", "ggGqgGYKL-"],
+          ["JfOk4MwXWA", "JfOk4MwXWA", "JfOk4MwXWA"],
+          ["C8n7XmlVV3", "C8n7XmlVV3", "C8n7XmlVV3"],
+          ["BXg-bsinLW", "BXg-bsinLW", "BXg-bsinLW"],
+          ["DrqgsWiNG7", "DrqgsWiNG7", "DrqgsWiNG7"],
+          ["hCXsc0viQI", "aW0pE7jpbZ", "eScdvIhsPg"]
         ],
         "title": "swarpc"
       },
@@ -30491,26 +32046,26 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#272501",
-              "secondary": "#979206",
-              "tertiary": "#F6F00A"
+              "primary": "#252401",
+              "secondary": "#9C9706",
+              "tertiary": "#F9F20A"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
               "aspectRatio": 3.947826,
-              "height": 115,
-              "width": 454
+              "height": 460,
+              "width": 1816
             },
             "distSource": "swarpc/logo.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "2yrFDuO91iTDNiK80ebfSQ==",
+            "hash": "ZaikqIJpgtnORz/9HWnfJw==",
             "id": "zNfSlGPWwb",
             "index": 0,
             "online": false,
             "relativeSource": "../logo.png",
-            "size": 7861,
+            "size": 33884,
             "text": "",
             "thumbnails": {
               "100": "swarpc/zNfSlGPWwb@100.webp",
@@ -30518,7 +32073,7 @@
               "400": "swarpc/zNfSlGPWwb@400.webp",
               "600": "swarpc/zNfSlGPWwb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-03T20:10:51.455432557+02:00",
+            "thumbnailsBuiltAt": "2025-07-03T20:40:45.296854159+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -30540,7 +32095,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Une bibliothèque pour faire du RPC<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> entre une page web et un Service worker<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup>. Développée pendant le développement de CIGALE : nous faisions tourner l’inférence d’un réseau neuronal sur l’appareil de l’utilisateurice, mais sur le <em>même thread</em> que le code principal de l’UI<sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote-ref\" role=\"doc-noteref\">3</a></sup>, ce qui rendait l’application lente pendant que l’inférence tournait (les spinners de chargement tournaient en saccades, l’UI réagissait avec des retards, etc).</p>",
+            "content": "<p>Une bibliothèque pour faire du RPC<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> entre une page web et un Service worker<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup>. Développée pendant le développement de <a href=\"/cigale\">CIGALE</a> : nous faisions tourner l’inférence d’un réseau neuronal sur l’appareil de l’utilisateurice, mais sur le <em>même thread</em> que le code principal de l’UI<sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote-ref\" role=\"doc-noteref\">3</a></sup>, ce qui rendait l’application lente pendant que l’inférence tournait (les spinners de chargement tournaient en saccades, l’UI réagissait avec des retards, etc).</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -30551,7 +32106,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "mcM1-PEX2H",
+            "id": "6A8Q0OsoJV",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30806,6 +32361,46 @@
           {
             "alt": "",
             "analyzed": false,
+            "anchor": "sur-npm",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "eScdvIhsPg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Sur NPM",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.npmjs.com/package/swarpc"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
             "anchor": "",
             "attributes": {
               "autoplay": false,
@@ -30851,28 +32446,28 @@
           "4": "<p>Emplacement dans le code où une fonction est appelée <a href=\"#fnref:4\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          ["zNfSlGPWwb", "zNfSlGPWwb"],
-          ["mcM1-PEX2H", "mcM1-PEX2H"],
-          ["nioV1Ncf5l", "nioV1Ncf5l"],
-          ["fjblkST2xb", "fjblkST2xb"],
-          ["-_4psrSal-", "-_4psrSal-"],
-          ["VObbymoJnN", "VObbymoJnN"],
-          ["hCXsc0viQI", "aW0pE7jpbZ"]
+          ["zNfSlGPWwb", "zNfSlGPWwb", "zNfSlGPWwb"],
+          ["6A8Q0OsoJV", "6A8Q0OsoJV", "6A8Q0OsoJV"],
+          ["nioV1Ncf5l", "nioV1Ncf5l", "nioV1Ncf5l"],
+          ["fjblkST2xb", "fjblkST2xb", "fjblkST2xb"],
+          ["-_4psrSal-", "-_4psrSal-", "-_4psrSal-"],
+          ["VObbymoJnN", "VObbymoJnN", "VObbymoJnN"],
+          ["hCXsc0viQI", "aW0pE7jpbZ", "eScdvIhsPg"]
         ],
         "title": "swarpc"
       }
     },
-    "descriptionHash": "Pv9nE0hvZfY3x+d8llFN/Q==",
+    "descriptionHash": "92j6UgHErjZcf2LVHlBXNg==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
-        "layout": ["m1", "p1", "p2", "p3", "p4", "p5", ["l1", "l2"]],
+        "layout": ["m1", "p1", "p2", "p3", "p4", "p5", ["l1", "l2", "l3"]],
         "made_with": ["javascript"]
       },
-      "aliases": null,
+      "aliases": ["sw&rpc"],
       "colors": {
         "primary": "#272501",
-        "secondary": "#979206",
+        "secondary": "#ffffff",
         "tertiary": "#F6F00A"
       },
       "databaseMetadata": {
