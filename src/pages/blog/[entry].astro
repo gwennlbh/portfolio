@@ -1,9 +1,10 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getEntry } from "astro:content";
+import { getEntries, getEntry } from "astro:content";
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/Regular.astro";
 import StrongHeader from "../../components/StrongHeader.astro";
+import WorksGrid from "../../components/WorksGrid.astro";
 
 export const getStaticPaths = (async () => {
   const entries = await getCollection("blogEntries");
@@ -13,7 +14,7 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const {
-  data: { date, title, draft },
+  data: { date, title, draft, works },
   rendered,
 } = await getEntry("blogEntries", Astro.params.entry)!;
 
@@ -38,6 +39,15 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
   </StrongHeader>
 
   <main set:html={rendered!.html} />
+
+  <section class="related">
+    <h2 i18n>related works</h2>
+    {
+      await getEntries(works).then((entries) => (
+        <WorksGrid works={entries.filter(Boolean).map((e) => e.data)} />
+      ))
+    }
+  </section>
 </Layout>
 
 <style>
