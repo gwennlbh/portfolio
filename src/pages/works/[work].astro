@@ -12,7 +12,10 @@ import BlockParagraph from "./BlockParagraph.astro";
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
     works
-      .flatMap(({ id, data: { metadata }}) => [id, ...(metadata.aliases ?? [])])
+      .flatMap(({ id, data: { metadata } }) => [
+        id,
+        ...(metadata.aliases ?? []),
+      ])
       .map((id) => ({ params: { work: id } })),
   );
 }) satisfies GetStaticPaths;
@@ -42,7 +45,7 @@ console.log(`Getting entry:
 
 raw: ${Astro.params.work} 
 dec: ${decodeURI(Astro.params.work!.toString())}
-`)
+`);
 
 const entry = await getEntry("works", decodeURI(Astro.params.work!.toString()));
 if (!entry) return Astro.rewrite("/404");
@@ -60,7 +63,7 @@ const madeWith = await Promise.all(
   metadata.madeWith?.map((tech) => getEntry("technologies", tech.id)) ?? [],
 ).then((techs) => techs.filter((x) => !!x));
 
-const { blocks, layout } =
+const { blocks, layout, footnotes } =
   Object.entries(content).find(([lang]) => lang === Astro.locals.lang)?.[1] ??
   Object.values(content)[0];
 
@@ -124,6 +127,24 @@ const cssGridAreas = layout
           {madeWith.map(({ id, data: { name } }) => (
             <li>
               <a href={`/using/${id}`}>{name}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )
+  }
+
+  {
+    Object.keys(footnotes).length && (
+      <section class="footnotes">
+        <h2 i18n>footnotes</h2>
+        <ul>
+          {Object.entries(footnotes).map(([id, content]) => (
+            <li id={`fn:${id}`}>
+              <code>{id}. </code>
+              <span
+                set:html={content.replace(/^<p>/, "").replace(/<\/p>$/, "")}
+              />
             </li>
           ))}
         </ul>
@@ -201,6 +222,14 @@ const cssGridAreas = layout
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+  }
+
+  section.footnotes {
+    font-size: 1.7rem;
+  }
+
+  section.footnotes h2 {
+    margin-bottom: 0.5em;
   }
 
   pre,

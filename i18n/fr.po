@@ -294,8 +294,8 @@ msgstr "flyer"
 msgid "flyers"
 msgstr "flyers"
 
-msgid "Footnotes"
-msgstr ""
+msgid "footnotes"
+msgstr "notes de bas de page"
 
 msgid "Free and open-source digital painting software"
 msgstr "Logiciel de peinture numérique gratuit et open source"
