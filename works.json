@@ -31642,7 +31642,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-07-04T01:36:53.339650539+02:00",
+    "builtAt": "2025-07-07T22:29:57.498236069+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -32526,46 +32526,6 @@
             "title": "",
             "type": "link",
             "url": "https://www.npmjs.com/package/swarpc"
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>Traduit avec DeepL.com (version gratuite)</p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "ybt3D7o9Ez",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
-            "url": ""
           }
         ],
         "footnotes": {
@@ -32635,7 +32595,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "6E+K7JUB/D2rcQeuEgRYkA==",
+    "descriptionHash": "WuPc1e0wDmXoV3Wky/py1w==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
