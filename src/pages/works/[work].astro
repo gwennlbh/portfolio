@@ -16,7 +16,7 @@ export const getStaticPaths = (async () => {
         id,
         ...(metadata.aliases ?? []),
       ])
-      .map((id) => ({ params: { work: id } })),
+      .map((id) => ({ params: { work: encodeURIComponent(id) } })),
   );
 }) satisfies GetStaticPaths;
 
