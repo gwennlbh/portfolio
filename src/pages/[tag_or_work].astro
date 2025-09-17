@@ -13,10 +13,10 @@ export const getStaticPaths = (async () => {
       `${id}.json`,
     ]),
     ...works.flatMap((w) => w.data.metadata.aliases ?? []),
-  ];
+  ]
 
   return ids.map((id) => ({
-    params: { tag_or_work: id },
+    params: { tag_or_work: encodeURIComponent(id) },
   }));
 }) satisfies GetStaticPaths;
 
