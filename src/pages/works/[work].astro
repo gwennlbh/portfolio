@@ -152,16 +152,15 @@ const cssGridAreas = layout
     ) : null
   }
 
-  <section class="metadata">
-    <pre>{YAML.stringify(metadata)}</pre>
+  <section slot="afterfooter" class="metadata">
     <div class="swatches">
       {
-        Object.entries(colors ?? {}).map(([name, color]) => (
+        Object.entries(colors ?? {}).map(([name, color], i) => (
           <code
             class="swatch"
             style={`background-color: ${color}; color: var(--${name === "primary" ? "secondary" : "primary"}, black)`}
           >
-            {name.charAt(0).toUpperCase()}
+            #{i + 1}
           </code>
         ))
       }
@@ -266,8 +265,6 @@ const cssGridAreas = layout
 
   .swatches .swatch {
     padding: 0.5em 1em;
-    border-radius: 0.25em;
-    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.1);
     transition: transform 0.125s ease;
   }
 </style>
