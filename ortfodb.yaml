@@ -36,10 +36,10 @@ technologies:
 
 projects at: ~/projects
 
-exporters:
-  ssh:
-    database: ewen@ewen.works:~/www/media.ewen.works/works.json
-    media: ewen@ewen.works:~/www/media.ewen.works
+# exporters:
+#   ssh:
+#     database: ewen@ewen.works:~/www/media.ewen.works/works.json
+#     media: ewen@ewen.works:~/www/media.ewen.works
 
 # importers:
 #   github:
