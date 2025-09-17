@@ -40,3 +40,7 @@
 - name: linkedin
   url: https://linkedin.com/in/gwennlbh
   purpose: "my carreer"
+
+- name: orcid
+  url: https://orcid.org/0009-0008-9476-1463
+  purpose: "research carreer"
