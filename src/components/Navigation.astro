@@ -100,10 +100,19 @@
       <a href="/contact">contact</a>
     </li><li>
       {
+        // TODO find out if theres a way to get the rewritten pathname
         Astro.locals.lang === "fr" ? (
-          <a href="https://en.gwen.works/">in english</a>
+          <a
+            href={`https://en.gwen.works${Astro.url.pathname.replace(/^\/works\//, "/")}`}
+          >
+            in english
+          </a>
         ) : (
-          <a href="https://fr.gwen.works/">en français</a>
+          <a
+            href={`https://fr.gwen.works${Astro.url.pathname.replace(/^\/works\//, "/")}`}
+          >
+            en français
+          </a>
         )
       }
     </li>
