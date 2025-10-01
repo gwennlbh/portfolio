@@ -131,13 +131,15 @@ So, $\mathcal O(()) = e$.
 
 ## Applications
 
-| Operation | Application                     |                                       |
-| --------- | ------------------------------- | ------------------------------------- |
-| $+$       | $\sum_\emptyset = 0$            |                                       |
-| $\cdot$   | $\prod_\emptyset = 1$           |                                       |
-| $\max$    | $\max_\emptyset = -\infty$      |                                       |
-| $\min$    | $\min_\emptyset = \infty$       |                                       |
-| $\land$   | $\forall \emptyset = \top$      |                                       |
-| $\lor$    | $\exists \emptyset = \bot$      |                                       |
-| $\cup$    | $\bigcup_\emptyset = \emptyset$ |                                       |
-| $\cap$    | $\bigcap_\emptyset = \mathbb U$ | where $\mathbb U$ is the universe set |
+| Operation | Application                     |
+| --------- | ------------------------------- |
+| $+$       | $\sum_\emptyset = 0$            |
+| $\cdot$   | $\prod_\emptyset = 1$           |
+| $\max$    | $\max_\emptyset = -\infty$      |
+| $\min$    | $\min_\emptyset = \infty$       |
+| $\land$   | $\forall \emptyset = \top$      |
+| $\lor$    | $\exists \emptyset = \bot$      |
+| $\cup$    | $\bigcup_\emptyset = \emptyset$ |
+| $\cap$    | $\bigcap_\emptyset = \mathbb U$ |
+
+where $\mathbb U$ is the universe set
