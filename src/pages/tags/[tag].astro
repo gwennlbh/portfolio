@@ -13,8 +13,6 @@ export const getStaticPaths = (async () => {
 
 const tags = await getCollection("tags");
 
-console.log(tags.find((t) => t.id === "library"));
-
 const entry = await getEntry("tags", Astro.params.tag!.toString());
 if (!entry) return Astro.rewrite("/404");
 

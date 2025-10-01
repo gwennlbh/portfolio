@@ -10,10 +10,6 @@ export function resolveAliased(query: string, entries: Array<{ id: string }>) {
         : undefined;
 
   const entry = entries.find((e) => e.id === query || isAliasOf(e) === query);
-  if (query === "library")
-    console.log("resolveAliased", {
-      query,
-      aliasmap: Object.fromEntries(entries.map((e) => [e.id, isAliasOf(e)])),
-    });
+
   return entry ? (isAliasOf(entry) ?? entry?.id) : undefined;
 }

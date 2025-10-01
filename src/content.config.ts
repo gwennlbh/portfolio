@@ -268,8 +268,6 @@ function yamlDataCollection<
 
           store.clear();
           for (const entry of entries) {
-            if (entry.slug === "library")
-              console.log("store.set", entry.slug, entry.isAliasOf);
             store.set({
               id: entry.slug ?? slug(entry.title),
               data: entry,
