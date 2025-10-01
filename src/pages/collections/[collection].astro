@@ -1,16 +1,18 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection, getEntry } from "astro:content";
-import Translated from "../../components/Translated.astro";
+import picomatch from "picomatch";
+import { resolveAliased } from "../../aliases.ts";
 import StrongHeader from "../../components/StrongHeader.astro";
 import WorksGrid from "../../components/WorksGrid.astro";
 import Layout from "../../layouts/Regular.astro";
-import picomatch from "picomatch";
 
 export const getStaticPaths = (async () => {
   const tags = await getCollection("collections");
   return tags.map((t) => ({ params: { collection: t.id } }));
 }) satisfies GetStaticPaths;
+
+const tags = await getCollection("tags");
 
 const entry = await getEntry(
   "collections",
@@ -25,8 +27,8 @@ function matchesIncludeExpresion(
   work: {
     id: string;
     metadata: {
-      aliases: string[] | undefined;
-      tags: Array<{ id: string; collection: "tags" }>;
+      aliases: string[] | null;
+      tags: Array<{ id: string; collection: "tags" }> | null;
     };
   },
 ) {
@@ -38,7 +40,11 @@ function matchesIncludeExpresion(
         const aliases = work.metadata.aliases ?? [];
         return [work.id, ...aliases].some(picomatch(term));
       }
-      return work.metadata.tags?.some((t) => t.id === term.replace(/^#/, ""));
+
+      const tagToTest = resolveAliased(term.replace(/^#/, ""), tags);
+      return work.metadata.tags?.some(
+        (t) => resolveAliased(t.id, tags) === tagToTest,
+      );
     });
   });
 }

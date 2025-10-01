@@ -1,33 +1,19 @@
-const IS_ALIAS_TAG = "__is_alias";
+export function resolveAliased(query: string, entries: Array<{ id: string }>) {
+  const isAliasOf = (e: (typeof entries)[number]) =>
+    "isAliasOf" in e
+      ? e.isAliasOf?.toString()
+      : "data" in e &&
+          e.data &&
+          typeof e.data === "object" &&
+          "isAliasOf" in e.data
+        ? e.data?.isAliasOf?.toString()
+        : undefined;
 
-/**
- * Create aliased entries for a given entry
- * @param aliasOf the slug of the entry this one is an alias of
- * @returns the aliases array for that aliased entry
- */
-export function makeAliasEntries<
-  Entry extends { aliases?: string[] | undefined; slug?: string | undefined },
->(entry: Entry) {
-  return [
-    entry,
-    ...(entry.aliases ?? []).map((alias) => ({
-      ...entry,
-      slug: alias,
-      aliases: [IS_ALIAS_TAG, entry.slug],
-    })),
-  ];
-}
-
-export function resolveAliased(entry: {
-  aliases?: null | string[];
-  slug: string;
-}) {
-  if (!entry.aliases) return entry.slug;
-  if (entry.aliases.includes(IS_ALIAS_TAG) && entry.aliases.length === 2)
-    return entry.aliases[1];
-  return entry.slug;
-}
-
-export function isAliased(entry: { aliases?: null | string[]; slug: string }) {
-  return resolveAliased(entry) !== entry.slug;
+  const entry = entries.find((e) => e.id === query || isAliasOf(e) === query);
+  if (query === "library")
+    console.log("resolveAliased", {
+      query,
+      aliasmap: Object.fromEntries(entries.map((e) => [e.id, isAliasOf(e)])),
+    });
+  return entry ? (isAliasOf(entry) ?? entry?.id) : undefined;
 }

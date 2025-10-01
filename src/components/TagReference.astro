@@ -1,6 +1,5 @@
 ---
 import { getEntry } from "astro:content";
-import { resolveAliased } from "../aliases";
 
 interface Props {
   tag: string | { id: string; collection: "tags" };
@@ -9,7 +8,16 @@ interface Props {
 const tag = await getEntry(
   "tags",
   typeof Astro.props.tag === "string" ? Astro.props.tag : Astro.props.tag.id,
-)?.then((tag) => (tag ? { ...tag.data, slug: resolveAliased(tag.data) } : ""));
+)?.then((tag) =>
+  tag
+    ? {
+        ...tag.data,
+        slug:
+          (tag.data as unknown as { isAliasOf: string | null }).isAliasOf ??
+          tag.id,
+      }
+    : "",
+);
 ---
 
 {tag && <a href={`/${tag.slug}`}>#{tag.singular}</a>}

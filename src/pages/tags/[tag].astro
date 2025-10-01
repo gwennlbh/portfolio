@@ -4,22 +4,21 @@ import { getCollection, getEntry } from "astro:content";
 import StrongHeader from "../../components/StrongHeader.astro";
 import WorksGrid from "../../components/WorksGrid.astro";
 import Layout from "../../layouts/Regular.astro";
+import { resolveAliased } from "../../aliases";
 
 export const getStaticPaths = (async () => {
   const tags = await getCollection("tags");
   return tags.map((t) => ({ params: { tag: t.id } }));
 }) satisfies GetStaticPaths;
 
+const tags = await getCollection("tags");
+
+console.log(tags.find((t) => t.id === "library"));
+
 const entry = await getEntry("tags", Astro.params.tag!.toString());
 if (!entry) return Astro.rewrite("/404");
 
-const {
-  plural,
-  "learn more at": learnMoreAt,
-  description,
-  aliases,
-  slug,
-} = entry.data;
+const { plural, "learn more at": learnMoreAt, description, slug } = entry.data;
 
 const works = await getCollection("works").then((works) =>
   works
@@ -27,7 +26,9 @@ const works = await getCollection("works").then((works) =>
     .filter(
       (w) =>
         !w.metadata.private &&
-        w.metadata.tags?.some((t) => [slug, ...aliases].includes(t.id)),
+        w.metadata.tags?.some(
+          (t) => resolveAliased(t.id, tags) === resolveAliased(entry.id, tags),
+        ),
     ),
 );
 ---

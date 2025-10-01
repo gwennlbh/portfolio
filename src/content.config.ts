@@ -1,9 +1,8 @@
 import { file, glob } from "astro/loaders";
-import type { ZodObject, ZodRawShape } from "astro/zod";
+import type { ZodNullable, ZodObject, ZodRawShape, ZodString } from "astro/zod";
 import { defineCollection, reference, z } from "astro:content";
 import * as YAML from "yaml";
 import PO from "pofile";
-import { makeAliasEntries } from "./aliases";
 import { wakatimeCollection } from "./wakatime";
 import { readFile } from "node:fs/promises";
 import slug from "slug";
@@ -195,11 +194,11 @@ export const collections = {
   tags: yamlDataCollection(
     "tags.yaml",
     z.object({
+      isAliasOf: z.string().nullable().default(null),
       slug: z.string(),
       singular: z.string(),
       plural: z.string(),
       description: z.string().optional(),
-      aliases: z.array(z.string()).optional().default([]),
       "learn more at": z.string().url().optional(),
       detect: z
         .object({
@@ -208,20 +207,22 @@ export const collections = {
         .optional(),
     }),
     (tag) => tag.plural,
-    (tag) => [tag.singular],
+    (tag) => [...tag.aliases, tag.singular],
   ),
   technologies: yamlDataCollection(
     "technologies.yaml",
     z.object({
+      isAliasOf: z.string().nullable().default(null),
       slug: z.string(),
       name: z.string(),
       by: z.string().optional(),
       files: z.array(z.string()).optional(),
       "learn more at": z.string().url().optional(),
       description: z.string().optional(),
-      aliases: z.array(z.string()).optional(),
       autodetect: z.array(z.string()).optional(),
     }),
+    (tech) => tech.name,
+    (tech) => tech.aliases,
   ),
 };
 
@@ -232,7 +233,7 @@ function yamlDataCollection<
   filename: string,
   schema: Schema,
   slugify?: (data: z.infer<Schema>) => string,
-  additionalAliases?: (data: z.infer<Schema>) => string[],
+  aliases?: (data: z.infer<Schema> & { aliases: string[] }) => string[],
 ) {
   return defineCollection({
     schema,
@@ -246,36 +247,29 @@ function yamlDataCollection<
         watcher?.add(filename);
 
         if (Array.isArray(parsed)) {
-          const entries = parsed
-            .map((data) => {
-              const out: z.infer<Schema> & {
-                slug?: string;
-                aliases?: string[];
-              } = { ...data };
+          const entries = parsed.flatMap((data) => {
+            const out: z.infer<Schema> & {
+              slug?: string;
+            } = { ...data };
 
-              if (slugify) out.slug ??= slugify(data);
+            const aliasIds = aliases?.({ aliases: [], ...data }) ?? [];
 
-              const aliasable = z
-                .object({
-                  aliases: z.array(z.string()),
-                  slug: z.string(),
-                })
-                .safeParse(out);
+            if (slugify) out.slug ??= slugify(data);
 
-              if (aliasable.success || additionalAliases) {
-                out.aliases ??= [];
-                if (additionalAliases) {
-                  out.aliases = [...out.aliases, ...additionalAliases(data)];
-                }
-                return makeAliasEntries(out);
-              }
-
-              return [out];
-            })
-            .flat();
+            return [
+              { ...out, isAliasOf: null },
+              ...aliasIds.map((slug) => ({
+                ...out,
+                slug,
+                isAliasOf: out.slug,
+              })),
+            ];
+          });
 
           store.clear();
           for (const entry of entries) {
+            if (entry.slug === "library")
+              console.log("store.set", entry.slug, entry.isAliasOf);
             store.set({
               id: entry.slug ?? slug(entry.title),
               data: entry,
