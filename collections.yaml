@@ -59,7 +59,7 @@ software:
 
 design:
   title: { en: design, fr: design }
-  includes: "#graphism"
+  includes: "#graphism or #poster or #card or #flyer or #videos or #compositing or #logos or #illustration or #drawing or #icons or #abstract or #typeface"
   # includes: '
   #   made with photoshop or
   #   made with illustrator or
