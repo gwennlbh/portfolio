@@ -30,7 +30,7 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
     back="/blog"
     editButton={`~/projects.local/portfolio/blog/${Astro.params.entry}.md`}
   >
-    <p>
+    <p class="intro">
       <span i18n>published on</span>
       <time datetime={date.toISOString()}>
         {dateFormatter.format(date)}
@@ -51,10 +51,14 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
 </Layout>
 
 <style>
+  main,
+  p.intro {
+    line-height: 1.5;
+  }
+
   main {
     font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 80ch;
+    max-width: min(80ch, 100%);
     margin: 0 auto;
   }
 
@@ -64,13 +68,12 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
 
   main :global(p:not(:has(img)), ul, dl, ol) {
     margin-bottom: 0.5em;
-    max-width: 60ch;
+    max-width: min(60ch, 100%);
     margin: 0 auto;
   }
 
   main :global(p:has(img), pre.astro-code) {
-    width: 100%;
-    max-width: 80ch;
+    width: min(80ch, calc(100% - 2rem));
     margin: 2em auto;
   }
 
