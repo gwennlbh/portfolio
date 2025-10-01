@@ -29,7 +29,13 @@ export const onRequest = defineMiddleware(
     locals.locale = process.env.LOCALE as
       | `${typeof locals.lang}-${string}`
       | undefined;
-    locals.buildCommit = process.env.BUILD_COMMIT;
+    locals.buildCommit =
+      // Netlify
+      process.env.COMMIT_REF ||
+      // Cloudflare Pages
+      process.env.CF_PAGES_COMMIT_SHA ||
+      // Fallback
+      "dev";
 
     const response = await next();
 
