@@ -4,13 +4,22 @@ import { getCollection, getEntry } from "astro:content";
 import StrongHeader from "../../components/StrongHeader.astro";
 import Layout from "../../layouts/Regular.astro";
 import WorksGrid from "../../components/WorksGrid.astro";
+import { resolveAliased } from "../../aliases";
 export const getStaticPaths = (async () => {
   return await getCollection("technologies").then((techs) =>
     techs.map((tech) => ({ params: { tech: tech.id } })),
   );
 }) satisfies GetStaticPaths;
 
-const tech = await getEntry("technologies", Astro.params.tech!.toString());
+const technologies = await getCollection("technologies");
+
+let tech = await getEntry("technologies", Astro.params.tech!.toString());
+if (!tech) return Astro.rewrite("/404");
+
+tech = await getEntry(
+  "technologies",
+  resolveAliased(tech.id, technologies) ?? tech.id,
+);
 if (!tech) return Astro.rewrite("/404");
 
 const works = await getCollection("works").then((works) =>
@@ -18,16 +27,23 @@ const works = await getCollection("works").then((works) =>
     .filter(
       ({ data: work }) =>
         !work.metadata.private &&
-        work.metadata.madeWith?.some((mw) => mw.id === tech.id),
+        (work.metadata.madeWith?.some(
+          (mw) => resolveAliased(mw.id, technologies) === tech.id,
+        ) ||
+          work.metadata.additionalMetadata?.made_with
+            ?.map((id) => resolveAliased(id, technologies))
+            .includes(tech.id)),
     )
     .map((w) => w.data),
 );
+
+const name = tech.data.name === "C Sharp" ? "C#" : tech.data.name;
 ---
 
 <Layout>
   <StrongHeader
     back="/"
-    title={tech.data.name}
+    title={name}
     editButton="~/projects.local/portfolio/technologies.yaml"
   >
     <div class="description" i18n set:html={tech.rendered!.html} />
