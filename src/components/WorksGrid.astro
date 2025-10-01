@@ -60,7 +60,7 @@ function findThumbnailSourcemap(
 {
   Object.entries(
     groupBy(
-      Astro.props.works,
+      Astro.props.works.filter(w => findThumbnailSourcemap(w.content, w.metadata.thumbnail ?? "")),
       ({ metadata }) =>
         preferredDate(metadata)?.getFullYear().toString() ?? "Unknown",
     ),
