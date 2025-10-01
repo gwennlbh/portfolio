@@ -10,10 +10,7 @@ export const getStaticPaths = (async () => {
   );
 }) satisfies GetStaticPaths;
 
-const tech = await getEntry(
-  "technologies",
-  decodeURI(Astro.params.tech!.toString()),
-);
+const tech = await getEntry("technologies", Astro.params.tech!.toString());
 if (!tech) return Astro.rewrite("/404");
 
 const works = await getCollection("works").then((works) =>

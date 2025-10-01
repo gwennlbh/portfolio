@@ -10,7 +10,7 @@ export const getStaticPaths = (async () => {
   return tags.map((t) => ({ params: { tag: t.id } }));
 }) satisfies GetStaticPaths;
 
-const entry = await getEntry("tags", decodeURI(Astro.params.tag!.toString()));
+const entry = await getEntry("tags", Astro.params.tag!.toString());
 if (!entry) return Astro.rewrite("/404");
 
 const {
