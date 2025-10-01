@@ -21,7 +21,7 @@
 - singular: graphism
   plural: graphism
   detect:
-    made with: [photoshop, gimp]
+    made with: [photoshop, gimp, illustrator, figma, penpot, assembly]
 
 - singular: poster
   plural: posters
