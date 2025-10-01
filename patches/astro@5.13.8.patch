@@ -1,0 +1,13 @@
+diff --git a/dist/core/routing/rewrite.js b/dist/core/routing/rewrite.js
+index 0ac1ce4e63d9cf7f3f13606baa846fea69752211..017d929774c2aaf26a0fe4ce82c98e12ca887a80 100644
+--- a/dist/core/routing/rewrite.js
++++ b/dist/core/routing/rewrite.js
+@@ -59,7 +59,7 @@ function findRouteToRewrite({
+     if (route.pattern.test(decodedPathname)) {
+       if (route.params && route.params.length !== 0 && route.distURL && route.distURL.length !== 0) {
+         if (!route.distURL.find(
+-          (url) => url.href.replace(outDir.toString(), "").replace(/(?:\/index\.html|\.html)$/, "") == trimSlashes(decodedPathname)
++          (url) => url.href.replace(outDir.toString(), "").replace(/(?:\/index\.html|\.html)$/, "") == trimSlashes(pathname)
+         )) {
+           continue;
+         }

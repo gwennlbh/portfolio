@@ -32,5 +32,8 @@
     "prettier-plugin-sort-json": "^4.1.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0"
+  },
+  "patchedDependencies": {
+    "astro@5.13.8": "patches/astro@5.13.8.patch"
   }
 }
