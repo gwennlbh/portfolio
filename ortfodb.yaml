@@ -35,7 +35,6 @@ technologies:
   repository: ~/projects/portfolio/technologies.yaml
 
 projects at: ~/projects
-
 # exporters:
 #   ssh:
 #     database: ewen@ewen.works:~/www/media.ewen.works/works.json

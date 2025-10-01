@@ -31,18 +31,18 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
     </ul>
 
     <section class="drafts">
-        <h2 i18n>(drafts)</h2>
-        <ul>
-          {
-            posts
-              .filter(({ data: { draft } }) => draft)
-              .map(({ id, data: { title } }) => (
-                <li>
-                  <a href={`/blog/${id}`}>{title}</a>
-                </li>
-              ))
-          }
-        </ul>
+      <h2 i18n>(drafts)</h2>
+      <ul>
+        {
+          posts
+            .filter(({ data: { draft } }) => draft)
+            .map(({ id, data: { title } }) => (
+              <li>
+                <a href={`/blog/${id}`}>{title}</a>
+              </li>
+            ))
+        }
+      </ul>
     </section>
   </main>
 </Layout>

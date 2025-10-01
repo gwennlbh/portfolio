@@ -2,7 +2,6 @@
 
 my portfolio :)
 
-
 like any other web dev freak, my portfolio is a playground for web dev tech exploration, and has thus been rewritten an unreasonable amount of times:
 
 - 2025 with [Astro](https://astro.build) and [ortfo/db](https://github.com/ortfo/db)
@@ -13,4 +12,3 @@ like any other web dev freak, my portfolio is a playground for web dev tech expl
 - 2020 with [Vue.js](https://vuejs.org) and [django](https://djangoproject.com)
 - 2019 with [Django](https://djangoproject.com)
 - 2018 with [PHP](https://php.net) (first webdev project ^^)
-

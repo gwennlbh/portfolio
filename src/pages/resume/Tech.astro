@@ -7,7 +7,10 @@ interface Props {
 
 const {
   data: { name, slug },
-} = (await getEntry("technologies", Astro.props.name?.toLowerCase() ?? "fu")) ?? {
+} = (await getEntry(
+  "technologies",
+  Astro.props.name?.toLowerCase() ?? "fu",
+)) ?? {
   data: { name: "", slug: "" },
 };
 ---
@@ -21,4 +24,3 @@ const {
     <strong>{Astro.props.name}</strong>
   )
 }
-
