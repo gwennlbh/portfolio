@@ -60,7 +60,9 @@ function findThumbnailSourcemap(
 {
   Object.entries(
     groupBy(
-      Astro.props.works.filter(w => findThumbnailSourcemap(w.content, w.metadata.thumbnail ?? "")),
+      Astro.props.works.filter((w) =>
+        findThumbnailSourcemap(w.content, w.metadata.thumbnail ?? ""),
+      ),
       ({ metadata }) =>
         preferredDate(metadata)?.getFullYear().toString() ?? "Unknown",
     ),
@@ -85,45 +87,48 @@ function findThumbnailSourcemap(
               }) => {
                 const date = preferredDate({ started, finished });
                 const thumb = findThumbnailSourcemap(content, thumbnail ?? "");
-                if (!thumb) return (<></>);
                 return (
-                  <a href={`/${id}`}>
-                    <article style={setCssColors(colors)}>
-                      {
-                        <img
-                          srcset={Object.entries(thumb)
-                            .map(
-                              ([size, path]) =>
-                                `https://media.gwen.works/${path} ${size}w`,
-                            )
-                            .join(", ")}
-                          alt=""
-                          style={{
-                            width: "100%",
-                            height: "auto",
-                            objectFit: "cover",
-                          }}
-                        />
-                      }
-                      <section class="text">
-                        <h2>
-                          <Translated
-                            fr={content.fr?.title ?? id}
-                            en={content.en?.title ?? id}
+                  thumb && (
+                    <a href={`/${id}`}>
+                      <article style={setCssColors(colors)}>
+                        {
+                          <img
+                            srcset={Object.entries(thumb)
+                              .map(
+                                ([size, path]) =>
+                                  `https://media.gwen.works/${path} ${size}w`,
+                              )
+                              .join(", ")}
+                            alt=""
+                            style={{
+                              width: "100%",
+                              height: "auto",
+                              objectFit: "cover",
+                            }}
                           />
-                          {wip && <WIPIndicator />}
-                        </h2>
-                        {date && (
-                          <time datetime={isoDate(date)}>
+                        }
+                        <section class="text">
+                          <h2>
                             <Translated
-                              fr={format(date, "MMMM yyyy", { locale: frFR })}
-                              en={format(date, "MMMM, yyyy", { locale: enUS })}
+                              fr={content.fr?.title ?? id}
+                              en={content.en?.title ?? id}
                             />
-                          </time>
-                        )}
-                      </section>
-                    </article>
-                  </a>
+                            {wip && <WIPIndicator />}
+                          </h2>
+                          {date && (
+                            <time datetime={isoDate(date)}>
+                              <Translated
+                                fr={format(date, "MMMM yyyy", { locale: frFR })}
+                                en={format(date, "MMMM, yyyy", {
+                                  locale: enUS,
+                                })}
+                              />
+                            </time>
+                          )}
+                        </section>
+                      </article>
+                    </a>
+                  )
                 );
               },
             )}
