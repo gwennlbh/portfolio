@@ -16,7 +16,7 @@ export const getStaticPaths = (async () => {
         id,
         ...(metadata.aliases ?? []),
       ])
-      .map((id) => ({ params: { work: encodeURIComponent(id) } })),
+      .map((id) => ({ params: { work: id } })),
   );
 }) satisfies GetStaticPaths;
 
@@ -47,7 +47,7 @@ raw: ${Astro.params.work}
 dec: ${decodeURI(Astro.params.work!.toString())}
 `);
 
-const entry = await getEntry("works", decodeURI(Astro.params.work!.toString()));
+const entry = await getEntry("works", Astro.params.work!.toString());
 if (!entry) return Astro.rewrite("/404");
 
 const {

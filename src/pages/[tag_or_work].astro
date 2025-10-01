@@ -16,7 +16,7 @@ export const getStaticPaths = (async () => {
   ]
 
   return ids.map((id) => ({
-    params: { tag_or_work: encodeURIComponent(id) },
+    params: { tag_or_work: id },
   }));
 }) satisfies GetStaticPaths;
 
