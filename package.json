@@ -8,13 +8,14 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "syncworkflow": "cp .github/workflows/publish.yml builders/en/.github/workflows; cd builders/en; git add .github; git commit -m 'Update workflow'; git push; cd ../..; cp .github/workflows/publish.yml builders/fr/.github/workflows; cd builders/fr; git add .github; git commit -m 'Update workflow'; git push",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json; prettier --write works.json",
+    "mediaup": "linux rsync -rv media/ ewen@gwen.works:~/www/media.gwen.works/",
     "postinstall": "patch-package"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.1.1",
     "date-fns": "^4.1.0",
     "jsdom": "^26.1.0",
