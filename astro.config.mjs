@@ -8,7 +8,7 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   integrations: [mdx()],
-  site: `https://beta.${process.env.LANG}.gwen.works`,
+  site: `https://${process.env.LANG}.gwen.works`,
   markdown: {
     remarkPlugins: [math],
     rehypePlugins: [katex],
