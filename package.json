@@ -8,9 +8,12 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json; prettier --write works.json",
-    "mediaup": "linux rsync -rv media/ ewen@gwen.works:~/www/media.gwen.works/",
-    "postinstall": "patch-package"
+    "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json",
+    "mediaup": "wsl --exec rsync -rv media/ ewen@gwen.works:~/www/media.gwen.works/",
+    "postinstall": "patch-package && husky"
+  },
+  "lint-staged": {
+    "works.json": "bunx prettier --write"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
@@ -29,6 +32,8 @@
     "@types/jsdom": "^21.1.7",
     "@types/picomatch": "^3.0.1",
     "@types/slug": "^5.0.9",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "patch-package": "^8.0.1",
     "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
