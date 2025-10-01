@@ -424,7 +424,8 @@ const experience = await getCollection("experiences").then((entries) =>
   dl.times .links {
     display: flex;
     align-items: center;
-    gap: 2ch;
+    flex-wrap: wrap;
+    gap: 0 2ch;
   }
 
   :root {
@@ -475,6 +476,7 @@ const experience = await getCollection("experiences").then((entries) =>
   section.skills h3::after {
     content: "-------------------------------------";
     display: block;
+    overflow-x: hidden;
   }
 
   h4 {
