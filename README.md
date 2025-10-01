@@ -2,7 +2,6 @@
 
 my portfolio :)
 
-its deployed on github actions, but since i want different subdomains per language, the site is actually built separately in two different repos (you can't have multiple gh pages sites on a single repo): [portfolio-build-en](https://github.com/gwennlbh/portfolio-build-en) and [portfolio-build-fr](https://github.com/gwennlbh/portfolio-build-fr)
 
 like any other web dev freak, my portfolio is a playground for web dev tech exploration, and has thus been rewritten an unreasonable amount of times:
 
