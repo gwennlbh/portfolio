@@ -1,4 +1,5 @@
 ---
+import YAML from "yaml";
 import { getCollection } from "astro:content";
 import Bare from "./Bare.astro";
 import { setCssColors } from "../colors";
@@ -67,7 +68,11 @@ interface Props {
 
     <pre
       class="locals"
-      set:html={JSON.stringify(Astro.locals, null, 2).replace(
+      set:html={YAML.stringify(Astro.locals, null, {
+        indent: 2,
+        simpleKeys: true,
+        lineWidth: 80,
+      }).replace(
         Astro.locals.buildCommit ?? "",
         `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit?.slice(0, 8)}</a>`,
       )}
