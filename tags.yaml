@@ -69,6 +69,7 @@
 
 - singular: program
   plural: programs
+  aliases: [software]
 
 - singular: command-line
   plural: command-line

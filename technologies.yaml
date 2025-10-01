@@ -43,6 +43,14 @@
   aliases: ["cs"]
   by: Microsoft
 
+- slug: dotnet
+  name: .NET
+  by: Microsoft
+  autodetect: [dotnet in README.md, dotnet in *.csproj]
+  learn more at: https://dotnet.microsoft.com/
+  description: |
+    A suite of C# development tools
+
 - slug: c++
   name: C++
   files: ["*.cpp"]

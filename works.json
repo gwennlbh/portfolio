@@ -16476,7 +16476,7 @@
   },
   "graphinx": {
     "Partial": false,
-    "builtAt": "2025-10-01T23:34:29.2255963+02:00",
+    "builtAt": "2025-10-02T01:44:29.5150435+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -16569,6 +16569,46 @@
           {
             "alt": "",
             "analyzed": false,
+            "anchor": "churros-apis-documentation-site",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "oM865TcIi2",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Churros API’s documentation site",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://api-docs.churros.inpt.fr"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
             "anchor": "",
             "attributes": {
               "autoplay": false,
@@ -16583,7 +16623,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>The idea of Graphinx is to keep the API up to date by using the source code of the API server as much as possible, alongside the GraphQL descriptions, and to categorize all items in modules, as large GraphQL APIs that have auto-generated documentation sites tend to be single-page, difficult-to-navigate dumps of all types, sorted alphabetically, which is less than ideal (see for example, <a href=\"https://docs.github.com/en/graphql/reference/objects\">Github’s GraphQL API documentation</a>).</p>",
+            "content": "<p>The idea of Graphinx is to keep the API up to date by using the source code of the API server as much as possible, alongside the GraphQL descriptions.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -16594,7 +16634,47 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "_nJz9TNFhz",
+            "id": "Rm1inHj7Kd",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>All items are categorized in modules, as large GraphQL APIs that have auto-generated documentation sites tend to be single-page, difficult-to-navigate dumps of all types, sorted alphabetically, which is less than ideal (see for example, <a href=\"https://docs.github.com/en/graphql/reference/objects\">Github’s GraphQL API documentation</a>).</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "r3nSfxQU7e",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -16685,46 +16765,6 @@
             "title": "",
             "type": "link",
             "url": "https://github.com/graphinx"
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "churros-apis-documentation-site",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "oM865TcIi2",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "Churros API’s documentation site",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "link",
-            "url": "https://api-docs.churros.inpt.fr"
           },
           {
             "alt": "",
@@ -16859,13 +16899,13 @@
         ],
         "footnotes": {},
         "layout": [
-          ["85HhqTAmzO", "85HhqTAmzO"],
           ["uJKd9LCuUa", "QePaPQYMr6"],
-          ["_nJz9TNFhz", "QePaPQYMr6"],
+          ["oM865TcIi2", "QePaPQYMr6"],
+          ["Rm1inHj7Kd", "QePaPQYMr6"],
+          ["r3nSfxQU7e", "yIRYHVI-wX"],
           ["bk3m4xEGhL", "yIRYHVI-wX"],
           ["qKuO7xxlrY", "yIRYHVI-wX"],
-          ["oM865TcIi2", "yIRYHVI-wX"],
-          ["C7-Xns5Cqw", "yIRYHVI-wX"]
+          ["C7-Xns5Cqw", "85HhqTAmzO"]
         ],
         "title": "Graphinx"
       },
@@ -16960,6 +17000,46 @@
           {
             "alt": "",
             "analyzed": false,
+            "anchor": "site-de-documentation-de-lapi-de-churros",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "oM865TcIi2",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Site de documentation de l’API de Churros",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://api-docs.churros.inpt.fr"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
             "anchor": "",
             "attributes": {
               "autoplay": false,
@@ -16974,7 +17054,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>L’idée de Graphinx est de maintenir l’API à jour en utilisant le code source du serveur API autant que possible, aux côtés des descriptions GraphQL, et de catégoriser tous les éléments en modules, car les gros API GraphQL qui ont des sites de documentation générés automatiquement ont tendance à être des pages uniques, difficiles à naviguer, qui contiennent tout les types, triés par ordre alphabétique, ce qui n’est pas idéal (voir par exemple, <a href=\"https://docs.github.com/en/graphql/reference/objects\">la documentation de l’API GraphQL de Github</a>).</p>",
+            "content": "<p>L’idée de Graphinx est de maintenir l’API à jour en utilisant le code source du serveur API autant que possible, aux côtés des descriptions GraphQL.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -16985,7 +17065,47 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "WiEAQiRMEL",
+            "id": "1fAk8B8LvJ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Tous les éléments sont catégorisés dans des modules, car les gros API GraphQL qui ont des sites de documentation générés automatiquement ont tendance à être des pages uniques, difficiles à naviguer, qui contiennent tout les types, triés par ordre alphabétique, ce qui n’est pas idéal (voir par exemple, <a href=\"https://docs.github.com/en/graphql/reference/objects\">la documentation de l’API GraphQL de Github</a>).</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "iz8cYM4KPR",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -17076,46 +17196,6 @@
             "title": "",
             "type": "link",
             "url": "https://github.com/graphinx"
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "site-de-documentation-de-lapi-de-churros",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "oM865TcIi2",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "Site de documentation de l’API de Churros",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "link",
-            "url": "https://api-docs.churros.inpt.fr"
           },
           {
             "alt": "",
@@ -17213,7 +17293,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "The 'Try it live' feature",
+            "caption": "La fonctionnalité 'Try it live'",
             "colors": {
               "primary": "#1E3454",
               "secondary": "#436480",
@@ -17242,7 +17322,7 @@
               "400": "graphinx/yIRYHVI-wX@400.webp",
               "600": "graphinx/yIRYHVI-wX@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-10-01T23:32:27.8805126+02:00",
+            "thumbnailsBuiltAt": "2025-10-01T23:32:29.3990092+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -17250,29 +17330,29 @@
         ],
         "footnotes": {},
         "layout": [
-          ["85HhqTAmzO", "85HhqTAmzO"],
           ["tztNCtecVQ", "QePaPQYMr6"],
-          ["WiEAQiRMEL", "QePaPQYMr6"],
+          ["oM865TcIi2", "QePaPQYMr6"],
+          ["1fAk8B8LvJ", "QePaPQYMr6"],
+          ["iz8cYM4KPR", "yIRYHVI-wX"],
           ["bk3m4xEGhL", "yIRYHVI-wX"],
           ["qKuO7xxlrY", "yIRYHVI-wX"],
-          ["oM865TcIi2", "yIRYHVI-wX"],
-          ["7WideiL8QO", "yIRYHVI-wX"]
+          ["7WideiL8QO", "85HhqTAmzO"]
         ],
         "title": "Graphinx"
       }
     },
-    "descriptionHash": "E7sVngLB4iOkLrBXvKFWnQ==",
+    "descriptionHash": "oEPiockJghHpNwU+xn47FA==",
     "id": "graphinx",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          ["m1"],
           ["p1", "m2"],
+          ["l1", "m2"],
           ["p2", "m2"],
-          ["l1", "m3"],
+          ["p3", "m3"],
           ["l2", "m3"],
           ["l3", "m3"],
-          ["p3", "m3"]
+          ["p4", "m1"]
         ],
         "made_with": [
           "css",
@@ -27139,6 +27219,534 @@
     },
     "source": "C:\\Users\\ewen\\projects\\schedule-hell\\.ortfo\\description.md"
   },
+  "scopestify": {
+    "Partial": false,
+    "builtAt": "2025-10-02T01:47:20.346145+02:00",
+    "content": {
+      "default": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "Scopestify Logo",
+            "analyzed": true,
+            "anchor": "wordmark",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#031D0D",
+              "secondary": "#107835",
+              "tertiary": "#1DD65F"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 4.489583,
+              "height": 192,
+              "width": 862
+            },
+            "distSource": "scopestify\\wordmark.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "Nt25zkO7fhZXVtxXUM/lsg==",
+            "id": "85HhqTAmzO",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../wordmark.png",
+            "size": 31596,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/85HhqTAmzO@100.webp",
+              "1200": "scopestify/85HhqTAmzO@1200.webp",
+              "400": "scopestify/85HhqTAmzO@400.webp",
+              "600": "scopestify/85HhqTAmzO@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:32:23.0677566+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "demo",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "A funny demo: going from _Charli XCX_ to _Nils Frahm_ with the keyboard only",
+            "colors": {
+              "primary": "#251d1d",
+              "secondary": "#1b1d20",
+              "tertiary": "#1d211d"
+            },
+            "content": "",
+            "contentType": "image/gif",
+            "dimensions": {
+              "aspectRatio": 1.635992,
+              "height": 489,
+              "width": 800
+            },
+            "distSource": "scopestify\\demo.gif",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "Z+e3UzWyvspGm4wTKV1jeg==",
+            "id": "w2Ep_nzh-n",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../demo.gif",
+            "size": 2845833,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>A Windows <a href=\"https://learn.microsoft.com/en-us/windows/powertoys/command-palette/overview\">Command Palette</a> plugin to quickly control <a href=\"https://www.spotify.com\">Spotify</a> playback without leaving your current application and losing focus</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "1KxckUA0Xk",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "like-current-track",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Liking the currently playing track",
+            "colors": {
+              "primary": "#8A8A8C",
+              "secondary": "#818081",
+              "tertiary": "#595959"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 530,
+              "width": 848
+            },
+            "distSource": "scopestify\\.ortfo\\like-current-track.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "0lblc64RmWiyVKjWtfltdw==",
+            "id": "EsxmNWSU_5",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./like-current-track.png",
+            "size": 69232,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/EsxmNWSU_5@100.webp",
+              "1200": "scopestify/EsxmNWSU_5@1200.webp",
+              "400": "scopestify/EsxmNWSU_5@400.webp",
+              "600": "scopestify/EsxmNWSU_5@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:45:38.2732341+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "currently-playing",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Seeing more info about the currently playing track",
+            "colors": {
+              "primary": "#5B5F5E",
+              "secondary": "#8D8A8A",
+              "tertiary": "#D8D5D7"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.594646,
+              "height": 523,
+              "width": 834
+            },
+            "distSource": "scopestify\\.ortfo\\currently-playing.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "fpiYp6BDOjrbIT5zc4vuoA==",
+            "id": "ic9OfNlyv6",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./currently-playing.png",
+            "size": 67411,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/ic9OfNlyv6@100.webp",
+              "1200": "scopestify/ic9OfNlyv6@1200.webp",
+              "400": "scopestify/ic9OfNlyv6@400.webp",
+              "600": "scopestify/ic9OfNlyv6@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:45:38.7408681+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>For a while, I had made a custom script to automatically like a track on spotify when pressing a keyboard shortcut, without having to open the app, while I was doing high-focus work. But I always thought that doing a little more without opening the app would be nice too: adding the current track to a playlist, searching for something to play…</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "U9reg6qBVa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "my-playlists",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Seeing your playlists. You can add the currently playing track to one of them from here",
+            "colors": {
+              "primary": "#475759",
+              "secondary": "#6A757E",
+              "tertiary": "#9A9EA5"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.590822,
+              "height": 523,
+              "width": 832
+            },
+            "distSource": "scopestify\\.ortfo\\my-playlists.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "evzhCPuTxR7SyilHNnTdCw==",
+            "id": "e_ubmpAeZD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./my-playlists.png",
+            "size": 52645,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/e_ubmpAeZD@100.webp",
+              "1200": "scopestify/e_ubmpAeZD@1200.webp",
+              "400": "scopestify/e_ubmpAeZD@400.webp",
+              "600": "scopestify/e_ubmpAeZD@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:45:39.2669048+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "search",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Searching for something to play, add to queue, etc",
+            "colors": {
+              "primary": "#87A6C5",
+              "secondary": "#5C676B",
+              "tertiary": "#A39EA3"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.586538,
+              "height": 520,
+              "width": 825
+            },
+            "distSource": "scopestify\\.ortfo\\search.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "YzZS/pcGvnNRci1gtY3c2A==",
+            "id": "E5DFerhp6U",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./search.png",
+            "size": 75521,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/E5DFerhp6U@100.webp",
+              "1200": "scopestify/E5DFerhp6U@1200.webp",
+              "400": "scopestify/E5DFerhp6U@400.webp",
+              "600": "scopestify/E5DFerhp6U@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:45:39.8146529+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>I stumbled upon this <a href=\"https://learn.microsoft.com/en-us/windows/powertoys\">PowerToy</a>, that happens to be extensible, meaning you can <em>write your own commands</em>! This was also a great opportunity to learn some C#, a programming language I had never used before. I quickly added a bunch of features, and I can now do almost anything I need from the command palette, without ever opening the Spotify app.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "D06o5fTNqQ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "album-tracks",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Looking at the tracks of an album",
+            "colors": {
+              "primary": "#EA6B51",
+              "secondary": "#50575D",
+              "tertiary": "#7D8287"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.586873,
+              "height": 518,
+              "width": 822
+            },
+            "distSource": "scopestify\\.ortfo\\album-tracks.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "PokWtEF+PcZ79yjdcHnGkA==",
+            "id": "y9M2DOmvpW",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./album-tracks.png",
+            "size": 84147,
+            "text": "",
+            "thumbnails": {
+              "100": "scopestify/y9M2DOmvpW@100.webp",
+              "1200": "scopestify/y9M2DOmvpW@1200.webp",
+              "400": "scopestify/y9M2DOmvpW@400.webp",
+              "600": "scopestify/y9M2DOmvpW@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T00:45:40.2712599+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "source-code",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "76RMSeQwWV",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Source code",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/gwennlbh/scopestify"
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["w2Ep_nzh-n", "w2Ep_nzh-n"],
+          ["1KxckUA0Xk", "1KxckUA0Xk"],
+          ["EsxmNWSU_5", "ic9OfNlyv6"],
+          ["U9reg6qBVa", "U9reg6qBVa"],
+          ["e_ubmpAeZD", "E5DFerhp6U"],
+          ["D06o5fTNqQ", "D06o5fTNqQ"],
+          ["y9M2DOmvpW", "76RMSeQwWV"]
+        ],
+        "title": "Scopestify"
+      }
+    },
+    "descriptionHash": "xMTcQZH2tlj33Kp8g0RGjQ==",
+    "id": "scopestify",
+    "metadata": {
+      "additionalMetadata": {
+        "layout": [
+          ["m2"],
+          ["p1"],
+          ["m3", "m4"],
+          ["p2"],
+          ["m5", "m6"],
+          ["p3"],
+          ["m7", "l1"]
+        ],
+        "made_with": ["csharp", "dotnet"],
+        "title_style": "image"
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "#0f582bff",
+        "secondary": "#b9eecbff",
+        "tertiary": "#1DD65F"
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "2025-09-26",
+      "tags": ["software", "web"],
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": false
+    },
+    "source": "C:\\Users\\ewen\\projects\\scopestify\\.ortfo\\description.md"
+  },
   "serial": {
     "Partial": false,
     "builtAt": "2025-06-14T21:31:41.9532256+02:00",
@@ -31913,7 +32521,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-07-07T22:29:57.498236069+02:00",
+    "builtAt": "2025-10-02T01:34:19.0121355+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -32331,14 +32939,6 @@
           "4": "<p>Locations in the code where a function gets called <a href=\"#fnref:4\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          [
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb"
-          ],
           [
             "ggGqgGYKL-",
             "ggGqgGYKL-",
@@ -32807,14 +33407,6 @@
         },
         "layout": [
           [
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb",
-            "zNfSlGPWwb"
-          ],
-          [
             "6A8Q0OsoJV",
             "6A8Q0OsoJV",
             "6A8Q0OsoJV",
@@ -32866,12 +33458,11 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "WuPc1e0wDmXoV3Wky/py1w==",
+    "descriptionHash": "cQkyaMxqZwZocUpSP92+og==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          "m1",
           ["p1", "p6"],
           ["p2", "p6"],
           ["p3", "p6"],
@@ -32879,7 +33470,8 @@
           ["p5", "p6"],
           ["l1", "l2", "l3"]
         ],
-        "made_with": ["javascript"]
+        "made_with": ["javascript"],
+        "title_style": "image"
       },
       "aliases": ["sw&rpc"],
       "colors": {
