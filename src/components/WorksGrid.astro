@@ -85,10 +85,11 @@ function findThumbnailSourcemap(
               }) => {
                 const date = preferredDate({ started, finished });
                 const thumb = findThumbnailSourcemap(content, thumbnail ?? "");
+                if (!thumb) return (<></>);
                 return (
                   <a href={`/${id}`}>
                     <article style={setCssColors(colors)}>
-                      {thumb && (
+                      {
                         <img
                           srcset={Object.entries(thumb)
                             .map(
@@ -103,7 +104,7 @@ function findThumbnailSourcemap(
                             objectFit: "cover",
                           }}
                         />
-                      )}
+                      }
                       <section class="text">
                         <h2>
                           <Translated
