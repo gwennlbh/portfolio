@@ -41,12 +41,6 @@ const hasMediaRowBefore = (
       row.some((cell) => blocks.find((b) => b.id === cell)?.type === "media"),
     );
 
-console.log(`Getting entry:
-
-raw: ${Astro.params.work} 
-dec: ${decodeURI(Astro.params.work!.toString())}
-`);
-
 const entry = await getEntry("works", Astro.params.work!.toString());
 if (!entry) return Astro.rewrite("/404");
 

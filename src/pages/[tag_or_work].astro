@@ -13,7 +13,7 @@ export const getStaticPaths = (async () => {
       `${id}.json`,
     ]),
     ...works.flatMap((w) => w.data.metadata.aliases ?? []),
-  ]
+  ];
 
   return ids.map((id) => ({
     params: { tag_or_work: id },
@@ -32,7 +32,6 @@ if (tag) return Astro.rewrite(`/tags/${tag.id}`);
 
 const work = await getEntry("works", tag_or_work);
 if (work) {
-  console.log(`Rewriting /${tag_or_work} -> /works/${work.id}`);
   return Astro.rewrite(`/works/${work.id}`);
 }
 

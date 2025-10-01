@@ -25,7 +25,6 @@ export const onRequest = defineMiddleware(
       loggedCollections = true;
     }
 
-    console.log(`mw ${url} ${routePattern} contiuning`);
     locals.lang = process.env.LANG === "fr" ? "fr" : "en";
     locals.locale = process.env.LOCALE as
       | `${typeof locals.lang}-${string}`
