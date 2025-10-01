@@ -8,6 +8,7 @@ type Props = {
 } & (
   | { title: string; wip?: undefined }
   | { title: { fr: string; en: string }; wip?: boolean }
+  | { title: { img: { src: string; alt: string; srcset: string, height: string; width: string } }; wip?: boolean }
 );
 
 const { title, wip, back, editButton } = Astro.props;
@@ -49,6 +50,10 @@ const { title, wip, back, editButton } = Astro.props;
   {
     typeof title === "string" ? (
       <h1 i18n>{title}</h1>
+    ) : "img" in title ? (
+      <h1 class="image">
+        <img {...title.img} />
+      </h1>
     ) : (
       <h1>
         <Translated {...title} />
@@ -69,6 +74,13 @@ const { title, wip, back, editButton } = Astro.props;
   }
   h1 {
     font-size: 2.8em;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 10rem;
+    object-fit: contain;
+    object-position: 0 0;
   }
 
   a.back,

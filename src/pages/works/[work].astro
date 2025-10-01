@@ -8,6 +8,7 @@ import Layout from "../../layouts/Regular.astro";
 import BlockLink from "./BlockLink.astro";
 import BlockMedia from "./BlockMedia.astro";
 import BlockParagraph from "./BlockParagraph.astro";
+import { imageAttrs } from "./media";
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
@@ -46,15 +47,21 @@ if (!entry) return Astro.rewrite("/404");
 
 const {
   metadata,
-  metadata: { tags, wip, colors },
+  metadata: { tags, wip, colors, additionalMetadata: misc },
 } = entry.data;
+
+const titleStyle = misc?.title_style ?? "";
 
 const content = Object.keys(entry.data.content).includes("default")
   ? { fr: entry.data.content.default, en: entry.data.content.default }
   : entry.data.content;
 
-const madeWith = await Promise.all(
-  metadata.madeWith?.map((tech) => getEntry("technologies", tech.id)) ?? [],
+let madeWith = await Promise.all(
+  metadata.madeWith?.map((tech) => getEntry("technologies", tech.id)) ??
+    metadata.additionalMetadata?.made_with?.map((tech) =>
+      getEntry("technologies", tech),
+    ) ??
+    [],
 ).then((techs) => techs.filter((x) => !!x));
 
 const { blocks, layout, footnotes } =
@@ -75,13 +82,17 @@ const portraitModeCutoff = 200 * layoutWidth + 100;
 const cssGridAreas = layout
   .map((row) => '"' + row.map((cell) => `_${cell}`).join(" ") + '"')
   .join(" ");
+
+const firstMediaBlock = blocks.find((b) => b.type === "media");
 ---
 
 <Layout colors={colors}>
   <StrongHeader
     back="/"
     editButton={entry.data.source}
-    title={{ fr: content.fr?.title, en: content.en?.title }}
+    title={titleStyle === "image" && firstMediaBlock
+      ? { img: imageAttrs(firstMediaBlock) }
+      : { fr: content.fr?.title, en: content.en?.title }}
     wip={wip}
   >
     <section class="tags">
@@ -95,19 +106,23 @@ const cssGridAreas = layout
     {
       (
         <section style={`grid-template-areas: ${cssGridAreas}; `}>
-          {blocks.map((block) => (
-            <div
-              id={block.anchor || undefined}
-              class={`block ${isLoneRow(block.id, layout) && hasMediaRowBefore(block.id, layout, blocks) ? "indent" : ""}`}
-              data-type={block.type}
-              data-block-id={block.id}
-              style={`grid-area: _${block.id}`}
-            >
-              {block.type === "paragraph" && <BlockParagraph {...block} />}
-              {block.type === "link" && <BlockLink {...block} />}
-              {block.type === "media" && <BlockMedia {...block} />}
-            </div>
-          ))}
+          {blocks
+            .filter((b) =>
+              titleStyle === "image" ? b.id !== firstMediaBlock?.id : true,
+            )
+            .map((block) => (
+              <div
+                id={block.anchor || undefined}
+                class={`block ${isLoneRow(block.id, layout) && hasMediaRowBefore(block.id, layout, blocks) ? "indent" : ""}`}
+                data-type={block.type}
+                data-block-id={block.id}
+                style={`grid-area: _${block.id}`}
+              >
+                {block.type === "paragraph" && <BlockParagraph {...block} />}
+                {block.type === "link" && <BlockLink {...block} />}
+                {block.type === "media" && <BlockMedia {...block} />}
+              </div>
+            ))}
         </section>
       )
     }
@@ -120,7 +135,7 @@ const cssGridAreas = layout
         <ul class="technologies">
           {madeWith.map(({ id, data: { name } }) => (
             <li>
-              <a href={`/using/${id}`}>{name}</a>
+              <a href={`/using/${id}`}>{name === "C Sharp" ? "C#" : name}</a>
             </li>
           ))}
         </ul>
@@ -153,8 +168,9 @@ const cssGridAreas = layout
           <code
             class="swatch"
             style={`background-color: ${color}; color: var(--${name === "primary" ? "secondary" : "primary"}, black)`}
+            onclick={`navigator.clipboard.writeText(JSON.stringify('${color}'))`}
           >
-            C{i + 1}
+            {["⊓", "⊔", "⊐"][i]}
           </code>
         ))
       }

@@ -1,27 +1,25 @@
 ---
 import type { InferEntrySchema } from "astro:content";
+import { imageAttrs } from "./media";
 
 type Block =
   InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
 
 interface Props extends Block {}
 
-const { alt, caption, attributes, contentType, thumbnails, dimensions } =
-  Astro.props;
+const { alt, caption, attributes, contentType, dimensions } = Astro.props;
 const generalContentType = contentType?.split("/")[0] ?? "";
-const distSource = `https://media.gwen.works/${Astro.props.distSource}`;
-const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
-  .map(([size, path]) => `https://media.gwen.works/${path} ${size}w`)
-  .join(", ");
+
+const attrs = imageAttrs(Astro.props);
 ---
 
 <figure>
   {
     generalContentType === "image" && (
-      <a href={distSource}>
+      <a href={attrs.src}>
         <img
-          src={distSource}
-          srcset={thumbnailsSrcSet}
+          src={attrs.src}
+          srcset={attrs.srcset}
           alt={alt}
           height={dimensions.height}
           width={dimensions.width}
@@ -36,21 +34,21 @@ const thumbnailsSrcSet = Object.entries(thumbnails ?? {})
         height={dimensions.height}
         width={dimensions.width}
       >
-        <source src={distSource} type={contentType} />
+        <source src={attrs.src} type={contentType} />
       </video>
     )
   }
   {
     generalContentType === "audio" && (
       <audio {...attributes}>
-        <source src={distSource} type={contentType} />
+        <source src={attrs.src} type={contentType} />
       </audio>
     )
   }
   {
     contentType === "application/pdf" && (
-      <a href={distSource}>
-        <img srcset={thumbnailsSrcSet} alt={alt} />
+      <a href={attrs.src}>
+        <img srcset={attrs.srcset} alt={alt} />
       </a>
     )
   }

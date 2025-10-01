@@ -72,6 +72,8 @@ export const collections = {
               )
               .optional(),
             created: nullableDate,
+            title_style: z.string().optional(),
+            made_with: z.array(z.string()).optional(),
           })
           .nullable(),
         databaseMetadata: z.object({
@@ -258,11 +260,13 @@ function yamlDataCollection<
 
             return [
               { ...out, isAliasOf: null },
-              ...aliasIds.map((slug) => ({
-                ...out,
-                slug,
-                isAliasOf: out.slug,
-              })),
+              ...aliasIds
+                .filter((slug) => slug !== out.slug)
+                .map((slug) => ({
+                  ...out,
+                  slug,
+                  isAliasOf: out.slug,
+                })),
             ];
           });
 
