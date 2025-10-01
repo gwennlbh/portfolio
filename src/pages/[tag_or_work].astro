@@ -37,7 +37,7 @@ if (work) {
 
 const allWorks = await getCollection("works");
 const workByAlias = allWorks.find((w) =>
-  w.data.metadata.aliases?.some((a) => a.id === tag_or_work),
+  w.data.metadata.aliases?.some((a) => a === tag_or_work),
 );
 if (workByAlias) return Astro.rewrite(`/works/${workByAlias.id}`);
 
