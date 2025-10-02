@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/jsdom": "^27.0.0",
-    "@types/picomatch": "^3.0.1",
+    "@types/picomatch": "^4.0.0",
     "@types/slug": "^5.0.9",
     "husky": "^9.1.7",
     "patch-package": "^8.0.1",
