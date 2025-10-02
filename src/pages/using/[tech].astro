@@ -22,10 +22,7 @@ tech = await getEntry(
 );
 if (!tech) return Astro.rewrite("/404");
 
-const includedTechs = [
-  tech.id,
-  ...(tech.data.includes ?? []),
-];
+const includedTechs = [tech.id, ...(tech.data.includes ?? [])];
 
 const works = await getCollection("works").then((works) =>
   works
