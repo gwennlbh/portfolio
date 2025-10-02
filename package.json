@@ -9,6 +9,7 @@
     "astro": "astro",
     "format": "prettier --write .",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json",
+    "formatdb": "bunx prettier --write works.json",
     "mediaup": "rclone --progress copy media/ www:media.gwen.works/",
     "postinstall": "patch-package && husky"
   },
