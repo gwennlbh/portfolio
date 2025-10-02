@@ -14356,7 +14356,7 @@
   },
   "emoti∗ns": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.2406402+02:00",
+    "builtAt": "2025-10-02T17:18:26.7879562+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -15514,7 +15514,7 @@
         "title": "emoti*ns"
       }
     },
-    "descriptionHash": "6A8FMXDEvxVkZU0+JV+pww==",
+    "descriptionHash": "2mKXHMWN4s2cD/2W2bzroQ==",
     "id": "emoti∗ns",
     "metadata": {
       "additionalMetadata": {
@@ -15535,7 +15535,7 @@
         ],
         "made_with": ["figma", "flstudio", "photoshop"]
       },
-      "aliases": ["emotions"],
+      "aliases": ["emotions", "emoti*ns"],
       "colors": {
         "primary": "#000",
         "secondary": "#ffffff",
