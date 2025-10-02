@@ -1,7 +1,7 @@
 {
   "abbru-what": {
     "Partial": false,
-    "builtAt": "2025-06-08T19:54:38.4837845+02:00",
+    "builtAt": "2025-10-02T12:44:18.7193023+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -38,13 +38,13 @@
   },
   "abstract-wallpapers-per-color-scheme": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:36:51.1801677+02:00",
+    "builtAt": "2025-10-02T12:44:18.7719239+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "Des formes abstraites aux couleurs étranges",
+            "alt": "Abstract shapes with strange colors “The original drawing, serving as a template”",
             "analyzed": true,
             "anchor": "1",
             "attributes": {
@@ -54,7 +54,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le dessin original, servant de patron",
+            "caption": "",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -89,7 +89,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème sombre",
+            "alt": "The same shapes, but with the colors of a dark theme",
             "analyzed": true,
             "anchor": "1-moonlight",
             "attributes": {
@@ -99,7 +99,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le thème _Moonlight_",
+            "caption": "Using theme _Moonlight_",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -134,7 +134,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème sombre",
+            "alt": "The same shapes, but with the colors of a dark theme",
             "analyzed": true,
             "anchor": "1-one-half",
             "attributes": {
@@ -144,7 +144,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le thème _One Half Dark_",
+            "caption": "Using theme _One Half Dark_",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -179,7 +179,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème sombre",
+            "alt": "The same shapes, but with the colors of a dark theme",
             "analyzed": true,
             "anchor": "1-palenight-theme",
             "attributes": {
@@ -189,7 +189,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le thème _Palenight_",
+            "caption": "Using theme _Palenight_",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -224,7 +224,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème clair",
+            "alt": "The same shapes, but with the colors of a light theme",
             "analyzed": true,
             "anchor": "1-one-half",
             "attributes": {
@@ -234,7 +234,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le thème _One Half Light_",
+            "caption": "Using theme _One Half Light_",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -269,7 +269,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème clair",
+            "alt": "The same shapes, but with the colors of a light theme",
             "analyzed": true,
             "anchor": "1-snazzy-light",
             "attributes": {
@@ -279,7 +279,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le thème _Snazzy Light_",
+            "caption": "Using theme _Snazzy Light_",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -314,7 +314,7 @@
             "url": ""
           },
           {
-            "alt": "Le tableau Oben Und Links de Vassily Kandinksy",
+            "alt": "Oben Und Links, painting by Vassily Kandinksy",
             "analyzed": true,
             "anchor": "oben-und-links",
             "attributes": {
@@ -359,7 +359,7 @@
             "url": ""
           },
           {
-            "alt": "Une version vectorisée du tableau",
+            "alt": "A vectorized version of the painting",
             "analyzed": true,
             "anchor": "oben-und-links",
             "attributes": {
@@ -369,7 +369,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le tableau, vectorisé",
+            "caption": "The painting, vectorized",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -404,7 +404,7 @@
             "url": ""
           },
           {
-            "alt": "Les mêmes formes, mais avec les couleurs d’un thème clair",
+            "alt": "The same shapes, but with the colors of a light theme",
             "analyzed": true,
             "anchor": "oben-und-links-snazzy-light",
             "attributes": {
@@ -414,7 +414,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Un exemple avec le thème _Snazzy Light_",
+            "caption": "An example with the _Snazzy Light_ theme",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -1245,7 +1245,7 @@
   },
   "abstrakitten": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:36:54.1802871+02:00",
+    "builtAt": "2025-10-02T12:44:18.7831802+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -1565,7 +1565,7 @@
             "url": ""
           },
           {
-            "alt": "A specimen of the font, showing the alphabet",
+            "alt": "Un spécimen de la police, montrant l’alphabet",
             "analyzed": true,
             "anchor": "pitch",
             "attributes": {
@@ -1610,7 +1610,7 @@
             "url": ""
           },
           {
-            "alt": "The font idea, all letters hand-drawn on some piece of paper",
+            "alt": "L’idée, avec l’alphabet complet écrit à la main sur un bout de papier",
             "analyzed": true,
             "anchor": "idea",
             "attributes": {
@@ -1817,7 +1817,7 @@
   },
   "acf-actualités-du-cartel-2019": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:19.4263181+02:00",
+    "builtAt": "2025-10-02T12:44:19.0806756+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -1948,7 +1948,7 @@
             "url": ""
           },
           {
-            "alt": "Une seconde version, où le texte a été réarrangé",
+            "alt": "A second version, where the text has been rearranged",
             "analyzed": true,
             "anchor": "affiche-v4",
             "attributes": {
@@ -1958,7 +1958,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Deuxième version",
+            "caption": "Second version",
             "colors": {
               "primary": "#5B392F",
               "secondary": "#926763",
@@ -1993,7 +1993,7 @@
             "url": ""
           },
           {
-            "alt": "Une version à fond blanc",
+            "alt": "A version with white background",
             "analyzed": true,
             "anchor": "affiche-v61",
             "attributes": {
@@ -2003,7 +2003,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Troisième version",
+            "caption": "Third version",
             "colors": {
               "primary": "#313131",
               "secondary": "#D6D6D6",
@@ -2038,7 +2038,7 @@
             "url": ""
           },
           {
-            "alt": "Une version à fond blanc, avec texte réarrangé",
+            "alt": "A version with white background, with rearranged text",
             "analyzed": true,
             "anchor": "affiche-v81",
             "attributes": {
@@ -2048,7 +2048,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Version finale",
+            "caption": "Final version",
             "colors": {
               "primary": "#705B51",
               "secondary": "#191817",
@@ -2123,7 +2123,7 @@
             "url": ""
           },
           {
-            "alt": "Une première version, avec l’ancienne date barrée et remplacée par la nouvelle",
+            "alt": "A first version, with the old date crossed out and replaced by the new one",
             "analyzed": true,
             "anchor": "affiche-reporte",
             "attributes": {
@@ -2133,7 +2133,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Première proposition",
+            "caption": "First proposal",
             "colors": {
               "primary": "#785045",
               "secondary": "#C9C2C2",
@@ -2168,7 +2168,7 @@
             "url": ""
           },
           {
-            "alt": "Une deuxième version, avec un bandeau indiquant le changement de date",
+            "alt": "A second version, with a banner indicating the change of date",
             "analyzed": true,
             "anchor": "affiche-reporte-alt-v4",
             "attributes": {
@@ -2178,7 +2178,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Une deuxième proposition, finalement acceptée, utillisant un bandeau pour rendre la nouvelle information plus visible",
+            "caption": "A second proposal, finally accepted, using a banner to make the new information more visible",
             "colors": {
               "primary": "#7A5748",
               "secondary": "#131312",
@@ -2348,7 +2348,7 @@
             "url": ""
           },
           {
-            "alt": "Version of the poster with dark background",
+            "alt": "Version de l’affiche à fond sombre",
             "analyzed": true,
             "anchor": "affiche-v3",
             "attributes": {
@@ -2358,7 +2358,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "First version",
+            "caption": "Première version",
             "colors": {
               "primary": "#804E40",
               "secondary": "#BFAAAA",
@@ -2747,7 +2747,7 @@
   },
   "acf-choses-de-finesse-en-psychanalyse": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:36:55.363744+02:00",
+    "builtAt": "2025-10-02T12:44:18.7831802+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -2793,7 +2793,7 @@
             "url": ""
           },
           {
-            "alt": "Une première affiche pour un séminaire le samedi 08 février 2020",
+            "alt": "A first poster for a seminar on Saturday February 08, 2020",
             "analyzed": true,
             "anchor": "affiche-v2",
             "attributes": {
@@ -2838,7 +2838,7 @@
             "url": ""
           },
           {
-            "alt": "Une deuxième affiche pour un séminaire le samedi 21 mars 2020",
+            "alt": "A second poster for a seminar on Saturday 21 March 2020",
             "analyzed": true,
             "anchor": "affiche-2",
             "attributes": {
@@ -3062,7 +3062,7 @@
   },
   "acf-conférence-eric-zuliani": {
     "Partial": false,
-    "builtAt": "2025-10-02T12:14:01.8518157+02:00",
+    "builtAt": "2025-10-02T12:44:18.7585855+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3363,7 +3363,7 @@
   },
   "acf-conférence-laurent-dupont": {
     "Partial": false,
-    "builtAt": "2025-06-17T23:08:00.082026693+02:00",
+    "builtAt": "2025-10-02T12:44:18.8687259+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3534,7 +3534,7 @@
             "url": ""
           },
           {
-            "alt": "La même photo, avec le poteau rapproché",
+            "alt": "The same armchair photo, but with the pole next to it",
             "analyzed": true,
             "anchor": "background-with-pole-moved",
             "attributes": {
@@ -3544,7 +3544,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Avec le poteau rapproché",
+            "caption": "After moving the pole",
             "colors": {
               "primary": "#495A5D",
               "secondary": "#354143",
@@ -3579,7 +3579,7 @@
             "url": ""
           },
           {
-            "alt": "L’affiche finale",
+            "alt": "The final poster",
             "analyzed": true,
             "anchor": "affiche",
             "attributes": {
@@ -3758,7 +3758,7 @@
             "url": ""
           },
           {
-            "alt": "An armchair on concrete, with a pole next to it, a few meters away",
+            "alt": "Un fauteuil est posé sur du béton, avec un poteau à côté, à quelques mètres",
             "analyzed": true,
             "anchor": "background",
             "attributes": {
@@ -3768,7 +3768,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "The original image",
+            "caption": "L'image à utiliser comme fond",
             "colors": {
               "primary": "#B9AF9D",
               "secondary": "#4A5656",
@@ -4014,7 +4014,7 @@
   },
   "acf-crise-principe-organisateur-famille": {
     "Partial": false,
-    "builtAt": "2025-06-16T23:11:34.156057078+02:00",
+    "builtAt": "2025-10-02T12:44:19.0799522+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -4290,7 +4290,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "Poster announcing the event",
+            "alt": "Affiche présentant la journée",
             "analyzed": true,
             "anchor": "affiche",
             "attributes": {
@@ -4345,7 +4345,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Original work by Michel Kevin",
+            "caption": "Œuvre originale de Michel Kevin",
             "colors": {
               "primary": "#CC642B",
               "secondary": "#522012",
@@ -4390,7 +4390,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Modified work",
+            "caption": "Œuvre modifiée",
             "colors": {
               "primary": "#BE4626",
               "secondary": "#D8C15F",
@@ -4586,7 +4586,7 @@
   },
   "acf-de-l-une-a-l-autre": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:48:50.7989426+02:00",
+    "builtAt": "2025-10-02T12:44:19.002103+02:00",
     "content": {
       "en": {
         "abbreviations": {
@@ -4674,7 +4674,7 @@
             "url": ""
           },
           {
-            "alt": "Affiche originale de l’ECF",
+            "alt": "Original ECF poster",
             "analyzed": true,
             "anchor": "affiche-ecf",
             "attributes": {
@@ -4684,7 +4684,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "affiche de l'ECF",
+            "caption": "ECF's poster",
             "colors": {
               "primary": "#D5612C",
               "secondary": "#4A5429",
@@ -4719,7 +4719,7 @@
             "url": ""
           },
           {
-            "alt": "Affiche",
+            "alt": "Poster",
             "analyzed": true,
             "anchor": "affiche",
             "attributes": {
@@ -5069,7 +5069,7 @@
   },
   "acf-illimité": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:04.8828664+02:00",
+    "builtAt": "2025-10-02T12:44:19.354713+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -5120,7 +5120,7 @@
             "url": ""
           },
           {
-            "alt": "flyer (verso)",
+            "alt": "flyer (front side)",
             "analyzed": true,
             "anchor": "illimite-flyer-verso-02-22-1",
             "attributes": {
@@ -5304,7 +5304,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "poster",
+            "alt": "affiche",
             "analyzed": true,
             "anchor": "illimite-affiche-02-22-1",
             "attributes": {
@@ -5394,7 +5394,7 @@
             "url": ""
           },
           {
-            "alt": "printed poster and flyers on a red background",
+            "alt": "affiche et flyer imprimmés sur fond rouge",
             "analyzed": true,
             "anchor": "photo-imprimes",
             "attributes": {
@@ -5560,7 +5560,7 @@
   },
   "acf-je-suis-ce-que-je-dis": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:34:06.9110255+02:00",
+    "builtAt": "2025-10-02T12:44:18.8803856+02:00",
     "content": {
       "en": {
         "abbreviations": {
@@ -5658,7 +5658,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Affiche",
+            "caption": "Poster",
             "colors": {
               "primary": "#E83F48",
               "secondary": "#E8CFD0",
@@ -5703,7 +5703,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Affiche de l'école",
+            "caption": "School's poster",
             "colors": {
               "primary": "#CB060E",
               "secondary": "#420304",
@@ -5959,7 +5959,7 @@
   },
   "acf-le-rêve-éclair-e": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:07.8754842+02:00",
+    "builtAt": "2025-10-02T12:44:19.1041207+02:00",
     "content": {
       "en": {
         "abbreviations": {
@@ -6151,7 +6151,7 @@
         },
         "blocks": [
           {
-            "alt": "poster “front”",
+            "alt": "affiche “recto”",
             "analyzed": true,
             "anchor": "affiche-v31",
             "attributes": {
@@ -6196,7 +6196,7 @@
             "url": ""
           },
           {
-            "alt": "argument “back”",
+            "alt": "argument “verso”",
             "analyzed": true,
             "anchor": "affiche-verso-v12",
             "attributes": {
@@ -6362,7 +6362,7 @@
   },
   "acf-qu-est-ce-qui-fait-violence": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:45.5705199+02:00",
+    "builtAt": "2025-10-02T12:44:19.7170895+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -6488,7 +6488,7 @@
             "url": ""
           },
           {
-            "alt": "Une forme géométrique concentrique",
+            "alt": "A concentric geometric shape",
             "analyzed": true,
             "anchor": "cell-2",
             "attributes": {
@@ -6533,7 +6533,7 @@
             "url": ""
           },
           {
-            "alt": "Une première affiche utilisant cette forme",
+            "alt": "A first poster using this shape",
             "analyzed": true,
             "anchor": "affiche-cell",
             "attributes": {
@@ -6618,7 +6618,7 @@
             "url": ""
           },
           {
-            "alt": "Une image “glitchée” d’une certaine manière",
+            "alt": "An image “glitched” in a certain way",
             "analyzed": true,
             "anchor": "glitch-clouds-1",
             "attributes": {
@@ -6628,7 +6628,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "une image glitchée",
+            "caption": "a glitched image",
             "colors": {
               "primary": "#031400",
               "secondary": "#D063B4",
@@ -6663,7 +6663,7 @@
             "url": ""
           },
           {
-            "alt": "Une autre image “glitchée” d’une certaine manière",
+            "alt": "Another image “glitched” in a certain way",
             "analyzed": true,
             "anchor": "glitch-clouds-2",
             "attributes": {
@@ -6673,7 +6673,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "une autre image glitchée",
+            "caption": "another glitched image",
             "colors": {
               "primary": "#410F58",
               "secondary": "#A459CD",
@@ -6748,7 +6748,7 @@
             "url": ""
           },
           {
-            "alt": "Un adolescent face à une œuvre d’art contemporain, assemblage de néons blancs dans un tunnel blanc",
+            "alt": "A teenager in front of a contemporary art work, an assembly of white neon lights in a white tunnel",
             "analyzed": true,
             "anchor": "lisboa",
             "attributes": {
@@ -6758,7 +6758,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "image originale",
+            "caption": "original image",
             "colors": {
               "primary": "#040D1A",
               "secondary": "#979C97",
@@ -6793,7 +6793,7 @@
             "url": ""
           },
           {
-            "alt": "Cette même image, mais avec des artéfacts de glitch",
+            "alt": "This same image, but with glitch artifacts",
             "analyzed": true,
             "anchor": "glitch-lisboa-2",
             "attributes": {
@@ -6803,7 +6803,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "image “glitchée”",
+            "caption": "glitched image",
             "colors": {
               "primary": "#A1C1B1",
               "secondary": "#C6EAD9",
@@ -6838,7 +6838,7 @@
             "url": ""
           },
           {
-            "alt": "L’affiche finale, utilisant l’image “glitchée” précédente",
+            "alt": "The final poster, using the previous “glitched” image",
             "analyzed": true,
             "anchor": "affiche",
             "attributes": {
@@ -6848,7 +6848,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "l'affiche finale, recto",
+            "caption": "final poster, front",
             "colors": {
               "primary": "#355A36",
               "secondary": "#729075",
@@ -6883,7 +6883,7 @@
             "url": ""
           },
           {
-            "alt": "Le verso de l’affiche, contenant un texte explicatif",
+            "alt": "The back of the poster, containing an explanatory text",
             "analyzed": true,
             "anchor": "argument",
             "attributes": {
@@ -6893,7 +6893,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "l'affiche finale, verso",
+            "caption": "final poster, back",
             "colors": {
               "primary": "#BCC6BA",
               "secondary": "#767C75",
@@ -7733,7 +7733,7 @@
   },
   "acf-quelle-vérité-révèle-le-symptome-de-l-enfant": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:42.1614467+02:00",
+    "builtAt": "2025-10-02T12:44:19.6455833+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -8034,7 +8034,7 @@
             "url": ""
           },
           {
-            "alt": "Flyer, verso",
+            "alt": "Flyer, back",
             "analyzed": true,
             "anchor": "flyer-verso",
             "attributes": {
@@ -8044,7 +8044,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Flyer, verso",
+            "caption": "Flyer, back",
             "colors": {
               "primary": "#8D99AB",
               "secondary": "#666870",
@@ -8217,7 +8217,7 @@
             "url": ""
           },
           {
-            "alt": "Photo of a mobile by Alexander Calder",
+            "alt": "Photo d’un mobile de Alexander Calder",
             "analyzed": true,
             "anchor": "calder",
             "attributes": {
@@ -8302,7 +8302,7 @@
             "url": ""
           },
           {
-            "alt": "Poster",
+            "alt": "Affiche",
             "analyzed": true,
             "anchor": "affiche",
             "attributes": {
@@ -8312,7 +8312,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Poster",
+            "caption": "Affiche",
             "colors": {
               "primary": "#2E3341",
               "secondary": "#97A2B1",
@@ -8387,7 +8387,7 @@
             "url": ""
           },
           {
-            "alt": "Flyer, front",
+            "alt": "Flyer, recto",
             "analyzed": true,
             "anchor": "flyer-recto",
             "attributes": {
@@ -8397,7 +8397,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Flyer, front",
+            "caption": "Flyer, recto",
             "colors": {
               "primary": "#2E3341",
               "secondary": "#97A2B1",
@@ -8560,7 +8560,7 @@
   },
   "acf-écoute-à-interprétation": {
     "Partial": false,
-    "builtAt": "2025-06-17T23:14:30.022118394+02:00",
+    "builtAt": "2025-10-02T12:44:19.8150898+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -8731,7 +8731,7 @@
             "url": ""
           },
           {
-            "alt": "Affiche annonçant le colloque",
+            "alt": "Poster announcing the symposium",
             "analyzed": true,
             "anchor": "affiche-v2",
             "attributes": {
@@ -8776,7 +8776,7 @@
             "url": ""
           },
           {
-            "alt": "Verso de l’affiche, avec argument",
+            "alt": "Back of the poster, with argument",
             "analyzed": true,
             "anchor": "argument",
             "attributes": {
@@ -8861,7 +8861,7 @@
             "url": ""
           },
           {
-            "alt": "Bannière reprenant le titre et une partie de l’œuvre",
+            "alt": "Banner with the title and a part of the work",
             "analyzed": true,
             "anchor": "banniere",
             "attributes": {
@@ -8871,7 +8871,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "bannière",
+            "caption": "banner",
             "colors": {
               "primary": "#AA8D74",
               "secondary": "#C9B9A9",
@@ -8906,7 +8906,7 @@
             "url": ""
           },
           {
-            "alt": "Miniature reprenant l’œuvre, le titre et la date du colloque",
+            "alt": "Thumbnail with the work, the title and the date of the symposium",
             "analyzed": true,
             "anchor": "vignette",
             "attributes": {
@@ -8916,7 +8916,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "miniature",
+            "caption": "thumbnail",
             "colors": {
               "primary": "#7F6D5D",
               "secondary": "#211F1E",
@@ -8951,7 +8951,7 @@
             "url": ""
           },
           {
-            "alt": "Capture d’écran du site helloasso, avec la bannière visible en tête de page",
+            "alt": "Screenshot of the helloasso website, with the banner visible at the top of the page",
             "analyzed": true,
             "anchor": "helloasso",
             "attributes": {
@@ -8961,7 +8961,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "La page de l'évènement sur helloasso.com",
+            "caption": "The event page on helloasso.com",
             "colors": {
               "primary": "#9F876C",
               "secondary": "#1A1A1C",
@@ -9076,7 +9076,7 @@
             "url": ""
           },
           {
-            "alt": "Capture du mail de l’ECF messager, affichant l’affiche en tête",
+            "alt": "Capture of the email from the ECF messenger, displaying the poster at the top",
             "analyzed": true,
             "anchor": "mail",
             "attributes": {
@@ -9086,7 +9086,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Sur la newsletter",
+            "caption": "newsletter",
             "colors": {
               "primary": "#88694C",
               "secondary": "#2C251D",
@@ -9263,7 +9263,7 @@
             "url": ""
           },
           {
-            "alt": "Pablo Reinoso’s Interprétation Renversante: an armchair and a bench on a floor, with the bench tilted, leaning against a white wall",
+            "alt": "Interprétation Renversante de Pablo Reinoso: un fauteuil et un banc sur un plancher, avec le banc incliné, s’appuyant contre un mur blanc",
             "analyzed": true,
             "anchor": "interpretation-renversante",
             "attributes": {
@@ -9273,7 +9273,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Interprétation Renversante by Pablo Reinoso",
+            "caption": "Interprétation Renversante de Pablo Reinoso",
             "colors": {
               "primary": "#7D6A55",
               "secondary": "#1F1E1D",
@@ -9838,7 +9838,7 @@
   },
   "alphabet-des-formes": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:34:14.2655576+02:00",
+    "builtAt": "2025-10-02T12:44:19.5413471+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -10149,7 +10149,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "A grid of various hand-drawn shapes “The initial idea, drawn on paper”",
+            "alt": "Une grille de différentes formes variées dessinées à la main “L’idée initiale sur papier”",
             "analyzed": true,
             "anchor": "papier",
             "attributes": {
@@ -10194,7 +10194,7 @@
             "url": ""
           },
           {
-            "alt": "The same grid of shapes, but vectorized into clean and straight geometric shapes “An unfinished manually vectorized version”",
+            "alt": "Les mêmes formes, mais vectorisées en des formes géométriques propres “Une version vectorisée incomplète”",
             "analyzed": true,
             "anchor": "alphabet-des-formes",
             "attributes": {
@@ -10482,7 +10482,7 @@
   },
   "calen7drier": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:09.2354312+02:00",
+    "builtAt": "2025-10-02T12:44:19.4371719+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:20.0835017+02:00",
+    "builtAt": "2025-10-02T12:44:19.7748578+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10920,7 +10920,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:34:19.3605385+02:00",
+    "builtAt": "2025-10-02T12:44:20.1858215+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12000,7 +12000,7 @@
             "url": ""
           },
           {
-            "alt": "Screenshot of a spreadsheet showing exported annotations, linking each image to the corresponding species",
+            "alt": "Capture d’écran d’un tableur ouvert sur un export des annotations, associant chaque image à l’espèce correspondante",
             "analyzed": true,
             "anchor": "screenshot-exports-csv",
             "attributes": {
@@ -12010,7 +12010,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Annotations export",
+            "caption": "Export des annotations",
             "colors": {
               "primary": "#989799",
               "secondary": "#BBBAB9",
@@ -12435,7 +12435,7 @@
   },
   "circular": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:18.8748077+02:00",
+    "builtAt": "2025-10-02T12:44:19.6179107+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12909,7 +12909,7 @@
   },
   "condenses": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:20.856963+02:00",
+    "builtAt": "2025-10-02T12:44:20.1632436+02:00",
     "content": {
       "en": {
         "abbreviations": {
@@ -13293,7 +13293,7 @@
             "url": ""
           },
           {
-            "alt": "CPGE, first year, Mathematics",
+            "alt": "Condensé de mathématiques de MPSI",
             "analyzed": true,
             "anchor": "condense-math-mpsi",
             "attributes": {
@@ -13303,7 +13303,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "CPGE, first year, Mathematics",
+            "caption": "Condensé de mathématiques de MPSI",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13333,7 +13333,7 @@
             "url": ""
           },
           {
-            "alt": "CPGE, first year, Physics",
+            "alt": "Condensé de physique de MPSI",
             "analyzed": true,
             "anchor": "condense-physique-mpsi",
             "attributes": {
@@ -13343,7 +13343,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "CPGE, first year, Physics",
+            "caption": "Condensé de physique de MPSI",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13373,7 +13373,7 @@
             "url": ""
           },
           {
-            "alt": "12th grade, Mathematics",
+            "alt": "Condensé de mathématiques de terminale",
             "analyzed": true,
             "anchor": "condense-math-terminale",
             "attributes": {
@@ -13383,7 +13383,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "12th grade, Mathematics",
+            "caption": "Condensé de mathématiques de terminale",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13413,7 +13413,7 @@
             "url": ""
           },
           {
-            "alt": "12th grade, Physics",
+            "alt": "Condensé de physique de terminale",
             "analyzed": true,
             "anchor": "condense-physique-terminale",
             "attributes": {
@@ -13423,7 +13423,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "12th grade, Physics",
+            "caption": "Condensé de physique de terminale",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13453,7 +13453,7 @@
             "url": ""
           },
           {
-            "alt": "11th grade, Mathematics",
+            "alt": "Condensé de mathématiques de première",
             "analyzed": true,
             "anchor": "condense-math-premiere",
             "attributes": {
@@ -13463,7 +13463,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "11th grade, Mathematics",
+            "caption": "Condensé de mathématiques de première",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13535,13 +13535,13 @@
   },
   "distilatex": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:29:32.8009374+02:00",
+    "builtAt": "2025-10-02T12:44:20.6704323+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "distilatex",
+            "alt": "logo",
             "analyzed": true,
             "anchor": "logo",
             "attributes": {
@@ -13746,7 +13746,7 @@
             "url": ""
           },
           {
-            "alt": "Le polycopié original, avec des commentaires et remarques",
+            "alt": "The original handout, with comments",
             "analyzed": true,
             "anchor": "original",
             "attributes": {
@@ -13756,7 +13756,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le polycopié original",
+            "caption": "",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13786,7 +13786,7 @@
             "url": ""
           },
           {
-            "alt": "Une version distillée, ne contenant que théorèmes et définitions",
+            "alt": "A distilled version, containing nothing but theorems and definitions",
             "analyzed": true,
             "anchor": "distille",
             "attributes": {
@@ -13796,7 +13796,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le même polycopié après traitement par distilatex",
+            "caption": "",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -13921,7 +13921,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "distilatex",
+            "alt": "logo",
             "analyzed": true,
             "anchor": "logo",
             "attributes": {
@@ -14136,7 +14136,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le polycopié original",
+            "caption": "",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -14176,7 +14176,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Le même polycopié après traitement par distilatex",
+            "caption": "",
             "colors": {
               "primary": "",
               "secondary": "",
@@ -14336,7 +14336,7 @@
   },
   "emoti∗ns": {
     "Partial": false,
-    "builtAt": "2025-09-17T15:40:46.521665787+02:00",
+    "builtAt": "2025-10-02T12:44:24.8971968+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -15538,7 +15538,7 @@
   },
   "flat-fruits": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:39.3548192+02:00",
+    "builtAt": "2025-10-02T12:44:22.0621658+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -16732,7 +16732,7 @@
             "url": ""
           },
           {
-            "alt": "cover art for the Ink EP",
+            "alt": "pochette pour l’EP «Ink»",
             "analyzed": true,
             "anchor": "ink-ep-cover-art",
             "attributes": {
@@ -16919,7 +16919,7 @@
   },
   "fsorg": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:23.4373149+02:00",
+    "builtAt": "2025-10-02T12:44:19.8667876+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -17217,7 +17217,7 @@
   },
   "graphinx": {
     "Partial": false,
-    "builtAt": "2025-10-02T01:44:29.5150435+02:00",
+    "builtAt": "2025-10-02T12:44:20.7954932+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -17603,7 +17603,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "La fonctionnalité 'Try it live'",
+            "caption": "The 'Try it live' feature",
             "colors": {
               "primary": "#1E3454",
               "secondary": "#436480",
@@ -17989,7 +17989,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Usage of Graphinx for Churros API's documentation",
+            "caption": "Utilisation de Graphinx pour la documentation de l'API de Churros",
             "colors": {
               "primary": "#665013",
               "secondary": "#535862",
@@ -18128,7 +18128,7 @@
   },
   "hexstring": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:26.0808133+02:00",
+    "builtAt": "2025-10-02T12:44:20.1663863+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -18670,7 +18670,7 @@
   },
   "humanr": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:23.2557246+02:00",
+    "builtAt": "2025-10-02T12:44:20.6908669+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -19031,7 +19031,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "HumanR’s logo",
+            "alt": "Logo de HumanR",
             "analyzed": true,
             "anchor": "logo-black",
             "attributes": {
@@ -19156,7 +19156,7 @@
             "url": ""
           },
           {
-            "alt": "Poster denouncing Apple",
+            "alt": "Affiche dénonçant Apple",
             "analyzed": true,
             "anchor": "apple",
             "attributes": {
@@ -19201,7 +19201,7 @@
             "url": ""
           },
           {
-            "alt": "Poster denouncing Levis",
+            "alt": "Affiche dénonçant Levis",
             "analyzed": true,
             "anchor": "levis",
             "attributes": {
@@ -19246,7 +19246,7 @@
             "url": ""
           },
           {
-            "alt": "Poster denouncing Nike",
+            "alt": "Affiche dénonçant Nike",
             "analyzed": true,
             "anchor": "nike",
             "attributes": {
@@ -19416,7 +19416,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:14:20.6732853+02:00",
+    "builtAt": "2025-10-02T12:44:21.0617371+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -20087,7 +20087,7 @@
   },
   "ideaseed": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:37:35.457896+02:00",
+    "builtAt": "2025-10-02T12:44:20.9842455+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -20348,7 +20348,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "ideaseed en action",
+            "caption": "ideaseed in action",
             "colors": {
               "primary": "#4D4F52",
               "secondary": "#545658",
@@ -20543,7 +20543,7 @@
             "url": ""
           },
           {
-            "alt": "logotype ideaseed",
+            "alt": "ideaseed logomark",
             "analyzed": true,
             "anchor": "ideaseed-logomark-color-on-white",
             "attributes": {
@@ -21399,7 +21399,7 @@
   },
   "indentex": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:45.5976584+02:00",
+    "builtAt": "2025-10-02T12:44:20.6924955+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -21436,7 +21436,7 @@
   },
   "infrasonic-village": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:49:52.5657587+02:00",
+    "builtAt": "2025-10-02T12:44:21.5692071+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -21627,7 +21627,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Un T-shirt avec le design “Mesh” imprimé",
+            "caption": "A T-shirt with the “Mesh” design printed",
             "colors": {
               "primary": "#C28D57",
               "secondary": "#B7A689",
@@ -21805,7 +21805,7 @@
             "url": ""
           },
           {
-            "alt": "A loosely regular grid of black lines with orange tubular structures on top",
+            "alt": "Un maillage de lignes noires avec des structures tubulaires oranges par dessus",
             "analyzed": true,
             "anchor": "infrasonic-village-mesh-no-text",
             "attributes": {
@@ -22115,7 +22115,7 @@
   },
   "inklings": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:33.7942055+02:00",
+    "builtAt": "2025-10-02T12:44:22.876559+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -23083,7 +23083,7 @@
   },
   "issurge": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:29:09.3170581+02:00",
+    "builtAt": "2025-10-02T12:44:20.9904966+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -23291,7 +23291,7 @@
   },
   "malwr": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:06.5964099+02:00",
+    "builtAt": "2025-10-02T12:44:23.7272267+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -23895,7 +23895,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Re-designed cover art",
+            "caption": "Nouvelle pochette",
             "colors": {
               "primary": "#034A2C",
               "secondary": "#08814F",
@@ -23980,7 +23980,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Original cover art",
+            "caption": "Pochette originale",
             "colors": {
               "primary": "#062109",
               "secondary": "#175D21",
@@ -24512,7 +24512,7 @@
   },
   "neptune": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:39.9246746+02:00",
+    "builtAt": "2025-10-02T12:44:23.1859711+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -24683,7 +24683,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "The first track, Stardust",
             "analyzed": true,
             "anchor": "stardust",
             "attributes": {
@@ -24723,7 +24723,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "A shorter version of the last track, Neptune (Radio Edit)",
             "analyzed": true,
             "anchor": "neptune-radio-edit",
             "attributes": {
@@ -24763,7 +24763,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "A track about the ever-increasing entropy of the universe",
             "analyzed": true,
             "anchor": "entropy",
             "attributes": {
@@ -24803,7 +24803,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "The fourth track, The Event Horizon",
             "analyzed": true,
             "anchor": "the-event-horizon",
             "attributes": {
@@ -24843,7 +24843,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "The fifth track, Fermi Paradox",
             "analyzed": true,
             "anchor": "fermi-paradox",
             "attributes": {
@@ -24883,7 +24883,7 @@
             "url": ""
           },
           {
-            "alt": "",
+            "alt": "The last track, Neptune",
             "analyzed": true,
             "anchor": "neptune",
             "attributes": {
@@ -25061,7 +25061,7 @@
             "url": "https://www.youtube.com/watch?v=6MY39VPqzzQ&list=PLl3OrLj4CmfO1yUNHIqJELaKUfpWfMYTp"
           },
           {
-            "alt": "Neptune’s album cover",
+            "alt": "Pochette d’album de Neptune",
             "analyzed": true,
             "anchor": "square",
             "attributes": {
@@ -25404,7 +25404,7 @@
   },
   "net7-ctf": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:36.6257917+02:00",
+    "builtAt": "2025-10-02T12:44:22.0627353+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -25626,7 +25626,7 @@
   },
   "nîmes": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:28.7495769+02:00",
+    "builtAt": "2025-10-02T12:44:22.063499+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -25873,7 +25873,7 @@
   },
   "obs-monitor-switcher": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:28.851572+02:00",
+    "builtAt": "2025-10-02T12:44:22.076534+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -26161,7 +26161,7 @@
   },
   "ortfo": {
     "Partial": false,
-    "builtAt": "2025-06-17T23:01:31.091288446+02:00",
+    "builtAt": "2025-10-02T12:44:22.4038332+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -26422,7 +26422,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "ortfo/db en action",
+            "caption": "ortfo/db in action",
             "colors": {
               "primary": "#04122a",
               "secondary": "",
@@ -27064,7 +27064,7 @@
   },
   "patterns": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:34:56.1312695+02:00",
+    "builtAt": "2025-10-02T12:44:26.1533299+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -29610,7 +29610,7 @@
   },
   "permbits": {
     "Partial": false,
-    "builtAt": "2025-06-14T23:05:42.1560541+02:00",
+    "builtAt": "2025-10-02T12:44:23.2175804+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -29818,13 +29818,13 @@
   },
   "phelng": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:44.5782331+02:00",
+    "builtAt": "2025-10-02T12:44:23.3396704+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "Un logo compris d’un vinyle à étiquette rouge avec une flèche de téléchargement par-dessus",
+            "alt": "",
             "analyzed": true,
             "anchor": "phelng-logo",
             "attributes": {
@@ -29869,7 +29869,7 @@
             "url": ""
           },
           {
-            "alt": "Le logotype de phelng",
+            "alt": "",
             "analyzed": true,
             "anchor": "phelng-wordmark",
             "attributes": {
@@ -30128,7 +30128,7 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-07-03T20:01:51.311266919+02:00",
+    "builtAt": "2025-10-02T12:44:23.1874903+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30427,7 +30427,7 @@
   },
   "schedule-hell": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:39.5316315+02:00",
+    "builtAt": "2025-10-02T12:44:23.196472+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -30466,7 +30466,7 @@
   },
   "scopestify": {
     "Partial": false,
-    "builtAt": "2025-10-02T12:41:02.4711731+02:00",
+    "builtAt": "2025-10-02T12:44:23.3118425+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -31480,7 +31480,7 @@
   },
   "serial": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:41.9532256+02:00",
+    "builtAt": "2025-10-02T12:44:26.5444747+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -32689,7 +32689,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:06.1951897+02:00",
+    "builtAt": "2025-10-02T12:44:23.6598248+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -33201,7 +33201,7 @@
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "shapemaker written in bold black text, with a colorful mosaic of squares containing various shapes inside",
+            "alt": "shapemaker écrit en gras en noir, avec une mosaïque colorée de carrés contenant diverses formes à l’intérieur",
             "analyzed": true,
             "anchor": "title",
             "attributes": {
@@ -33733,7 +33733,7 @@
   },
   "smooth-cursorify": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:06.2116955+02:00",
+    "builtAt": "2025-10-02T12:44:23.3448781+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -34272,7 +34272,7 @@
   },
   "spotify-playlist-covers": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:33.2285031+02:00",
+    "builtAt": "2025-10-02T12:44:25.5608159+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -34318,7 +34318,7 @@
             "url": ""
           },
           {
-            "alt": "Pochette pour la playlist ‘rck’",
+            "alt": "Cover art for playlist ‘rck’",
             "analyzed": true,
             "anchor": "rck",
             "attributes": {
@@ -34498,7 +34498,7 @@
             "url": ""
           },
           {
-            "alt": "Pochette pour la playlist ‘orchstral’",
+            "alt": "Cover art for playlist ‘orchstral’",
             "analyzed": true,
             "anchor": "orchstral",
             "attributes": {
@@ -34543,7 +34543,7 @@
             "url": ""
           },
           {
-            "alt": "Pochette pour la playlist ‘rage’",
+            "alt": "Cover art for playlist ‘rage’",
             "analyzed": true,
             "anchor": "rage",
             "attributes": {
@@ -34731,7 +34731,7 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘hackr’",
+            "alt": "Pochette pour la playlist ‘hackr’",
             "analyzed": true,
             "anchor": "hackr",
             "attributes": {
@@ -34776,7 +34776,7 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘intricate-percs’",
+            "alt": "Pochette pour la playlist ‘intricate-percs’",
             "analyzed": true,
             "anchor": "intricate-percs",
             "attributes": {
@@ -34821,7 +34821,7 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘jap’",
+            "alt": "Pochette pour la playlist ‘jap’",
             "analyzed": true,
             "anchor": "jap",
             "attributes": {
@@ -34956,7 +34956,7 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘slowburn’",
+            "alt": "Pochette pour la playlist ‘slowburn’",
             "analyzed": true,
             "anchor": "slowburn",
             "attributes": {
@@ -35046,7 +35046,7 @@
   },
   "subfeed-for-spotify": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:37.3886248+02:00",
+    "builtAt": "2025-10-02T12:44:24.9441367+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -35172,7 +35172,7 @@
             "url": ""
           },
           {
-            "alt": "un album dans la page “newstuff”",
+            "alt": "an album in the “newstuff” page",
             "analyzed": true,
             "anchor": "newstuff",
             "attributes": {
@@ -35257,7 +35257,7 @@
             "url": ""
           },
           {
-            "alt": "page “checkitout” montrant un artiste recommandé",
+            "alt": "checkitout page showing a recommended artist",
             "analyzed": true,
             "anchor": "checkitout",
             "attributes": {
@@ -35387,7 +35387,7 @@
             "url": ""
           },
           {
-            "alt": "version implémentée du prototype",
+            "alt": "implemented version of the prototype",
             "analyzed": true,
             "anchor": "newstuff-implemented",
             "attributes": {
@@ -35397,7 +35397,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "version implémentée du prototype",
+            "caption": "implemented version of the prototype",
             "colors": {
               "primary": "#CB7923",
               "secondary": "#66462D",
@@ -35923,7 +35923,7 @@
             "url": ""
           },
           {
-            "alt": "prototype of a “newstuff” page album",
+            "alt": "prototype d’un album de la page “newstuff”",
             "analyzed": true,
             "anchor": "newstuff-prototype",
             "attributes": {
@@ -35933,7 +35933,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "prototype of a “newstuff” page album",
+            "caption": "prototype d'un album de la page “newstuff”",
             "colors": {
               "primary": "#D6812A",
               "secondary": "#774F28",
@@ -36252,7 +36252,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-10-02T01:34:19.0121355+02:00",
+    "builtAt": "2025-10-02T12:44:24.0796167+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -37227,7 +37227,7 @@
   },
   "the-unconscious-wanders": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:33:29.9668759+02:00",
+    "builtAt": "2025-10-02T12:44:27.9235252+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -38259,7 +38259,7 @@
   },
   "trigonometry-synth": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:47:55.7141413+02:00",
+    "builtAt": "2025-10-02T12:44:25.2025505+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38523,7 +38523,7 @@
             "url": ""
           },
           {
-            "alt": "Synthesizer module connecting trigonometric formulas by cables",
+            "alt": "Module de synthétiseur reliant formules trigonométriques par des câbles",
             "analyzed": true,
             "anchor": "trigonometry-synth-white",
             "attributes": {
@@ -38729,7 +38729,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T02:34:20.4989894+02:00",
+    "builtAt": "2025-10-02T12:44:25.3124574+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38775,7 +38775,7 @@
             "url": ""
           },
           {
-            "alt": "Une capture d’écran du site",
+            "alt": "A screenshot of the website",
             "analyzed": true,
             "anchor": "scrot",
             "attributes": {
@@ -39197,7 +39197,7 @@
   },
   "vscode-pychemin": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:39.6372022+02:00",
+    "builtAt": "2025-10-02T12:44:25.2036438+02:00",
     "content": {
       "default": {
         "abbreviations": {},
