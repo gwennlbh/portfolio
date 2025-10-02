@@ -2,9 +2,7 @@ name: Code Formatting
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   format:
@@ -12,25 +10,25 @@ jobs:
 
     permissions:
       contents: write
-    
+
     steps:
-    - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
 
-    - name: Setup Bun
-      uses: oven-sh/setup-bun@v2
-      with:
-        bun-version-file: '.bun-version'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: ".bun-version"
 
-    - name: Install dependencies
-      run: bun install --frozen-lockfile
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
 
-    - name: Format code
-      run: bun format
+      - name: Format code
+        run: bun format
 
-    - name: Commit formatted changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git diff --staged --quiet || git commit -m "🎨 Auto-format code [skip ci]"
-        git push --no-verify
+      - name: Commit formatted changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "🎨 Auto-format code [skip ci]"
+          git push --no-verify
