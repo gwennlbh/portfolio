@@ -30232,7 +30232,7 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:35:53.2287921+02:00",
+    "builtAt": "2025-10-02T18:40:29.794115+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30485,11 +30485,11 @@
         ],
         "footnotes": {},
         "layout": [
-          ["OvEppPRuiv", "ziTWiimmh_", "ziTWiimmh_", "ziTWiimmh_"],
-          ["OvEppPRuiv", "qaq2lGEaUZ", "qaq2lGEaUZ", "qaq2lGEaUZ"],
-          ["OvEppPRuiv", "WW_-ZgIp6b", "WW_-ZgIp6b", "WW_-ZgIp6b"],
-          ["OvEppPRuiv", "Q63QR-4kPr", "Q63QR-4kPr", "Q63QR-4kPr"],
-          ["OvEppPRuiv", "f60q9MTfZe", "f60q9MTfZe", "f60q9MTfZe"]
+          ["ziTWiimmh_", "ziTWiimmh_", "OvEppPRuiv"],
+          ["qaq2lGEaUZ", "qaq2lGEaUZ", "OvEppPRuiv"],
+          ["WW_-ZgIp6b", "WW_-ZgIp6b", "OvEppPRuiv"],
+          ["Q63QR-4kPr", "Q63QR-4kPr", "OvEppPRuiv"],
+          ["f60q9MTfZe", "f60q9MTfZe", "OvEppPRuiv"]
         ],
         "title": "gwen.works"
       },
@@ -30744,25 +30744,25 @@
         ],
         "footnotes": {},
         "layout": [
-          ["OvEppPRuiv", "68FgX2sBju", "68FgX2sBju", "68FgX2sBju"],
-          ["OvEppPRuiv", "qaq2lGEaUZ", "qaq2lGEaUZ", "qaq2lGEaUZ"],
-          ["OvEppPRuiv", "5QoUu-yB8y", "5QoUu-yB8y", "5QoUu-yB8y"],
-          ["OvEppPRuiv", "mIarMT3-kR", "mIarMT3-kR", "mIarMT3-kR"],
-          ["OvEppPRuiv", "W3VM5-ixbB", "W3VM5-ixbB", "W3VM5-ixbB"]
+          ["68FgX2sBju", "68FgX2sBju", "OvEppPRuiv"],
+          ["qaq2lGEaUZ", "qaq2lGEaUZ", "OvEppPRuiv"],
+          ["5QoUu-yB8y", "5QoUu-yB8y", "OvEppPRuiv"],
+          ["mIarMT3-kR", "mIarMT3-kR", "OvEppPRuiv"],
+          ["W3VM5-ixbB", "W3VM5-ixbB", "OvEppPRuiv"]
         ],
         "title": "gwen.works"
       }
     },
-    "descriptionHash": "YXGcloblEQ7DEOyq0sCPKw==",
+    "descriptionHash": "RemDa4Fq+mnrQ4LN0GnhkA==",
     "id": "portfolio",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          ["m1", "p1", "p1", "p1"],
-          ["m1", "l1", "l1", "l1"],
-          ["m1", "p2", "p2", "p2"],
-          ["m1", "p3", "p3", "p3"],
-          ["m1", "p4", "p4", "p4"]
+          ["p1", "p1", "m1"],
+          ["l1", "l1", "m1"],
+          ["p2", "p2", "m1"],
+          ["p3", "p3", "m1"],
+          ["p4", "p4", "m1"]
         ],
         "made_with": ["figma", "ortfo", "astro"]
       },
@@ -36614,7 +36614,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:47:42.0885104+02:00",
+    "builtAt": "2025-10-02T18:41:48.021394+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -36681,7 +36681,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>A library to do RPC<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> between a main web page and a Service worker<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup>. Developed while developing CIGALE: we were running neural network inference on the user’s device, but doing so on the <em>same thread</em> as the main UI<sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote-ref\" role=\"doc-noteref\">3</a></sup> code, making the application slow and laggy while inference was running (loading spinners not spinning smoothly, the UI reacting with delays, etc.)</p>",
+            "content": "<p>A library to do RPC<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup> between a main web page and a Service worker<sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup>. Developed while developing <a href=\"/cigale\">CIGALE</a>: we were running neural network inference on the user’s device, but doing so on the <em>same thread</em> as the main UI<sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote-ref\" role=\"doc-noteref\">3</a></sup> code, making the application slow and laggy while inference was running (loading spinners not spinning smoothly, the UI reacting with delays, etc.)</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -36692,7 +36692,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "ggGqgGYKL-",
+            "id": "F1JKsAjoDK",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -37033,9 +37033,9 @@
         },
         "layout": [
           [
-            "ggGqgGYKL-",
-            "ggGqgGYKL-",
-            "ggGqgGYKL-",
+            "F1JKsAjoDK",
+            "F1JKsAjoDK",
+            "F1JKsAjoDK",
             "IcEstabn7Z",
             "IcEstabn7Z",
             "IcEstabn7Z"
@@ -37551,7 +37551,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "Wt8U5npg7/kyFzB13EptlQ==",
+    "descriptionHash": "XpvlB7Tgas/V5f3CA1XXpQ==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
