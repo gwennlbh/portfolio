@@ -2747,7 +2747,7 @@
   },
   "acf-choses-de-finesse-en-psychanalyse": {
     "Partial": false,
-    "builtAt": "2025-10-02T15:12:20.452416+02:00",
+    "builtAt": "2025-10-02T15:35:24.2747549+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3032,7 +3032,7 @@
         "title": "Choses de finesse en psychanalyse"
       }
     },
-    "descriptionHash": "ejtXIadl+ryXzgpQbbSpQg==",
+    "descriptionHash": "LLZ6jAsAC7dvL9nf76S0hQ==",
     "id": "acf-choses-de-finesse-en-psychanalyse",
     "metadata": {
       "additionalMetadata": {
@@ -3041,9 +3041,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#BF6D3B",
-        "secondary": "white",
-        "tertiary": "white"
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "tertiary": "#BF6D3B"
       },
       "databaseMetadata": {
         "Partial": false
@@ -3062,7 +3062,7 @@
   },
   "acf-conférence-eric-zuliani": {
     "Partial": false,
-    "builtAt": "2025-10-02T15:20:32.6044652+02:00",
+    "builtAt": "2025-10-02T15:47:40.5605978+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3331,7 +3331,7 @@
         "title": "Pratique en institution: lieu du symptôme"
       }
     },
-    "descriptionHash": "JUl6mS9f9BVPWLyZ6+mjig==",
+    "descriptionHash": "26ByAi7b4BD5+iWdES98PQ==",
     "id": "acf-conférence-eric-zuliani",
     "metadata": {
       "additionalMetadata": {
@@ -3343,8 +3343,8 @@
       "aliases": [],
       "colors": {
         "primary": "#fdfdfd",
-        "secondary": "#6374b4",
-        "tertiary": "#C4BBAC"
+        "secondary": "#141E44",
+        "tertiary": "#6374b4"
       },
       "databaseMetadata": {
         "Partial": false
