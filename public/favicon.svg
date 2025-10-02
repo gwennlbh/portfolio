@@ -1,14 +1,33 @@
-<svg width="149" height="149" viewBox="0 0 149 149" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.6473 17.9374L28.5549 69.5678C28.5549 69.5678 30.6002 37.2988 44.6895 37.2988C58.7787 37.2988 60.824 69.5678 60.824 69.5678L73.7316 17.9374" stroke="#FF14B1" stroke-width="10"/>
-<path class="black" d="M128.255 25.4985C118.173 15.417 101.828 15.417 91.7465 25.4985C81.6651 35.5799 81.6651 51.9252 91.7465 62.0067C101.828 72.0882 118.173 72.0882 128.255 62.0067" stroke="black" stroke-width="10"/>
-<path d="M137.605 16.1482L129.362 24.3912L90.6391 63.114L68.0508 85.7023" stroke="#FF14B1" stroke-width="10"/>
-<path d="M64.9104 134.681V105.61C64.9104 98.9742 60.6522 85.7023 43.6191 85.7023C26.5861 85.7023 22.3279 98.9742 22.3279 105.61V134.681L22.3279 79.6382" class="black" stroke="black" stroke-width="10"/>
-<path d="M82.8354 134.681V105.61C82.8354 98.9743 87.3955 85.7023 105.636 85.7023C123.876 85.7023 128.436 98.9743 128.436 105.61" class="black" stroke="black" stroke-width="10"/>
-<circle cx="116.5" cy="122.138" r="8.5" stroke="#FF14B1" stroke-width="10"/>
+<svg width="620" height="664" viewBox="0 0 620 664" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M293.377 328.025L529.358 63.8557" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M379.024 361.995L553.209 40.7273" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M531.888 321.159C531.888 387.82 477.849 441.86 411.187 441.86C344.525 441.86 290.486 387.82 290.486 321.159C290.486 254.498 344.525 200.458 411.187 200.458C477.849 200.458 531.888 254.498 531.888 321.159Z" fill="#FFA20A"/>
+<path d="M55.9495 234.789L427.81 381.148" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M54.5042 235.15L298.436 140.468" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M88.4739 248.16L326.624 141.552" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M124.612 261.169L361.678 135.77" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M159.304 275.625L400.345 127.097" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M189.299 287.55L435.038 116.617" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M222.907 300.56L474.067 99.271" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M259.407 314.654L508.759 76.504" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M330.96 342.841L541.645 53.737" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M427.81 381.148L565.496 21.2128" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M54.5042 235.15V354.406" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M88.4739 248.16V381.148" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M124.612 261.169V408.613" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M159.304 275.625V435.355" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M189.299 287.55V459.206" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M222.907 300.56V485.948" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M259.407 314.654V513.413" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M293.377 328.025V539.071" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M330.96 342.841V567.982" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M427.81 381.148V642.787" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
+<path d="M379.024 361.995V605.204" stroke="black" stroke-width="5" stroke-miterlimit="10"/>
 <style>
-    .black { stroke: #000000; }
     @media (prefers-color-scheme: dark) {
-        .black { stroke: #FFFFFF; }
+        path[stroke="black"] {
+            stroke: white;
+        }
     }
 </style>
 </svg>
