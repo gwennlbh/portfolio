@@ -18670,7 +18670,7 @@
   },
   "humanr": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:51.6722848+02:00",
+    "builtAt": "2025-10-02T16:25:49.3745901+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -18801,51 +18801,6 @@
             "url": ""
           },
           {
-            "alt": "Poster denouncing Apple",
-            "analyzed": true,
-            "anchor": "apple",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#2C2C26",
-              "secondary": "#4E4F55",
-              "tertiary": "#B8B8BB"
-            },
-            "content": "",
-            "contentType": "image/png",
-            "dimensions": {
-              "aspectRatio": 0.706956,
-              "height": 3508,
-              "width": 2480
-            },
-            "distSource": "humanr\\apple.png",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "QgrQasj4OQIeaYXihOwOfQ==",
-            "id": "HJfcAz8FiA",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../apple.png",
-            "size": 4817839,
-            "text": "",
-            "thumbnails": {
-              "100": "humanr/HJfcAz8FiA@100.webp",
-              "1200": "humanr/HJfcAz8FiA@1200.webp",
-              "400": "humanr/HJfcAz8FiA@400.webp",
-              "600": "humanr/HJfcAz8FiA@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:29:55.1344904+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
             "alt": "Poster denouncing Levis",
             "analyzed": true,
             "anchor": "levis",
@@ -18886,6 +18841,51 @@
               "600": "humanr/dyQlt7Zpap@600.webp"
             },
             "thumbnailsBuiltAt": "2025-06-14T21:30:00.5300598+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Poster denouncing Apple",
+            "analyzed": true,
+            "anchor": "apple",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2C2C26",
+              "secondary": "#4E4F55",
+              "tertiary": "#B8B8BB"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.706956,
+              "height": 3508,
+              "width": 2480
+            },
+            "distSource": "humanr\\apple.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "QgrQasj4OQIeaYXihOwOfQ==",
+            "id": "HJfcAz8FiA",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../apple.png",
+            "size": 4817839,
+            "text": "",
+            "thumbnails": {
+              "100": "humanr/HJfcAz8FiA@100.webp",
+              "1200": "humanr/HJfcAz8FiA@1200.webp",
+              "400": "humanr/HJfcAz8FiA@400.webp",
+              "600": "humanr/HJfcAz8FiA@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-06-14T21:29:55.1344904+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -19018,10 +19018,9 @@
         ],
         "footnotes": {},
         "layout": [
-          ["3Bswc7fyqe", "3Bswc7fyqe", "3Bswc7fyqe"],
           ["f4yCl2Na1D", "f4yCl2Na1D", "f4yCl2Na1D"],
           ["H-WE1UbgOi", "H-WE1UbgOi", "H-WE1UbgOi"],
-          ["HJfcAz8FiA", "dyQlt7Zpap", "SUQCUdVvSF"],
+          ["dyQlt7Zpap", "HJfcAz8FiA", "SUQCUdVvSF"],
           ["rl-y9UW0OM", "rl-y9UW0OM", "rl-y9UW0OM"],
           ["7YFgnaVhxK", "7YFgnaVhxK", "7YFgnaVhxK"]
         ],
@@ -19156,51 +19155,6 @@
             "url": ""
           },
           {
-            "alt": "Affiche dénonçant Apple",
-            "analyzed": true,
-            "anchor": "apple",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#2C2C26",
-              "secondary": "#4E4F55",
-              "tertiary": "#B8B8BB"
-            },
-            "content": "",
-            "contentType": "image/png",
-            "dimensions": {
-              "aspectRatio": 0.706956,
-              "height": 3508,
-              "width": 2480
-            },
-            "distSource": "humanr\\apple.png",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "QgrQasj4OQIeaYXihOwOfQ==",
-            "id": "HJfcAz8FiA",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../apple.png",
-            "size": 4817839,
-            "text": "",
-            "thumbnails": {
-              "100": "humanr/HJfcAz8FiA@100.webp",
-              "1200": "humanr/HJfcAz8FiA@1200.webp",
-              "400": "humanr/HJfcAz8FiA@400.webp",
-              "600": "humanr/HJfcAz8FiA@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:29:55.1344904+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
             "alt": "Affiche dénonçant Levis",
             "analyzed": true,
             "anchor": "levis",
@@ -19241,6 +19195,51 @@
               "600": "humanr/dyQlt7Zpap@600.webp"
             },
             "thumbnailsBuiltAt": "2025-06-14T21:30:00.5300598+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "Affiche dénonçant Apple",
+            "analyzed": true,
+            "anchor": "apple",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2C2C26",
+              "secondary": "#4E4F55",
+              "tertiary": "#B8B8BB"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.706956,
+              "height": 3508,
+              "width": 2480
+            },
+            "distSource": "humanr\\apple.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "QgrQasj4OQIeaYXihOwOfQ==",
+            "id": "HJfcAz8FiA",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../apple.png",
+            "size": 4817839,
+            "text": "",
+            "thumbnails": {
+              "100": "humanr/HJfcAz8FiA@100.webp",
+              "1200": "humanr/HJfcAz8FiA@1200.webp",
+              "400": "humanr/HJfcAz8FiA@400.webp",
+              "600": "humanr/HJfcAz8FiA@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-06-14T21:29:55.1344904+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -19373,31 +19372,29 @@
         ],
         "footnotes": {},
         "layout": [
-          ["3Bswc7fyqe", "3Bswc7fyqe", "3Bswc7fyqe"],
           ["8z-vvKCq7Z", "8z-vvKCq7Z", "8z-vvKCq7Z"],
           ["_O_PQrrMQ2", "_O_PQrrMQ2", "_O_PQrrMQ2"],
-          ["HJfcAz8FiA", "dyQlt7Zpap", "SUQCUdVvSF"],
+          ["dyQlt7Zpap", "HJfcAz8FiA", "SUQCUdVvSF"],
           ["dnpEHxXNlm", "dnpEHxXNlm", "dnpEHxXNlm"],
           ["JGHVKqL78h", "JGHVKqL78h", "JGHVKqL78h"]
         ],
         "title": "HumanR"
       }
     },
-    "descriptionHash": "5bIqXxBqx7wa7UcgstS/nQ==",
+    "descriptionHash": "IWuqiy+A4fE2RoLh987qAA==",
     "id": "humanr",
     "metadata": {
       "additionalMetadata": {
         "created": "2018-02-01",
-        "layout": ["m1", "p1", "p2", ["m2", "m3", "m4"], "p3", "p4"],
-        "logo": "../logo-black.png",
+        "layout": ["p1", "p2", ["m2", "m3", "m4"], "p3", "p4"],
         "made_with": ["tayasui-assembly", "photoshop"],
-        "title": "hidden"
+        "title_style": "image"
       },
       "aliases": [],
       "colors": {
-        "primary": "#2C2C26",
-        "secondary": "#4E4F55",
-        "tertiary": "#B8B8BB"
+        "primary": "#000000",
+        "secondary": "#ffffff",
+        "tertiary": "#ff0ab2"
       },
       "databaseMetadata": {
         "Partial": false
