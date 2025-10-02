@@ -12435,7 +12435,7 @@
   },
   "circular": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:40:03.3741615+02:00",
+    "builtAt": "2025-10-02T15:15:58.7551649+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12874,7 +12874,7 @@
         "title": "circular."
       }
     },
-    "descriptionHash": "xxyfyHnjIK1Hh8lE3LzTFg==",
+    "descriptionHash": "s7gXCuzAcT2uLRMOTaavfQ==",
     "id": "circular",
     "metadata": {
       "additionalMetadata": {
@@ -12888,9 +12888,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#324867",
-        "secondary": "#6C90C3",
-        "tertiary": "#BFE8F4"
+        "primary": "#ffffff",
+        "secondary": "#13293a",
+        "tertiary": "#9ec0f0"
       },
       "databaseMetadata": {
         "Partial": false
