@@ -21,7 +21,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.1.1",
     "date-fns": "^4.1.0",
-    "jsdom": "^26.1.0",
+    "jsdom": "^27.0.0",
     "picomatch": "^4.0.2",
     "pofile": "^1.1.4",
     "slug": "^10.0.0",
@@ -29,7 +29,7 @@
     "yaml": "^2.7.0"
   },
   "devDependencies": {
-    "@types/jsdom": "^21.1.7",
+    "@types/jsdom": "^27.0.0",
     "@types/picomatch": "^3.0.1",
     "@types/slug": "^5.0.9",
     "husky": "^9.1.7",
