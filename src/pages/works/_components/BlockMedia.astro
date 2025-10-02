@@ -1,6 +1,6 @@
 ---
 import type { InferEntrySchema } from "astro:content";
-import { imageAttrs } from "./media";
+import { imageAttrs } from "../media";
 
 type Block =
   InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];

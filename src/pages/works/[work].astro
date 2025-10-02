@@ -1,13 +1,12 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection, getEntry } from "astro:content";
-import * as YAML from "yaml";
 import StrongHeader from "../../components/StrongHeader.astro";
 import TagReference from "../../components/TagReference.astro";
 import Layout from "../../layouts/Regular.astro";
-import BlockLink from "./BlockLink.astro";
-import BlockMedia from "./BlockMedia.astro";
-import BlockParagraph from "./BlockParagraph.astro";
+import BlockLink from "./_components/BlockLink.astro";
+import BlockMedia from "./_components/BlockMedia.astro";
+import BlockParagraph from "./_components/BlockParagraph.astro";
 import { imageAttrs } from "./media";
 
 export const getStaticPaths = (async () => {

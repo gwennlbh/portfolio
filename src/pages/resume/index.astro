@@ -1,8 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import Bare from "../../layouts/Bare.astro";
-import Tech from "./Tech.astro";
-import Reference from "./Reference.astro";
+import Tech from "./_components/Tech.astro";
+import Reference from "./_components/Reference.astro";
 
 const wakatime = await getCollection("wakatime").then((entries) =>
   Object.fromEntries(
