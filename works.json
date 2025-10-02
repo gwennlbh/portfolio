@@ -3062,7 +3062,7 @@
   },
   "acf-conférence-eric-zuliani": {
     "Partial": false,
-    "builtAt": "2025-10-02T15:16:57.3897966+02:00",
+    "builtAt": "2025-10-02T15:20:32.6044652+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3331,7 +3331,7 @@
         "title": "Pratique en institution: lieu du symptôme"
       }
     },
-    "descriptionHash": "yeiJAeQFkF8kRTLpKdtOCg==",
+    "descriptionHash": "JUl6mS9f9BVPWLyZ6+mjig==",
     "id": "acf-conférence-eric-zuliani",
     "metadata": {
       "additionalMetadata": {
@@ -3342,8 +3342,8 @@
       },
       "aliases": [],
       "colors": {
-        "primary": "#fdfdfdff",
-        "secondary": "#6374b4ff",
+        "primary": "#fdfdfd",
+        "secondary": "#6374b4",
         "tertiary": "#C4BBAC"
       },
       "databaseMetadata": {
@@ -21436,7 +21436,7 @@
   },
   "infrasonic-village": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:52.5603227+02:00",
+    "builtAt": "2025-10-02T15:20:26.9172015+02:00",
     "content": {
       "en": {
         "abbreviations": {},
