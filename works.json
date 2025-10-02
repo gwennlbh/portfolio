@@ -34634,7 +34634,7 @@
   },
   "spotify-playlist-covers": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.9198171+02:00",
+    "builtAt": "2025-10-02T18:50:32.2168087+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -34725,9 +34725,9 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘hackr’",
+            "alt": "Cover art for playlist ‘orchstral’",
             "analyzed": true,
-            "anchor": "hackr",
+            "anchor": "orchstral",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -34737,9 +34737,9 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#000101",
-              "secondary": "#010101",
-              "tertiary": ""
+              "primary": "#331A11",
+              "secondary": "#C97D79",
+              "tertiary": "#DCDCD8"
             },
             "content": "",
             "contentType": "image/jpeg",
@@ -34748,68 +34748,23 @@
               "height": 3000,
               "width": 3000
             },
-            "distSource": "spotify-playlist-covers\\hackr\\hackr.jpeg",
+            "distSource": "spotify-playlist-covers\\orchstral\\orchstral.jpeg",
             "duration": 0,
             "hasSound": false,
-            "hash": "GsVaCdSKVDnYO/kHIOtS6w==",
-            "id": "gkc_ge2j7w",
+            "hash": "kN7cT9gGAlPdSWHspQDfSw==",
+            "id": "ED6yicjjXe",
             "index": 0,
             "online": false,
-            "relativeSource": "../hackr/hackr.jpeg",
-            "size": 284341,
+            "relativeSource": "../orchstral/orchstral.jpeg",
+            "size": 2374021,
             "text": "",
             "thumbnails": {
-              "100": "spotify-playlist-covers/gkc_ge2j7w@100.webp",
-              "1200": "spotify-playlist-covers/gkc_ge2j7w@1200.webp",
-              "400": "spotify-playlist-covers/gkc_ge2j7w@400.webp",
-              "600": "spotify-playlist-covers/gkc_ge2j7w@600.webp"
+              "100": "spotify-playlist-covers/ED6yicjjXe@100.webp",
+              "1200": "spotify-playlist-covers/ED6yicjjXe@1200.webp",
+              "400": "spotify-playlist-covers/ED6yicjjXe@400.webp",
+              "600": "spotify-playlist-covers/ED6yicjjXe@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:23.6437751+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "Cover art for playlist ‘intricate-percs’",
-            "analyzed": true,
-            "anchor": "intricate-percs",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#D1D1D1",
-              "secondary": "#2C2C2C",
-              "tertiary": "#838383"
-            },
-            "content": "",
-            "contentType": "image/jpeg",
-            "dimensions": {
-              "aspectRatio": 1,
-              "height": 900,
-              "width": 900
-            },
-            "distSource": "spotify-playlist-covers\\intricate-percs\\intricate-percs.jpeg",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "5N2xMKSReWpIwbooT8juFA==",
-            "id": "62LXMtsmsP",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../intricate-percs/intricate-percs.jpeg",
-            "size": 129102,
-            "text": "",
-            "thumbnails": {
-              "100": "spotify-playlist-covers/62LXMtsmsP@100.webp",
-              "1200": "spotify-playlist-covers/62LXMtsmsP@1200.webp",
-              "400": "spotify-playlist-covers/62LXMtsmsP@400.webp",
-              "600": "spotify-playlist-covers/62LXMtsmsP@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:24.3458989+02:00",
+            "thumbnailsBuiltAt": "2025-06-14T21:31:15.7687756+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -34860,9 +34815,9 @@
             "url": ""
           },
           {
-            "alt": "Cover art for playlist ‘orchstral’",
+            "alt": "Cover art for playlist ‘intricate-percs’",
             "analyzed": true,
-            "anchor": "orchstral",
+            "anchor": "intricate-percs",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -34872,79 +34827,34 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#331A11",
-              "secondary": "#C97D79",
-              "tertiary": "#DCDCD8"
+              "primary": "#D1D1D1",
+              "secondary": "#2C2C2C",
+              "tertiary": "#838383"
             },
             "content": "",
             "contentType": "image/jpeg",
             "dimensions": {
               "aspectRatio": 1,
-              "height": 3000,
-              "width": 3000
+              "height": 900,
+              "width": 900
             },
-            "distSource": "spotify-playlist-covers\\orchstral\\orchstral.jpeg",
+            "distSource": "spotify-playlist-covers\\intricate-percs\\intricate-percs.jpeg",
             "duration": 0,
             "hasSound": false,
-            "hash": "kN7cT9gGAlPdSWHspQDfSw==",
-            "id": "ED6yicjjXe",
+            "hash": "5N2xMKSReWpIwbooT8juFA==",
+            "id": "62LXMtsmsP",
             "index": 0,
             "online": false,
-            "relativeSource": "../orchstral/orchstral.jpeg",
-            "size": 2374021,
+            "relativeSource": "../intricate-percs/intricate-percs.jpeg",
+            "size": 129102,
             "text": "",
             "thumbnails": {
-              "100": "spotify-playlist-covers/ED6yicjjXe@100.webp",
-              "1200": "spotify-playlist-covers/ED6yicjjXe@1200.webp",
-              "400": "spotify-playlist-covers/ED6yicjjXe@400.webp",
-              "600": "spotify-playlist-covers/ED6yicjjXe@600.webp"
+              "100": "spotify-playlist-covers/62LXMtsmsP@100.webp",
+              "1200": "spotify-playlist-covers/62LXMtsmsP@1200.webp",
+              "400": "spotify-playlist-covers/62LXMtsmsP@400.webp",
+              "600": "spotify-playlist-covers/62LXMtsmsP@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:15.7687756+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "Cover art for playlist ‘rage’",
-            "analyzed": true,
-            "anchor": "rage",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#420B08",
-              "secondary": "#8F3936",
-              "tertiary": "#E4BEBB"
-            },
-            "content": "",
-            "contentType": "image/jpeg",
-            "dimensions": {
-              "aspectRatio": 1,
-              "height": 3000,
-              "width": 3000
-            },
-            "distSource": "spotify-playlist-covers\\rage\\rage.jpeg",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "g/CuQ/QtymAnO10cc7KCRQ==",
-            "id": "kfjjqJFAIV",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../rage/rage.jpeg",
-            "size": 6530370,
-            "text": "",
-            "thumbnails": {
-              "100": "spotify-playlist-covers/kfjjqJFAIV@100.webp",
-              "1200": "spotify-playlist-covers/kfjjqJFAIV@1200.webp",
-              "400": "spotify-playlist-covers/kfjjqJFAIV@400.webp",
-              "600": "spotify-playlist-covers/kfjjqJFAIV@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:18.6377005+02:00",
+            "thumbnailsBuiltAt": "2025-06-14T21:31:24.3458989+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -34993,14 +34903,58 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "Cover art for playlist ‘hackr’",
+            "analyzed": true,
+            "anchor": "hackr",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000101",
+              "secondary": "#010101",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 3000,
+              "width": 3000
+            },
+            "distSource": "spotify-playlist-covers\\hackr\\hackr.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GsVaCdSKVDnYO/kHIOtS6w==",
+            "id": "gkc_ge2j7w",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../hackr/hackr.jpeg",
+            "size": 284341,
+            "text": "",
+            "thumbnails": {
+              "100": "spotify-playlist-covers/gkc_ge2j7w@100.webp",
+              "1200": "spotify-playlist-covers/gkc_ge2j7w@1200.webp",
+              "400": "spotify-playlist-covers/gkc_ge2j7w@400.webp",
+              "600": "spotify-playlist-covers/gkc_ge2j7w@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-06-14T21:31:23.6437751+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
           }
         ],
         "footnotes": {},
         "layout": [
           ["BBrYA9xFgz", "BBrYA9xFgz", "BBrYA9xFgz"],
-          ["LIkAncr23v", "gkc_ge2j7w", "62LXMtsmsP"],
-          ["cLAsH4cBvk", "ED6yicjjXe", "kfjjqJFAIV"],
-          ["empty", "v7mo-mKqw0", "empty"]
+          ["LIkAncr23v", "ED6yicjjXe", "cLAsH4cBvk"],
+          ["v7mo-mKqw0", "62LXMtsmsP", "gkc_ge2j7w"]
         ],
         "title": "Spotify playlist covers"
       },
@@ -35093,9 +35047,9 @@
             "url": ""
           },
           {
-            "alt": "Pochette pour la playlist ‘hackr’",
+            "alt": "Pochette pour la playlist ‘orchstral’",
             "analyzed": true,
-            "anchor": "hackr",
+            "anchor": "orchstral",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -35105,9 +35059,9 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#000101",
-              "secondary": "#010101",
-              "tertiary": ""
+              "primary": "#331A11",
+              "secondary": "#C97D79",
+              "tertiary": "#DCDCD8"
             },
             "content": "",
             "contentType": "image/jpeg",
@@ -35116,68 +35070,23 @@
               "height": 3000,
               "width": 3000
             },
-            "distSource": "spotify-playlist-covers\\hackr\\hackr.jpeg",
+            "distSource": "spotify-playlist-covers\\orchstral\\orchstral.jpeg",
             "duration": 0,
             "hasSound": false,
-            "hash": "GsVaCdSKVDnYO/kHIOtS6w==",
-            "id": "gkc_ge2j7w",
+            "hash": "kN7cT9gGAlPdSWHspQDfSw==",
+            "id": "ED6yicjjXe",
             "index": 0,
             "online": false,
-            "relativeSource": "../hackr/hackr.jpeg",
-            "size": 284341,
+            "relativeSource": "../orchstral/orchstral.jpeg",
+            "size": 2374021,
             "text": "",
             "thumbnails": {
-              "100": "spotify-playlist-covers/gkc_ge2j7w@100.webp",
-              "1200": "spotify-playlist-covers/gkc_ge2j7w@1200.webp",
-              "400": "spotify-playlist-covers/gkc_ge2j7w@400.webp",
-              "600": "spotify-playlist-covers/gkc_ge2j7w@600.webp"
+              "100": "spotify-playlist-covers/ED6yicjjXe@100.webp",
+              "1200": "spotify-playlist-covers/ED6yicjjXe@1200.webp",
+              "400": "spotify-playlist-covers/ED6yicjjXe@400.webp",
+              "600": "spotify-playlist-covers/ED6yicjjXe@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:23.6437751+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "Pochette pour la playlist ‘intricate-percs’",
-            "analyzed": true,
-            "anchor": "intricate-percs",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#D1D1D1",
-              "secondary": "#2C2C2C",
-              "tertiary": "#838383"
-            },
-            "content": "",
-            "contentType": "image/jpeg",
-            "dimensions": {
-              "aspectRatio": 1,
-              "height": 900,
-              "width": 900
-            },
-            "distSource": "spotify-playlist-covers\\intricate-percs\\intricate-percs.jpeg",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "5N2xMKSReWpIwbooT8juFA==",
-            "id": "62LXMtsmsP",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../intricate-percs/intricate-percs.jpeg",
-            "size": 129102,
-            "text": "",
-            "thumbnails": {
-              "100": "spotify-playlist-covers/62LXMtsmsP@100.webp",
-              "1200": "spotify-playlist-covers/62LXMtsmsP@1200.webp",
-              "400": "spotify-playlist-covers/62LXMtsmsP@400.webp",
-              "600": "spotify-playlist-covers/62LXMtsmsP@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:24.3458989+02:00",
+            "thumbnailsBuiltAt": "2025-06-14T21:31:15.7687756+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -35228,9 +35137,9 @@
             "url": ""
           },
           {
-            "alt": "Pochette pour la playlist ‘orchstral’",
+            "alt": "Pochette pour la playlist ‘intricate-percs’",
             "analyzed": true,
-            "anchor": "orchstral",
+            "anchor": "intricate-percs",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -35240,79 +35149,34 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#331A11",
-              "secondary": "#C97D79",
-              "tertiary": "#DCDCD8"
+              "primary": "#D1D1D1",
+              "secondary": "#2C2C2C",
+              "tertiary": "#838383"
             },
             "content": "",
             "contentType": "image/jpeg",
             "dimensions": {
               "aspectRatio": 1,
-              "height": 3000,
-              "width": 3000
+              "height": 900,
+              "width": 900
             },
-            "distSource": "spotify-playlist-covers\\orchstral\\orchstral.jpeg",
+            "distSource": "spotify-playlist-covers\\intricate-percs\\intricate-percs.jpeg",
             "duration": 0,
             "hasSound": false,
-            "hash": "kN7cT9gGAlPdSWHspQDfSw==",
-            "id": "ED6yicjjXe",
+            "hash": "5N2xMKSReWpIwbooT8juFA==",
+            "id": "62LXMtsmsP",
             "index": 0,
             "online": false,
-            "relativeSource": "../orchstral/orchstral.jpeg",
-            "size": 2374021,
+            "relativeSource": "../intricate-percs/intricate-percs.jpeg",
+            "size": 129102,
             "text": "",
             "thumbnails": {
-              "100": "spotify-playlist-covers/ED6yicjjXe@100.webp",
-              "1200": "spotify-playlist-covers/ED6yicjjXe@1200.webp",
-              "400": "spotify-playlist-covers/ED6yicjjXe@400.webp",
-              "600": "spotify-playlist-covers/ED6yicjjXe@600.webp"
+              "100": "spotify-playlist-covers/62LXMtsmsP@100.webp",
+              "1200": "spotify-playlist-covers/62LXMtsmsP@1200.webp",
+              "400": "spotify-playlist-covers/62LXMtsmsP@400.webp",
+              "600": "spotify-playlist-covers/62LXMtsmsP@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:15.7687756+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "Pochette pour la playlist ‘rage’",
-            "analyzed": true,
-            "anchor": "rage",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#420B08",
-              "secondary": "#8F3936",
-              "tertiary": "#E4BEBB"
-            },
-            "content": "",
-            "contentType": "image/jpeg",
-            "dimensions": {
-              "aspectRatio": 1,
-              "height": 3000,
-              "width": 3000
-            },
-            "distSource": "spotify-playlist-covers\\rage\\rage.jpeg",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "g/CuQ/QtymAnO10cc7KCRQ==",
-            "id": "kfjjqJFAIV",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../rage/rage.jpeg",
-            "size": 6530370,
-            "text": "",
-            "thumbnails": {
-              "100": "spotify-playlist-covers/kfjjqJFAIV@100.webp",
-              "1200": "spotify-playlist-covers/kfjjqJFAIV@1200.webp",
-              "400": "spotify-playlist-covers/kfjjqJFAIV@400.webp",
-              "600": "spotify-playlist-covers/kfjjqJFAIV@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:18.6377005+02:00",
+            "thumbnailsBuiltAt": "2025-06-14T21:31:24.3458989+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -35361,34 +35225,73 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "Pochette pour la playlist ‘hackr’",
+            "analyzed": true,
+            "anchor": "hackr",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000101",
+              "secondary": "#010101",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 3000,
+              "width": 3000
+            },
+            "distSource": "spotify-playlist-covers\\hackr\\hackr.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GsVaCdSKVDnYO/kHIOtS6w==",
+            "id": "gkc_ge2j7w",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../hackr/hackr.jpeg",
+            "size": 284341,
+            "text": "",
+            "thumbnails": {
+              "100": "spotify-playlist-covers/gkc_ge2j7w@100.webp",
+              "1200": "spotify-playlist-covers/gkc_ge2j7w@1200.webp",
+              "400": "spotify-playlist-covers/gkc_ge2j7w@400.webp",
+              "600": "spotify-playlist-covers/gkc_ge2j7w@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-06-14T21:31:23.6437751+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
           }
         ],
         "footnotes": {},
         "layout": [
           ["3DPl2uv3Nh", "3DPl2uv3Nh", "3DPl2uv3Nh"],
-          ["LIkAncr23v", "gkc_ge2j7w", "62LXMtsmsP"],
-          ["cLAsH4cBvk", "ED6yicjjXe", "kfjjqJFAIV"],
-          ["empty", "v7mo-mKqw0", "empty"]
+          ["LIkAncr23v", "ED6yicjjXe", "cLAsH4cBvk"],
+          ["v7mo-mKqw0", "62LXMtsmsP", "gkc_ge2j7w"]
         ],
         "title": "Pochettes de playlists Spotify"
       }
     },
-    "descriptionHash": "Z1i4FoGdIwToIYNJXq/IYQ==",
+    "descriptionHash": "YcKVvYHxv/zD0kP5+WPs8w==",
     "id": "spotify-playlist-covers",
     "metadata": {
       "additionalMetadata": {
-        "layout": [
-          "p1",
-          ["m1", "m2", "m3"],
-          ["m4", "m5", "m6"],
-          [null, "m7", null]
-        ],
+        "layout": [["p1"], ["m1", "m2", "m3"], ["m5", "m4", "m6"]],
         "made_with": ["photoshop", "illustrator"]
       },
       "aliases": null,
       "colors": {
-        "primary": "#191B15",
-        "secondary": "#575952",
+        "primary": "#000000",
+        "secondary": "#ffffff",
         "tertiary": "#D1D3D1"
       },
       "databaseMetadata": {
