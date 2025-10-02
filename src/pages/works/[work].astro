@@ -160,21 +160,19 @@ const firstMediaBlock = blocks.find((b) => b.type === "media");
     ) : null
   }
 
-  <section slot="afterfooter" class="metadata">
-    <div class="swatches">
-      {
-        Object.entries(colors ?? {}).map(([name, color], i) => (
-          <code
-            class="swatch"
-            style={`background-color: ${color}; color: var(--${name === "primary" ? "secondary" : "primary"}, black)`}
-            onclick={`navigator.clipboard.writeText(JSON.stringify('${color}'))`}
-          >
-            {["⊓", "⊔", "⊐"][i]}
-          </code>
-        ))
-      }
-    </div>
-  </section>
+  <div class="swatches" slot="technical-pre">
+    {
+      Object.entries(colors ?? {}).map(([name, color], i) => (
+        <code
+          class="swatch"
+          style={`background-color: ${color}; color: var(--${name === "primary" ? "secondary" : "primary"}, black)`}
+          onclick={`navigator.clipboard.writeText(JSON.stringify('${color}'))`}
+        >
+          {["⊓", "⊔", "⊐"][i]}
+        </code>
+      ))
+    }
+  </div>
 </Layout>
 
 <div

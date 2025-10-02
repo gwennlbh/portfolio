@@ -66,19 +66,22 @@ interface Props {
       }
     </ul>
 
-    <pre
-      class="locals"
-      set:html={YAML.stringify(Astro.locals, null, {
-        indent: 2,
-        simpleKeys: true,
-        lineWidth: 80,
-      }).replace(
-        Astro.locals.buildCommit ?? "",
-        `<a href=https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}>${Astro.locals.buildCommit?.slice(0, 8)}</a>`,
-      )}
-    />
+    <section class="technical">
+      <slot name="technical-pre" />
+      {
+        Astro.locals.buildCommit && (
+          <a
+            href={`https://github.com/gwennlbh/portfolio/commit/${Astro.locals.buildCommit}`}
+          >
+            <pre>{Astro.locals.buildCommit?.slice(0, 8)}</pre>
+          </a>
+        )
+      }
+      <pre>loc {Astro.locals.locale}</pre>
+      <pre>lng {Astro.locals.lang}</pre>
+      <slot name="technical-post" />
+    </section>
   </footer>
-  <slot name="afterfooter" />
 </Bare>
 
 <style>
@@ -109,10 +112,11 @@ interface Props {
     opacity: 0.75;
   }
 
-  footer .locals {
-    max-width: 80vw;
-    white-space: wrap;
-    overflow-x: hidden;
+  footer .technical {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
   }
 
   :global(p, p > *) {

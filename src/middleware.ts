@@ -1,15 +1,11 @@
+import { getEntry } from "astro:content";
 import { defineMiddleware } from "astro:middleware";
-import { getEntry, getCollection } from "astro:content";
 import { JSDOM } from "jsdom";
-import { collections } from "./content.config.ts";
-
-let loggedCollections = false;
 
 export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
   locals.lang = process.env.LANG === "fr" ? "fr" : "en";
-  locals.locale = process.env.LOCALE as
-    | `${typeof locals.lang}-${string}`
-    | undefined;
+  locals.locale = (process.env.LOCALE ||
+    "en-US") as `${typeof locals.lang}-${string}`;
   locals.buildCommit =
     // Netlify
     process.env.COMMIT_REF ||
