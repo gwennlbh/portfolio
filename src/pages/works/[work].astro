@@ -47,8 +47,10 @@ if (!entry) return Astro.rewrite("/404");
 const {
   id,
   metadata,
-  metadata: { tags, wip, colors, additionalMetadata: misc },
+  metadata: { tags, wip, colors, started, finished, additionalMetadata: misc },
 } = entry.data;
+
+const year = finished?.getFullYear() ?? started?.getFullYear();
 
 const titleStyle = misc?.title_style ?? "";
 
@@ -103,6 +105,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   >
     <section class="tags">
       <ul>
+        {year && <li class="year">{year}</li>}
         {tags?.map((tag) => <TagReference tag={tag} />)}
       </ul>
     </section>
@@ -209,6 +212,24 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em 1em;
+  }
+
+  .year {
+    list-style: none;
+  }
+
+  .tags .year::before {
+    display: none;
+  }
+
+  .tags .year::after {
+    content: "";
+    display: inline-block;
+    margin-bottom: 0.5ch;
+    margin-left: 0.5em;
+    height: 3px;
+    width: 6ch;
+    background-color: color-mix(in lab, var(--primary), transparent 40%);
   }
 
   main > section {
