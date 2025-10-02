@@ -36356,7 +36356,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.5783586+02:00",
+    "builtAt": "2025-10-02T17:47:42.0885104+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -37293,7 +37293,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "cQkyaMxqZwZocUpSP92+og==",
+    "descriptionHash": "Wt8U5npg7/kyFzB13EptlQ==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
@@ -37305,7 +37305,7 @@
           ["p5", "p6"],
           ["l1", "l2", "l3"]
         ],
-        "made_with": ["javascript"],
+        "made_with": ["typescript"],
         "title_style": "image"
       },
       "aliases": ["sw&rpc"],
