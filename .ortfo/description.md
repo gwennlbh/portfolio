@@ -28,7 +28,6 @@ layout:
 
 :: fr
 
-
 Mon site personnel, qui regroupe mes projets, mes articles et mes expériences. Vous êtes dessus en ce moment même!
 
 [Code source](https://github.com/gwennlbh/portfolio)
