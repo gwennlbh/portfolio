@@ -1245,7 +1245,7 @@
   },
   "abstrakitten": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:18:20.2523095+02:00",
+    "builtAt": "2025-10-02T16:21:31.2320274+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -1649,7 +1649,7 @@
               "400": "abstrakitten/Mh5FCLazD9@400.webp",
               "600": "abstrakitten/Mh5FCLazD9@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:36:48.2159268+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T16:19:20.8530572+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -1786,7 +1786,7 @@
         "title": "Abstrakitten"
       }
     },
-    "descriptionHash": "z4vrxJ8/KUoAaHXCP7j3mw==",
+    "descriptionHash": "pHCPKVxqA9x82JjIe1uQSw==",
     "id": "abstrakitten",
     "metadata": {
       "additionalMetadata": {
@@ -1798,7 +1798,7 @@
       "colors": {
         "primary": "#000000",
         "secondary": "#50baa5",
-        "tertiary": ""
+        "tertiary": "#fffff"
       },
       "databaseMetadata": {
         "Partial": false
@@ -38729,7 +38729,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.9829542+02:00",
+    "builtAt": "2025-10-02T16:21:32.9844395+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -39166,7 +39166,7 @@
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "37wuJNB/DjysddW06JkEmQ==",
+    "descriptionHash": "2oHKSF43sQKGAGlwYHKvqw==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
@@ -39176,9 +39176,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#9EBDC7",
+        "primary": "#FF6978",
         "secondary": "#0B090B",
-        "tertiary": "#FF6978"
+        "tertiary": "#9EBDC7"
       },
       "databaseMetadata": {
         "Partial": false
