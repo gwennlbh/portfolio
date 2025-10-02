@@ -14356,7 +14356,7 @@
   },
   "emoti∗ns": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:18:26.7879562+02:00",
+    "builtAt": "2025-10-02T17:29:09.6452745+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -14404,6 +14404,46 @@
             "thumbnailsBuiltAt": "2025-06-14T21:31:10.4486837+02:00",
             "title": "",
             "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>This album is about emotions, and when they overwhelm us. It’s about being ashamed of them, feeling illegitimate, censoring them. It’s about how intense and varied it can get. How contrasting yet blurry it gets. And how fucking great music is at expressing this. Or at least I hope so.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "foaZm8zdJo",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
             "url": ""
           },
           {
@@ -14489,46 +14529,6 @@
           {
             "alt": "",
             "analyzed": false,
-            "anchor": "youtube",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "23yO1MZ_UK",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "YouTube",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "link",
-            "url": "https://www.youtube.com/watch?v=_y3dvJ6S790&list=OLAK5uy_mBHywR_Z0r4gwXiN_DNxUbmjOpxTveMn0&index=1"
-          },
-          {
-            "alt": "",
-            "analyzed": false,
             "anchor": "deezer",
             "attributes": {
               "autoplay": false,
@@ -14609,7 +14609,7 @@
           {
             "alt": "",
             "analyzed": false,
-            "anchor": "",
+            "anchor": "youtube",
             "attributes": {
               "autoplay": false,
               "controls": false,
@@ -14623,7 +14623,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>This album is about emotions, and when they overwhelm us. It’s about being ashamed of them, feeling illegitimate, censoring them. It’s about how intense and varied it can get. How contrasting yet blurry it gets. And how fucking great music is at expressing this. Or at least I hope so.</p>",
+            "content": "",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -14634,17 +14634,17 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "foaZm8zdJo",
+            "id": "23yO1MZ_UK",
             "index": 0,
             "online": false,
             "relativeSource": "",
             "size": 0,
-            "text": "",
+            "text": "YouTube",
             "thumbnails": null,
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "paragraph",
-            "url": ""
+            "type": "link",
+            "url": "https://www.youtube.com/watch?v=_y3dvJ6S790&list=OLAK5uy_mBHywR_Z0r4gwXiN_DNxUbmjOpxTveMn0&index=1"
           },
           {
             "alt": "",
@@ -15418,6 +15418,14 @@
             "xNWy9gXHAC",
             "xNWy9gXHAC",
             "xNWy9gXHAC",
+            "foaZm8zdJo",
+            "foaZm8zdJo",
+            "foaZm8zdJo"
+          ],
+          [
+            "xNWy9gXHAC",
+            "xNWy9gXHAC",
+            "xNWy9gXHAC",
             "AD1vTJUuSV",
             "AD1vTJUuSV",
             "AD1vTJUuSV"
@@ -15429,14 +15437,6 @@
             "xQU9Nv9W_h",
             "xQU9Nv9W_h",
             "xQU9Nv9W_h"
-          ],
-          [
-            "xNWy9gXHAC",
-            "xNWy9gXHAC",
-            "xNWy9gXHAC",
-            "23yO1MZ_UK",
-            "23yO1MZ_UK",
-            "23yO1MZ_UK"
           ],
           [
             "xNWy9gXHAC",
@@ -15455,12 +15455,12 @@
             "chY4wTQzpi"
           ],
           [
-            "foaZm8zdJo",
-            "foaZm8zdJo",
-            "foaZm8zdJo",
-            "foaZm8zdJo",
-            "foaZm8zdJo",
-            "foaZm8zdJo"
+            "xNWy9gXHAC",
+            "xNWy9gXHAC",
+            "xNWy9gXHAC",
+            "23yO1MZ_UK",
+            "23yO1MZ_UK",
+            "23yO1MZ_UK"
           ],
           [
             "9xtXX3eJZe",
@@ -15514,18 +15514,18 @@
         "title": "emoti*ns"
       }
     },
-    "descriptionHash": "2mKXHMWN4s2cD/2W2bzroQ==",
+    "descriptionHash": "M9URynR3002A4NK86bepMA==",
     "id": "emoti∗ns",
     "metadata": {
       "additionalMetadata": {
         "background": "../cover-art-gradient-background.png",
         "layout": [
+          ["m1", "p1"],
           ["m1", "l1"],
           ["m1", "l2"],
           ["m1", "l3"],
           ["m1", "l4"],
           ["m1", "l5"],
-          "p1",
           ["m2", "m4", "m6"],
           ["m3", "m5", "m7"],
           ["m8", "m10", "m12"],
