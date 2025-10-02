@@ -61,8 +61,10 @@ function findThumbnailBlock(
 {
   Object.entries(
     groupBy(
-      Astro.props.works.filter((w) =>
-        findThumbnailBlock(w.content, w.metadata.thumbnail ?? ""),
+      Astro.props.works.filter(
+        (w) =>
+          !w.metadata.private &&
+          findThumbnailBlock(w.content, w.metadata.thumbnail ?? ""),
       ),
       ({ metadata }) =>
         preferredDate(metadata)?.getFullYear().toString() ?? "Unknown",
