@@ -10943,7 +10943,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:19:19.0157191+02:00",
+    "builtAt": "2025-10-02T19:05:19.492566+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -11390,7 +11390,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Originally a final-year group project (“Long Project”) for my 3rd year at <a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, it has since grown beyond that initial scope. Development is now funded by the <a href=\"https://sete-moulis-cnrs.fr/en\">SETE (Theoretical and Experimental Ecology Station)</a> unit of the <a href=\"https://www.cnrs.fr\">CNRS</a>, and I continue to work on it in collaboration with the original academic team and other contributors, who provide insect images and descriptions, neural network models, and more.</p>",
+            "content": "<p>Originally a final-year group project (“Long Project”) for my 3rd year at <a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, it has since grown beyond that initial scope. Development is now funded by the <a href=\"https://sete-moulis-cnrs.fr/en\">SETE (Theoretical and Experimental Ecology Station)</a> unit of the <a href=\"https://www.cnrs.fr\">CNRS</a>, and I continue to work on it in collaboration with the original academic team and other contributors, who provide insect images and descriptions, neural network models, and more. This project also spawned two JavaScript library projects, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -11401,7 +11401,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "jg7OwWM0II",
+            "id": "2rLL5eXfla",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -11574,46 +11574,6 @@
             "url": "https://www.canva.com/design/DAGgr_TmduM/XTPUkJkY0ug1t_0951ds-w/view?utm_content=DAGgr_TmduM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9b580f19ed"
           },
           {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>This project also spawned two JavaScript library projects, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "HJDdCAIySc",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
-            "url": ""
-          },
-          {
             "alt": "Logo",
             "analyzed": true,
             "anchor": "favicon",
@@ -11666,15 +11626,14 @@
           ["iQH3gmECXl", "iQH3gmECXl"],
           ["sbXUPHVnFa", "sbXUPHVnFa"],
           ["B4MVPS5995", "zSy9L777qf"],
-          ["BwhtQpfHC9", "BwhtQpfHC9"],
-          ["ZmetzLHYXm", "ZmetzLHYXm"],
+          ["BwhtQpfHC9", "7wm4-E2i3p"],
+          ["ZmetzLHYXm", "7wm4-E2i3p"],
           ["xUNF5EXYO9", "aLeJAsG5aM"],
           ["laGyR5Dx5m", "768ItwDyvx"],
-          ["jg7OwWM0II", "BIvV27MTi0"],
-          ["jg7OwWM0II", "BSctam24T8"],
-          ["jg7OwWM0II", "XZO6adykpS"],
-          ["jg7OwWM0II", "jj7qvkiSNJ"],
-          ["7wm4-E2i3p", "HJDdCAIySc"]
+          ["2rLL5eXfla", "BIvV27MTi0"],
+          ["2rLL5eXfla", "BSctam24T8"],
+          ["2rLL5eXfla", "XZO6adykpS"],
+          ["2rLL5eXfla", "jj7qvkiSNJ"]
         ],
         "title": "CIGALE"
       },
@@ -12123,7 +12082,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>À la base un projet de groupe de fin d’études (“Projet long”) de 3e année à l’<a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, il a aujourd’hui dépassé ce cadre. Le développement est financé par l’unité <a href=\"https://sete-moulis-cnrs.fr\">SETE (Station d’Écologie Théorique et Expérimentale)</a> du <a href=\"https://www.cnrs.fr\">CNRS</a>, et je continue de la développer en collaboration avec l’équipe éducative initiale, ainsi que d’autres contributeurices, qui fournissent images et descriptions d’insectes, modèles de réseaux neuronaux,…</p>",
+            "content": "<p>À la base un projet de groupe de fin d’études (“Projet long”) de 3e année à l’<a href=\"https://www.enseeiht.fr\">ENSEEIHT</a>, il a aujourd’hui dépassé ce cadre. Le développement est financé par l’unité <a href=\"https://sete-moulis-cnrs.fr\">SETE (Station d’Écologie Théorique et Expérimentale)</a> du <a href=\"https://www.cnrs.fr\">CNRS</a>, et je continue de la développer en collaboration avec l’équipe éducative initiale, ainsi que d’autres contributeurices, qui fournissent images et descriptions d’insectes, modèles de réseaux neuronaux,… Ce projet a aussi engendré le développement de deux bibliothèques JavaScript, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -12134,7 +12093,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "gQWbclJjnU",
+            "id": "ggPuNH4faH",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -12307,46 +12266,6 @@
             "url": "https://www.canva.com/design/DAGgr_TmduM/XTPUkJkY0ug1t_0951ds-w/view?utm_content=DAGgr_TmduM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9b580f19ed"
           },
           {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>Ce projet a aussi engendré le développement de deux bibliothèques JavaScript, <a href=\"/swarpc\">swarpc</a> and <a href=\"https://github.com/gwennlbh/littrow\">littrow</a></p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "tuyOCTr_qa",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
-            "url": ""
-          },
-          {
             "alt": "Logo",
             "analyzed": true,
             "anchor": "favicon",
@@ -12399,20 +12318,19 @@
           ["Ycrubz0kai", "Ycrubz0kai"],
           ["piAgP1Hy_B", "piAgP1Hy_B"],
           ["0Pu8mJ1-95", "CgduXmoVtf"],
-          ["VuC2V4XnKQ", "VuC2V4XnKQ"],
-          ["0mnO_LIVeD", "0mnO_LIVeD"],
+          ["VuC2V4XnKQ", "7wm4-E2i3p"],
+          ["0mnO_LIVeD", "7wm4-E2i3p"],
           ["iWg_KW9mdq", "aLeJAsG5aM"],
           ["GYCI5zh1w-", "VCWofaDFkr"],
-          ["gQWbclJjnU", "BIvV27MTi0"],
-          ["gQWbclJjnU", "BSctam24T8"],
-          ["gQWbclJjnU", "XZO6adykpS"],
-          ["gQWbclJjnU", "jj7qvkiSNJ"],
-          ["7wm4-E2i3p", "tuyOCTr_qa"]
+          ["ggPuNH4faH", "BIvV27MTi0"],
+          ["ggPuNH4faH", "BSctam24T8"],
+          ["ggPuNH4faH", "XZO6adykpS"],
+          ["ggPuNH4faH", "jj7qvkiSNJ"]
         ],
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "JqS7LDkG65EGQCMX5T8HlQ==",
+    "descriptionHash": "TQrucSSbPB0ZBend3kh5Sw==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12420,15 +12338,14 @@
           "p1",
           "p2",
           ["m1", "m2"],
-          "p3",
-          "p4",
+          ["p3", "m6"],
+          ["p4", "m6"],
           ["m3", "m4"],
           ["p5", "m5"],
           ["p6", "l1"],
           ["p6", "l2"],
           ["p6", "l3"],
-          ["p6", "l4"],
-          ["m6", "p7"]
+          ["p6", "l4"]
         ],
         "made_with": ["javascript", "sveltekit", "onnx", "figma", "bun"]
       },
