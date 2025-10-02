@@ -35046,7 +35046,7 @@
   },
   "subfeed-for-spotify": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.3434395+02:00",
+    "builtAt": "2025-10-02T14:40:16.9366525+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -36211,7 +36211,7 @@
         "title": "subfeed for Spotify"
       }
     },
-    "descriptionHash": "nikcpQW6+veTCjIUr+GOGQ==",
+    "descriptionHash": "trWfDZ2ovwUdzGNBnamLMg==",
     "id": "subfeed-for-spotify",
     "metadata": {
       "additionalMetadata": {
@@ -36231,8 +36231,8 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "000000",
-        "secondary": "53ffa5",
+        "primary": "#000000",
+        "secondary": "#53ffa5",
         "tertiary": "#A4A0AC"
       },
       "databaseMetadata": {
