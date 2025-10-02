@@ -10607,11 +10607,56 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.6945588+02:00",
+    "builtAt": "2025-10-02T16:53:07.564592+02:00",
     "content": {
       "default": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "Logo",
+            "analyzed": true,
+            "anchor": "logo-loading",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#DEDEDE",
+              "secondary": "#9B9B9B",
+              "tertiary": "#414141"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.003861,
+              "height": 259,
+              "width": 260
+            },
+            "distSource": "churros\\.ortfo\\logo-loading.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "k565Trk9qvxePeqX/0DgAw==",
+            "id": "bKt3xEgWER",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./logo-loading.png",
+            "size": 10127,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/bKt3xEgWER@100.webp",
+              "1200": "churros/bKt3xEgWER@1200.webp",
+              "400": "churros/bKt3xEgWER@400.webp",
+              "600": "churros/bKt3xEgWER@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T16:53:07.564592+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -10654,254 +10699,247 @@
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "screenshot-1",
+            "analyzed": false,
+            "anchor": "code-source",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#F1C7B7",
-              "secondary": "#535048",
-              "tertiary": "#A7A598"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
             "content": "",
-            "contentType": "image/png",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.6,
-              "height": 1200,
-              "width": 1920
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\screenshot-1.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "h3UddafzSMU96897bxGAfg==",
-            "id": "lN-701rTW6",
+            "hash": "",
+            "id": "UCWFLEFMsb",
             "index": 0,
             "online": false,
-            "relativeSource": "./screenshot-1.png",
-            "size": 616284,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/lN-701rTW6@100.webp",
-              "1200": "churros/lN-701rTW6@1200.webp",
-              "400": "churros/lN-701rTW6@400.webp",
-              "600": "churros/lN-701rTW6@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-09T14:49:11.8123444+02:00",
+            "relativeSource": "",
+            "size": 0,
+            "text": "Code source",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
-            "url": ""
+            "type": "link",
+            "url": "https://git.inpt.fr/churros/churros"
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "screenshot-2",
+            "analyzed": false,
+            "anchor": "sur-github",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#F4C8BA",
-              "secondary": "#AAA79B",
-              "tertiary": "#585653"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
             "content": "",
-            "contentType": "image/png",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.73129,
-              "height": 1109,
-              "width": 1920
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\screenshot-2.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "oGg83enHqQVJvDVIWE9hng==",
-            "id": "2ipnipCIxR",
+            "hash": "",
+            "id": "b2xEuJplk2",
             "index": 0,
             "online": false,
-            "relativeSource": "./screenshot-2.png",
-            "size": 560842,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/2ipnipCIxR@100.webp",
-              "1200": "churros/2ipnipCIxR@1200.webp",
-              "400": "churros/2ipnipCIxR@400.webp",
-              "600": "churros/2ipnipCIxR@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-09T14:49:14.2132931+02:00",
+            "relativeSource": "",
+            "size": 0,
+            "text": "Sur Github",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
-            "url": ""
+            "type": "link",
+            "url": "https://github.com/inp-net/churros"
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "screenshot-3",
+            "analyzed": false,
+            "anchor": "application",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#1F1E1F",
-              "secondary": "#D4D6D8",
-              "tertiary": "#F2F2F3"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
             "content": "",
-            "contentType": "image/png",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.73129,
-              "height": 1109,
-              "width": 1920
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\screenshot-3.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "WtFKMsg7VNDFih0EynwDCg==",
-            "id": "61hepEGUh0",
+            "hash": "",
+            "id": "9sNAmXk-oL",
             "index": 0,
             "online": false,
-            "relativeSource": "./screenshot-3.png",
-            "size": 422154,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/61hepEGUh0@100.webp",
-              "1200": "churros/61hepEGUh0@1200.webp",
-              "400": "churros/61hepEGUh0@400.webp",
-              "600": "churros/61hepEGUh0@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-09T14:49:16.1828171+02:00",
+            "relativeSource": "",
+            "size": 0,
+            "text": "Application",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
-            "url": ""
+            "type": "link",
+            "url": "https://churros.inpt.fr"
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "screenshot-4",
+            "analyzed": false,
+            "anchor": "api",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#A4A8AF",
-              "secondary": "#B7BAC0",
-              "tertiary": "#000000"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
             "content": "",
-            "contentType": "image/png",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.6,
-              "height": 1200,
-              "width": 1920
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\screenshot-4.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "d4U245xv0zdvC+/AWKQinQ==",
-            "id": "O8xeml2k44",
+            "hash": "",
+            "id": "oM865TcIi2",
             "index": 0,
             "online": false,
-            "relativeSource": "./screenshot-4.png",
-            "size": 213833,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/O8xeml2k44@100.webp",
-              "1200": "churros/O8xeml2k44@1200.webp",
-              "400": "churros/O8xeml2k44@400.webp",
-              "600": "churros/O8xeml2k44@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-09T14:49:17.802272+02:00",
+            "relativeSource": "",
+            "size": 0,
+            "text": "API",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
-            "url": ""
+            "type": "link",
+            "url": "https://api-docs.churros.inpt.fr"
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "screenshot-5",
+            "analyzed": false,
+            "anchor": "",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#3D6C7A",
-              "secondary": "#99A2A8",
-              "tertiary": "#B6BDC1"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
-            "content": "",
-            "contentType": "image/png",
+            "content": "<p>(page non terminée)</p>",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.73129,
-              "height": 1109,
-              "width": 1920
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\screenshot-5.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "wUKRUsPKRFPgBuaMKR1/LQ==",
-            "id": "hqXzOHjI3a",
+            "hash": "",
+            "id": "UhEvsvwp1P",
             "index": 0,
             "online": false,
-            "relativeSource": "./screenshot-5.png",
-            "size": 305343,
+            "relativeSource": "",
+            "size": 0,
             "text": "",
-            "thumbnails": {
-              "100": "churros/hqXzOHjI3a@100.webp",
-              "1200": "churros/hqXzOHjI3a@1200.webp",
-              "400": "churros/hqXzOHjI3a@400.webp",
-              "600": "churros/hqXzOHjI3a@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-06-09T14:49:20.0835017+02:00",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
+            "type": "paragraph",
             "url": ""
           }
         ],
         "footnotes": {},
         "layout": [
-          ["YYAgMHnXLp"],
-          ["lN-701rTW6"],
-          ["2ipnipCIxR"],
-          ["61hepEGUh0"],
-          ["O8xeml2k44"],
-          ["hqXzOHjI3a"]
+          [
+            "bKt3xEgWER",
+            "bKt3xEgWER",
+            "YYAgMHnXLp",
+            "YYAgMHnXLp",
+            "UCWFLEFMsb",
+            "UCWFLEFMsb"
+          ],
+          [
+            "b2xEuJplk2",
+            "b2xEuJplk2",
+            "b2xEuJplk2",
+            "b2xEuJplk2",
+            "b2xEuJplk2",
+            "b2xEuJplk2"
+          ],
+          [
+            "UhEvsvwp1P",
+            "UhEvsvwp1P",
+            "UhEvsvwp1P",
+            "UhEvsvwp1P",
+            "UhEvsvwp1P",
+            "UhEvsvwp1P"
+          ]
         ],
         "title": "Churros"
       }
     },
-    "descriptionHash": "vleYF1Rja+IHXeg7WmOHEQ==",
+    "descriptionHash": "gawPBIAk6g3EwrW9nGbyPQ==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
-        "git": "inp-net/churros",
-        "url": "https://churros.inpt.fr"
+        "layout": [["m1", "p1", "l1"], ["l2", "l2"], ["p2"]],
+        "made_with": ["svelte", "sveltekit", "graphql", "typescript"]
       },
       "aliases": null,
       "colors": {
-        "primary": "#F1C7B7",
-        "secondary": "#535048",
-        "tertiary": "#A7A598"
+        "primary": "#000000",
+        "secondary": "#FFFFFF",
+        "tertiary": "#febe19"
       },
       "databaseMetadata": {
         "Partial": false
@@ -10911,7 +10949,7 @@
       "pageBackground": "",
       "private": false,
       "started": "",
-      "tags": null,
+      "tags": ["web", "app", "api", "penpot", "figma"],
       "thumbnail": "",
       "titleStyle": "",
       "wip": false
@@ -29607,7 +29645,7 @@
   },
   "permbits": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:54.2034451+02:00",
+    "builtAt": "2025-10-02T16:53:07.1983199+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -29691,10 +29729,53 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "source-code",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "RCWnpyKEKt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Source code",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/gwennlbh/permbits"
           }
         ],
         "footnotes": {},
-        "layout": [["T1cntLR_wv"], ["w2Ep_nzh-n"]],
+        "layout": [
+          ["w2Ep_nzh-n", "w2Ep_nzh-n"],
+          ["T1cntLR_wv", "RCWnpyKEKt"]
+        ],
         "title": "permbits"
       },
       "fr ": {
@@ -29779,17 +29860,61 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "code-source",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "RCWnpyKEKt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Code source",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/gwennlbh/permbits"
           }
         ],
         "footnotes": {},
-        "layout": [["hWkdvNDKSs"], ["w2Ep_nzh-n"]],
+        "layout": [
+          ["w2Ep_nzh-n", "w2Ep_nzh-n"],
+          ["hWkdvNDKSs", "RCWnpyKEKt"]
+        ],
         "title": "permbits"
       }
     },
-    "descriptionHash": "/LkLc8E86mbTUrs1Tp5h2A==",
+    "descriptionHash": "hSD3XT9ffanIDAAgruwPRQ==",
     "id": "permbits",
     "metadata": {
       "additionalMetadata": {
+        "layout": [["m1"], ["p1", "l1"]],
         "made_with": ["go"]
       },
       "aliases": null,
