@@ -37227,7 +37227,7 @@
   },
   "the-unconscious-wanders": {
     "Partial": false,
-    "builtAt": "2025-10-02T12:44:27.9235252+02:00",
+    "builtAt": "2025-10-02T12:50:48.510015+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -38215,7 +38215,7 @@
         "title": "The Unconscious’ Wanders"
       }
     },
-    "descriptionHash": "0bJd3XyME0GlojGGn7wUiw==",
+    "descriptionHash": "pdemWohw+In8Y75nnRvMJg==",
     "id": "the-unconscious-wanders",
     "metadata": {
       "additionalMetadata": {
@@ -38240,7 +38240,7 @@
       "colors": {
         "primary": "#d5d6c8ff",
         "secondary": "#111111",
-        "tertiary": "#D2D2D2"
+        "tertiary": "#000000"
       },
       "databaseMetadata": {
         "Partial": false

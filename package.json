@@ -10,6 +10,7 @@
     "format": "prettier --write .",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json",
     "formatdb": "bunx prettier --write works.json",
+    "db": "bun database && bun formatdb",
     "mediaup": "rclone --progress copy media/ www:media.gwen.works/",
     "postinstall": "patch-package && husky"
   },
