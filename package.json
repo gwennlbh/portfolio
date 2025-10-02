@@ -10,7 +10,7 @@
     "format": "prettier --write .",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json",
     "formatdb": "bunx prettier --write works.json",
-    "db": "bun database && bun formatdb && git add works.json && git commit -m '🗃️ Update database' && git push",
+    "db": "bun database && bun formatdb && git add works.json && bun run ./commit-database-changes.ts && git push",
     "mediaup": "rclone --progress copy media/ www:media.gwen.works/",
     "postinstall": "patch-package && husky"
   },
@@ -31,6 +31,7 @@
     "yaml": "^2.7.0"
   },
   "devDependencies": {
+    "@types/bun": "^1.2.23",
     "@types/jsdom": "^27.0.0",
     "@types/picomatch": "^4.0.0",
     "@types/slug": "^5.0.9",
