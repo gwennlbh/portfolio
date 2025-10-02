@@ -536,3 +536,8 @@
   learn more at: https://imagemagick.org/
   autodetect:
     - magick in README.md
+
+- slug: onnx
+  name: ONNX
+  description: An open format to represent machine learning models
+  learn more at: https://onnx.ai
