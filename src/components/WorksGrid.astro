@@ -8,6 +8,8 @@ import WIPIndicator from "./WIPIndicator.astro";
 import { setCssColors } from "../colors";
 import { imageAttrs } from "../pages/works/media";
 
+const EXCLUDED_WORKS = ["calen7drier"]
+
 interface Props {
   works: InferEntrySchema<"works">[];
 }
@@ -64,6 +66,7 @@ function findThumbnailBlock(
       Astro.props.works.filter(
         (w) =>
           !w.metadata.private &&
+          !EXCLUDED_WORKS.includes(w.id) &&
           findThumbnailBlock(w.content, w.metadata.thumbnail ?? ""),
       ),
       ({ metadata }) =>
