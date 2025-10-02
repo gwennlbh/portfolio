@@ -1,0 +1,26 @@
+name: Deployed
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: main
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        lang: [en, fr]
+    steps:
+      - name: check ${{ github.sha }} is deployed
+        run: |
+          wget https://${{ matrix.lang }}.gwen.works/
+          while ! grep "https://github.com/${{ github.repository }}/commit/${{ github.sha }}" index.html; do
+            grep -o 'https://github.com/${{ github.repository }}/commit/[a-zA-Z0-9]*' index.html
+            sleep 5
+            rm index.html
+            wget https://${{ matrix.lang }}.gwen.works/
+          done
