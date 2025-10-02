@@ -5560,7 +5560,7 @@
   },
   "acf-je-suis-ce-que-je-dis": {
     "Partial": false,
-    "builtAt": "2025-06-17T00:31:38.24297597+02:00",
+    "builtAt": "2025-10-02T02:34:06.9110255+02:00",
     "content": {
       "en": {
         "abbreviations": {
@@ -5929,7 +5929,7 @@
         "title": "Je suis ce que je dis"
       }
     },
-    "descriptionHash": "OX+SK1eS+eWoFUomUlljYA==",
+    "descriptionHash": "RRjZc0Gt6ZoAWPnfyqVLYw==",
     "id": "acf-je-suis-ce-que-je-dis",
     "metadata": {
       "additionalMetadata": {
@@ -5938,9 +5938,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#E20713",
-        "secondary": "black",
-        "tertiary": "white"
+        "primary": "#FFFFFF",
+        "secondary": "#E20713",
+        "tertiary": "#000000"
       },
       "databaseMetadata": {
         "Partial": false
@@ -9836,6 +9836,650 @@
     },
     "source": "C:\\Users\\ewen\\projects\\acf-écoute-à-interprétation\\.ortfo\\description.md"
   },
+  "alphabet-des-formes": {
+    "Partial": false,
+    "builtAt": "2025-10-02T02:34:14.2655576+02:00",
+    "content": {
+      "en": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "A grid of various hand-drawn shapes “The initial idea, drawn on paper”",
+            "analyzed": true,
+            "anchor": "papier",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#AAA39F",
+              "secondary": "#D2CAC7",
+              "tertiary": "#BFB8B5"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.007642,
+              "height": 916,
+              "width": 923
+            },
+            "distSource": "alphabet-des-formes\\papier.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "zi4ks96+xq9Q6Cggaa6q4Q==",
+            "id": "wOdI8lpaSn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../papier.png",
+            "size": 1354275,
+            "text": "",
+            "thumbnails": {
+              "100": "alphabet-des-formes/wOdI8lpaSn@100.webp",
+              "1200": "alphabet-des-formes/wOdI8lpaSn@1200.webp",
+              "400": "alphabet-des-formes/wOdI8lpaSn@400.webp",
+              "600": "alphabet-des-formes/wOdI8lpaSn@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:10.8275525+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "The same grid of shapes, but vectorized into clean and straight geometric shapes “An unfinished manually vectorized version”",
+            "analyzed": true,
+            "anchor": "alphabet-des-formes",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/svg+xml",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2666,
+              "width": 2666
+            },
+            "distSource": "alphabet-des-formes\\alphabet-des-formes.svg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "hFir3ijbd/quW1z2Ed1wrA==",
+            "id": "-zbspRTRqX",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../alphabet-des-formes.svg",
+            "size": 454474,
+            "text": "",
+            "thumbnails": {
+              "100": "alphabet-des-formes/-zbspRTRqX@100.webp",
+              "1200": "alphabet-des-formes/-zbspRTRqX@1200.webp",
+              "400": "alphabet-des-formes/-zbspRTRqX@400.webp",
+              "600": "alphabet-des-formes/-zbspRTRqX@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:11.7046175+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>How many different shapes can we create?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "RCIaa9pUmk",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Using “elementary” shapes, how many shapes can we generate, by rotation, duplication, translation, symmetry or composition?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "FQkkdjKCS_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>What would be the elementary shapes from which we could come back to all the letters of the alphabet ?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Zi3UGQuEzs",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>These numerous questions about the study of shapes have led me to tackle a task that seems endless: to list all the shapes that are sufficiently different from each other.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "qpzBK-0cw4",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>This drawing is also partly inspired by Vassily Vasarelly’s “Planetarische Folklore”: this list could be used as a kind of alphabet of shapes.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "tY_7BNkhHS",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["RCIaa9pUmk", "RCIaa9pUmk"],
+          ["FQkkdjKCS_", "FQkkdjKCS_"],
+          ["wOdI8lpaSn", "-zbspRTRqX"],
+          ["Zi3UGQuEzs", "Zi3UGQuEzs"],
+          ["qpzBK-0cw4", "qpzBK-0cw4"],
+          ["tY_7BNkhHS", "tY_7BNkhHS"]
+        ],
+        "title": "A shapes alphabet"
+      },
+      "fr": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "A grid of various hand-drawn shapes “The initial idea, drawn on paper”",
+            "analyzed": true,
+            "anchor": "papier",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#AAA39F",
+              "secondary": "#D2CAC7",
+              "tertiary": "#BFB8B5"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.007642,
+              "height": 916,
+              "width": 923
+            },
+            "distSource": "alphabet-des-formes\\papier.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "zi4ks96+xq9Q6Cggaa6q4Q==",
+            "id": "wOdI8lpaSn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../papier.png",
+            "size": 1354275,
+            "text": "",
+            "thumbnails": {
+              "100": "alphabet-des-formes/wOdI8lpaSn@100.webp",
+              "1200": "alphabet-des-formes/wOdI8lpaSn@1200.webp",
+              "400": "alphabet-des-formes/wOdI8lpaSn@400.webp",
+              "600": "alphabet-des-formes/wOdI8lpaSn@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:10.8275525+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "The same grid of shapes, but vectorized into clean and straight geometric shapes “An unfinished manually vectorized version”",
+            "analyzed": true,
+            "anchor": "alphabet-des-formes",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/svg+xml",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2666,
+              "width": 2666
+            },
+            "distSource": "alphabet-des-formes\\alphabet-des-formes.svg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "hFir3ijbd/quW1z2Ed1wrA==",
+            "id": "-zbspRTRqX",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../alphabet-des-formes.svg",
+            "size": 454474,
+            "text": "",
+            "thumbnails": {
+              "100": "alphabet-des-formes/-zbspRTRqX@100.webp",
+              "1200": "alphabet-des-formes/-zbspRTRqX@1200.webp",
+              "400": "alphabet-des-formes/-zbspRTRqX@400.webp",
+              "600": "alphabet-des-formes/-zbspRTRqX@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:11.7046175+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Combien de formes différentes peut on créer ?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "xN0tZDYeuh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>En utilisant des formes “élémentaires”, combien de formes peut on générer, par rotation, duplication, translation, symmétrie, homotéthie ou combinaison ?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "vtZqrCxaRG",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Quelles seraient ces formes élémentaires, à partie desquelles l’ont pourrait revenir à toutes les lettres de l’alphabet ?</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "dMVy2VYmd3",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ces nombreux questionnements sur l’étude des formes m’ont mené à m’atteler à une tâche qui semble interminable: lister toutes les formes suffisamment différentes les unes des autres.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "o1S_5xuU36",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ce dessin est aussi partiellement inspiré par “Planetarische Folklore” de Vassily Vasarelly: cette liste pourrait être utilisé comme une sorte d’alphabet des formes.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "yRu9-Yb1Fc",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["xN0tZDYeuh", "xN0tZDYeuh"],
+          ["vtZqrCxaRG", "vtZqrCxaRG"],
+          ["wOdI8lpaSn", "-zbspRTRqX"],
+          ["dMVy2VYmd3", "dMVy2VYmd3"],
+          ["o1S_5xuU36", "o1S_5xuU36"],
+          ["yRu9-Yb1Fc", "yRu9-Yb1Fc"]
+        ],
+        "title": "l’Alphabet des Formes"
+      }
+    },
+    "descriptionHash": "+nkSn/SirQQAd/xGkuXvvA==",
+    "id": "alphabet-des-formes",
+    "metadata": {
+      "additionalMetadata": {
+        "created": "2019-05-06",
+        "layout": ["p1", "p2", ["m1", "m2"], "p3", "p4", "p5"],
+        "made_with": ["illustrator"]
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "",
+        "secondary": "",
+        "tertiary": ""
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "",
+      "tags": ["experimental", "drawing"],
+      "thumbnail": "../alphabet-des-formes.svg",
+      "titleStyle": "filled",
+      "wip": false
+    },
+    "source": "C:\\Users\\ewen\\projects\\alphabet-des-formes\\.ortfo\\description.md"
+  },
   "calen7drier": {
     "Partial": false,
     "builtAt": "2025-06-09T14:49:09.2354312+02:00",
@@ -10276,7 +10920,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-07-04T00:54:52.620006553+02:00",
+    "builtAt": "2025-10-02T02:34:19.3605385+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -10409,7 +11053,7 @@
           {
             "alt": "Screenshot of the application, imported insect photos with boxes highlighting insects detected by the neural network",
             "analyzed": true,
-            "anchor": "screenshot-import",
+            "anchor": "screenshots-en-import-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -10419,34 +11063,34 @@
             },
             "caption": "Photo import, insect detection",
             "colors": {
-              "primary": "#5D702A",
-              "secondary": "#9CB068",
-              "tertiary": "#EBF0E9"
+              "primary": "#BCBBBA",
+              "secondary": "#9E9F9F",
+              "tertiary": "#AFAFAE"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.56078,
-              "height": 872,
-              "width": 1361
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-import.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-en-import-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "axmc7XYoIcvP+c6KRsKKtw==",
-            "id": "LY-m2iPjPR",
+            "hash": "iLJRUu9TIPkKL9lBx749FA==",
+            "id": "B4MVPS5995",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-import.png",
-            "size": 450529,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-en-import-1-chromium-linux.png",
+            "size": 92889,
             "text": "",
             "thumbnails": {
-              "100": "cigale/LY-m2iPjPR@100.webp",
-              "1200": "cigale/LY-m2iPjPR@1200.webp",
-              "400": "cigale/LY-m2iPjPR@400.webp",
-              "600": "cigale/LY-m2iPjPR@600.webp"
+              "100": "cigale/B4MVPS5995@100.webp",
+              "1200": "cigale/B4MVPS5995@1200.webp",
+              "400": "cigale/B4MVPS5995@400.webp",
+              "600": "cigale/B4MVPS5995@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:44.335440744+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:09.9243384+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -10454,7 +11098,7 @@
           {
             "alt": "Screenshot of the application, a photo is displayed with bounding boxes around detected insects, and tools to modify, add, or delete these boxes",
             "analyzed": true,
-            "anchor": "screenshot-crop",
+            "anchor": "screenshots-en-crop-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -10464,34 +11108,34 @@
             },
             "caption": "Cropping",
             "colors": {
-              "primary": "#3F4F1A",
-              "secondary": "#6E7F44",
-              "tertiary": "#BCB292"
+              "primary": "#34341D",
+              "secondary": "#707F4D",
+              "tertiary": "#BDBFA3"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.558691,
-              "height": 886,
-              "width": 1381
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-crop.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-en-crop-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "dnVIRjAYMiHq2A2z7zjpXQ==",
-            "id": "SdIz9fXz8C",
+            "hash": "0X7ivWY7Bjddkum0av4/FA==",
+            "id": "zSy9L777qf",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-crop.png",
-            "size": 1362274,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-en-crop-1-chromium-linux.png",
+            "size": 400107,
             "text": "",
             "thumbnails": {
-              "100": "cigale/SdIz9fXz8C@100.webp",
-              "1200": "cigale/SdIz9fXz8C@1200.webp",
-              "400": "cigale/SdIz9fXz8C@400.webp",
-              "600": "cigale/SdIz9fXz8C@600.webp"
+              "100": "cigale/zSy9L777qf@100.webp",
+              "1200": "cigale/zSy9L777qf@1200.webp",
+              "400": "cigale/zSy9L777qf@400.webp",
+              "600": "cigale/zSy9L777qf@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:46.371128993+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:11.4787378+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -10577,9 +11221,9 @@
             "url": ""
           },
           {
-            "alt": "Capture d’écran de l’application, une photo recadrée à un insecte, et un champ pour lui assigner l’espèce souhaitée, qui propose des suggestions et affiche une description et une photo de référence de la suggestion",
+            "alt": "Screenshot of the application, a photo cropped to a single insect with a field to assign its species, including suggestions and a description with a reference photo",
             "analyzed": true,
-            "anchor": "screenshot-classify",
+            "anchor": "screenshots-en-classify-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -10589,34 +11233,34 @@
             },
             "caption": "Classification",
             "colors": {
-              "primary": "#6C7A35",
-              "secondary": "#B6BFB7",
-              "tertiary": "#EEEFEF"
+              "primary": "#796652",
+              "secondary": "#ADBAAE",
+              "tertiary": "#F2F1F0"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.560502,
-              "height": 876,
-              "width": 1367
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-classify.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-en-classify-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "OR7sQyfi2on4vD8CYKT26Q==",
-            "id": "i1fIuqg7Hz",
+            "hash": "yVgVeBiBa81BSmUjJrl+5g==",
+            "id": "xUNF5EXYO9",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-classify.png",
-            "size": 634988,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-en-classify-1-chromium-linux.png",
+            "size": 391295,
             "text": "",
             "thumbnails": {
-              "100": "cigale/i1fIuqg7Hz@100.webp",
-              "1200": "cigale/i1fIuqg7Hz@1200.webp",
-              "400": "cigale/i1fIuqg7Hz@400.webp",
-              "600": "cigale/i1fIuqg7Hz@600.webp"
+              "100": "cigale/xUNF5EXYO9@100.webp",
+              "1200": "cigale/xUNF5EXYO9@1200.webp",
+              "400": "cigale/xUNF5EXYO9@400.webp",
+              "600": "cigale/xUNF5EXYO9@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:51.59375253+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:13.0890951+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -10709,7 +11353,7 @@
           {
             "alt": "Screenshot of the application, dialog allowing you to choose between several classification models",
             "analyzed": true,
-            "anchor": "screenshot-choose-protocol",
+            "anchor": "screenshots-en-protocol-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -10719,34 +11363,34 @@
             },
             "caption": "Protocol Choice",
             "colors": {
-              "primary": "#B8BABA",
-              "secondary": "#919292",
-              "tertiary": "#A9A9A9"
+              "primary": "#B7E6E3",
+              "secondary": "#85929E",
+              "tertiary": "#B4B7B8"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.435211,
-              "height": 710,
-              "width": 1019
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-choose-protocol.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-en-protocol-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "na04Yc91FT0cum4b+e3a7Q==",
-            "id": "MYgFQeiplh",
+            "hash": "BYTAYS4NkwROMjifnFUd7g==",
+            "id": "768ItwDyvx",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-choose-protocol.png",
-            "size": 56869,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-en-protocol-1-chromium-linux.png",
+            "size": 47936,
             "text": "",
             "thumbnails": {
-              "100": "cigale/MYgFQeiplh@100.webp",
-              "1200": "cigale/MYgFQeiplh@1200.webp",
-              "400": "cigale/MYgFQeiplh@400.webp",
-              "600": "cigale/MYgFQeiplh@600.webp"
+              "100": "cigale/768ItwDyvx@100.webp",
+              "1200": "cigale/768ItwDyvx@1200.webp",
+              "400": "cigale/768ItwDyvx@400.webp",
+              "600": "cigale/768ItwDyvx@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:48.556578302+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:14.0706029+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -10999,11 +11643,11 @@
           ["7wm4-E2i3p", "7wm4-E2i3p"],
           ["iQH3gmECXl", "iQH3gmECXl"],
           ["sbXUPHVnFa", "sbXUPHVnFa"],
-          ["LY-m2iPjPR", "SdIz9fXz8C"],
+          ["B4MVPS5995", "zSy9L777qf"],
           ["BwhtQpfHC9", "BwhtQpfHC9"],
           ["ZmetzLHYXm", "ZmetzLHYXm"],
-          ["i1fIuqg7Hz", "aLeJAsG5aM"],
-          ["laGyR5Dx5m", "MYgFQeiplh"],
+          ["xUNF5EXYO9", "aLeJAsG5aM"],
+          ["laGyR5Dx5m", "768ItwDyvx"],
           ["jg7OwWM0II", "BIvV27MTi0"],
           ["jg7OwWM0II", "BSctam24T8"],
           ["jg7OwWM0II", "XZO6adykpS"],
@@ -11141,9 +11785,9 @@
             "url": ""
           },
           {
-            "alt": "Screenshot of the application, imported insect photos with boxes highlighting insects detected by the neural network",
+            "alt": "Capture d’écran de l’application, photos d’insectes importées, avec des boîtes dessus encadrant les insectes détectés par le réseau neuronal ",
             "analyzed": true,
-            "anchor": "screenshot-import",
+            "anchor": "screenshots-fr-import-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -11151,44 +11795,44 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Photo import, insect detection",
+            "caption": "Import des photos et détection d'insectes",
             "colors": {
-              "primary": "#5D702A",
-              "secondary": "#9CB068",
-              "tertiary": "#EBF0E9"
+              "primary": "#BCBBBA",
+              "secondary": "#A8A9A9",
+              "tertiary": "#000000"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.56078,
-              "height": 872,
-              "width": 1361
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-import.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-fr-import-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "axmc7XYoIcvP+c6KRsKKtw==",
-            "id": "LY-m2iPjPR",
+            "hash": "EpkKM8M3MvH4sH1Kx+/RtQ==",
+            "id": "0Pu8mJ1-95",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-import.png",
-            "size": 450529,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-fr-import-1-chromium-linux.png",
+            "size": 94164,
             "text": "",
             "thumbnails": {
-              "100": "cigale/LY-m2iPjPR@100.webp",
-              "1200": "cigale/LY-m2iPjPR@1200.webp",
-              "400": "cigale/LY-m2iPjPR@400.webp",
-              "600": "cigale/LY-m2iPjPR@600.webp"
+              "100": "cigale/0Pu8mJ1-95@100.webp",
+              "1200": "cigale/0Pu8mJ1-95@1200.webp",
+              "400": "cigale/0Pu8mJ1-95@400.webp",
+              "600": "cigale/0Pu8mJ1-95@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:44.335440744+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:16.0652384+02:00",
             "title": "",
             "type": "media",
             "url": ""
           },
           {
-            "alt": "Screenshot of the application, a photo is displayed with bounding boxes around detected insects, and tools to modify, add, or delete these boxes",
+            "alt": "Capture d’écran de l’application, une photo est affichée en grand ainsi que les boites autour des insectes, et il y a des outils pour modifier, ajouter et supprimer ces boites",
             "analyzed": true,
-            "anchor": "screenshot-crop",
+            "anchor": "screenshots-fr-crop-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -11196,36 +11840,36 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Cropping",
+            "caption": "Recadrage",
             "colors": {
-              "primary": "#3F4F1A",
-              "secondary": "#6E7F44",
-              "tertiary": "#BCB292"
+              "primary": "#34341D",
+              "secondary": "#707F4D",
+              "tertiary": "#BFBFA5"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.558691,
-              "height": 886,
-              "width": 1381
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-crop.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-fr-crop-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "dnVIRjAYMiHq2A2z7zjpXQ==",
-            "id": "SdIz9fXz8C",
+            "hash": "6AH0rstC6hC6XiUUdzTU8w==",
+            "id": "CgduXmoVtf",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-crop.png",
-            "size": 1362274,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-fr-crop-1-chromium-linux.png",
+            "size": 401864,
             "text": "",
             "thumbnails": {
-              "100": "cigale/SdIz9fXz8C@100.webp",
-              "1200": "cigale/SdIz9fXz8C@1200.webp",
-              "400": "cigale/SdIz9fXz8C@400.webp",
-              "600": "cigale/SdIz9fXz8C@600.webp"
+              "100": "cigale/CgduXmoVtf@100.webp",
+              "1200": "cigale/CgduXmoVtf@1200.webp",
+              "400": "cigale/CgduXmoVtf@400.webp",
+              "600": "cigale/CgduXmoVtf@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:46.371128993+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:17.5197894+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -11313,7 +11957,7 @@
           {
             "alt": "Capture d’écran de l’application, une photo recadrée à un insecte, et un champ pour lui assigner l’espèce souhaitée, qui propose des suggestions et affiche une description et une photo de référence de la suggestion",
             "analyzed": true,
-            "anchor": "screenshot-classify",
+            "anchor": "screenshots-fr-classify-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -11323,34 +11967,34 @@
             },
             "caption": "Classification",
             "colors": {
-              "primary": "#6C7A35",
-              "secondary": "#B6BFB7",
-              "tertiary": "#EEEFEF"
+              "primary": "#766B56",
+              "secondary": "#C6BDAD",
+              "tertiary": "#F2F1F1"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.560502,
-              "height": 876,
-              "width": 1367
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-classify.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-fr-classify-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "OR7sQyfi2on4vD8CYKT26Q==",
-            "id": "i1fIuqg7Hz",
+            "hash": "Af0/6aI0UktOTImHEee25A==",
+            "id": "iWg_KW9mdq",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-classify.png",
-            "size": 634988,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-fr-classify-1-chromium-linux.png",
+            "size": 392176,
             "text": "",
             "thumbnails": {
-              "100": "cigale/i1fIuqg7Hz@100.webp",
-              "1200": "cigale/i1fIuqg7Hz@1200.webp",
-              "400": "cigale/i1fIuqg7Hz@400.webp",
-              "600": "cigale/i1fIuqg7Hz@600.webp"
+              "100": "cigale/iWg_KW9mdq@100.webp",
+              "1200": "cigale/iWg_KW9mdq@1200.webp",
+              "400": "cigale/iWg_KW9mdq@400.webp",
+              "600": "cigale/iWg_KW9mdq@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:51.59375253+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:18.6595849+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -11441,9 +12085,9 @@
             "url": ""
           },
           {
-            "alt": "Screenshot of the application, dialog allowing you to choose between several classification models",
+            "alt": "Capture d’écran de l’application, dialogue permettant de choisir entre plusieurs modèles de classification",
             "analyzed": true,
-            "anchor": "screenshot-choose-protocol",
+            "anchor": "screenshots-fr-protocol-1-chromium-linux",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -11451,36 +12095,36 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "Protocol Choice",
+            "caption": "Choix du protocole",
             "colors": {
-              "primary": "#B8BABA",
-              "secondary": "#919292",
-              "tertiary": "#A9A9A9"
+              "primary": "#B6E5E3",
+              "secondary": "#85919C",
+              "tertiary": "#B1B7B9"
             },
             "content": "",
             "contentType": "image/png",
             "dimensions": {
-              "aspectRatio": 1.435211,
-              "height": 710,
-              "width": 1019
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
             },
-            "distSource": "cigale/static/screenshot-choose-protocol.png",
+            "distSource": "cigale\\tests\\readme.spec.js-snapshots\\screenshots-fr-protocol-1-chromium-linux.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "na04Yc91FT0cum4b+e3a7Q==",
-            "id": "MYgFQeiplh",
+            "hash": "Divk/z/omfTSyd1eifgF4Q==",
+            "id": "VCWofaDFkr",
             "index": 0,
             "online": false,
-            "relativeSource": "../static/screenshot-choose-protocol.png",
-            "size": 56869,
+            "relativeSource": "../tests/readme.spec.js-snapshots/screenshots-fr-protocol-1-chromium-linux.png",
+            "size": 49549,
             "text": "",
             "thumbnails": {
-              "100": "cigale/MYgFQeiplh@100.webp",
-              "1200": "cigale/MYgFQeiplh@1200.webp",
-              "400": "cigale/MYgFQeiplh@400.webp",
-              "600": "cigale/MYgFQeiplh@600.webp"
+              "100": "cigale/VCWofaDFkr@100.webp",
+              "1200": "cigale/VCWofaDFkr@1200.webp",
+              "400": "cigale/VCWofaDFkr@400.webp",
+              "600": "cigale/VCWofaDFkr@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:48.556578302+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:34:19.3605385+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -11733,11 +12377,11 @@
           ["7wm4-E2i3p", "7wm4-E2i3p"],
           ["Ycrubz0kai", "Ycrubz0kai"],
           ["piAgP1Hy_B", "piAgP1Hy_B"],
-          ["LY-m2iPjPR", "SdIz9fXz8C"],
+          ["0Pu8mJ1-95", "CgduXmoVtf"],
           ["VuC2V4XnKQ", "VuC2V4XnKQ"],
           ["0mnO_LIVeD", "0mnO_LIVeD"],
-          ["i1fIuqg7Hz", "aLeJAsG5aM"],
-          ["GYCI5zh1w-", "MYgFQeiplh"],
+          ["iWg_KW9mdq", "aLeJAsG5aM"],
+          ["GYCI5zh1w-", "VCWofaDFkr"],
           ["gQWbclJjnU", "BIvV27MTi0"],
           ["gQWbclJjnU", "BSctam24T8"],
           ["gQWbclJjnU", "XZO6adykpS"],
@@ -11747,7 +12391,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "XmpuZwg6aup+Jvz1J9sK9Q==",
+    "descriptionHash": "7wLuI+9OwYkBvuGwR8+lcg==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12891,11 +13535,56 @@
   },
   "distilatex": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:20.3764651+02:00",
+    "builtAt": "2025-10-02T02:29:32.8009374+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "distilatex",
+            "analyzed": true,
+            "anchor": "logo",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#DADADA",
+              "secondary": "#232323",
+              "tertiary": "#848484"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 4961,
+              "width": 4961
+            },
+            "distSource": "distilatex\\logo\\logo.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "w5TWqynx/igmzcSoDK3HQw==",
+            "id": "xxLoNsklYo",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../logo/logo.png",
+            "size": 333966,
+            "text": "",
+            "thumbnails": {
+              "100": "distilatex/xxLoNsklYo@100.webp",
+              "1200": "distilatex/xxLoNsklYo@1200.webp",
+              "400": "distilatex/xxLoNsklYo@400.webp",
+              "600": "distilatex/xxLoNsklYo@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:22:51.8816032+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -13204,7 +13893,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "jGzzHHDIk1",
+            "id": "thgSOAwyz5",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -13214,23 +13903,68 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/distilatex"
+            "url": "https://github.com/gwennlbh/distilatex"
           }
         ],
         "footnotes": {},
         "layout": [
-          ["ezMZSIHxIg", "ezMZSIHxIg"],
-          ["2RQyMgxLDy", "2RQyMgxLDy"],
-          ["2i-4FWAoEf", "2i-4FWAoEf"],
-          ["S9Jvzpa2ze", "S9Jvzpa2ze"],
-          ["kIdKHooA8Q", "l6tORXR0SR"],
-          ["BIUcteLlMn", "jGzzHHDIk1"]
+          ["xxLoNsklYo", "ezMZSIHxIg", "ezMZSIHxIg", "ezMZSIHxIg"],
+          ["xxLoNsklYo", "2RQyMgxLDy", "2RQyMgxLDy", "2RQyMgxLDy"],
+          ["xxLoNsklYo", "2i-4FWAoEf", "2i-4FWAoEf", "2i-4FWAoEf"],
+          ["xxLoNsklYo", "S9Jvzpa2ze", "S9Jvzpa2ze", "S9Jvzpa2ze"],
+          ["kIdKHooA8Q", "kIdKHooA8Q", "l6tORXR0SR", "l6tORXR0SR"],
+          ["BIUcteLlMn", "BIUcteLlMn", "thgSOAwyz5", "thgSOAwyz5"]
         ],
         "title": "distilatex"
       },
       "fr": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "distilatex",
+            "analyzed": true,
+            "anchor": "logo",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#DADADA",
+              "secondary": "#232323",
+              "tertiary": "#848484"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 4961,
+              "width": 4961
+            },
+            "distSource": "distilatex\\logo\\logo.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "w5TWqynx/igmzcSoDK3HQw==",
+            "id": "xxLoNsklYo",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../logo/logo.png",
+            "size": 333966,
+            "text": "",
+            "thumbnails": {
+              "100": "distilatex/xxLoNsklYo@100.webp",
+              "1200": "distilatex/xxLoNsklYo@1200.webp",
+              "400": "distilatex/xxLoNsklYo@400.webp",
+              "600": "distilatex/xxLoNsklYo@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:22:51.8816032+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -13539,7 +14273,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "jGzzHHDIk1",
+            "id": "thgSOAwyz5",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -13549,34 +14283,41 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/distilatex"
+            "url": "https://github.com/gwennlbh/distilatex"
           }
         ],
         "footnotes": {},
         "layout": [
-          ["GbhxUVN0wT", "GbhxUVN0wT"],
-          ["W1M324aTtQ", "W1M324aTtQ"],
-          ["0-o9JrimuW", "0-o9JrimuW"],
-          ["ogBvSoc5yG", "ogBvSoc5yG"],
-          ["kIdKHooA8Q", "l6tORXR0SR"],
-          ["0MnHwe1bVV", "jGzzHHDIk1"]
+          ["xxLoNsklYo", "GbhxUVN0wT", "GbhxUVN0wT", "GbhxUVN0wT"],
+          ["xxLoNsklYo", "W1M324aTtQ", "W1M324aTtQ", "W1M324aTtQ"],
+          ["xxLoNsklYo", "0-o9JrimuW", "0-o9JrimuW", "0-o9JrimuW"],
+          ["xxLoNsklYo", "ogBvSoc5yG", "ogBvSoc5yG", "ogBvSoc5yG"],
+          ["kIdKHooA8Q", "kIdKHooA8Q", "l6tORXR0SR", "l6tORXR0SR"],
+          ["0MnHwe1bVV", "0MnHwe1bVV", "thgSOAwyz5", "thgSOAwyz5"]
         ],
         "title": "distilatex"
       }
     },
-    "descriptionHash": "uUlZAI5r6RdFdlcLtFaK8w==",
+    "descriptionHash": "k8e0FLSYZZpR00c8ByrACg==",
     "id": "distilatex",
     "metadata": {
       "additionalMetadata": {
         "created": "2021-04-16",
-        "layout": ["p1", "p2", "p3", "p4", ["m1", "m2"], ["p5", "l1"]],
+        "layout": [
+          ["m1", "p1", "p1", "p1"],
+          ["m1", "p2", "p2", "p2"],
+          ["m1", "p3", "p3", "p3"],
+          ["m1", "p4", "p4", "p4"],
+          ["m2", "m3"],
+          ["p5", "l1"]
+        ],
         "made_with": ["rust", "latex"]
       },
       "aliases": null,
       "colors": {
         "primary": "#000",
-        "secondary": "bee7fe",
-        "tertiary": "5478c2"
+        "secondary": "#bee7fe",
+        "tertiary": "#5478c2"
       },
       "databaseMetadata": {
         "Partial": false
@@ -18675,7 +19416,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:49.5404843+02:00",
+    "builtAt": "2025-10-02T02:14:20.6732853+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -18697,7 +19438,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language</p>",
+            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language, that provides autocompletion, documentation on hover, and more</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -18708,7 +19449,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "PbpKHWpKJi",
+            "id": "TjSW8oo5CB",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -18748,7 +19489,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "fZEJCQpqU6",
+            "id": "tiRhP2fdzC",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -18758,7 +19499,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/hyprlang-lsp.git"
+            "url": "https://github.com/hyprland-community/hyprls"
           },
           {
             "alt": "",
@@ -18988,30 +19729,9 @@
         ],
         "footnotes": {},
         "layout": [
-          [
-            "Eg7YPD89hJ",
-            "Eg7YPD89hJ",
-            "Eg7YPD89hJ",
-            "PbpKHWpKJi",
-            "PbpKHWpKJi",
-            "PbpKHWpKJi"
-          ],
-          [
-            "7ld0Lr7NEW",
-            "7ld0Lr7NEW",
-            "7ld0Lr7NEW",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6"
-          ],
-          [
-            "KBRObH0R6k",
-            "KBRObH0R6k",
-            "G0uyZ4zgXk",
-            "G0uyZ4zgXk",
-            "1BPGf0TkHh",
-            "1BPGf0TkHh"
-          ]
+          ["TjSW8oo5CB", "Eg7YPD89hJ", "7ld0Lr7NEW"],
+          ["tiRhP2fdzC", "Eg7YPD89hJ", "7ld0Lr7NEW"],
+          ["KBRObH0R6k", "G0uyZ4zgXk", "1BPGf0TkHh"]
         ],
         "title": "HyprLS"
       },
@@ -19326,50 +20046,29 @@
         ],
         "footnotes": {},
         "layout": [
-          [
-            "Eg7YPD89hJ",
-            "Eg7YPD89hJ",
-            "Eg7YPD89hJ",
-            "3wDe2klixt",
-            "3wDe2klixt",
-            "3wDe2klixt"
-          ],
-          [
-            "7ld0Lr7NEW",
-            "7ld0Lr7NEW",
-            "7ld0Lr7NEW",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6"
-          ],
-          [
-            "KBRObH0R6k",
-            "KBRObH0R6k",
-            "G0uyZ4zgXk",
-            "G0uyZ4zgXk",
-            "1BPGf0TkHh",
-            "1BPGf0TkHh"
-          ]
+          ["3wDe2klixt", "Eg7YPD89hJ", "7ld0Lr7NEW"],
+          ["fZEJCQpqU6", "Eg7YPD89hJ", "7ld0Lr7NEW"],
+          ["KBRObH0R6k", "G0uyZ4zgXk", "1BPGf0TkHh"]
         ],
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "udmT5Flm2tbmRt6/PTEMHQ==",
+    "descriptionHash": "S93CylMeEjFXdG5zWN4Auw==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          ["m1", "p1"],
-          ["m2", "l1"],
+          ["p1", "m1", "m2"],
+          ["l1", "m1", "m2"],
           ["m3", "m4", "m5"]
         ],
         "made_with": ["go", "hyprland"]
       },
       "aliases": ["hyprlang-lsp"],
       "colors": {
-        "primary": "#BBC2CC",
-        "secondary": "#B1B6C0",
-        "tertiary": "#000000"
+        "primary": "#BC879C",
+        "secondary": "#BBC2CD",
+        "tertiary": "#B1B8C2"
       },
       "databaseMetadata": {
         "Partial": false
@@ -19388,7 +20087,7 @@
   },
   "ideaseed": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:49:49.9728514+02:00",
+    "builtAt": "2025-10-02T02:37:35.457896+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -20669,7 +21368,7 @@
         "title": "ideaseed"
       }
     },
-    "descriptionHash": "+5G7t8F9Bml9td91ty+GPQ==",
+    "descriptionHash": "Pp7ElVAuCVTHoLQpnsu9Ow==",
     "id": "ideaseed",
     "metadata": {
       "additionalMetadata": {
@@ -20680,8 +21379,8 @@
       "aliases": null,
       "colors": {
         "primary": "#000000",
-        "secondary": "FDB336",
-        "tertiary": ""
+        "secondary": "#FDB336",
+        "tertiary": "#FFFFFF"
       },
       "databaseMetadata": {
         "Partial": false
@@ -20737,7 +21436,7 @@
   },
   "infrasonic-village": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:30:28.5736153+02:00",
+    "builtAt": "2025-10-02T02:49:52.5657587+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -21386,7 +22085,7 @@
         "title": "Infrasonic Village"
       }
     },
-    "descriptionHash": "fOUTaT6AE04SovXmCoMGFA==",
+    "descriptionHash": "56CK0wCKkAUTq/eXE0xJ5A==",
     "id": "infrasonic-village",
     "metadata": {
       "additionalMetadata": {
@@ -21396,8 +22095,8 @@
       "aliases": null,
       "colors": {
         "primary": "#382109",
-        "secondary": "#C77E25",
-        "tertiary": "#ffffff"
+        "secondary": "#ffffff",
+        "tertiary": "#FBAD39"
       },
       "databaseMetadata": {
         "Partial": false
@@ -26362,6 +27061,2552 @@
       "wip": true
     },
     "source": "C:\\Users\\ewen\\projects\\ortfo\\.ortfo\\description.md"
+  },
+  "patterns": {
+    "Partial": false,
+    "builtAt": "2025-10-02T02:34:56.1312695+02:00",
+    "content": {
+      "en": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "square",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#348676",
+              "secondary": "#BEA785",
+              "tertiary": "#ECECEC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 1080,
+              "width": 1080
+            },
+            "distSource": "patterns\\cover-arts\\renders\\square.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "t1uByUmTy2lGQExJDSZmOg==",
+            "id": "jW41AxyQLQ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/square.png",
+            "size": 485435,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/jW41AxyQLQ@100.webp",
+              "1200": "patterns/jW41AxyQLQ@1200.webp",
+              "400": "patterns/jW41AxyQLQ@400.webp",
+              "600": "patterns/jW41AxyQLQ@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:15.7357937+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>An EP with a cover art that can from a drawing on a corner of a textbook.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "sl7XMOcer2",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "origin",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#878C7B",
+              "secondary": "#393E3A",
+              "tertiary": "#A5ABA1"
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1.777778,
+              "height": 2160,
+              "width": 3840
+            },
+            "distSource": "patterns\\cover-arts\\resources\\origin.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "NqsoNyq7urxRR75oPJoyIA==",
+            "id": "zXrfnan-Xz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/origin.jpeg",
+            "size": 1362096,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/zXrfnan-Xz@100.webp",
+              "1200": "patterns/zXrfnan-Xz@1200.webp",
+              "400": "patterns/zXrfnan-Xz@400.webp",
+              "600": "patterns/zXrfnan-Xz@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:19.1853412+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "drawing",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#3F382F",
+              "secondary": "#7A7167",
+              "tertiary": "#ADA69B"
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 1892,
+              "width": 1892
+            },
+            "distSource": "patterns\\cover-arts\\resources\\drawing.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "Cav42+3aTfNPHYVkPRELbQ==",
+            "id": "3H6Huu4AzM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/drawing.jpeg",
+            "size": 496443,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/3H6Huu4AzM@100.webp",
+              "1200": "patterns/3H6Huu4AzM@1200.webp",
+              "400": "patterns/3H6Huu4AzM@400.webp",
+              "600": "patterns/3H6Huu4AzM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:41.6250655+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>This drawing was vectorized by hand in Illustrator</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "qBj-dauIse",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "vectorized",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000000",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2000,
+              "width": 2000
+            },
+            "distSource": "patterns\\cover-arts\\resources\\vectorized.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "PRtAowtBw4Pk5rpfLtwpBw==",
+            "id": "e0KWAyCKPg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/vectorized.png",
+            "size": 147615,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/e0KWAyCKPg@100.webp",
+              "1200": "patterns/e0KWAyCKPg@1200.webp",
+              "400": "patterns/e0KWAyCKPg@400.webp",
+              "600": "patterns/e0KWAyCKPg@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:23.3190365+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Then made seamless, to allow making a tiling out of the pattern</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bEdN-JQ_2O",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "vectorized-v2-annotated",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000000",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2000,
+              "width": 2000
+            },
+            "distSource": "patterns\\cover-arts\\resources\\vectorized-v2-annotated.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "iY3MTYiY46O/uoHmsvW+Kw==",
+            "id": "aLsZtax94P",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/vectorized-v2-annotated.png",
+            "size": 234351,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/aLsZtax94P@100.webp",
+              "1200": "patterns/aLsZtax94P@1200.webp",
+              "400": "patterns/aLsZtax94P@400.webp",
+              "600": "patterns/aLsZtax94P@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:26.1393859+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-plain",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#EAEAEA",
+              "secondary": "#F8F8F8",
+              "tertiary": "#DCDCDC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-plain.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "FWAS0tE/+jtbPLDrReKRHg==",
+            "id": "wXJeZA63Yk",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-plain.png",
+            "size": 512882,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/wXJeZA63Yk@100.webp",
+              "1200": "patterns/wXJeZA63Yk@1200.webp",
+              "400": "patterns/wXJeZA63Yk@400.webp",
+              "600": "patterns/wXJeZA63Yk@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:28.2804343+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>After trying out some variations, I settled on coloring some shapes from the centermost patterns.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "FaIueFWgA8",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-dot",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#39E271",
+              "secondary": "#48E47C",
+              "tertiary": "#98E5B1"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-dot.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "rIlOB223HVC7sZOEw3iiaw==",
+            "id": "Qd4xtWCgf-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-dot.png",
+            "size": 1571669,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/Qd4xtWCgf-@100.webp",
+              "1200": "patterns/Qd4xtWCgf-@1200.webp",
+              "400": "patterns/Qd4xtWCgf-@400.webp",
+              "600": "patterns/Qd4xtWCgf-@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:48.6623936+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-2",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#41E376",
+              "secondary": "#4FE580",
+              "tertiary": "#5EE78B"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-2.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "MTykDbNffG5H/uNEl2y/Sw==",
+            "id": "AMYS_VahwD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-2.png",
+            "size": 1962448,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/AMYS_VahwD@100.webp",
+              "1200": "patterns/AMYS_VahwD@1200.webp",
+              "400": "patterns/AMYS_VahwD@400.webp",
+              "600": "patterns/AMYS_VahwD@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:32.1197673+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-dim",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#F4F4F4",
+              "secondary": "#FCFCFC",
+              "tertiary": "#ECECEC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-dim.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "nsKj/PvDK3K3ywgb5EfuhA==",
+            "id": "mQGfdAcIGA",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-dim.png",
+            "size": 477229,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/mQGfdAcIGA@100.webp",
+              "1200": "patterns/mQGfdAcIGA@1200.webp",
+              "400": "patterns/mQGfdAcIGA@400.webp",
+              "600": "patterns/mQGfdAcIGA@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:33.9356233+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "landscape-wip",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#B1B1B1",
+              "secondary": "#919191",
+              "tertiary": "#E6E6E6"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\landscape-wip.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "xdt22V/VqpFSBYmqz0JuDQ==",
+            "id": "SIPU88T8Mi",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/landscape-wip.png",
+            "size": 507276,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/SIPU88T8Mi@100.webp",
+              "1200": "patterns/SIPU88T8Mi@1200.webp",
+              "400": "patterns/SIPU88T8Mi@400.webp",
+              "600": "patterns/SIPU88T8Mi@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:35.7288875+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "landscape-no-text",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#47BF9B",
+              "secondary": "#F2826E",
+              "tertiary": "#DDD5A8"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\landscape-no-text.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GynoxqluZyHan4oAmbmv1w==",
+            "id": "noktdRkF-3",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/landscape-no-text.png",
+            "size": 2177003,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/noktdRkF-3@100.webp",
+              "1200": "patterns/noktdRkF-3@1200.webp",
+              "400": "patterns/noktdRkF-3@400.webp",
+              "600": "patterns/noktdRkF-3@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:37.676566+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "2049",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "01. 2049",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\2049.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "r6aZUq3maQ6XG3MuVeXOHw==",
+            "id": "YqEsfU8ANt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/2049.mp3",
+            "size": 10247437,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "memories",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "02. memories",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\memories.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "2s4PAjb7GXs6wcLpaAuyjA==",
+            "id": "PcqypRDUh-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/memories.mp3",
+            "size": 10538472,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "newyear",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "03. newyear",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\newyear.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "vHQs1bo15G/vSa3DmtOrcg==",
+            "id": "BgU17YYCpv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/newyear.mp3",
+            "size": 8589190,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "spotify",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "OKdi4pDrzC",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Spotify",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://open.spotify.com/album/2FYD8Xe7JpzBAVhWZwuRGT?si=L6biJv8sRb2ziuCal9KVsg"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "deezer",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BRKyMvdEt_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Deezer",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://deezer.page.link/9hdTe95ra7SZsXXt7"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "youtube",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "zsG6MW8sAh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "YouTube",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.youtube.com/playlist?list=PLl3OrLj4CmfOt_27VTNfsqI_BC3MqU7ws"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "apple",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "0Gt7y6v42t",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Apple",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://music.apple.com/us/album/patterns-single/1617436313"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "amazon",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "unWz6xgZr_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Amazon",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.amazon.com/gp/product/B09X38BGQQ"
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          [
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ"
+          ],
+          [
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2",
+            "sl7XMOcer2"
+          ],
+          [
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM"
+          ],
+          [
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "qBj-dauIse",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O",
+            "bEdN-JQ_2O"
+          ],
+          [
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P"
+          ],
+          [
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk"
+          ],
+          [
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8",
+            "FaIueFWgA8"
+          ],
+          [
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv"
+          ],
+          [
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "unWz6xgZr_",
+            "unWz6xgZr_",
+            "unWz6xgZr_",
+            "unWz6xgZr_"
+          ]
+        ],
+        "title": "Patterns"
+      },
+      "fr": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "square",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#348676",
+              "secondary": "#BEA785",
+              "tertiary": "#ECECEC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 1080,
+              "width": 1080
+            },
+            "distSource": "patterns\\cover-arts\\renders\\square.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "t1uByUmTy2lGQExJDSZmOg==",
+            "id": "jW41AxyQLQ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/square.png",
+            "size": 485435,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/jW41AxyQLQ@100.webp",
+              "1200": "patterns/jW41AxyQLQ@1200.webp",
+              "400": "patterns/jW41AxyQLQ@400.webp",
+              "600": "patterns/jW41AxyQLQ@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:15.7357937+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Un EP avec une pochette provenant d’un dessin sur le coin d’un cahier.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ddqtB75T4u",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "origin",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#878C7B",
+              "secondary": "#393E3A",
+              "tertiary": "#A5ABA1"
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1.777778,
+              "height": 2160,
+              "width": 3840
+            },
+            "distSource": "patterns\\cover-arts\\resources\\origin.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "NqsoNyq7urxRR75oPJoyIA==",
+            "id": "zXrfnan-Xz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/origin.jpeg",
+            "size": 1362096,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/zXrfnan-Xz@100.webp",
+              "1200": "patterns/zXrfnan-Xz@1200.webp",
+              "400": "patterns/zXrfnan-Xz@400.webp",
+              "600": "patterns/zXrfnan-Xz@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:19.1853412+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "drawing",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#3F382F",
+              "secondary": "#7A7167",
+              "tertiary": "#ADA69B"
+            },
+            "content": "",
+            "contentType": "image/jpeg",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 1892,
+              "width": 1892
+            },
+            "distSource": "patterns\\cover-arts\\resources\\drawing.jpeg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "Cav42+3aTfNPHYVkPRELbQ==",
+            "id": "3H6Huu4AzM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/drawing.jpeg",
+            "size": 496443,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/3H6Huu4AzM@100.webp",
+              "1200": "patterns/3H6Huu4AzM@1200.webp",
+              "400": "patterns/3H6Huu4AzM@400.webp",
+              "600": "patterns/3H6Huu4AzM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:41.6250655+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ce dessin a été vectorisé à la main dans Illustrator.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bGryzvDITT",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "vectorized",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000000",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2000,
+              "width": 2000
+            },
+            "distSource": "patterns\\cover-arts\\resources\\vectorized.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "PRtAowtBw4Pk5rpfLtwpBw==",
+            "id": "e0KWAyCKPg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/vectorized.png",
+            "size": 147615,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/e0KWAyCKPg@100.webp",
+              "1200": "patterns/e0KWAyCKPg@1200.webp",
+              "400": "patterns/e0KWAyCKPg@400.webp",
+              "600": "patterns/e0KWAyCKPg@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:23.3190365+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Puis rendu <em>seamless</em><sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>, pour permettre de faire un pavage à partir du motif</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "YIcHrnDegi",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "vectorized-v2-annotated",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#000000",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 2000,
+              "width": 2000
+            },
+            "distSource": "patterns\\cover-arts\\resources\\vectorized-v2-annotated.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "iY3MTYiY46O/uoHmsvW+Kw==",
+            "id": "aLsZtax94P",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/resources/vectorized-v2-annotated.png",
+            "size": 234351,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/aLsZtax94P@100.webp",
+              "1200": "patterns/aLsZtax94P@1200.webp",
+              "400": "patterns/aLsZtax94P@400.webp",
+              "600": "patterns/aLsZtax94P@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:26.1393859+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-plain",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#EAEAEA",
+              "secondary": "#F8F8F8",
+              "tertiary": "#DCDCDC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-plain.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "FWAS0tE/+jtbPLDrReKRHg==",
+            "id": "wXJeZA63Yk",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-plain.png",
+            "size": 512882,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/wXJeZA63Yk@100.webp",
+              "1200": "patterns/wXJeZA63Yk@1200.webp",
+              "400": "patterns/wXJeZA63Yk@400.webp",
+              "600": "patterns/wXJeZA63Yk@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:28.2804343+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Après avoir tenté quelques variations, j’ai décidé de colorier quelques formes au niveau des motifs les plus centraux.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "r1ccWLYoxI",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-dot",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#39E271",
+              "secondary": "#48E47C",
+              "tertiary": "#98E5B1"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-dot.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "rIlOB223HVC7sZOEw3iiaw==",
+            "id": "Qd4xtWCgf-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-dot.png",
+            "size": 1571669,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/Qd4xtWCgf-@100.webp",
+              "1200": "patterns/Qd4xtWCgf-@1200.webp",
+              "400": "patterns/Qd4xtWCgf-@400.webp",
+              "600": "patterns/Qd4xtWCgf-@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:48.6623936+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-2",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#43E377",
+              "secondary": "#53E683",
+              "tertiary": "#60E78C"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-2.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "MTykDbNffG5H/uNEl2y/Sw==",
+            "id": "AMYS_VahwD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-2.png",
+            "size": 1962448,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/AMYS_VahwD@100.webp",
+              "1200": "patterns/AMYS_VahwD@1200.webp",
+              "400": "patterns/AMYS_VahwD@400.webp",
+              "600": "patterns/AMYS_VahwD@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:50.5815944+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "variation-dim",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#F4F4F4",
+              "secondary": "#FCFCFC",
+              "tertiary": "#ECECEC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\variation-dim.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "nsKj/PvDK3K3ywgb5EfuhA==",
+            "id": "mQGfdAcIGA",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/variation-dim.png",
+            "size": 477229,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/mQGfdAcIGA@100.webp",
+              "1200": "patterns/mQGfdAcIGA@1200.webp",
+              "400": "patterns/mQGfdAcIGA@400.webp",
+              "600": "patterns/mQGfdAcIGA@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:33.9356233+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "landscape-wip",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#B1B1B1",
+              "secondary": "#919191",
+              "tertiary": "#E6E6E6"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\landscape-wip.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "xdt22V/VqpFSBYmqz0JuDQ==",
+            "id": "SIPU88T8Mi",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/landscape-wip.png",
+            "size": 507276,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/SIPU88T8Mi@100.webp",
+              "1200": "patterns/SIPU88T8Mi@1200.webp",
+              "400": "patterns/SIPU88T8Mi@400.webp",
+              "600": "patterns/SIPU88T8Mi@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:35.7288875+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "landscape-no-text",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#47BF9B",
+              "secondary": "#F2826E",
+              "tertiary": "#DDD5A8"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.6,
+              "height": 1800,
+              "width": 2880
+            },
+            "distSource": "patterns\\cover-arts\\renders\\landscape-no-text.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GynoxqluZyHan4oAmbmv1w==",
+            "id": "noktdRkF-3",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../cover-arts/renders/landscape-no-text.png",
+            "size": 2177003,
+            "text": "",
+            "thumbnails": {
+              "100": "patterns/noktdRkF-3@100.webp",
+              "1200": "patterns/noktdRkF-3@1200.webp",
+              "400": "patterns/noktdRkF-3@400.webp",
+              "600": "patterns/noktdRkF-3@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:37.676566+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "2049",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "01. 2049",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\2049.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "r6aZUq3maQ6XG3MuVeXOHw==",
+            "id": "YqEsfU8ANt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/2049.mp3",
+            "size": 10247437,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "memories",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "02. memories",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\memories.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "2s4PAjb7GXs6wcLpaAuyjA==",
+            "id": "PcqypRDUh-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/memories.mp3",
+            "size": 10538472,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "newyear",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "03. newyear",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "audio/mpeg",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "patterns\\renders\\newyear.mp3",
+            "duration": 0,
+            "hasSound": true,
+            "hash": "vHQs1bo15G/vSa3DmtOrcg==",
+            "id": "BgU17YYCpv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../renders/newyear.mp3",
+            "size": 8589190,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "spotify",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "OKdi4pDrzC",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Spotify",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://open.spotify.com/album/2FYD8Xe7JpzBAVhWZwuRGT?si=L6biJv8sRb2ziuCal9KVsg"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "deezer",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "BRKyMvdEt_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Deezer",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://deezer.page.link/9hdTe95ra7SZsXXt7"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "youtube",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "zsG6MW8sAh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "YouTube",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.youtube.com/playlist?list=PLl3OrLj4CmfOt_27VTNfsqI_BC3MqU7ws"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "apple",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "0Gt7y6v42t",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Apple",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://music.apple.com/us/album/patterns-single/1617436313"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "amazon",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "unWz6xgZr_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Amazon",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.amazon.com/gp/product/B09X38BGQQ"
+          }
+        ],
+        "footnotes": {
+          "1": "<p>On dit notamment de textures qu’elles sont <em>seamless</em> (littéralement “sans coutures”) lorsque l’on peut répéter un motif sans que les bordures n’aparaissent clairement. <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
+        },
+        "layout": [
+          [
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ",
+            "jW41AxyQLQ"
+          ],
+          [
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u",
+            "ddqtB75T4u"
+          ],
+          [
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "zXrfnan-Xz",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM",
+            "3H6Huu4AzM"
+          ],
+          [
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "bGryzvDITT",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi",
+            "YIcHrnDegi"
+          ],
+          [
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "e0KWAyCKPg",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P",
+            "aLsZtax94P"
+          ],
+          [
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk",
+            "wXJeZA63Yk"
+          ],
+          [
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI",
+            "r1ccWLYoxI"
+          ],
+          [
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "Qd4xtWCgf-",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "AMYS_VahwD",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "mQGfdAcIGA",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi",
+            "SIPU88T8Mi"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt",
+            "YqEsfU8ANt"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-",
+            "PcqypRDUh-"
+          ],
+          [
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "noktdRkF-3",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv",
+            "BgU17YYCpv"
+          ],
+          [
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "OKdi4pDrzC",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "BRKyMvdEt_",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "zsG6MW8sAh",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "0Gt7y6v42t",
+            "unWz6xgZr_",
+            "unWz6xgZr_",
+            "unWz6xgZr_",
+            "unWz6xgZr_"
+          ]
+        ],
+        "title": "Patterns"
+      }
+    },
+    "descriptionHash": "+pgJTrNpu7rf1BZod32TXg==",
+    "id": "patterns",
+    "metadata": {
+      "additionalMetadata": {
+        "created": "2019-03-19",
+        "layout": [
+          "m1",
+          "p1",
+          ["m2", "m3"],
+          ["p2", "p3"],
+          ["m4", "m5"],
+          "m6",
+          "p4",
+          ["m7", "m8", "m9", "m10"],
+          ["m11", "m12"],
+          ["m11", "m13"],
+          ["m11", "m14"],
+          ["l1", "l2", "l3", "l4", "l5"]
+        ],
+        "made_with": ["fl studio", "photoshop", "illustrator"],
+        "page_background": "cover-arts/renders/variation-dim.png"
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "black",
+        "secondary": "white",
+        "tertiary": "#ECECEC"
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "",
+      "tags": ["music", "graphism", "drawing"],
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": false
+    },
+    "source": "C:\\Users\\ewen\\projects\\patterns\\.ortfo\\description.md"
   },
   "permbits": {
     "Partial": false,
@@ -33496,7 +36741,7 @@
   },
   "the-unconscious-wanders": {
     "Partial": false,
-    "builtAt": "2025-10-01T23:22:12.0105852+02:00",
+    "builtAt": "2025-10-02T02:33:29.9668759+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -34484,7 +37729,7 @@
         "title": "The Unconscious’ Wanders"
       }
     },
-    "descriptionHash": "gFqxxQxErHOPj3KmkKPQBw==",
+    "descriptionHash": "0bJd3XyME0GlojGGn7wUiw==",
     "id": "the-unconscious-wanders",
     "metadata": {
       "additionalMetadata": {
@@ -34507,8 +37752,8 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#2B2B2B",
-        "secondary": "#808080",
+        "primary": "#d5d6c8ff",
+        "secondary": "#111111",
         "tertiary": "#D2D2D2"
       },
       "databaseMetadata": {
@@ -34528,7 +37773,7 @@
   },
   "trigonometry-synth": {
     "Partial": false,
-    "builtAt": "2025-06-14T21:31:39.6143673+02:00",
+    "builtAt": "2025-10-02T02:47:55.7141413+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -34576,7 +37821,7 @@
           {
             "alt": "Synthesizer module connecting trigonometric formulas by cables",
             "analyzed": true,
-            "anchor": "trigonometry-synth",
+            "anchor": "trigonometry-synth-white",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -34586,9 +37831,9 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#06666D",
-              "secondary": "#864C0C",
-              "tertiary": "#0C1208"
+              "primary": "#F7B987",
+              "secondary": "#CCE6F2",
+              "tertiary": "#3F4A3F"
             },
             "content": "",
             "contentType": "image/png",
@@ -34597,23 +37842,23 @@
               "height": 1525,
               "width": 2174
             },
-            "distSource": "trigonometry-synth\\trigonometry-synth.png",
+            "distSource": "trigonometry-synth\\trigonometry-synth-white.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "eBrKyxLk+gBpxJhRVBmgaw==",
-            "id": "gP_gBNdzxz",
+            "hash": "Ry2xnaV+OTEksWz88HbkFQ==",
+            "id": "JLDsM9nw3O",
             "index": 0,
             "online": false,
-            "relativeSource": "../trigonometry-synth.png",
-            "size": 181491,
+            "relativeSource": "../trigonometry-synth-white.png",
+            "size": 209485,
             "text": "",
             "thumbnails": {
-              "100": "trigonometry-synth/gP_gBNdzxz@100.webp",
-              "1200": "trigonometry-synth/gP_gBNdzxz@1200.webp",
-              "400": "trigonometry-synth/gP_gBNdzxz@400.webp",
-              "600": "trigonometry-synth/gP_gBNdzxz@600.webp"
+              "100": "trigonometry-synth/JLDsM9nw3O@100.webp",
+              "1200": "trigonometry-synth/JLDsM9nw3O@1200.webp",
+              "400": "trigonometry-synth/JLDsM9nw3O@400.webp",
+              "600": "trigonometry-synth/JLDsM9nw3O@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:38.6337005+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:40:22.7136755+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -34742,7 +37987,7 @@
         "footnotes": {},
         "layout": [
           ["u4rEDD5VmJ", "u4rEDD5VmJ"],
-          ["gP_gBNdzxz", "gP_gBNdzxz"],
+          ["JLDsM9nw3O", "JLDsM9nw3O"],
           ["3aC5M1ss7o", "3aC5M1ss7o"],
           ["TeWHSWugRT", "Saxlvc_F12"]
         ],
@@ -34794,7 +38039,7 @@
           {
             "alt": "Synthesizer module connecting trigonometric formulas by cables",
             "analyzed": true,
-            "anchor": "trigonometry-synth",
+            "anchor": "trigonometry-synth-white",
             "attributes": {
               "autoplay": false,
               "controls": true,
@@ -34804,9 +38049,9 @@
             },
             "caption": "",
             "colors": {
-              "primary": "#06666D",
-              "secondary": "#864C0C",
-              "tertiary": "#0C1208"
+              "primary": "#F7B987",
+              "secondary": "#CCE6F2",
+              "tertiary": "#3F4A3F"
             },
             "content": "",
             "contentType": "image/png",
@@ -34815,23 +38060,23 @@
               "height": 1525,
               "width": 2174
             },
-            "distSource": "trigonometry-synth\\trigonometry-synth.png",
+            "distSource": "trigonometry-synth\\trigonometry-synth-white.png",
             "duration": 0,
             "hasSound": false,
-            "hash": "eBrKyxLk+gBpxJhRVBmgaw==",
-            "id": "gP_gBNdzxz",
+            "hash": "Ry2xnaV+OTEksWz88HbkFQ==",
+            "id": "JLDsM9nw3O",
             "index": 0,
             "online": false,
-            "relativeSource": "../trigonometry-synth.png",
-            "size": 181491,
+            "relativeSource": "../trigonometry-synth-white.png",
+            "size": 209485,
             "text": "",
             "thumbnails": {
-              "100": "trigonometry-synth/gP_gBNdzxz@100.webp",
-              "1200": "trigonometry-synth/gP_gBNdzxz@1200.webp",
-              "400": "trigonometry-synth/gP_gBNdzxz@400.webp",
-              "600": "trigonometry-synth/gP_gBNdzxz@600.webp"
+              "100": "trigonometry-synth/JLDsM9nw3O@100.webp",
+              "1200": "trigonometry-synth/JLDsM9nw3O@1200.webp",
+              "400": "trigonometry-synth/JLDsM9nw3O@400.webp",
+              "600": "trigonometry-synth/JLDsM9nw3O@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-14T21:31:38.6337005+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T02:40:22.7136755+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -34960,14 +38205,14 @@
         "footnotes": {},
         "layout": [
           ["7XY8nauhcW", "7XY8nauhcW"],
-          ["gP_gBNdzxz", "gP_gBNdzxz"],
+          ["JLDsM9nw3O", "JLDsM9nw3O"],
           ["QSvLf3zt5f", "QSvLf3zt5f"],
           ["UOIlbIXRLl", "Saxlvc_F12"]
         ],
         "title": "Trigonometry Synth"
       }
     },
-    "descriptionHash": "7PeKd4RHudToczlijqzLhA==",
+    "descriptionHash": "Hf0mE2DEz1iWPlSXL6EEhA==",
     "id": "trigonometry-synth",
     "metadata": {
       "additionalMetadata": {
@@ -34977,9 +38222,9 @@
       },
       "aliases": ["trigosynth"],
       "colors": {
-        "primary": "#06666D",
-        "secondary": "#864C0C",
-        "tertiary": "#0C1208"
+        "primary": "#8191f3",
+        "secondary": "#efd602",
+        "tertiary": "#00b8ef"
       },
       "databaseMetadata": {
         "Partial": false
@@ -34995,6 +38240,474 @@
       "wip": false
     },
     "source": "C:\\Users\\ewen\\projects\\trigonometry-synth\\.ortfo\\description.md"
+  },
+  "ultisnips-tools": {
+    "Partial": false,
+    "builtAt": "2025-10-02T02:34:20.4989894+02:00",
+    "content": {
+      "en": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>A website to assist in the creation and understanding of UltiSnips shortcuts. Realized in four days.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "SzzhCZT8mg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Une capture d’écran du site",
+            "analyzed": true,
+            "anchor": "scrot",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#51585E",
+              "secondary": "#000000",
+              "tertiary": "#000000"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.150154,
+              "height": 1625,
+              "width": 1869
+            },
+            "distSource": "ultisnips-tools\\scrot.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "nRv2TJs00dvmY2hx5WQKcA==",
+            "id": "kVZwnFIWGM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../scrot.png",
+            "size": 97469,
+            "text": "",
+            "thumbnails": {
+              "100": "ultisnips-tools/kVZwnFIWGM@100.webp",
+              "1200": "ultisnips-tools/kVZwnFIWGM@1200.webp",
+              "400": "ultisnips-tools/kVZwnFIWGM@400.webp",
+              "600": "ultisnips-tools/kVZwnFIWGM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:19.2769101+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "source-code",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "vLyR5b95Hh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "source code",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/ewen-lbh/ultisnips-tools"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "see",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "i_LZMiZDXS",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "see",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://ewen-lbh.github.io/ultisnips-tools"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "prototype",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "po_y3rxwo8",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "prototype",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.figma.com/proto/vS1qgbKknEOIoCm8aom7oh/ultisnips.io?node-id=1%3A2&scaling=min-zoom"
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["SzzhCZT8mg", "SzzhCZT8mg", "SzzhCZT8mg"],
+          ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
+          ["vLyR5b95Hh", "i_LZMiZDXS", "po_y3rxwo8"]
+        ],
+        "title": "ultisnips-tools"
+      },
+      "fr": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Un site web pour assister la création et la compréhension de raccourcis UltiSnips. Réalisé en 4 jours.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "_lz9MQXBOl",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "Une capture d’écran du site",
+            "analyzed": true,
+            "anchor": "scrot",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#51585E",
+              "secondary": "#000000",
+              "tertiary": "#000000"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.150154,
+              "height": 1625,
+              "width": 1869
+            },
+            "distSource": "ultisnips-tools\\scrot.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "nRv2TJs00dvmY2hx5WQKcA==",
+            "id": "kVZwnFIWGM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../scrot.png",
+            "size": 97469,
+            "text": "",
+            "thumbnails": {
+              "100": "ultisnips-tools/kVZwnFIWGM@100.webp",
+              "1200": "ultisnips-tools/kVZwnFIWGM@1200.webp",
+              "400": "ultisnips-tools/kVZwnFIWGM@400.webp",
+              "600": "ultisnips-tools/kVZwnFIWGM@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T02:34:19.2769101+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "code-source",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "vLyR5b95Hh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "code source",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/ewen-lbh/ultisnips-tools"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "voir",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "i_LZMiZDXS",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "voir",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://ewen-lbh.github.io/ultisnips-tools"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "prototype",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "po_y3rxwo8",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "prototype",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.figma.com/proto/vS1qgbKknEOIoCm8aom7oh/ultisnips.io?node-id=1%3A2&scaling=min-zoom"
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["_lz9MQXBOl", "_lz9MQXBOl", "_lz9MQXBOl"],
+          ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
+          ["vLyR5b95Hh", "i_LZMiZDXS", "po_y3rxwo8"]
+        ],
+        "title": "ultisnips-tools"
+      }
+    },
+    "descriptionHash": "ugHqpIiEe/+REhRr7qU+dA==",
+    "id": "ultisnips-tools",
+    "metadata": {
+      "additionalMetadata": {
+        "created": "2020-06-08",
+        "layout": ["p1", "m1", ["l1", "l2", "l3"]],
+        "made_with": ["figma", "pug", "stylus", "livescript"]
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "9EBDC7",
+        "secondary": "0B090B",
+        "tertiary": "FF6978"
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "",
+      "tags": ["web", "app"],
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": false
+    },
+    "source": "C:\\Users\\ewen\\projects\\ultisnips-tools\\.ortfo\\description.md"
   },
   "vscode-pychemin": {
     "Partial": false,
