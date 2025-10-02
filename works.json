@@ -1245,7 +1245,7 @@
   },
   "abstrakitten": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:21:31.2320274+02:00",
+    "builtAt": "2025-10-02T16:38:10.3749328+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -1786,7 +1786,7 @@
         "title": "Abstrakitten"
       }
     },
-    "descriptionHash": "pHCPKVxqA9x82JjIe1uQSw==",
+    "descriptionHash": "gU1nv+ABlGm2BYm/1Ejamg==",
     "id": "abstrakitten",
     "metadata": {
       "additionalMetadata": {
@@ -1798,7 +1798,7 @@
       "colors": {
         "primary": "#000000",
         "secondary": "#50baa5",
-        "tertiary": "#fffff"
+        "tertiary": "#ffffff"
       },
       "databaseMetadata": {
         "Partial": false
@@ -32686,7 +32686,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-10-02T14:53:48.2775851+02:00",
+    "builtAt": "2025-10-02T16:38:11.7611768+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -33701,7 +33701,7 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "0zx2B6ug9ZvgfW0QYzZhlQ==",
+    "descriptionHash": "I4CsBE3iiTlIyEK7NYdydw==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
@@ -33721,7 +33721,7 @@
       "pageBackground": "",
       "private": false,
       "started": "2022-09-18",
-      "tags": ["graphism", "experiment", "command line", "program", "video"],
+      "tags": ["experiment", "command line", "video"],
       "thumbnail": "",
       "titleStyle": "",
       "wip": true
