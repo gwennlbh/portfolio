@@ -38836,7 +38836,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:21:32.9844395+02:00",
+    "builtAt": "2025-10-02T17:03:12.1367356+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38954,7 +38954,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "vLyR5b95Hh",
+            "id": "FzP3dEDsh2",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -38964,7 +38964,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/ultisnips-tools"
+            "url": "https://github.com/gwennlbh/ultisnips-tools"
           },
           {
             "alt": "",
@@ -38994,7 +38994,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "i_LZMiZDXS",
+            "id": "0bi5i4rpSL",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39004,7 +39004,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://ewen-lbh.github.io/ultisnips-tools"
+            "url": "https://gwennlbh.github.io/ultisnips-tools"
           },
           {
             "alt": "",
@@ -39051,7 +39051,7 @@
         "layout": [
           ["SzzhCZT8mg", "SzzhCZT8mg", "SzzhCZT8mg"],
           ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
-          ["vLyR5b95Hh", "i_LZMiZDXS", "po_y3rxwo8"]
+          ["FzP3dEDsh2", "0bi5i4rpSL", "po_y3rxwo8"]
         ],
         "title": "ultisnips-tools"
       },
@@ -39171,7 +39171,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "vLyR5b95Hh",
+            "id": "FzP3dEDsh2",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39181,7 +39181,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/ultisnips-tools"
+            "url": "https://github.com/gwennlbh/ultisnips-tools"
           },
           {
             "alt": "",
@@ -39211,7 +39211,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "i_LZMiZDXS",
+            "id": "0bi5i4rpSL",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39221,7 +39221,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://ewen-lbh.github.io/ultisnips-tools"
+            "url": "https://gwennlbh.github.io/ultisnips-tools"
           },
           {
             "alt": "",
@@ -39268,12 +39268,12 @@
         "layout": [
           ["_lz9MQXBOl", "_lz9MQXBOl", "_lz9MQXBOl"],
           ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
-          ["vLyR5b95Hh", "i_LZMiZDXS", "po_y3rxwo8"]
+          ["FzP3dEDsh2", "0bi5i4rpSL", "po_y3rxwo8"]
         ],
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "2oHKSF43sQKGAGlwYHKvqw==",
+    "descriptionHash": "Hb3vOTTGp2rJ3ETBqyiHjw==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
