@@ -37,7 +37,7 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
           <a
             class="back"
             href={back}
-            onclick="event.preventDefault(); history.back();"
+            onclick="if (history.length > 1) { event.preventDefault(); history.back(); }"
           >
             &lt;- <i18n>back</i18n>
           </a>
