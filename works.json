@@ -22,7 +22,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -1229,7 +1229,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2021-07-29",
       "madeWith": null,
@@ -1801,7 +1801,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2017-10-07",
       "madeWith": null,
@@ -2731,7 +2731,7 @@
         "tertiary": "#D4D3D3"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2019-06-18",
       "madeWith": null,
@@ -2832,7 +2832,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:36:44.0797424+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:12:46.5611792+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -2877,7 +2877,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:36:47.8449483+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:12:48.4244654+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -2973,7 +2973,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:36:44.0797424+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:12:46.5611792+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3018,7 +3018,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:36:47.8449483+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:12:48.4244654+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3046,7 +3046,7 @@
         "tertiary": "white"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2020-02-23",
       "madeWith": null,
@@ -3062,7 +3062,7 @@
   },
   "acf-conférence-eric-zuliani": {
     "Partial": false,
-    "builtAt": "2025-06-09T14:36:51.2312584+02:00",
+    "builtAt": "2025-10-02T12:14:01.8518157+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3331,7 +3331,7 @@
         "title": "Pratique en institution: lieu du symptôme"
       }
     },
-    "descriptionHash": "qvwfP0ovQmkWwb5PlwZF+A==",
+    "descriptionHash": "hXzdNDrOH9Je5Z4pN0LacA==",
     "id": "acf-conférence-eric-zuliani",
     "metadata": {
       "additionalMetadata": {
@@ -3342,12 +3342,12 @@
       },
       "aliases": [],
       "colors": {
-        "primary": "#141E44",
-        "secondary": "#BDBABB",
+        "primary": "#BDBABB",
+        "secondary": "#141E44",
         "tertiary": "#C4BBAC"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2021-01-26",
       "madeWith": null,
@@ -3488,7 +3488,7 @@
               "400": "acf-conférence-laurent-dupont/T4N8PzXAD3@400.webp",
               "600": "acf-conférence-laurent-dupont/T4N8PzXAD3@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:59.9271955+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:01.8282764+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3573,7 +3573,7 @@
               "400": "acf-conférence-laurent-dupont/bUaYDrmn5Z@400.webp",
               "600": "acf-conférence-laurent-dupont/bUaYDrmn5Z@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:47.3208908+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:03.979947+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3618,7 +3618,7 @@
               "400": "acf-conférence-laurent-dupont/MGNBfVjTrC@400.webp",
               "600": "acf-conférence-laurent-dupont/MGNBfVjTrC@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:54.5439939+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:06.4703188+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3797,7 +3797,7 @@
               "400": "acf-conférence-laurent-dupont/T4N8PzXAD3@400.webp",
               "600": "acf-conférence-laurent-dupont/T4N8PzXAD3@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:59.9271955+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:01.8282764+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3882,7 +3882,7 @@
               "400": "acf-conférence-laurent-dupont/bUaYDrmn5Z@400.webp",
               "600": "acf-conférence-laurent-dupont/bUaYDrmn5Z@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:47.3208908+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:03.979947+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3927,7 +3927,7 @@
               "400": "acf-conférence-laurent-dupont/MGNBfVjTrC@400.webp",
               "600": "acf-conférence-laurent-dupont/MGNBfVjTrC@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-06-09T14:48:54.5439939+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T12:14:06.4703188+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3998,7 +3998,7 @@
         "tertiary": "#ef7753"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2019-07-22",
       "madeWith": null,
@@ -4570,7 +4570,7 @@
         "tertiary": "#E9E5C2"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -5053,7 +5053,7 @@
         "tertiary": "#EAE7DE"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2019-07-22",
       "madeWith": null,
@@ -5544,7 +5544,7 @@
         "tertiary": "#BEC3E6"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2022-02-19",
       "madeWith": null,
@@ -5943,7 +5943,7 @@
         "tertiary": "#000000"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2022-10-08",
       "madeWith": null,
@@ -6346,7 +6346,7 @@
         "tertiary": "#CEDBDA"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2019-11-25",
       "madeWith": null,
@@ -7717,7 +7717,7 @@
         "tertiary": "#D6E1D8"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2022-03-12",
       "madeWith": null,
@@ -8544,7 +8544,7 @@
         "tertiary": "DB452A"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2019-05-01",
       "madeWith": null,
@@ -9822,7 +9822,7 @@
         "tertiary": "#161819"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -10466,7 +10466,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -10591,7 +10591,7 @@
         "tertiary": "#9E9E9B"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -10904,7 +10904,7 @@
         "tertiary": "#A7A598"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -12419,7 +12419,7 @@
         "tertiary": "#2A0C50"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -12893,7 +12893,7 @@
         "tertiary": "#C0EAF4"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2018-08-25",
       "madeWith": null,
@@ -13519,7 +13519,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -14320,7 +14320,7 @@
         "tertiary": "#5478c2"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -15522,7 +15522,7 @@
         "tertiary": "#ff0000"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2024-07-01",
       "madeWith": null,
@@ -16903,7 +16903,7 @@
         "tertiary": "#4E4C3E"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -17201,7 +17201,7 @@
         "tertiary": "#2D9B90"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -18112,7 +18112,7 @@
         "tertiary": "#F9EEFD"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -18654,7 +18654,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2024-04-28",
       "madeWith": null,
@@ -19400,7 +19400,7 @@
         "tertiary": "#B8B8BB"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2018-02-01",
       "madeWith": null,
@@ -20071,7 +20071,7 @@
         "tertiary": "#B1B8C2"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -21383,7 +21383,7 @@
         "tertiary": "#FFFFFF"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -21420,7 +21420,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -22099,7 +22099,7 @@
         "tertiary": "#FBAD39"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -23067,7 +23067,7 @@
         "tertiary": "#676767"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -23275,7 +23275,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2024-01-02",
       "madeWith": null,
@@ -24496,7 +24496,7 @@
         "tertiary": "#13CE84"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2017-06-24",
       "madeWith": null,
@@ -25388,7 +25388,7 @@
         "tertiary": "#718ADA"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -25610,7 +25610,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2024-03-24",
       "madeWith": null,
@@ -25857,7 +25857,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -26145,7 +26145,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -27039,7 +27039,7 @@
         "tertiary": "white"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -29594,7 +29594,7 @@
         "tertiary": "#ECECEC"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -29802,7 +29802,7 @@
         "tertiary": "#20192f"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2024-04-19",
       "madeWith": null,
@@ -30112,7 +30112,7 @@
         "tertiary": "#CBBCBC"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -30411,7 +30411,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -30450,7 +30450,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -30978,7 +30978,7 @@
         "tertiary": "#1DD65F"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -32187,7 +32187,7 @@
         "tertiary": "#E1DFDD"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2018-01-15",
       "madeWith": null,
@@ -33231,7 +33231,7 @@
         "tertiary": "#3C383A"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -33770,7 +33770,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -34544,7 +34544,7 @@
         "tertiary": "#D1D3D1"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2020-07-28",
       "madeWith": null,
@@ -35750,7 +35750,7 @@
         "tertiary": "#A4A0AC"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -36725,7 +36725,7 @@
         "tertiary": "#F6F00A"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2025-07-02",
       "madeWith": null,
@@ -37757,7 +37757,7 @@
         "tertiary": "#D2D2D2"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2023-04-06",
       "madeWith": null,
@@ -38227,7 +38227,7 @@
         "tertiary": "#00b8ef"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -38695,7 +38695,7 @@
         "tertiary": "FF6978"
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "",
       "madeWith": null,
@@ -38775,7 +38775,7 @@
         "tertiary": ""
       },
       "databaseMetadata": {
-        "Partial": true
+        "Partial": false
       },
       "finished": "2020-04-15",
       "madeWith": null,
