@@ -22,17 +22,25 @@ tech = await getEntry(
 );
 if (!tech) return Astro.rewrite("/404");
 
+const includedTechs = [
+  tech.id,
+  ...(tech.data.includes ?? []),
+];
+
 const works = await getCollection("works").then((works) =>
   works
     .filter(
       ({ data: work }) =>
         !work.metadata.private &&
-        (work.metadata.madeWith?.some(
-          (mw) => resolveAliased(mw.id, technologies) === tech.id,
-        ) ||
-          work.metadata.additionalMetadata?.made_with
-            ?.map((id) => resolveAliased(id, technologies))
-            .includes(tech.id)),
+        includedTechs.some(
+          (includedTech) =>
+            work.metadata.madeWith?.some(
+              (mw) => resolveAliased(mw.id, technologies) === includedTech,
+            ) ||
+            work.metadata.additionalMetadata?.made_with
+              ?.map((id) => resolveAliased(id, technologies))
+              .includes(includedTech),
+        ),
     )
     .map((w) => w.data),
 );

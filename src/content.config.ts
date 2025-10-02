@@ -215,6 +215,7 @@ export const collections = {
     "technologies.yaml",
     z.object({
       isAliasOf: z.string().nullable().default(null),
+      aliases: z.array(z.string()).optional().default([]),
       slug: z.string(),
       name: z.string(),
       by: z.string().optional(),
@@ -222,6 +223,7 @@ export const collections = {
       "learn more at": z.string().url().optional(),
       description: z.string().optional(),
       autodetect: z.array(z.string()).optional(),
+      includes: z.array(z.string()).optional(),
     }),
     (tech) => tech.name,
     (tech) => tech.aliases,
