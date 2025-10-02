@@ -10943,7 +10943,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:14:09.7793404+02:00",
+    "builtAt": "2025-10-02T18:19:19.0157191+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12412,7 +12412,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "X79qSpcSSj0Q9T6t4EokWg==",
+    "descriptionHash": "JqS7LDkG65EGQCMX5T8HlQ==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12430,7 +12430,7 @@
           ["p6", "l4"],
           ["m6", "p7"]
         ],
-        "using": ["javascript", "svelte", "onnx", "figma"]
+        "made_with": ["javascript", "sveltekit", "onnx", "figma", "bun"]
       },
       "aliases": null,
       "colors": {
@@ -17237,7 +17237,7 @@
   },
   "graphinx": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:52.0738453+02:00",
+    "builtAt": "2025-10-02T18:19:19.290155+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -18102,7 +18102,7 @@
         "title": "Graphinx"
       }
     },
-    "descriptionHash": "oEPiockJghHpNwU+xn47FA==",
+    "descriptionHash": "Jt/IUYEGjXgk0XrCDm5qmw==",
     "id": "graphinx",
     "metadata": {
       "additionalMetadata": {
@@ -18119,7 +18119,7 @@
           "css",
           "html",
           "typescript",
-          "svelte",
+          "sveltekit",
           "typescript",
           "graphql",
           "bun"
@@ -30232,11 +30232,56 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:54.4693602+02:00",
+    "builtAt": "2025-10-02T18:35:53.2287921+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "favicon",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Favicon",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/svg+xml",
+            "dimensions": {
+              "aspectRatio": 0.933735,
+              "height": 664,
+              "width": 620
+            },
+            "distSource": "portfolio\\public\\favicon.svg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "BjHlH0WKHEtasC8WbfIazA==",
+            "id": "OvEppPRuiv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../public/favicon.svg",
+            "size": 2295,
+            "text": "",
+            "thumbnails": {
+              "100": "portfolio/OvEppPRuiv@100.webp",
+              "1200": "portfolio/OvEppPRuiv@1200.webp",
+              "400": "portfolio/OvEppPRuiv@400.webp",
+              "600": "portfolio/OvEppPRuiv@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T18:27:38.1686516+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -30305,7 +30350,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "6hFDZ9mMb0",
+            "id": "qaq2lGEaUZ",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30315,7 +30360,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/portfolio"
+            "url": "https://github.com/gwennlbh/portfolio"
           },
           {
             "alt": "",
@@ -30334,7 +30379,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Made with <a href=\"/ortfo\">Ortfo</a>, a portfolio article management system I created, and <a href=\"/using/go-templ\">Go Templ</a></p>",
+            "content": "<p>Made with <a href=\"/ortfo\">Ortfo</a>, a portfolio article management system I created.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -30345,7 +30390,87 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "1hrsabHv17",
+            "id": "WW_-ZgIp6b",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>my portfolio is a playground for web dev tech exploration, and has thus been rewritten an unreasonable amount of times:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Q63QR-4kPr",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<ul>\n<li>2025 with <a href=\"https://astro.build\">Astro</a> and <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2023 with <a href=\"https://templ.guide\">Go Templ</a> and <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2021 with <a href=\"https://github.com/ortfo/mk-old\">ortfo/mk</a> and <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2020 with <a href=\"https://nuxt.com\">Nuxt</a> alone</li>\n<li>2020 with <a href=\"https://nuxt.com\">Nuxt</a> and <a href=\"https://www.django-rest-framework.org/\">django rest framework</a></li>\n<li>2020 with <a href=\"https://vuejs.org\">Vue.js</a> and <a href=\"https://djangoproject.com\">django</a></li>\n<li>2019 with <a href=\"https://djangoproject.com\">Django</a></li>\n<li>2018 with <a href=\"https://php.net\">PHP</a> (first webdev project ^^)</li>\n</ul>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "f60q9MTfZe",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30359,12 +30484,63 @@
           }
         ],
         "footnotes": {},
-        "layout": [["ziTWiimmh_"], ["6hFDZ9mMb0"], ["1hrsabHv17"]],
-        "title": "ewen.works"
+        "layout": [
+          ["OvEppPRuiv", "ziTWiimmh_", "ziTWiimmh_", "ziTWiimmh_"],
+          ["OvEppPRuiv", "qaq2lGEaUZ", "qaq2lGEaUZ", "qaq2lGEaUZ"],
+          ["OvEppPRuiv", "WW_-ZgIp6b", "WW_-ZgIp6b", "WW_-ZgIp6b"],
+          ["OvEppPRuiv", "Q63QR-4kPr", "Q63QR-4kPr", "Q63QR-4kPr"],
+          ["OvEppPRuiv", "f60q9MTfZe", "f60q9MTfZe", "f60q9MTfZe"]
+        ],
+        "title": "gwen.works"
       },
       "fr": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "favicon",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Favicon",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/svg+xml",
+            "dimensions": {
+              "aspectRatio": 0.933735,
+              "height": 664,
+              "width": 620
+            },
+            "distSource": "portfolio\\public\\favicon.svg",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "BjHlH0WKHEtasC8WbfIazA==",
+            "id": "OvEppPRuiv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../public/favicon.svg",
+            "size": 2295,
+            "text": "",
+            "thumbnails": {
+              "100": "portfolio/OvEppPRuiv@100.webp",
+              "1200": "portfolio/OvEppPRuiv@1200.webp",
+              "400": "portfolio/OvEppPRuiv@400.webp",
+              "600": "portfolio/OvEppPRuiv@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-10-02T18:27:38.1686516+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -30433,7 +30609,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "6hFDZ9mMb0",
+            "id": "qaq2lGEaUZ",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30443,7 +30619,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/portfolio"
+            "url": "https://github.com/gwennlbh/portfolio"
           },
           {
             "alt": "",
@@ -30462,7 +30638,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Fait avec <a href=\"/ortfo\">Ortfo</a>, un système de gestion d’articles de portfolios que j’ai créé, et <a href=\"/using/go-templ\">Go Templ</a></p>",
+            "content": "<p>Fait avec <a href=\"/ortfo\">Ortfo</a>, un système de gestion d’articles de portfolios que j’ai créé</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -30473,7 +30649,87 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "Zgu17JHgRC",
+            "id": "5QoUu-yB8y",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Mon portfolio est un terrain de jeu pour l’exploration des technologies web, et a donc été beaucoup réécrit au final des années :</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "mIarMT3-kR",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<ul>\n<li>2025 avec <a href=\"https://astro.build\">Astro</a> et <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2023 avec <a href=\"https://templ.guide\">Go Templ</a> et <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2021 avec <a href=\"https://github.com/ortfo/mk-old\">ortfo/mk</a> et <a href=\"https://github.com/ortfo/db\">ortfo/db</a></li>\n<li>2020 avec <a href=\"https://nuxt.com\">Nuxt</a> seul</li>\n<li>2020 avec <a href=\"https://nuxt.com\">Nuxt</a> et <a href=\"https://www.django-rest-framework.org/\">django rest framework</a></li>\n<li>2020 avec <a href=\"https://vuejs.org\">Vue.js</a> et <a href=\"https://djangoproject.com\">django</a></li>\n<li>2019 avec <a href=\"https://djangoproject.com\">Django</a></li>\n<li>2018 avec <a href=\"https://php.net\">PHP</a> (premier projet web ^^)</li>\n</ul>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "W3VM5-ixbB",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30487,42 +30743,44 @@
           }
         ],
         "footnotes": {},
-        "layout": [["68FgX2sBju"], ["6hFDZ9mMb0"], ["Zgu17JHgRC"]],
-        "title": "ewen.works"
+        "layout": [
+          ["OvEppPRuiv", "68FgX2sBju", "68FgX2sBju", "68FgX2sBju"],
+          ["OvEppPRuiv", "qaq2lGEaUZ", "qaq2lGEaUZ", "qaq2lGEaUZ"],
+          ["OvEppPRuiv", "5QoUu-yB8y", "5QoUu-yB8y", "5QoUu-yB8y"],
+          ["OvEppPRuiv", "mIarMT3-kR", "mIarMT3-kR", "mIarMT3-kR"],
+          ["OvEppPRuiv", "W3VM5-ixbB", "W3VM5-ixbB", "W3VM5-ixbB"]
+        ],
+        "title": "gwen.works"
       }
     },
-    "descriptionHash": "+ZedHs9iJ3RvV/7Rf094KA==",
+    "descriptionHash": "YXGcloblEQ7DEOyq0sCPKw==",
     "id": "portfolio",
     "metadata": {
       "additionalMetadata": {
-        "made_with": [
-          "css",
-          "figma",
-          "go",
-          "html",
-          "javascript",
-          "markdown",
-          "yaml",
-          "svg",
-          "ortfo",
-          "go-templ"
-        ]
+        "layout": [
+          ["m1", "p1", "p1", "p1"],
+          ["m1", "l1", "l1", "l1"],
+          ["m1", "p2", "p2", "p2"],
+          ["m1", "p3", "p3", "p3"],
+          ["m1", "p4", "p4", "p4"]
+        ],
+        "made_with": ["figma", "ortfo", "astro"]
       },
-      "aliases": ["ewen.works"],
+      "aliases": ["gwen.works"],
       "colors": {
-        "primary": "",
-        "secondary": "",
-        "tertiary": ""
+        "primary": "#000",
+        "secondary": "#fff",
+        "tertiary": "#ffa20a"
       },
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2025-10-02",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
       "started": "2018-10-20",
-      "tags": ["web", "icons", "site"],
+      "tags": ["web", "site"],
       "thumbnail": "",
       "titleStyle": "",
       "wip": false
