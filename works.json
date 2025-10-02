@@ -7733,7 +7733,7 @@
   },
   "acf-quelle-vérité-révèle-le-symptome-de-l-enfant": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.4385271+02:00",
+    "builtAt": "2025-10-02T16:23:32.9499555+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -8530,7 +8530,7 @@
         "title": "Quelle vérité révèle le symptome de l’enfant ?"
       }
     },
-    "descriptionHash": "pvc7kUyGs8sBdMKfYiNBNA==",
+    "descriptionHash": "kRyPjbyHMVAQvX1RV6Gi+g==",
     "id": "acf-quelle-vérité-révèle-le-symptome-de-l-enfant",
     "metadata": {
       "additionalMetadata": {
@@ -8539,9 +8539,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "16263F",
-        "secondary": "9BABC2",
-        "tertiary": "DB452A"
+        "primary": "#16263F",
+        "secondary": "#9BABC2",
+        "tertiary": "#DB452A"
       },
       "databaseMetadata": {
         "Partial": false
