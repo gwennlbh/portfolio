@@ -9,7 +9,7 @@
     "astro": "astro",
     "format": "prettier --write .",
     "database": "ortfodb --config ./ortfodb.yaml --scattered build works.json",
-    "mediaup": "wsl --exec rsync -rv media/ ewen@gwen.works:~/www/media.gwen.works/",
+    "mediaup": "rclone --progress copy media/ www:media.gwen.works/",
     "postinstall": "patch-package && husky"
   },
   "lint-staged": {
