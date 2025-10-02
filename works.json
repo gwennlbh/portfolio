@@ -38836,7 +38836,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:03:12.1367356+02:00",
+    "builtAt": "2025-10-02T17:05:19.3789572+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38994,7 +38994,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "0bi5i4rpSL",
+            "id": "IIdvFNxztE",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39004,7 +39004,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/ultisnips-tools"
+            "url": "https://ultisnips-tools.surge.sh"
           },
           {
             "alt": "",
@@ -39051,7 +39051,7 @@
         "layout": [
           ["SzzhCZT8mg", "SzzhCZT8mg", "SzzhCZT8mg"],
           ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
-          ["FzP3dEDsh2", "0bi5i4rpSL", "po_y3rxwo8"]
+          ["FzP3dEDsh2", "IIdvFNxztE", "po_y3rxwo8"]
         ],
         "title": "ultisnips-tools"
       },
@@ -39211,7 +39211,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "0bi5i4rpSL",
+            "id": "IIdvFNxztE",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39221,7 +39221,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/ultisnips-tools"
+            "url": "https://ultisnips-tools.surge.sh"
           },
           {
             "alt": "",
@@ -39268,12 +39268,12 @@
         "layout": [
           ["_lz9MQXBOl", "_lz9MQXBOl", "_lz9MQXBOl"],
           ["kVZwnFIWGM", "kVZwnFIWGM", "kVZwnFIWGM"],
-          ["FzP3dEDsh2", "0bi5i4rpSL", "po_y3rxwo8"]
+          ["FzP3dEDsh2", "IIdvFNxztE", "po_y3rxwo8"]
         ],
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "Hb3vOTTGp2rJ3ETBqyiHjw==",
+    "descriptionHash": "n9M00f75byBJCz61iLCrBA==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
