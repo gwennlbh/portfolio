@@ -84,10 +84,7 @@ const cssGridAreas = layout
 
 const firstMediaBlock = blocks.find((b) => b.type === "media");
 
-const folderPath = entry.data.source
-  .split("\\")
-  .slice(0, -2)
-  .join("\\");
+const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
 ---
 
 <Layout colors={colors}>
