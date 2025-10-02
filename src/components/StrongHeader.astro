@@ -34,7 +34,11 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
     (editButton || back) && (
       <section class="links">
         {back && (
-          <a class="back" href={back} onclick="event.preventDefault(); history.back();">
+          <a
+            class="back"
+            href={back}
+            onclick="event.preventDefault(); history.back();"
+          >
             &lt;- <i18n>back</i18n>
           </a>
         )}
