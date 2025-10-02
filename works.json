@@ -30232,7 +30232,7 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:40:29.794115+02:00",
+    "builtAt": "2025-10-02T18:55:05.2738844+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30379,7 +30379,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Made with <a href=\"/ortfo\">Ortfo</a>, a portfolio article management system I created.</p>",
+            "content": "<p>Made with <a href=\"/ortfo\">Ortfo</a>, a portfolio article management system I created:</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -30390,7 +30390,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "WW_-ZgIp6b",
+            "id": "ofYe_xrz97",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30401,6 +30401,46 @@
             "title": "",
             "type": "paragraph",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "ortfodescriptionmd",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "OmEq05uIOz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": ".ortfo/description.md",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/ortfo/ortfo/blob/main/.ortfo/description.md"
           },
           {
             "alt": "",
@@ -30487,7 +30527,8 @@
         "layout": [
           ["ziTWiimmh_", "ziTWiimmh_", "OvEppPRuiv"],
           ["qaq2lGEaUZ", "qaq2lGEaUZ", "OvEppPRuiv"],
-          ["WW_-ZgIp6b", "WW_-ZgIp6b", "OvEppPRuiv"],
+          ["ofYe_xrz97", "ofYe_xrz97", "OvEppPRuiv"],
+          ["OmEq05uIOz", "OmEq05uIOz", "OvEppPRuiv"],
           ["Q63QR-4kPr", "Q63QR-4kPr", "OvEppPRuiv"],
           ["f60q9MTfZe", "f60q9MTfZe", "OvEppPRuiv"]
         ],
@@ -30638,7 +30679,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Fait avec <a href=\"/ortfo\">Ortfo</a>, un système de gestion d’articles de portfolios que j’ai créé</p>",
+            "content": "<p>Fait avec <a href=\"/ortfo\">Ortfo</a>, un système de gestion d’articles de portfolios que j’ai créé :</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -30649,7 +30690,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "5QoUu-yB8y",
+            "id": "W_HqH_yeBE",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -30660,6 +30701,46 @@
             "title": "",
             "type": "paragraph",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "ortfodescriptionmd",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "OmEq05uIOz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": ".ortfo/description.md",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/ortfo/ortfo/blob/main/.ortfo/description.md"
           },
           {
             "alt": "",
@@ -30746,14 +30827,15 @@
         "layout": [
           ["68FgX2sBju", "68FgX2sBju", "OvEppPRuiv"],
           ["qaq2lGEaUZ", "qaq2lGEaUZ", "OvEppPRuiv"],
-          ["5QoUu-yB8y", "5QoUu-yB8y", "OvEppPRuiv"],
+          ["W_HqH_yeBE", "W_HqH_yeBE", "OvEppPRuiv"],
+          ["OmEq05uIOz", "OmEq05uIOz", "OvEppPRuiv"],
           ["mIarMT3-kR", "mIarMT3-kR", "OvEppPRuiv"],
           ["W3VM5-ixbB", "W3VM5-ixbB", "OvEppPRuiv"]
         ],
         "title": "gwen.works"
       }
     },
-    "descriptionHash": "RemDa4Fq+mnrQ4LN0GnhkA==",
+    "descriptionHash": "VXMSY0/3SBuDi6fu+0vPZw==",
     "id": "portfolio",
     "metadata": {
       "additionalMetadata": {
@@ -30761,6 +30843,7 @@
           ["p1", "p1", "m1"],
           ["l1", "l1", "m1"],
           ["p2", "p2", "m1"],
+          ["l2", "l2", "m1"],
           ["p3", "p3", "m1"],
           ["p4", "p4", "m1"]
         ],
