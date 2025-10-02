@@ -8,7 +8,18 @@ type Props = {
 } & (
   | { title: string; wip?: undefined }
   | { title: { fr: string; en: string }; wip?: boolean }
-  | { title: { img: { src: string; alt: string; srcset: string, height: string; width: string } }; wip?: boolean }
+  | {
+      title: {
+        img: {
+          src: string;
+          alt: string;
+          srcset: string;
+          height: string;
+          width: string;
+        };
+      };
+      wip?: boolean;
+    }
 );
 
 const { title, wip, back, editButton } = Astro.props;
