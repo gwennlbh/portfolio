@@ -112,13 +112,13 @@ function findThumbnailBlock(
                           <h2>
                             <Translated
                               fr={
-                                content.fr?.title ??
-                                content.default?.title ??
+                                content.fr?.title ||
+                                content.default?.title ||
                                 id
                               }
                               en={
-                                content.en?.title ??
-                                content.default?.title ??
+                                content.en?.title ||
+                                content.default?.title ||
                                 id
                               }
                             />

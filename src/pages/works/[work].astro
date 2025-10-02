@@ -45,6 +45,7 @@ const entry = await getEntry("works", Astro.params.work!.toString());
 if (!entry) return Astro.rewrite("/404");
 
 const {
+  id,
   metadata,
   metadata: { tags, wip, colors, additionalMetadata: misc },
 } = entry.data;
@@ -95,8 +96,8 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
     title={titleStyle === "image" && firstMediaBlock
       ? { img: imageAttrs(firstMediaBlock) }
       : {
-          fr: content.fr?.title ?? content.default?.title,
-          en: content.en?.title ?? content.default?.title,
+          fr: content.fr?.title || content.default?.title || id,
+          en: content.en?.title || content.default?.title || id,
         }}
     wip={wip}
   >
