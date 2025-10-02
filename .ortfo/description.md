@@ -17,6 +17,7 @@ layout:
   - [p1, p1, m1]
   - [l1, l1, m1]
   - [p2, p2, m1]
+  - [l2, l2, m1]
   - [p3, p3, m1]
   - [p4, p4, m1]
 ---
@@ -27,11 +28,14 @@ layout:
 
 :: fr
 
+
 Mon site personnel, qui regroupe mes projets, mes articles et mes expériences. Vous êtes dessus en ce moment même!
 
 [Code source](https://github.com/gwennlbh/portfolio)
 
-Fait avec [Ortfo](/ortfo), un système de gestion d'articles de portfolios que j'ai créé
+Fait avec [Ortfo](/ortfo), un système de gestion d'articles de portfolios que j'ai créé :
+
+[.ortfo/description.md](https://github.com/gwennlbh/portfolio/blob/main/.ortfo/description.md)
 
 Mon portfolio est un terrain de jeu pour l'exploration des technologies web, et a donc été beaucoup réécrit au final des années :
 
@@ -50,7 +54,9 @@ My personal website, which gathers my projects, my articles and my experiences. 
 
 [Source code](https://github.com/gwennlbh/portfolio)
 
-Made with [Ortfo](/ortfo), a portfolio article management system I created.
+Made with [Ortfo](/ortfo), a portfolio article management system I created:
+
+[.ortfo/description.md](https://github.com/gwennlbh/portfolio/blob/main/.ortfo/description.md)
 
 my portfolio is a playground for web dev tech exploration, and has thus been rewritten an unreasonable amount of times:
 
