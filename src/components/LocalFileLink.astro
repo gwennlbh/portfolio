@@ -1,0 +1,42 @@
+---
+type Props = {
+  href: string;
+  title: string;
+  text: string;
+  keybind?: string;
+};
+
+const { href, title, text, keybind } = Astro.props;
+---
+
+<script>
+  document.querySelectorAll("a[data-keybind]").forEach((el) => {
+    window.addEventListener("keypress", (e) => {
+      if (!(el instanceof HTMLAnchorElement)) return;
+      if (e.key === el.dataset.keybind) {
+        window.location.href = el.href;
+      }
+    });
+  });
+</script>
+
+<a
+  data-keybind={keybind}
+  class="edit-button"
+  href={`vscode://file/${href.replace("/home/uwun/", "C:/Users/ewen/").replace("~/", "C:/Users/ewen/")}`}
+  title={title}
+>
+  {text}
+</a>
+
+<style>
+  a.edit-button {
+    color: transparent;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+
+  a.edit-button:hover {
+    color: var(--primary, black);
+  }
+</style>

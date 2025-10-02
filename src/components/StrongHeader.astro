@@ -1,10 +1,12 @@
 ---
+import LocalFileLink from "./LocalFileLink.astro";
 import Translated from "./Translated.astro";
 import WIPIndicator from "./WIPIndicator.astro";
 
 type Props = {
   back?: string;
   editButton?: string;
+  editFolderButton?: string;
 } & (
   | { title: string; wip?: undefined }
   | { title: { fr: string; en: string }; wip?: boolean }
@@ -22,18 +24,10 @@ type Props = {
     }
 );
 
-const { title, wip, back, editButton } = Astro.props;
+const { title, wip, back, editButton, editFolderButton } = Astro.props;
 ---
 
-<script>
-  if (document.querySelector("#edit")) {
-    window.addEventListener("keypress", (e) => {
-      if (e.key === "e") {
-        window.location.href = document.querySelector("#edit").href;
-      }
-    });
-  }
-</script>
+<script></script>
 
 <header>
   {
@@ -45,14 +39,20 @@ const { title, wip, back, editButton } = Astro.props;
           </a>
         )}
         {editButton && (
-          <a
-            id="edit"
-            class="edit-button"
-            href={`vscode://file/${editButton.replace("/home/uwun/", "C:/Users/ewen/").replace("~/", "C:/Users/ewen/")}`}
+          <LocalFileLink
+            keybind="e"
+            href={editButton}
             title="edit (if you're me only :3)"
-          >
-            /ed
-          </a>
+            text="/ed"
+          />
+        )}
+        {editFolderButton && (
+          <LocalFileLink
+            keybind="o"
+            href={editFolderButton}
+            title="open folder (if you're me only :3)"
+            text="/o"
+          />
         )}
       </section>
     )
@@ -103,22 +103,11 @@ const { title, wip, back, editButton } = Astro.props;
     object-position: 0 0;
   }
 
-  a.back,
-  a.edit-button {
-    z-index: 2;
+  a.back {
     text-decoration: none;
   }
 
   section.links a:not(:last-child)::before {
     margin-left: 0.5em;
-  }
-
-  a.edit-button {
-    color: transparent;
-    margin-left: 1em;
-  }
-
-  a.edit-button:hover {
-    color: var(--primary, black);
   }
 </style>

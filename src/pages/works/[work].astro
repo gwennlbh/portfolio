@@ -83,15 +83,24 @@ const cssGridAreas = layout
   .join(" ");
 
 const firstMediaBlock = blocks.find((b) => b.type === "media");
+
+const folderPath = entry.data.source
+  .split("\\")
+  .slice(0, -2)
+  .join("\\");
 ---
 
 <Layout colors={colors}>
   <StrongHeader
     back="/"
     editButton={entry.data.source}
+    editFolderButton={folderPath}
     title={titleStyle === "image" && firstMediaBlock
       ? { img: imageAttrs(firstMediaBlock) }
-      : { fr: content.fr?.title, en: content.en?.title }}
+      : {
+          fr: content.fr?.title ?? content.default?.title,
+          en: content.en?.title ?? content.default?.title,
+        }}
     wip={wip}
   >
     <section class="tags">
