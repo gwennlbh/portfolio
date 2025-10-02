@@ -8,7 +8,7 @@ import WIPIndicator from "./WIPIndicator.astro";
 import { setCssColors } from "../colors";
 import { imageAttrs } from "../pages/works/media";
 
-const EXCLUDED_WORKS = ["calen7drier"]
+const EXCLUDED_WORKS = ["calen7drier"];
 
 interface Props {
   works: InferEntrySchema<"works">[];
@@ -111,8 +111,16 @@ function findThumbnailBlock(
                         <section class="text">
                           <h2>
                             <Translated
-                              fr={content.fr?.title ?? id}
-                              en={content.en?.title ?? id}
+                              fr={
+                                content.fr?.title ??
+                                content.default?.title ??
+                                id
+                              }
+                              en={
+                                content.en?.title ??
+                                content.default?.title ??
+                                id
+                              }
                             />
                             {wip && <WIPIndicator />}
                           </h2>
