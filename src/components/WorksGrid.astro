@@ -6,6 +6,7 @@ import { compareDesc } from "date-fns";
 import Translated from "./Translated.astro";
 import WIPIndicator from "./WIPIndicator.astro";
 import { setCssColors } from "../colors";
+import { imageAttrs } from "../pages/works/media";
 
 interface Props {
   works: InferEntrySchema<"works">[];
@@ -38,7 +39,7 @@ function groupBy<T, K extends string | number>(
   );
 }
 
-function findThumbnailSourcemap(
+function findThumbnailBlock(
   content: InferEntrySchema<"works">["content"],
   sourcePath: string,
 ) {
@@ -46,12 +47,12 @@ function findThumbnailSourcemap(
     .flatMap(([_, { blocks }]) => blocks)
     .find(
       (block) => block.type === "media" && block.relativeSource === sourcePath,
-    )?.thumbnails;
+    );
 
   if (!sourcemap)
     return Object.values(content)
       .flatMap(({ blocks }) => blocks)
-      .find(({ type }) => type === "media")?.thumbnails;
+      .find(({ type }) => type === "media");
 
   return sourcemap;
 }
@@ -61,7 +62,7 @@ function findThumbnailSourcemap(
   Object.entries(
     groupBy(
       Astro.props.works.filter((w) =>
-        findThumbnailSourcemap(w.content, w.metadata.thumbnail ?? ""),
+        findThumbnailBlock(w.content, w.metadata.thumbnail ?? ""),
       ),
       ({ metadata }) =>
         preferredDate(metadata)?.getFullYear().toString() ?? "Unknown",
@@ -86,20 +87,15 @@ function findThumbnailSourcemap(
                 metadata: { wip, colors, started, finished, thumbnail },
               }) => {
                 const date = preferredDate({ started, finished });
-                const thumb = findThumbnailSourcemap(content, thumbnail ?? "");
+                const thumb = findThumbnailBlock(content, thumbnail ?? "")!;
+                const attrs = imageAttrs(thumb);
                 return (
                   thumb && (
                     <a href={`/${id}`}>
                       <article style={setCssColors(colors)}>
                         {
                           <img
-                            srcset={Object.entries(thumb)
-                              .map(
-                                ([size, path]) =>
-                                  `https://media.gwen.works/${path} ${size}w`,
-                              )
-                              .join(", ")}
-                            alt=""
+                            {...attrs}
                             style={{
                               width: "100%",
                               height: "auto",
