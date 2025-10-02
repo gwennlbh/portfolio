@@ -4,9 +4,10 @@ type Props = {
   title: string;
   text: string;
   keybind?: string;
+  openWith: "vscode" | "vnd.gwennlbh.explorer";
 };
 
-const { href, title, text, keybind } = Astro.props;
+const { href, title, text, keybind, openWith } = Astro.props;
 ---
 
 <script>
@@ -23,7 +24,13 @@ const { href, title, text, keybind } = Astro.props;
 <a
   data-keybind={keybind}
   class="edit-button"
-  href={`vscode://file/${href.replace("/home/uwun/", "C:/Users/ewen/").replace("~/", "C:/Users/ewen/")}`}
+  href={[
+    openWith === "vscode" ? "vscode://file" : "vnd.gwennlbh.explorer.exe:",
+    href
+      .replace("/home/uwun/", "C:/Users/ewen/")
+      .replace("~/", "C:/Users/ewen/")
+      .replaceAll("/", "\\"),
+  ].join("/")}
   title={title}
 >
   {text}

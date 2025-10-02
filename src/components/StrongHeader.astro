@@ -42,6 +42,7 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
           <LocalFileLink
             keybind="e"
             href={editButton}
+            openWith="vscode"
             title="edit (if you're me only :3)"
             text="/ed"
           />
@@ -50,6 +51,7 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
           <LocalFileLink
             keybind="o"
             href={editFolderButton}
+            openWith="vnd.gwennlbh.explorer"
             title="open folder (if you're me only :3)"
             text="/o"
           />
