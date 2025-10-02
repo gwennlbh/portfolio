@@ -10943,56 +10943,11 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:51.055583+02:00",
+    "builtAt": "2025-10-02T17:14:09.7793404+02:00",
     "content": {
       "en": {
         "abbreviations": {},
         "blocks": [
-          {
-            "alt": "Logo de cigale",
-            "analyzed": true,
-            "anchor": "favicon",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#2A054B",
-              "secondary": "#24C3BC",
-              "tertiary": "#285B7F"
-            },
-            "content": "",
-            "contentType": "image/png",
-            "dimensions": {
-              "aspectRatio": 1,
-              "height": 394,
-              "width": 394
-            },
-            "distSource": "cigale/static/favicon.png",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "ZUqaOk2C/rSnhEsoBbgdpA==",
-            "id": "7wm4-E2i3p",
-            "index": 0,
-            "online": false,
-            "relativeSource": "../static/favicon.png",
-            "size": 19340,
-            "text": "",
-            "thumbnails": {
-              "100": "cigale/7wm4-E2i3p@100.webp",
-              "1200": "cigale/7wm4-E2i3p@1200.webp",
-              "400": "cigale/7wm4-E2i3p@400.webp",
-              "600": "cigale/7wm4-E2i3p@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-07-04T00:54:42.08389512+02:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
           {
             "alt": "",
             "analyzed": false,
@@ -11657,33 +11612,9 @@
             "title": "",
             "type": "paragraph",
             "url": ""
-          }
-        ],
-        "footnotes": {
-          "1": "<p>Fieldwork in a defined area to observe and photograph insects. <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
-        },
-        "layout": [
-          ["7wm4-E2i3p", "7wm4-E2i3p"],
-          ["iQH3gmECXl", "iQH3gmECXl"],
-          ["sbXUPHVnFa", "sbXUPHVnFa"],
-          ["B4MVPS5995", "zSy9L777qf"],
-          ["BwhtQpfHC9", "BwhtQpfHC9"],
-          ["ZmetzLHYXm", "ZmetzLHYXm"],
-          ["xUNF5EXYO9", "aLeJAsG5aM"],
-          ["laGyR5Dx5m", "768ItwDyvx"],
-          ["jg7OwWM0II", "BIvV27MTi0"],
-          ["jg7OwWM0II", "BSctam24T8"],
-          ["jg7OwWM0II", "XZO6adykpS"],
-          ["jg7OwWM0II", "jj7qvkiSNJ"],
-          ["HJDdCAIySc", "HJDdCAIySc"]
-        ],
-        "title": "CIGALE"
-      },
-      "fr": {
-        "abbreviations": {},
-        "blocks": [
+          },
           {
-            "alt": "Logo de cigale",
+            "alt": "Logo",
             "analyzed": true,
             "anchor": "favicon",
             "attributes": {
@@ -11726,7 +11657,30 @@
             "title": "",
             "type": "media",
             "url": ""
-          },
+          }
+        ],
+        "footnotes": {
+          "1": "<p>Fieldwork in a defined area to observe and photograph insects. <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
+        },
+        "layout": [
+          ["iQH3gmECXl", "iQH3gmECXl"],
+          ["sbXUPHVnFa", "sbXUPHVnFa"],
+          ["B4MVPS5995", "zSy9L777qf"],
+          ["BwhtQpfHC9", "BwhtQpfHC9"],
+          ["ZmetzLHYXm", "ZmetzLHYXm"],
+          ["xUNF5EXYO9", "aLeJAsG5aM"],
+          ["laGyR5Dx5m", "768ItwDyvx"],
+          ["jg7OwWM0II", "BIvV27MTi0"],
+          ["jg7OwWM0II", "BSctam24T8"],
+          ["jg7OwWM0II", "XZO6adykpS"],
+          ["jg7OwWM0II", "jj7qvkiSNJ"],
+          ["7wm4-E2i3p", "HJDdCAIySc"]
+        ],
+        "title": "CIGALE"
+      },
+      "fr": {
+        "abbreviations": {},
+        "blocks": [
           {
             "alt": "",
             "analyzed": false,
@@ -12391,13 +12345,57 @@
             "title": "",
             "type": "paragraph",
             "url": ""
+          },
+          {
+            "alt": "Logo",
+            "analyzed": true,
+            "anchor": "favicon",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2A054B",
+              "secondary": "#24C3BC",
+              "tertiary": "#285B7F"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1,
+              "height": 394,
+              "width": 394
+            },
+            "distSource": "cigale/static/favicon.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ZUqaOk2C/rSnhEsoBbgdpA==",
+            "id": "7wm4-E2i3p",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../static/favicon.png",
+            "size": 19340,
+            "text": "",
+            "thumbnails": {
+              "100": "cigale/7wm4-E2i3p@100.webp",
+              "1200": "cigale/7wm4-E2i3p@1200.webp",
+              "400": "cigale/7wm4-E2i3p@400.webp",
+              "600": "cigale/7wm4-E2i3p@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-07-04T00:54:42.08389512+02:00",
+            "title": "",
+            "type": "media",
+            "url": ""
           }
         ],
         "footnotes": {
           "1": "<p>Sortie sur le terrain dans une zone donnée pour observer et photographier des insectes <a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">↩︎</a></p>"
         },
         "layout": [
-          ["7wm4-E2i3p", "7wm4-E2i3p"],
           ["Ycrubz0kai", "Ycrubz0kai"],
           ["piAgP1Hy_B", "piAgP1Hy_B"],
           ["0Pu8mJ1-95", "CgduXmoVtf"],
@@ -12409,37 +12407,36 @@
           ["gQWbclJjnU", "BSctam24T8"],
           ["gQWbclJjnU", "XZO6adykpS"],
           ["gQWbclJjnU", "jj7qvkiSNJ"],
-          ["tuyOCTr_qa", "tuyOCTr_qa"]
+          ["7wm4-E2i3p", "tuyOCTr_qa"]
         ],
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "7wLuI+9OwYkBvuGwR8+lcg==",
+    "descriptionHash": "X79qSpcSSj0Q9T6t4EokWg==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          "m1",
           "p1",
           "p2",
-          ["m2", "m3"],
+          ["m1", "m2"],
           "p3",
           "p4",
-          ["m4", "m5"],
-          ["p5", "m6"],
+          ["m3", "m4"],
+          ["p5", "m5"],
           ["p6", "l1"],
           ["p6", "l2"],
           ["p6", "l3"],
           ["p6", "l4"],
-          "p7"
+          ["m6", "p7"]
         ],
         "using": ["javascript", "svelte", "onnx", "figma"]
       },
       "aliases": null,
       "colors": {
         "primary": "#0D0114",
-        "secondary": "#25B1B1",
-        "tertiary": "#2A0C50"
+        "secondary": "#94e6e6ff",
+        "tertiary": "#25B1B1"
       },
       "databaseMetadata": {
         "Partial": false
@@ -12450,7 +12447,7 @@
       "private": false,
       "started": "2024-11-07",
       "tags": ["web", "app", "school", "science"],
-      "thumbnail": "",
+      "thumbnail": "../static/favicon.png",
       "titleStyle": "",
       "wip": false
     },
