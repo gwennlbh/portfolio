@@ -25,7 +25,7 @@ const { href, title, text, keybind, openWith } = Astro.props;
   data-keybind={keybind}
   class="edit-button"
   href={[
-    openWith === "vscode" ? "vscode://file" : "vnd.gwennlbh.explorer.exe:",
+    openWith === "vscode" ? "vscode://file" : "vnd.gwennlbh.explorer://",
     href
       .replace("/home/uwun/", "C:/Users/ewen/")
       .replace("~/", "C:/Users/ewen/")
