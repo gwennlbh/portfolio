@@ -32689,7 +32689,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.1954796+02:00",
+    "builtAt": "2025-10-02T14:53:48.2775851+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -33704,7 +33704,7 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "W6hLdNRhEWVLSrCC07ndcQ==",
+    "descriptionHash": "0zx2B6ug9ZvgfW0QYzZhlQ==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
@@ -33712,9 +33712,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#0F0A0E",
-        "secondary": "#7A6C6C",
-        "tertiary": "#3C383A"
+        "primary": "#ffffff",
+        "secondary": "#000000",
+        "tertiary": "#00ffff"
       },
       "databaseMetadata": {
         "Partial": false
@@ -33723,7 +33723,7 @@
       "madeWith": null,
       "pageBackground": "",
       "private": false,
-      "started": "",
+      "started": "2022-09-18",
       "tags": ["graphism", "experiment", "command line", "program", "video"],
       "thumbnail": "",
       "titleStyle": "",
