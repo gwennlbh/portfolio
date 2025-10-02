@@ -2747,7 +2747,7 @@
   },
   "acf-choses-de-finesse-en-psychanalyse": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:49.3172498+02:00",
+    "builtAt": "2025-10-02T15:12:20.452416+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -2832,7 +2832,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-10-02T12:12:46.5611792+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T15:12:14.217122+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -2851,7 +2851,7 @@
             "caption": "",
             "colors": {
               "primary": "#BF6D3A",
-              "secondary": "#8C4E45",
+              "secondary": "#8C4E46",
               "tertiary": "#BD8D8B"
             },
             "content": "",
@@ -2877,7 +2877,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-10-02T12:12:48.4244654+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T15:12:16.3329601+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -2973,7 +2973,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/KH5yPPyrcb@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-10-02T12:12:46.5611792+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T15:12:14.217122+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -2992,7 +2992,7 @@
             "caption": "",
             "colors": {
               "primary": "#BF6D3A",
-              "secondary": "#8C4E45",
+              "secondary": "#8C4E46",
               "tertiary": "#BD8D8B"
             },
             "content": "",
@@ -3018,7 +3018,7 @@
               "400": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@400.webp",
               "600": "acf-choses-de-finesse-en-psychanalyse/SEJ32KGYOj@600.webp"
             },
-            "thumbnailsBuiltAt": "2025-10-02T12:12:48.4244654+02:00",
+            "thumbnailsBuiltAt": "2025-10-02T15:12:16.3329601+02:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -3062,7 +3062,7 @@
   },
   "acf-conférence-eric-zuliani": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:49.2479657+02:00",
+    "builtAt": "2025-10-02T15:13:23.9657661+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -3331,7 +3331,7 @@
         "title": "Pratique en institution: lieu du symptôme"
       }
     },
-    "descriptionHash": "hXzdNDrOH9Je5Z4pN0LacA==",
+    "descriptionHash": "glYej831/ZoWF+zPdD7WvA==",
     "id": "acf-conférence-eric-zuliani",
     "metadata": {
       "additionalMetadata": {
@@ -3343,7 +3343,7 @@
       "aliases": [],
       "colors": {
         "primary": "#BDBABB",
-        "secondary": "#141E44",
+        "secondary": "#6374b4ff",
         "tertiary": "#C4BBAC"
       },
       "databaseMetadata": {
@@ -5069,7 +5069,7 @@
   },
   "acf-illimité": {
     "Partial": false,
-    "builtAt": "2025-10-02T15:08:30.6709906+02:00",
+    "builtAt": "2025-10-02T15:13:24.1067588+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -5528,7 +5528,7 @@
         "title": "L’illimité"
       }
     },
-    "descriptionHash": "BohgFi11MmZ2exmqbGCM6w==",
+    "descriptionHash": "aOwCwWIAhK0dr4mXmyT21g==",
     "id": "acf-illimité",
     "metadata": {
       "additionalMetadata": {
@@ -5541,7 +5541,7 @@
       "colors": {
         "primary": "#ff0ab2",
         "secondary": "#160E4B",
-        "tertiary": "#BAC2E2"
+        "tertiary": "#FFFFFF"
       },
       "databaseMetadata": {
         "Partial": false
@@ -27064,7 +27064,7 @@
   },
   "patterns": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:56.6085916+02:00",
+    "builtAt": "2025-10-02T15:13:24.9137332+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -29565,7 +29565,7 @@
         "title": "Patterns"
       }
     },
-    "descriptionHash": "+pgJTrNpu7rf1BZod32TXg==",
+    "descriptionHash": "bcENj6Xs7MWP2o2kcha0+g==",
     "id": "patterns",
     "metadata": {
       "additionalMetadata": {
