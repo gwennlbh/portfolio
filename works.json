@@ -38729,7 +38729,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T12:44:25.3124574+02:00",
+    "builtAt": "2025-10-02T12:55:44.7621169+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -39166,7 +39166,7 @@
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "ugHqpIiEe/+REhRr7qU+dA==",
+    "descriptionHash": "37wuJNB/DjysddW06JkEmQ==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
@@ -39176,9 +39176,9 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "9EBDC7",
-        "secondary": "0B090B",
-        "tertiary": "FF6978"
+        "primary": "#9EBDC7",
+        "secondary": "#0B090B",
+        "tertiary": "#FF6978"
       },
       "databaseMetadata": {
         "Partial": false
