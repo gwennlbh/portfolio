@@ -12,7 +12,7 @@
         "jsdom": "^26.1.0",
         "picomatch": "^4.0.2",
         "pofile": "^1.1.4",
-        "slug": "^10.0.0",
+        "slug": "^11.0.0",
         "tinycolor2": "^1.6.0",
         "yaml": "^2.7.0",
       },
@@ -877,7 +877,7 @@
 
     "slash": ["slash@2.0.0", "", {}, "sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A=="],
 
-    "slug": ["slug@10.0.0", "", { "bin": { "slug": "cli.js" } }, "sha512-M8s2PWOUeSCdD4S1NH5lCzXg2zFV1fozrtfr0FSKl65x+EF1rUowj+/vyFlnHgxPxWzT+DL0VXKfYc1DHJoymg=="],
+    "slug": ["slug@11.0.0", "", { "bin": { "slug": "cli.js" } }, "sha512-71pb27F9TII2dIweGr2ybS220IUZo1A9GKZ+e2q8rpUr24mejBb6fTaSStM0SE1ITUUOshilqZze8Yt1BKj+ew=="],
 
     "smol-toml": ["smol-toml@1.4.2", "", {}, "sha512-rInDH6lCNiEyn3+hH8KVGFdbjc099j47+OSgbMrfDYX1CmXLfdKd7qi6IfcWj2wFxvSVkuI46M+wPGYfEOEj6g=="],
 
