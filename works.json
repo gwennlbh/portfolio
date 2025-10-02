@@ -5069,7 +5069,7 @@
   },
   "acf-illimité": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.0516+02:00",
+    "builtAt": "2025-10-02T15:08:30.6709906+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -5528,7 +5528,7 @@
         "title": "L’illimité"
       }
     },
-    "descriptionHash": "ZOTTrdOY3OyxAq3qSnsQcw==",
+    "descriptionHash": "BohgFi11MmZ2exmqbGCM6w==",
     "id": "acf-illimité",
     "metadata": {
       "additionalMetadata": {
@@ -5539,9 +5539,9 @@
       },
       "aliases": [],
       "colors": {
-        "primary": "#780B6E",
+        "primary": "#ff0ab2",
         "secondary": "#160E4B",
-        "tertiary": "#BEC3E6"
+        "tertiary": "#BAC2E2"
       },
       "databaseMetadata": {
         "Partial": false
