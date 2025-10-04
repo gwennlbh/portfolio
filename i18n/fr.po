@@ -563,3 +563,6 @@ msgstr "publié le"
 
 msgid "(drafts)"
 msgstr "(brouillons)"
+
+msgid "resume"
+msgstr "curriculum vitæ"
