@@ -89,8 +89,16 @@ function findThumbnailBlock(
               ({
                 id,
                 content,
-                metadata: { wip, colors, started, finished, thumbnail },
+                metadata: {
+                  wip,
+                  colors,
+                  started,
+                  finished,
+                  thumbnail,
+                  additionalMetadata,
+                },
               }) => {
+                const tagline = additionalMetadata?.tagline;
                 const date = preferredDate({ started, finished });
                 const thumb = findThumbnailBlock(content, thumbnail ?? "")!;
                 const attrs = imageAttrs(thumb);
@@ -124,15 +132,10 @@ function findThumbnailBlock(
                             />
                             {wip && <WIPIndicator />}
                           </h2>
-                          {date && (
-                            <time datetime={isoDate(date)}>
-                              <Translated
-                                fr={format(date, "MMMM yyyy", { locale: frFR })}
-                                en={format(date, "MMMM, yyyy", {
-                                  locale: enUS,
-                                })}
-                              />
-                            </time>
+                          {tagline && (
+                            <span class="tagline" i18n>
+                              {tagline}
+                            </span>
                           )}
                         </section>
                       </article>
@@ -190,8 +193,5 @@ function findThumbnailBlock(
   }
   a {
     text-decoration: none;
-  }
-  time {
-    text-transform: capitalize;
   }
 </style>

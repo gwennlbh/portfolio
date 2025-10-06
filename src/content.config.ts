@@ -84,8 +84,13 @@ export const collections = {
               created: nullableDate,
               title_style: z.string().optional(),
               made_with: z.array(z.string()).optional(),
+              tagline: z
+                .string()
+                .optional()
+                .transform((s) => s?.trim() || undefined),
             })
-            .nullable(),
+            .nullable()
+            .default(() => ({})),
           databaseMetadata: z.object({
             Partial: z.boolean(),
           }),
