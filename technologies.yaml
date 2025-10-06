@@ -567,3 +567,12 @@
   name: ONNX
   description: An open format to represent machine learning models
   learn more at: https://onnx.ai
+
+- slug: wasm
+  name: WASM
+  description: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
+  learn more at: https://webassembly.org
+  files: ["*.wasm"]
+  autodetect:
+    - wasm-pack in Justfile
+    - wasm-bindgen in Justfile

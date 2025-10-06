@@ -33051,7 +33051,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:38:11.7611768+02:00",
+    "builtAt": "2025-10-06T13:43:49.5486321+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -34066,11 +34066,11 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "I4CsBE3iiTlIyEK7NYdydw==",
+    "descriptionHash": "dr9jjCPVEtgE44Jb67zI9Q==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
-        "made_with": ["rust", "svg", "ffmpeg", "imagemagick"]
+        "made_with": ["rust", "svg", "ffmpeg", "imagemagick", "wasm"]
       },
       "aliases": null,
       "colors": {
