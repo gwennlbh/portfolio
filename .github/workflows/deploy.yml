@@ -29,12 +29,14 @@ jobs:
           bun-version-file: .bun-version
       - name: Install dependencies
         run: bun install --frozen-lockfile
+
       - name: Build site
         run: bun run build
         env:
           LANG: ${{ matrix.lang }}
           LOCALE: ${{ matrix.locale }}
           BUILD_COMMIT: ${{ github.sha }}
+
       - name: Deploy to Netlify
         run: bunx netlify deploy
           --prod
@@ -42,6 +44,8 @@ jobs:
           --dir=dist
           --site=${{ matrix.lang }}.gwen.works
           --auth=${{ secrets.NETLIFY_TOKEN }}
+          --message="${{ github.ref_name }}@${{ github.sha }}"
+
       - name: check if ${{ github.sha }} is deployed on ${{ matrix.lang }}.gwen.works
         run: |
           wget https://${{ matrix.lang }}.gwen.works/
