@@ -12,6 +12,10 @@ const pages: Config = {
   index: "/",
   projects: {
     "gwen.works": "/gwen.works",
+    "C.I.G.A.L.E": "/cigale",
+    "emoti*ns": "/emoti*ns",
+    "The Unconscious' Wanders": "/the-unconscious-wanders",
+    HyprLS: "/hyprls",
   },
   blog: {
     lsp: "/blog/making-an-lsp-server-in-go",
