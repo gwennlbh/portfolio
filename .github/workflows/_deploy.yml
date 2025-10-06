@@ -1,0 +1,50 @@
+name: Deploy
+
+on:
+  workflow_call:
+    inputs:
+      domain:
+        type: string
+        description: Domain to deploy to
+        required: true
+      netlify-project:
+        type: string
+        description: Name or ID of the Netlify project to deploy to
+        required: true
+      artifact:
+        type: string
+        description: Name of the artifact to download
+        required: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ inputs.domain }}
+      url: https://${{ inputs.domain }}.gwen.works
+    steps:
+      - name: Download built site
+        uses: actions/download-artifact@v5
+        with:
+          name: ${{ inputs.artifact }}
+      - run: ls -la
+
+      - name: Deploy to Netlify
+        run: bunx netlify deploy
+          --prod
+          --no-build
+          --dir=dist
+          --site=${{ inputs.netlify-project }}
+          --auth=${{ secrets.NETLIFY_TOKEN }}
+          --message="${{ github.ref_name }}@${{ github.sha }}"
+          --debug
+
+      - name: check if ${{ github.sha }} is deployed on ${{ inputs.domain }}
+        run: |
+          wget https://${{ inputs.domain }}/
+          while ! grep "https://github.com/${{ github.repository }}/commit/${{ github.sha }}" index.html; do
+            grep -o 'https://github.com/${{ github.repository }}/commit/[a-zA-Z0-9]*' index.html
+            sleep 5
+            rm index.html
+            wget https://${{ inputs.domain }}/
+          done
