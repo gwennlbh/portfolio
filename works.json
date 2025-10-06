@@ -16776,7 +16776,7 @@
   },
   "fsorg": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:52:27.5674371+02:00",
+    "builtAt": "2025-10-06T23:45:29.0985376+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -17045,7 +17045,7 @@
         "title": "fsorg"
       }
     },
-    "descriptionHash": "jjeZHo1YuBJU6AchVPps5w==",
+    "descriptionHash": "oZWrvpcBEtFMJ8TE31XTjg==",
     "id": "fsorg",
     "metadata": {
       "additionalMetadata": {
@@ -17061,7 +17061,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2024-01-29",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
