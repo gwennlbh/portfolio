@@ -1,0 +1,53 @@
+name: Deployed
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: main
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - { lang: en, locale: en-US }
+          - { lang: fr, locale: fr-FR }
+    name: Is commit live on ${{ matrix.lang }}.gwen.works?
+    environment:
+      name: ${{ matrix.lang }}.gwen.works
+      url: https://${{ matrix.lang }}.gwen.works
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: ${{ matrix.lang }}
+          LOCALE: ${{ matrix.locale }}
+          BUILD_COMMIT: ${{ github.sha }}
+      - name: Deploy to Netlify
+        run: bunx netlify deploy
+          --prod
+          --no-build
+          --dir=dist
+          --site=${{ matrix.lang }}.gwen.works
+          --auth=${{ secrets.NETLIFY_TOKEN }}
+      - name: check if ${{ github.sha }} is deployed on ${{ matrix.lang }}.gwen.works
+        run: |
+          wget https://${{ matrix.lang }}.gwen.works/
+          while ! grep "https://github.com/${{ github.repository }}/commit/${{ github.sha }}" index.html; do
+            grep -o 'https://github.com/${{ github.repository }}/commit/[a-zA-Z0-9]*' index.html
+            sleep 5
+            rm index.html
+            wget https://${{ matrix.lang }}.gwen.works/
+          done
