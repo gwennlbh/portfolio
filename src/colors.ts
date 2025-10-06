@@ -24,7 +24,7 @@ export function setCssColors(
   colors = {
     primary: colors?.primary || "#000000",
     secondary: colors?.secondary || "#ffffff",
-    tertiary: colors?.tertiary || "#f00",
+    tertiary: colors?.tertiary || "#ffffff",
   };
 
   return colors
