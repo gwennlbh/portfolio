@@ -10943,7 +10943,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-02T19:05:19.492566+02:00",
+    "builtAt": "2025-10-06T22:45:10.4873452+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12330,7 +12330,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "TQrucSSbPB0ZBend3kh5Sw==",
+    "descriptionHash": "ISnCicgnDeS7hJ1VpLwgeA==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12347,7 +12347,8 @@
           ["p6", "l3"],
           ["p6", "l4"]
         ],
-        "made_with": ["javascript", "sveltekit", "onnx", "figma", "bun"]
+        "made_with": ["javascript", "sveltekit", "onnx", "figma", "bun"],
+        "tagline": "Offline-ready web app that helps with insect photo cropping and annotation for entomological research"
       },
       "aliases": null,
       "colors": {
@@ -17154,7 +17155,7 @@
   },
   "graphinx": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:19:19.290155+02:00",
+    "builtAt": "2025-10-06T22:45:10.9709398+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -18019,7 +18020,7 @@
         "title": "Graphinx"
       }
     },
-    "descriptionHash": "Jt/IUYEGjXgk0XrCDm5qmw==",
+    "descriptionHash": "uTXObSf7vYbUoCHWny91xw==",
     "id": "graphinx",
     "metadata": {
       "additionalMetadata": {
@@ -18040,7 +18041,8 @@
           "typescript",
           "graphql",
           "bun"
-        ]
+        ],
+        "tagline": "Documentation website generator for big GraphQL APIs"
       },
       "aliases": ["narasimha"],
       "colors": {
@@ -19350,7 +19352,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:51.648323+02:00",
+    "builtAt": "2025-10-06T22:45:11.5641251+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -19987,7 +19989,7 @@
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "S93CylMeEjFXdG5zWN4Auw==",
+    "descriptionHash": "i3py7tzAI48hpvXS0XkeBw==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
@@ -19996,7 +19998,8 @@
           ["l1", "m1", "m2"],
           ["m3", "m4", "m5"]
         ],
-        "made_with": ["go", "hyprland"]
+        "made_with": ["go", "hyprland"],
+        "tagline": "Documentation on hover and autocompletion for Hyprland config files"
       },
       "aliases": ["hyprlang-lsp"],
       "colors": {
@@ -26095,7 +26098,7 @@
   },
   "ortfo": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:53.8104386+02:00",
+    "builtAt": "2025-10-06T22:45:12.7845494+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -26942,7 +26945,7 @@
         "title": "ortfo"
       }
     },
-    "descriptionHash": "X6H+JLwTUnnVlj6wNAdz7w==",
+    "descriptionHash": "AkGZR4ezEvqmTjI47+PXJA==",
     "id": "ortfo",
     "metadata": {
       "additionalMetadata": {
@@ -26964,7 +26967,8 @@
           "vitepress",
           "imagemagick",
           "ffmpeg"
-        ]
+        ],
+        "tagline": "Filesystem-based portfolio database system"
       },
       "aliases": null,
       "colors": {
@@ -30149,7 +30153,7 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:56:59.6168379+02:00",
+    "builtAt": "2025-10-06T22:45:12.6773573+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30752,7 +30756,7 @@
         "title": "gwen.works"
       }
     },
-    "descriptionHash": "0LR216ipDaWrBECo97o3aA==",
+    "descriptionHash": "fZhQv7DhqLWyiPDyLBWF4Q==",
     "id": "portfolio",
     "metadata": {
       "additionalMetadata": {
@@ -30764,7 +30768,8 @@
           ["p3", "p3", "m1"],
           ["p4", "p4", "m1"]
         ],
-        "made_with": ["figma", "ortfo", "astro"]
+        "made_with": ["figma", "ortfo", "astro"],
+        "tagline": "This website!"
       },
       "aliases": ["gwen.works"],
       "colors": {
@@ -30828,7 +30833,7 @@
   },
   "scopestify": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:55.9006706+02:00",
+    "builtAt": "2025-10-06T22:31:07.7317507+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -31803,7 +31808,7 @@
         "title": "Scopestify"
       }
     },
-    "descriptionHash": "w85JcavWIEEJid9cmh0t1w==",
+    "descriptionHash": "j7M6i3j9bRW77hW4NpXMPg==",
     "id": "scopestify",
     "metadata": {
       "additionalMetadata": {
@@ -31817,6 +31822,7 @@
           ["m7", "l1"]
         ],
         "made_with": ["csharp", "dotnet"],
+        "tagline": "Control Spotify with a keyboard without leaving what you're doing",
         "title_style": "image"
       },
       "aliases": null,
@@ -33051,7 +33057,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-10-06T13:43:49.5486321+02:00",
+    "builtAt": "2025-10-06T22:45:12.881438+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -33118,7 +33124,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>I wanted to dabble in generative art, and, as a first project, create a way to generate small, icon-like shapes from a predefined set of possible lines, curves and circles</p>",
+            "content": "<p>I wanted to dabble in procedural art, and, as a first project, create a way to generate small, icon-like shapes from a predefined set of possible lines, curves and circles</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -33129,7 +33135,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "hDhkokDflL",
+            "id": "X35UwP0Zpt",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -33545,7 +33551,7 @@
         "footnotes": {},
         "layout": [
           ["V_6Mau2b57"],
-          ["hDhkokDflL"],
+          ["X35UwP0Zpt"],
           ["m1TxI-UFq0"],
           ["_Io40iRCtj"],
           ["JlhDX3egCK"],
@@ -34066,11 +34072,12 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "dr9jjCPVEtgE44Jb67zI9Q==",
+    "descriptionHash": "WvbDPSeJNVX8Gz2cXZXL5w==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
-        "made_with": ["rust", "svg", "ffmpeg", "imagemagick", "wasm"]
+        "made_with": ["rust", "svg", "ffmpeg", "imagemagick", "wasm"],
+        "tagline": "Procedural art music video engine"
       },
       "aliases": null,
       "colors": {
@@ -35311,7 +35318,7 @@
   },
   "subfeed-for-spotify": {
     "Partial": false,
-    "builtAt": "2025-10-02T14:40:16.9366525+02:00",
+    "builtAt": "2025-10-06T22:45:13.2608816+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -36476,7 +36483,7 @@
         "title": "subfeed for Spotify"
       }
     },
-    "descriptionHash": "trWfDZ2ovwUdzGNBnamLMg==",
+    "descriptionHash": "1xtraKjd1vg+7B0zPzjN6Q==",
     "id": "subfeed-for-spotify",
     "metadata": {
       "additionalMetadata": {
@@ -36492,7 +36499,8 @@
           ["m3", "m4"],
           ["l1", "l2", "l3"]
         ],
-        "made_with": ["svelte", "penpot"]
+        "made_with": ["svelte", "penpot"],
+        "tagline": "Simple subscription feed and artist follow suggestions for Spotify"
       },
       "aliases": null,
       "colors": {
@@ -36517,7 +36525,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-10-02T18:41:48.021394+02:00",
+    "builtAt": "2025-10-06T22:45:13.0994885+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -37454,7 +37462,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "XpvlB7Tgas/V5f3CA1XXpQ==",
+    "descriptionHash": "0StHHAPZKXxBm5RoNvehdA==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
@@ -37467,6 +37475,7 @@
           ["l1", "l2", "l3"]
         ],
         "made_with": ["typescript"],
+        "tagline": "Move a web app's expensive computations off-thread",
         "title_style": "image"
       },
       "aliases": ["sw&rpc"],
@@ -38994,7 +39003,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:05:19.3789572+02:00",
+    "builtAt": "2025-10-06T22:45:13.2978304+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -39431,13 +39440,14 @@
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "n9M00f75byBJCz61iLCrBA==",
+    "descriptionHash": "b1ypB6jzCumOAujDdl5WKQ==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
         "created": "2020-06-08",
         "layout": ["p1", "m1", ["l1", "l2", "l3"]],
-        "made_with": ["figma", "pug", "stylus", "livescript"]
+        "made_with": ["figma", "pug", "stylus", "livescript"],
+        "tagline": "Create UltiSnips snippets"
       },
       "aliases": null,
       "colors": {
