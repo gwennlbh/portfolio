@@ -14,19 +14,9 @@ permissions:
   contents: write
 
 jobs:
-  prepare:
-    name: Prepare
-    uses: ./.github/workflows/_build.yml
-    with:
-      artifact: dist
-      lang: fr
-      locale: fr-FR
-      build-commit: testing
-
   update:
-    name: Update screenshots
     if: github.event_name == 'push'
-    needs: [prepare]
+    name: Update screenshots
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/gwennlbh/playwright-bun:v1.55.1
@@ -48,10 +38,12 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Get built site
-        uses: actions/download-artifact@v5
-        with:
-          name: dist
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: fr
+          LOCALE: fr-FR
+          BUILD_COMMIT: testing
 
       - name: Update screenshots
         run: bunx playwright test --update-snapshots --update-source-method overwrite
@@ -63,15 +55,14 @@ jobs:
           file_pattern: screenshots/
 
   test:
-    name: Test
     if: github.event_name == 'pull_request'
-    needs: [prepare]
+    name: Test
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/gwennlbh/playwright-bun:v1.55.1
     environment:
       name: Visual diffing for PR #${{ github.event.pull_request.number }}
-      url: https://gwennlbh.github.io/portfolio/pr-${{ github.event.pull_request.number }}/
+      url: ${{ steps.deploy-to-gh-pages.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
 
@@ -84,22 +75,23 @@ jobs:
         with:
           bun-version-file: .bun-version
 
-      - name: Remove git pre-push hook
-        run: echo "" > .husky/pre-push
-
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      - name: Get built site
-        uses: actions/download-artifact@v3
-        with:
-          name: dist
+      - name: Remove git pre-push hook
+        run: echo "" > .husky/pre-push
+
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: fr
+          LOCALE: fr-FR
+          BUILD_COMMIT: testing
 
       - name: Verify screenshots
         run: bunx playwright test
 
       - if: ${{ !cancelled() }}
-        id: gh-pages
         name: Upload report to github pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
