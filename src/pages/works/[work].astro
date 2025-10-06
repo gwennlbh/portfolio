@@ -50,7 +50,10 @@ const {
   metadata: { tags, wip, colors, started, finished, additionalMetadata: misc },
 } = entry.data;
 
-const year = finished?.getFullYear() ?? started?.getFullYear();
+const startYear = started?.getFullYear();
+const endYear = finished?.getFullYear();
+const year = startYear && endYear && startYear !== endYear ? `${startYear}～${endYear}` : (endYear ?? startYear)
+
 
 const titleStyle = misc?.title_style ?? "";
 
