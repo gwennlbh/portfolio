@@ -1,4 +1,4 @@
-name: Deployed
+name: Build & deploy
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
         include:
           - { lang: en, locale: en-US }
           - { lang: fr, locale: fr-FR }
-    name: Is commit live on ${{ matrix.lang }}.gwen.works?
+    name: ${{ matrix.locale }}
     environment:
       name: ${{ matrix.lang }}.gwen.works
       url: https://${{ matrix.lang }}.gwen.works
