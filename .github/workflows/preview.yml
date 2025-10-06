@@ -1,0 +1,56 @@
+name: Preview
+
+on:
+  pull_request:
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    strategy:
+      matrix:
+        include:
+          - { lang: en, locale: en-US, domain: en }
+          - { lang: fr, locale: fr-FR, domain: fr }
+
+    name: Build & deploy / ${{ matrix.locale }}
+    runs-on: ubuntu-latest
+
+    environment:
+      name: "Preview #${{ github.event.pull_request.number }} / ${{ matrix.locale }}"
+      url: ${{ steps.deploy.outputs.url }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: ${{ matrix.lang }}
+          LOCALE: ${{ matrix.locale }}
+          BUILD_COMMIT: ${{ github.sha }}
+
+      - name: Deploy to Netlify
+        id: deploy
+        run: |
+          bunx netlify deploy --json $flags > result.json
+          cat result.json
+          echo "url=$(jq --raw-output .deploy_url result.json)" >> $GITHUB_OUTPUT
+        env:
+          flags: --alias pr-${{ github.event.pull_request.number }}
+            --no-build
+            --dir=dist
+            --site=${{ matrix.domain }}.gwen.works
+            --auth=${{ secrets.NETLIFY_TOKEN }}
+            --message="${{ github.ref_name }}@${{ github.sha }}"
