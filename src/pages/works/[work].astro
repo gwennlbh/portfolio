@@ -306,6 +306,11 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
     opacity: 0.8;
   }
 
+  .block[data-type="paragraph"] :global(pre span),
+  .block[data-type="paragraph"] :global(code) {
+    font-family: "Martian Mono", monospace;
+  }
+
   .swatches {
     display: flex;
     flex-wrap: wrap;
