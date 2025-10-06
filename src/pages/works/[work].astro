@@ -52,8 +52,10 @@ const {
 
 const startYear = started?.getFullYear();
 const endYear = finished?.getFullYear();
-const year = startYear && endYear && startYear !== endYear ? `${startYear}～${endYear}` : (endYear ?? startYear)
-
+const year =
+  startYear && endYear && startYear !== endYear
+    ? `${startYear}～${endYear}`
+    : (endYear ?? startYear);
 
 const titleStyle = misc?.title_style ?? "";
 
