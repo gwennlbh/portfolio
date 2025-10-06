@@ -7,6 +7,9 @@ import math from "remark-math";
 
 // https://astro.build/config
 export default defineConfig({
+  devToolbar: {
+    enabled: !process.env.PLAYWRIGHT,
+  },
   integrations: [
     mdx(),
     sitemap({

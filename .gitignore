@@ -32,3 +32,5 @@ media
 
 # wakatime response cache
 .wakatime-cache.json
+
+test-results/

@@ -1,0 +1,104 @@
+name: Visual diffing
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    if: github.event_name == 'push'
+    name: Update screenshots
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/gwennlbh/playwright-bun:v1.55.1
+    steps:
+      - uses: actions/checkout@v5
+
+        # Probably due to using a container
+      - name: Fix dubious ownership of .git dir
+        run: git config --global --add safe.directory $(pwd)
+
+      - name: Remove git pre-push hook
+        run: echo "" > .husky/pre-push
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: fr
+          LOCALE: fr-FR
+          BUILD_COMMIT: testing
+
+      - name: Update screenshots
+        run: bunx playwright test --update-snapshots --update-source-method overwrite
+
+      - name: Commit updated screenshots
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ✅ Update screenshots
+          file_pattern: screenshots/
+
+  test:
+    if: github.event_name == 'pull_request'
+    name: Test
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/gwennlbh/playwright-bun:v1.55.1
+    environment:
+      name: Visual diffing for PR #${{ github.event.pull_request.number }}
+      url: ${{ steps.deploy-to-gh-pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      # Probably due to using a container
+      - name: Fix dubious ownership of .git dir
+        run: git config --global --add safe.directory $(pwd)
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Remove git pre-push hook
+        run: echo "" > .husky/pre-push
+
+      - name: Build site
+        run: bun run build
+        env:
+          LANG: fr
+          LOCALE: fr-FR
+          BUILD_COMMIT: testing
+
+      - name: Verify screenshots
+        run: bunx playwright test
+
+      - if: ${{ !cancelled() }}
+        name: Upload report to github pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: playwright-report
+          target-folder: pr-${{ github.event.pull_request.number }}
+          force: true
+          single-commit: true
+          clean-exclude: |
+            .nojekyll
+            pr-*

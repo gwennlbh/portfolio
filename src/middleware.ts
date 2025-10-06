@@ -7,6 +7,8 @@ export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
   locals.locale = (process.env.LOCALE ||
     "en-US") as `${typeof locals.lang}-${string}`;
   locals.buildCommit =
+    // Explicit commit
+    process.env.BUILD_COMMIT ||
     // Netlify
     process.env.COMMIT_REF ||
     // Cloudflare Pages
