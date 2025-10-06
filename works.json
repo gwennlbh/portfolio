@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:58:54.1855238+02:00",
+    "builtAt": "2025-10-06T22:51:47.8324105+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10908,7 +10908,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "npONrjx6fOZuIdQFY2FKDQ==",
+    "descriptionHash": "oL0hBe4vuIOnTbdawuvykg==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
@@ -10918,7 +10918,8 @@
           [null, "l3", "l4"],
           ["p2"]
         ],
-        "made_with": ["svelte", "sveltekit", "graphql", "typescript"]
+        "made_with": ["svelte", "sveltekit", "graphql", "typescript"],
+        "tagline": "Complete student life platform service, includes events, tickets, clubs, student directory and study material sharing"
       },
       "aliases": null,
       "colors": {
@@ -13473,7 +13474,7 @@
   },
   "distilatex": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.5234175+02:00",
+    "builtAt": "2025-10-06T22:52:27.5196045+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -13521,46 +13522,6 @@
             "thumbnailsBuiltAt": "2025-10-02T02:22:51.8816032+02:00",
             "title": "",
             "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>Distill a math handout down to its core</p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "ezMZSIHxIg",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
             "url": ""
           },
           {
@@ -13846,7 +13807,6 @@
         ],
         "footnotes": {},
         "layout": [
-          ["xxLoNsklYo", "ezMZSIHxIg", "ezMZSIHxIg", "ezMZSIHxIg"],
           ["xxLoNsklYo", "2RQyMgxLDy", "2RQyMgxLDy", "2RQyMgxLDy"],
           ["xxLoNsklYo", "2i-4FWAoEf", "2i-4FWAoEf", "2i-4FWAoEf"],
           ["xxLoNsklYo", "S9Jvzpa2ze", "S9Jvzpa2ze", "S9Jvzpa2ze"],
@@ -13901,46 +13861,6 @@
             "thumbnailsBuiltAt": "2025-10-02T02:22:51.8816032+02:00",
             "title": "",
             "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>Distiller un polycopié de mathématiques à son minimum vital</p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "GbhxUVN0wT",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
             "url": ""
           },
           {
@@ -14226,7 +14146,6 @@
         ],
         "footnotes": {},
         "layout": [
-          ["xxLoNsklYo", "GbhxUVN0wT", "GbhxUVN0wT", "GbhxUVN0wT"],
           ["xxLoNsklYo", "W1M324aTtQ", "W1M324aTtQ", "W1M324aTtQ"],
           ["xxLoNsklYo", "0-o9JrimuW", "0-o9JrimuW", "0-o9JrimuW"],
           ["xxLoNsklYo", "ogBvSoc5yG", "ogBvSoc5yG", "ogBvSoc5yG"],
@@ -14236,7 +14155,7 @@
         "title": "Distilatex"
       }
     },
-    "descriptionHash": "/8P83rqsehOg9Pb6MzX4YQ==",
+    "descriptionHash": "mHrSpcArDqmAeniHApNxrA==",
     "id": "distilatex",
     "metadata": {
       "additionalMetadata": {
@@ -14245,11 +14164,11 @@
           ["m1", "p1", "p1", "p1"],
           ["m1", "p2", "p2", "p2"],
           ["m1", "p3", "p3", "p3"],
-          ["m1", "p4", "p4", "p4"],
           ["m2", "m3"],
-          ["p5", "l1"]
+          ["p4", "l1"]
         ],
-        "made_with": ["rust", "latex"]
+        "made_with": ["rust", "latex"],
+        "tagline": "Distill a math handout to its core"
       },
       "aliases": null,
       "colors": {
@@ -16857,7 +16776,7 @@
   },
   "fsorg": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.7458033+02:00",
+    "builtAt": "2025-10-06T22:52:27.5674371+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -17126,11 +17045,12 @@
         "title": "fsorg"
       }
     },
-    "descriptionHash": "QS3lLDheXhhdTGqrMdHitA==",
+    "descriptionHash": "jjeZHo1YuBJU6AchVPps5w==",
     "id": "fsorg",
     "metadata": {
       "additionalMetadata": {
-        "made_with": ["ruby"]
+        "made_with": ["ruby"],
+        "tagline": "Create directory structures from a text file"
       },
       "aliases": null,
       "colors": {
@@ -20024,7 +19944,7 @@
   },
   "ideaseed": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:52.4167936+02:00",
+    "builtAt": "2025-10-06T22:52:43.4174544+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -21305,13 +21225,14 @@
         "title": "ideaseed"
       }
     },
-    "descriptionHash": "Pp7ElVAuCVTHoLQpnsu9Ow==",
+    "descriptionHash": "OG1G78/sJMT4FmoZqfPlig==",
     "id": "ideaseed",
     "metadata": {
       "additionalMetadata": {
         "created": "2020-06-11",
         "logo": "../visual-identity/ideaseed-logomark-color-on-white.png",
-        "made_with": ["python", "docopt"]
+        "made_with": ["python", "docopt"],
+        "tagline": "Jot down ideas into Github issues & Google Keep cards, without leaving the terminal"
       },
       "aliases": null,
       "colors": {
@@ -29548,7 +29469,7 @@
   },
   "permbits": {
     "Partial": false,
-    "builtAt": "2025-10-02T16:53:07.1983199+02:00",
+    "builtAt": "2025-10-06T22:52:43.8669236+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -29813,12 +29734,13 @@
         "title": "permbits"
       }
     },
-    "descriptionHash": "hSD3XT9ffanIDAAgruwPRQ==",
+    "descriptionHash": "5ZIM+oQAgTlbVA3I3cmYfg==",
     "id": "permbits",
     "metadata": {
       "additionalMetadata": {
         "layout": [["m1"], ["p1", "l1"]],
-        "made_with": ["go"]
+        "made_with": ["go"],
+        "tagline": "Explain UNIX octal permission numbers in a terminal"
       },
       "aliases": null,
       "colors": {
