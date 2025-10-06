@@ -42,7 +42,16 @@ export const collections = {
       source: z.string(),
       metadata: z
         .object({
-          aliases: z.array(z.string()).optional().nullable().default([]),
+          aliases: z
+            .array(z.string())
+            .optional()
+            .nullable()
+            .default([])
+            .transform((aliases) => {
+              if (process.platform !== "win32") return aliases;
+              // On Windows, we want to some characters that are not allowed in filenames
+              return aliases?.filter((a) => !a.match(/[<>:"/\\|?*]/));
+            }),
           finished: nullableDate,
           started: nullableDate,
           madeWith: z
