@@ -88,9 +88,12 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
   }
 
   main :global(pre.astro-code) {
-    font-family: "Martian Mono", monospace;
     font-size: 0.9rem;
     line-height: 1.4;
     padding: 1.2em;
+  }
+
+  main :global(pre.astro-code span, code) {
+    font-family: "Martian Mono", monospace;
   }
 </style>
