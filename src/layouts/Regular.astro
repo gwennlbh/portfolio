@@ -54,10 +54,10 @@ interface Props {
     <ul>
       {
         (await getCollection("sites")).map(
-          ({ data: { name, url, purpose } }) => (
+          ({ data: { name,  purpose } }) => (
             <>
               <li>
-                <a href={url}>{`/to/${name}`.padEnd(15)}</a>
+                <a href={`/to/${name}`}>{`/to/${name}`.padEnd(15)}</a>
                 <span class="purpose">{purpose}</span>
               </li>
             </>
