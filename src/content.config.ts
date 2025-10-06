@@ -40,46 +40,53 @@ export const collections = {
       builtAt: z.coerce.date(),
       descriptionHash: z.string(),
       source: z.string(),
-      metadata: z.object({
-        aliases: z.array(z.string()).optional().nullable().default([]),
-        finished: nullableDate,
-        started: nullableDate,
-        madeWith: z
-          .array(reference("technologies"))
-          .optional()
-          .nullable()
-          .default([]),
-        tags: z.array(reference("tags")).optional().nullable().default([]),
-        thumbnail: z.string().optional(),
-        thumbnailSource: z.string().optional(),
-        titleStyle: z.string().optional(),
-        colors: z.object({
-          primary: z.string(),
-          secondary: z.string(),
-          tertiary: z.string(),
-        }),
-        pageBackground: z.string().optional(),
-        wip: z.boolean(),
-        private: z.boolean(),
-        additionalMetadata: z
-          .object({
-            layout: z
-              .array(
-                z.union([
-                  z.string().nullable(),
-                  z.array(z.string().nullable()),
-                ]),
-              )
-              .optional(),
-            created: nullableDate,
-            title_style: z.string().optional(),
-            made_with: z.array(z.string()).optional(),
-          })
-          .nullable(),
-        databaseMetadata: z.object({
-          Partial: z.boolean(),
-        }),
-      }),
+      metadata: z
+        .object({
+          aliases: z.array(z.string()).optional().nullable().default([]),
+          finished: nullableDate,
+          started: nullableDate,
+          madeWith: z
+            .array(reference("technologies"))
+            .optional()
+            .nullable()
+            .default([]),
+          tags: z.array(reference("tags")).optional().nullable().default([]),
+          thumbnail: z.string().optional(),
+          thumbnailSource: z.string().optional(),
+          titleStyle: z.string().optional(),
+          colors: z.object({
+            primary: z.string(),
+            secondary: z.string(),
+            tertiary: z.string(),
+          }),
+          pageBackground: z.string().optional(),
+          wip: z.boolean(),
+          private: z.boolean(),
+          additionalMetadata: z
+            .object({
+              layout: z
+                .array(
+                  z.union([
+                    z.string().nullable(),
+                    z.array(z.string().nullable()),
+                  ]),
+                )
+                .optional(),
+              created: nullableDate,
+              title_style: z.string().optional(),
+              made_with: z.array(z.string()).optional(),
+            })
+            .nullable(),
+          databaseMetadata: z.object({
+            Partial: z.boolean(),
+          }),
+        })
+        .transform(({ started, finished, additionalMetadata, ...rest }) => ({
+          started: started ?? additionalMetadata?.created ?? null,
+          finished: finished ?? additionalMetadata?.created ?? null,
+          additionalMetadata,
+          ...rest,
+        })),
       Partial: z.boolean(),
       content: z.record(
         z.object({
