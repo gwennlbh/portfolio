@@ -199,7 +199,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   </div>
 </Layout>
 
-<div
+<Fragment
   set:html={`<style>@media (min-width: ${portraitModeCutoff}px) {
     main > section {
       display: ${cssGridAreas ? "grid" : "block"} !important;
