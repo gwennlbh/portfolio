@@ -37,8 +37,9 @@ function matchesIncludeExpresion(
     const conjunctions = clause.split(" and ");
     return conjunctions.every((term) => {
       if (!term.startsWith("#")) {
+        const matcher = picomatch(term);
         const aliases = work.metadata.aliases ?? [];
-        return [work.id, ...aliases].some(picomatch(term));
+        return [work.id, ...aliases].some((id) => matcher(id));
       }
 
       const tagToTest = resolveAliased(term.replace(/^#/, ""), tags);
