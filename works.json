@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:51:47.8324105+02:00",
+    "builtAt": "2025-10-06T23:27:09.9459654+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10908,7 +10908,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "oL0hBe4vuIOnTbdawuvykg==",
+    "descriptionHash": "Jn9SHZILWPSiQlyV2cCtoA==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
@@ -10930,7 +10930,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2025-07-14",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
@@ -14193,7 +14193,7 @@
   },
   "emoti∗ns": {
     "Partial": false,
-    "builtAt": "2025-10-02T17:29:09.6452745+02:00",
+    "builtAt": "2025-10-06T23:11:26.5153524+02:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -15351,7 +15351,7 @@
         "title": "emoti*ns"
       }
     },
-    "descriptionHash": "M9URynR3002A4NK86bepMA==",
+    "descriptionHash": "d4GYHZSTH++NgX2Pew9z+g==",
     "id": "emoti∗ns",
     "metadata": {
       "additionalMetadata": {
@@ -15376,7 +15376,7 @@
       "colors": {
         "primary": "#000",
         "secondary": "#ffffff",
-        "tertiary": "#ff0000"
+        "tertiary": "#df0ebcff"
       },
       "databaseMetadata": {
         "Partial": false
@@ -17075,7 +17075,7 @@
   },
   "graphinx": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:10.9709398+02:00",
+    "builtAt": "2025-10-06T23:27:10.194793+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -17940,7 +17940,7 @@
         "title": "Graphinx"
       }
     },
-    "descriptionHash": "uTXObSf7vYbUoCHWny91xw==",
+    "descriptionHash": "19HZChpaBgRubIY+vBL4dg==",
     "id": "graphinx",
     "metadata": {
       "additionalMetadata": {
@@ -17973,7 +17973,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2024-11-30",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
@@ -23149,7 +23149,7 @@
   },
   "malwr": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:54.9483635+02:00",
+    "builtAt": "2025-10-06T23:07:19.3557592+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -24328,7 +24328,7 @@
         "title": "Malwr"
       }
     },
-    "descriptionHash": "6SywujsnMQJxcf86TJmaow==",
+    "descriptionHash": "vZEv9y5OY7RddKuYOOGQhw==",
     "id": "malwr",
     "metadata": {
       "additionalMetadata": {
@@ -24351,7 +24351,7 @@
       "colors": {
         "primary": "#21CB8C",
         "secondary": "#000000",
-        "tertiary": "#13CE84"
+        "tertiary": "#000000"
       },
       "databaseMetadata": {
         "Partial": false
@@ -38925,7 +38925,7 @@
   },
   "ultisnips-tools": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:13.2978304+02:00",
+    "builtAt": "2025-10-06T23:12:37.6686024+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -39362,7 +39362,7 @@
         "title": "ultisnips-tools"
       }
     },
-    "descriptionHash": "b1ypB6jzCumOAujDdl5WKQ==",
+    "descriptionHash": "sJvvIExKwxNODCQJ6n0b7A==",
     "id": "ultisnips-tools",
     "metadata": {
       "additionalMetadata": {
@@ -39375,7 +39375,7 @@
       "colors": {
         "primary": "#FF6978",
         "secondary": "#0B090B",
-        "tertiary": "#9EBDC7"
+        "tertiary": "#3e545cff"
       },
       "databaseMetadata": {
         "Partial": false
