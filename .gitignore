@@ -34,3 +34,4 @@ media
 .wakatime-cache.json
 
 test-results/
+.netlify/
