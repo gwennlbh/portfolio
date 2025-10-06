@@ -8,6 +8,7 @@ import BlockLink from "./_components/BlockLink.astro";
 import BlockMedia from "./_components/BlockMedia.astro";
 import BlockParagraph from "./_components/BlockParagraph.astro";
 import { imageAttrs } from "./media";
+import { differenceInYears } from "date-fns";
 
 export const getStaticPaths = (async () => {
   return await getCollection("works").then((works) =>
@@ -53,9 +54,17 @@ const {
 const startYear = started?.getFullYear();
 const endYear = finished?.getFullYear();
 const year =
-  startYear && endYear && startYear !== endYear
-    ? `${startYear}～${endYear}`
-    : (endYear ?? startYear);
+  started && !finished && !wip
+    ? // Still active
+      `${startYear}～now`
+    : started &&
+        finished &&
+        differenceInYears(finished, started) > 1 &&
+        startYear !== endYear
+      ? // Was done over multiple years
+        `${startYear}～${endYear}`
+      : // Done within a single year
+        (endYear ?? startYear);
 
 const titleStyle = misc?.title_style ?? "";
 
