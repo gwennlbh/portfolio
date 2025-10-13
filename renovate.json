@@ -4,14 +4,14 @@
   "extends": ["config:recommended", "schedule:weekly"],
   "packageRules": [
     {
-			"description": "Group playwright docker image & npm package",
-			"matchPackageNames": [
-				"@playwright/test",
-				"mcr.microsoft.com/playwright",
-				"ghcr.io/gwennlbh/playwright-bun"
-			],
-			"groupName": "Playwright",
-			"automerge": true
-		}
+      "automerge": true,
+      "description": "Group playwright docker image & npm package",
+      "groupName": "Playwright",
+      "matchPackageNames": [
+        "@playwright/test",
+        "mcr.microsoft.com/playwright",
+        "ghcr.io/gwennlbh/playwright-bun"
+      ]
+    }
   ]
 }
