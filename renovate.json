@@ -1,17 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "commitMessagePrefix": "⬆️ ",
-  "extends": ["config:recommended", "schedule:weekly"],
-  "packageRules": [
-    {
-      "automerge": true,
-      "description": "Group playwright docker image & npm package",
-      "groupName": "Playwright",
-      "matchPackageNames": [
-        "@playwright/test",
-        "mcr.microsoft.com/playwright",
-        "ghcr.io/gwennlbh/playwright-bun"
-      ]
-    }
-  ]
+  "extends": ["github>gwennlbh/renovate"]
 }
