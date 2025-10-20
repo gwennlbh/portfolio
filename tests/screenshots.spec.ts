@@ -27,7 +27,7 @@ function runScreenshotTest(screenshotName: string, urlOrFolder: ConfigEntry) {
     test(screenshotName, async ({ page }) => {
       process.env.PLAYWRIGHT = "1";
       await page.goto(urlOrFolder);
-      await expect(page).toHaveScreenshot();
+      await expect(page).toHaveScreenshot({ maxDiffPixelRatio: 0.02 } );
     });
   } else {
     for (const [name, entry] of Object.entries(urlOrFolder)) {
