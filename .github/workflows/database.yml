@@ -27,7 +27,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
-          go-version: "1.25"
+          go-version: "1.25.3"
       - name: Install ortfo/db
         run: |
           go install github.com/ortfo/db/cmd@v1.7.2
