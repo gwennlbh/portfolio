@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
+        with:
+          ssh-key: ${{ secrets.AUTOCOMMIT_KEY }}
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2

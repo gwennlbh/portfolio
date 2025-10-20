@@ -22,6 +22,8 @@ jobs:
       image: ghcr.io/gwennlbh/playwright-bun:v1.55.1
     steps:
       - uses: actions/checkout@v5
+        with:
+          ssh-key: ${{ secrets.AUTOCOMMIT_KEY }}
 
         # Probably due to using a container
       - name: Fix dubious ownership of .git dir
