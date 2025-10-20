@@ -1,7 +1,7 @@
 name: Tangle
 
 on:
-  push: 
+  push:
     branches: [main]
   workflow_dispatch: {}
 
