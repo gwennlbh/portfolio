@@ -8560,7 +8560,7 @@
   },
   "acf-écoute-à-interprétation": {
     "Partial": false,
-    "builtAt": "2025-10-02T13:39:50.4947474+02:00",
+    "builtAt": "2025-10-30T22:23:16.8478707+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -9795,7 +9795,7 @@
         "title": "De l’écoute à l’interprétation"
       }
     },
-    "descriptionHash": "hhT+O9brFfGTIYt0Q+hN9w==",
+    "descriptionHash": "7UaNg2eCF/GhZQ2fcDdVMQ==",
     "id": "acf-écoute-à-interprétation",
     "metadata": {
       "additionalMetadata": {
@@ -9813,7 +9813,7 @@
           ["p5", "m7"],
           ["l2", "m7"]
         ],
-        "made_with": ["photoshop", "gimp"]
+        "made_with": ["photoshop"]
       },
       "aliases": null,
       "colors": {
