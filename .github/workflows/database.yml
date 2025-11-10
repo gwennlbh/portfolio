@@ -25,7 +25,7 @@ jobs:
       - name: Install ffmpeg
         uses: FedericoCarboni/setup-ffmpeg@v3
       - name: Install github cli
-        uses: sersoft-gmbh/setup-gh-cli-action@v2
+        uses: sersoft-gmbh/setup-gh-cli-action@v3
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
