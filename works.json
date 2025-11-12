@@ -26019,7 +26019,7 @@
   },
   "ortfo": {
     "Partial": false,
-    "builtAt": "2025-11-12T18:47:44.0573054+01:00",
+    "builtAt": "2025-11-12T19:14:09.3788908+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -26866,7 +26866,7 @@
         "title": "ortfo"
       }
     },
-    "descriptionHash": "wAryKrCLaC5tS6HFS9sPkA==",
+    "descriptionHash": "LkYoxvri3zvogCCo6ziXuw==",
     "id": "ortfo",
     "metadata": {
       "additionalMetadata": {
@@ -26887,7 +26887,8 @@
           "bun",
           "vitepress",
           "imagemagick",
-          "ffmpeg - svelte"
+          "ffmpeg",
+          "svelte"
         ],
         "tagline": "Filesystem-based portfolio database system"
       },
