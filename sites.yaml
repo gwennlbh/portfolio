@@ -1,5 +1,5 @@
 - name: "spotify"
-  url: "https://open.spotify.com/artist/6tUc6r8aNeiiT1mElcnMx9?si=yCM83yThR4WVCkC4Kd5p7Q"
+  url: "https://open.spotify.com/artist/32bNg39NYp0lhYmQl5JkuM?si=5rY34MfzRzm41sUJKz-LFg"
   purpose: "my music"
   username: Postamble
 
@@ -24,7 +24,7 @@
   username: postamble
 
 - name: "deezer"
-  url: "https://deezer.page.link/keZbR1mRNyp5ba6W9"
+  url: "https://link.deezer.com/s/31DeJQZZ4gXsWdyUpCZpq"
   purpose: "my music"
   username: Postamble
 
