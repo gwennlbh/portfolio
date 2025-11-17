@@ -36448,7 +36448,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:13.0994885+02:00",
+    "builtAt": "2025-11-17T14:05:18.9151622+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -37022,7 +37022,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>La solution consistait à utiliser des [Service workers] (<a href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker\">https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker</a>), une technologie qui permet d’exécuter du code en dehors du thread de l’UI.</p>",
+            "content": "<p>La solution consistait à utiliser des <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker\">Service workers</a>, une technologie qui permet d’exécuter du code en dehors du thread de l’UI.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -37033,7 +37033,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "nioV1Ncf5l",
+            "id": "SNZ1PGkSoE",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -37342,9 +37342,9 @@
             "IcEstabn7Z"
           ],
           [
-            "nioV1Ncf5l",
-            "nioV1Ncf5l",
-            "nioV1Ncf5l",
+            "SNZ1PGkSoE",
+            "SNZ1PGkSoE",
+            "SNZ1PGkSoE",
             "IcEstabn7Z",
             "IcEstabn7Z",
             "IcEstabn7Z"
@@ -37385,7 +37385,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "0StHHAPZKXxBm5RoNvehdA==",
+    "descriptionHash": "ecJwmUeoxAmXrE5ESU8wiw==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
