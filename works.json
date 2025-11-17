@@ -32980,7 +32980,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:12.881438+02:00",
+    "builtAt": "2025-11-17T12:43:45.6229514+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -33995,12 +33995,12 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "WvbDPSeJNVX8Gz2cXZXL5w==",
+    "descriptionHash": "UgcjDzEM+H3mFOvRiMVWHw==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
         "made_with": ["rust", "svg", "ffmpeg", "imagemagick", "wasm"],
-        "tagline": "Procedural art music video engine"
+        "tagline": "Music video engine for procedural art"
       },
       "aliases": null,
       "colors": {
