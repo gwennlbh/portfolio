@@ -14,7 +14,7 @@ jobs:
     name: Rebuild database
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ssh-key: ${{ secrets.AUTOCOMMIT_KEY }}
       - name: Install native dependencies

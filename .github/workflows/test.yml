@@ -21,7 +21,7 @@ jobs:
     container:
       image: ghcr.io/gwennlbh/playwright-bun:v1.56.1
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           ssh-key: ${{ secrets.AUTOCOMMIT_KEY }}
 
@@ -66,7 +66,7 @@ jobs:
       name: Visual diffing for PR #${{ github.event.pull_request.number }}
       url: ${{ steps.deploy-to-gh-pages.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       # Probably due to using a container
       - name: Fix dubious ownership of .git dir
