@@ -669,3 +669,8 @@
   name: Drizzle ORM
   description: A modern TypeScript ORM for SQL databases, designed for type safety and developer productivity.
   learn more at: https://orm.drizzle.team/
+
+- slug: capacitor
+  name: Capacitor
+  description: A cross-platform native runtime for building web apps that run natively on iOS, Android, and the web
+  learn more at: https://capacitorjs.com/

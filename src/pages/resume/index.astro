@@ -4,7 +4,7 @@ import Bare from "../../layouts/Bare.astro";
 import Tech from "./_components/Tech.astro";
 import Reference from "./_components/Reference.astro";
 
-const wakatime = await getCollection("wakatime").then((entries) =>
+const wakatime = await getCollection("wakatimeLanguages").then((entries) =>
   Object.fromEntries(
     entries.map((entry) => [
       entry.id,

@@ -48,8 +48,38 @@ if (!entry) return Astro.rewrite("/404");
 const {
   id,
   metadata,
-  metadata: { tags, wip, colors, started, finished, additionalMetadata: misc },
+  metadata: {
+    tags,
+    wip,
+    colors,
+    started,
+    finished,
+    aliases,
+    additionalMetadata: misc,
+  },
 } = entry.data;
+
+const timeSpent = await Promise.all(
+  Object.entries(
+    misc?.wakatime ??
+      Object.fromEntries([id, ...(aliases ?? [])].map((name) => [name, null])),
+  ).map(async ([name, shareableUrl]) =>
+    getEntry("wakatimeProjects", name)?.then((entry) =>
+      entry
+        ? { id: entry.id, seconds: entry.data.total_seconds, url: shareableUrl }
+        : undefined,
+    ),
+  ) ?? [],
+).then((entries) =>
+  entries
+    .filter((x): x is NonNullable<typeof x> => x !== undefined)
+    .filter(({ seconds }) => seconds >= 2 * 3600)
+    .sort((a, b) => b.seconds - a.seconds),
+);
+
+const hoursSpent = Math.round(
+  timeSpent.map(({ seconds }) => seconds).reduce((a, b) => a + b, 0) / 3600,
+);
 
 const startYear = started?.getFullYear();
 const endYear = finished?.getFullYear();
@@ -152,8 +182,52 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   </main>
 
   {
+    hoursSpent > 1 ? (
+      <section class="big">
+        <h2 i18n>time spent*</h2>
+        <p>
+          {timeSpent.length === 1 && timeSpent.at(0)?.url ? (
+            <a
+              href={timeSpent.at(0)!.url!}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {hoursSpent} hours coding
+            </a>
+          ) : (
+            <span>{hoursSpent} hours coding</span>
+          )}
+        </p>
+        {timeSpent.length > 1 ? (
+          <ul>
+            {timeSpent.map(({ id, seconds, url }) => (
+              <li>
+                {id}:
+                {url ? (
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    {Math.round((seconds ?? 0) / 3600)} hours
+                  </a>
+                ) : (
+                  <span>{Math.round((seconds ?? 0) / 3600)} hours </span>
+                )}
+              </li>
+            ))}
+          </ul>
+        ) : null}
+        <small>
+          <br>
+          <i18n>*tracked by</i18n>
+          <a href="https://wakatime.com/" target="_blank">
+            WakaTime
+          </a>
+        </small>
+      </section>
+    ) : null
+  }
+
+  {
     madeWith && madeWith.length > 0 && (
-      <section class="made-with">
+      <section class="big">
         <h2 i18n>made with</h2>
         <ul class="technologies">
           {madeWith.map(({ id, data: { name } }) => (
@@ -259,13 +333,15 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
     }
   }
 
-  section.made-with h2 {
+  section.big h2 {
     font-size: 2.8em;
+    line-height: 0.8;
   }
-  section.made-with {
+
+  section.big {
     font-size: 1.7rem;
   }
-  section.made-with ul {
+  section.big ul {
     margin-top: 1em;
     display: flex;
     flex-direction: column;

@@ -23,7 +23,14 @@ const year = z.number().min(2003).max(new Date().getFullYear()).int();
 export const collections = {
   frenchMessages: gettextPoMessages("i18n/fr.po"),
   englishMessages: gettextPoMessages("i18n/en.po"),
-  wakatime: await wakatimeCollection(".wakatime-cache.json"),
+  wakatimeLanguages: await wakatimeCollection(
+    ".wakatime-cache.json",
+    "languages",
+  ),
+  wakatimeProjects: await wakatimeCollection(
+    ".wakatime-cache.json",
+    "projects",
+  ),
   blogEntries: defineCollection({
     loader: glob({ pattern: "*.md", base: "./blog" }),
     schema: z.object({
@@ -84,6 +91,36 @@ export const collections = {
               created: nullableDate,
               title_style: z.string().optional(),
               made_with: z.array(z.string()).optional(),
+              wakatime: z
+                .union([
+                  z.string(),
+                  z.record(z.string(), z.string().nullable()),
+                  z.array(
+                    z.union([
+                      z.string(),
+                      z.record(z.string(), z.string().nullable()),
+                    ]),
+                  ),
+                ])
+                .optional()
+                .transform((names) =>
+                  names
+                    ? typeof names === "string"
+                      ? { [names]: null }
+                      : Array.isArray(names)
+                        ? Object.fromEntries(
+                            names.map((n) => {
+                              if (typeof n === "string") {
+                                return [n, null];
+                              }
+
+                              const [[key, value]] = Object.entries(n);
+                              return [key, value];
+                            }),
+                          )
+                        : names
+                    : undefined,
+                ),
               tagline: z
                 .string()
                 .optional()

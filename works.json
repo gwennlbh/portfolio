@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-12-03T12:41:08.1047888+01:00",
+    "builtAt": "2025-12-03T13:22:30.0276329+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10908,7 +10908,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "be/u8JCBZV/HA/vjyDJeaA==",
+    "descriptionHash": "VNWXrs0Ts/YsWpMBRstcDw==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
@@ -10940,7 +10940,19 @@
           "kubernetes",
           "fluxcd"
         ],
-        "tagline": "Complete student life platform service, includes events, tickets, clubs, student directory and study material sharing"
+        "tagline": "Complete student life platform service, includes events, tickets, clubs, student directory and study material sharing",
+        "wakatime": [
+          {
+            "churros": "https://wakatime.com/@gwennlbh/projects/yvzdoqwsci"
+          },
+          "centraverse",
+          {
+            "notella": "https://wakatime.com/@gwennlbh/projects/waxaqoyplq"
+          },
+          "churros-notella",
+          "churros-wiki",
+          "churros-mobile"
+        ]
       },
       "aliases": null,
       "colors": {
@@ -10965,7 +10977,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-12-03T12:41:08.1377699+01:00",
+    "builtAt": "2025-12-03T13:24:45.4817685+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12352,7 +12364,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "HobE8N//zH30xzBPoR1UjA==",
+    "descriptionHash": "EnAVJ8avQTh2wuGkmV+Yyg==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12381,7 +12393,11 @@
           "electron",
           "drizzle"
         ],
-        "tagline": "Offline-ready web app that helps with insect photo cropping and annotation for entomological research"
+        "tagline": "Offline-ready web app that helps with insect photo cropping and annotation for entomological research",
+        "wakatime": {
+          "beamup": "https://wakatime.com/@gwennlbh/projects/yzyjfynqob",
+          "cigale": "https://wakatime.com/@gwennlbh/projects/fhymtteyys"
+        }
       },
       "aliases": null,
       "colors": {
@@ -19304,7 +19320,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-12-03T12:13:05.7072046+01:00",
+    "builtAt": "2025-12-03T13:22:51.7024557+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -19983,7 +19999,7 @@
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "CGQifsaaL/2V+w6f5xXzrw==",
+    "descriptionHash": "8wMEtisCUF61i6M2YWqgAg==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
@@ -19992,7 +20008,10 @@
           ["m2", "l1"],
           ["m3", "m4", "m5"]
         ],
-        "made_with": ["go", "hyprland"]
+        "made_with": ["go", "hyprland"],
+        "wakatime": {
+          "hyprls": "https://wakatime.com/@gwennlbh/projects/nxyydzsmzb"
+        }
       },
       "aliases": ["hyprlang-lsp"],
       "colors": {
@@ -30149,7 +30168,7 @@
   },
   "portfolio": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:12.6773573+02:00",
+    "builtAt": "2025-12-03T13:32:27.4461714+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -30752,7 +30771,7 @@
         "title": "gwen.works"
       }
     },
-    "descriptionHash": "fZhQv7DhqLWyiPDyLBWF4Q==",
+    "descriptionHash": "Igbi8kswRbats2wAkY0R5g==",
     "id": "portfolio",
     "metadata": {
       "additionalMetadata": {
@@ -30765,7 +30784,15 @@
           ["p4", "p4", "m1"]
         ],
         "made_with": ["figma", "ortfo", "astro"],
-        "tagline": "This website!"
+        "tagline": "This website!",
+        "wakatime": [
+          {
+            "portfolio": "https://wakatime.com/@gwennlbh/projects/earvnaxtcl"
+          },
+          "mx3creations",
+          "portfolio-next",
+          "www"
+        ]
       },
       "aliases": ["gwen.works"],
       "colors": {
