@@ -10977,7 +10977,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-12-03T13:24:45.4817685+01:00",
+    "builtAt": "2025-12-03T14:26:37.4289239+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12364,7 +12364,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "EnAVJ8avQTh2wuGkmV+Yyg==",
+    "descriptionHash": "g5Pz0G6J/5HaorvlEpgHcQ==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12413,7 +12413,7 @@
       "pageBackground": "",
       "private": false,
       "started": "2024-11-07",
-      "tags": ["web", "app", "school", "science", "neural networks"],
+      "tags": ["web", "app", "science", "neural networks"],
       "thumbnail": "../static/favicon.png",
       "titleStyle": "",
       "wip": false
