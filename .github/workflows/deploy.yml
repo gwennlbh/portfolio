@@ -36,6 +36,7 @@ jobs:
           LANG: ${{ matrix.lang }}
           LOCALE: ${{ matrix.locale }}
           BUILD_COMMIT: ${{ github.sha }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
       - name: Deploy to Netlify
         run: bunx netlify deploy
