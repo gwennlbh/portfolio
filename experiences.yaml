@@ -73,7 +73,7 @@
     - https://github.com/cigaleapp/cigale
   company:
     name: SETE-CNRS
-    description: Theoretical and Experimental Ecology Station 
+    description: Theoretical and Experimental Ecology Station
     url: https://sete-moulis-cnrs.fr/en/
 
 - time: 2025
@@ -93,5 +93,5 @@
     - https://github.com/cigaleapp/cigale
   company:
     name: LIS-CNRS
-    description: Laboratory of Informatics and Systems 
+    description: Laboratory of Informatics and Systems
     url: https://www.lis-lab.fr/en/home/
