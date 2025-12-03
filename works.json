@@ -27092,7 +27092,7 @@
   },
   "loca7": {
     "Partial": false,
-    "builtAt": "2025-12-03T21:30:15.3016086+01:00",
+    "builtAt": "2025-12-03T21:37:20.7767925+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -27708,7 +27708,7 @@
         "title": ""
       }
     },
-    "descriptionHash": "vigHuGQfKV8vF+nWZPERzA==",
+    "descriptionHash": "nOCqbblDnOzPl3OzjXc7jQ==",
     "id": "loca7",
     "metadata": {
       "additionalMetadata": {
@@ -27726,14 +27726,14 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#DBDBDB",
-        "secondary": "#1E1E1E",
-        "tertiary": "#727272"
+        "primary": "#006384",
+        "secondary": "#ffffff",
+        "tertiary": "#25c9ff"
       },
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "2024-01-06",
+      "finished": "2023-08-07",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
