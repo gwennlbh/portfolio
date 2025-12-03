@@ -23171,7 +23171,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-12-03T13:22:51.7024557+01:00",
+    "builtAt": "2025-12-03T21:50:55.3678372+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -23850,7 +23850,7 @@
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "8wMEtisCUF61i6M2YWqgAg==",
+    "descriptionHash": "kFdS+ojmYMjTyTp+lDntqQ==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
@@ -23873,7 +23873,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2025-03-02",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
@@ -25237,7 +25237,7 @@
   },
   "infrasonic-village": {
     "Partial": false,
-    "builtAt": "2025-10-02T15:20:26.9172015+02:00",
+    "builtAt": "2025-12-03T21:50:55.585732+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -25886,10 +25886,11 @@
         "title": "Infrasonic Village"
       }
     },
-    "descriptionHash": "56CK0wCKkAUTq/eXE0xJ5A==",
+    "descriptionHash": "GEIJZVo3DklLPyLPz7xoFQ==",
     "id": "infrasonic-village",
     "metadata": {
       "additionalMetadata": {
+        "created": "2019-09-08",
         "layout": ["p1", ["m1", "m2"], ["m3", "m4"], ["m5", "m6"]],
         "made_with": ["illustrator"]
       },
@@ -25906,7 +25907,7 @@
       "madeWith": null,
       "pageBackground": "",
       "private": false,
-      "started": "2019-09-08",
+      "started": "",
       "tags": ["illustration", "abstract"],
       "thumbnail": "",
       "titleStyle": "",
@@ -30617,7 +30618,7 @@
   },
   "ortfo": {
     "Partial": false,
-    "builtAt": "2025-11-12T19:14:09.3788908+01:00",
+    "builtAt": "2025-12-03T21:50:55.649121+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -31464,7 +31465,7 @@
         "title": "ortfo"
       }
     },
-    "descriptionHash": "LkYoxvri3zvogCCo6ziXuw==",
+    "descriptionHash": "sUnNXpY7k1KJrLOxx2nOrw==",
     "id": "ortfo",
     "metadata": {
       "additionalMetadata": {
@@ -31488,7 +31489,15 @@
           "ffmpeg",
           "svelte"
         ],
-        "tagline": "Filesystem-based portfolio database system"
+        "tagline": "Filesystem-based portfolio database system",
+        "wakatime": [
+          "ortfo",
+          "ortfodb",
+          "ortfogui",
+          "ortfomk",
+          "portfoliodb",
+          "ortfo-website"
+        ]
       },
       "aliases": null,
       "colors": {
@@ -31499,7 +31508,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2025-11-02",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
@@ -31516,7 +31525,7 @@
       ],
       "thumbnail": "",
       "titleStyle": "",
-      "wip": false
+      "wip": true
     },
     "source": "C:\\Users\\ewen\\projects\\ortfo\\.ortfo\\description.md"
   },
@@ -35362,7 +35371,7 @@
   },
   "scopestify": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:31:07.7317507+02:00",
+    "builtAt": "2025-12-03T21:50:55.7612895+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -36337,7 +36346,7 @@
         "title": "Scopestify"
       }
     },
-    "descriptionHash": "j7M6i3j9bRW77hW4NpXMPg==",
+    "descriptionHash": "P3oeRsLPgziXM4KbFEU6+w==",
     "id": "scopestify",
     "metadata": {
       "additionalMetadata": {
@@ -36363,7 +36372,7 @@
       "databaseMetadata": {
         "Partial": false
       },
-      "finished": "",
+      "finished": "2025-09-30",
       "madeWith": null,
       "pageBackground": "",
       "private": false,
