@@ -37595,7 +37595,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-11-17T12:43:45.6229514+01:00",
+    "builtAt": "2025-12-03T22:20:00.2417167+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -37644,6 +37644,46 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "research-paper-in-french",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "T-JUOUr9vK",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Research paper (in French)",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://raw.githubusercontent.com/gwennlbh/shapemaker/main/paper/main.pdf"
           },
           {
             "alt": "",
@@ -38073,7 +38113,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "Ph-1g2o6tY",
+            "id": "ZSB0oILQMx",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -38083,12 +38123,13 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/shapemaker"
+            "url": "https://github.com/gwennlbh/shapemaker"
           }
         ],
         "footnotes": {},
         "layout": [
           ["V_6Mau2b57"],
+          ["T-JUOUr9vK"],
           ["X35UwP0Zpt"],
           ["m1TxI-UFq0"],
           ["_Io40iRCtj"],
@@ -38099,7 +38140,7 @@
           ["zb5OswQdf7"],
           ["WQRjN7m8IP"],
           ["rPtwEYhzMs"],
-          ["Ph-1g2o6tY"]
+          ["ZSB0oILQMx"]
         ],
         "title": "Shapemaker"
       },
@@ -38150,6 +38191,46 @@
             "title": "",
             "type": "media",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "papier-de-recherche",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "T-JUOUr9vK",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Papier de recherche",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://raw.githubusercontent.com/gwennlbh/shapemaker/main/paper/main.pdf"
           },
           {
             "alt": "",
@@ -38579,7 +38660,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "Ph-1g2o6tY",
+            "id": "ZSB0oILQMx",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -38589,12 +38670,13 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/shapemaker"
+            "url": "https://github.com/gwennlbh/shapemaker"
           }
         ],
         "footnotes": {},
         "layout": [
           ["V_6Mau2b57"],
+          ["T-JUOUr9vK"],
           ["pZLmQfFXQT"],
           ["7JUt06-_iz"],
           ["XKqfEcQqmE"],
@@ -38605,12 +38687,12 @@
           ["773cBnaisT"],
           ["FP_vwSgqew"],
           ["7TMmhc3WiV"],
-          ["Ph-1g2o6tY"]
+          ["ZSB0oILQMx"]
         ],
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "UgcjDzEM+H3mFOvRiMVWHw==",
+    "descriptionHash": "Zy6AkTcgOrPBpRfkr5q6qg==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
