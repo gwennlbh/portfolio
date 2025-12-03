@@ -1,13 +1,23 @@
 ---
+import slug from "slug";
 import type { InferEntrySchema } from "astro:content";
 
 type Block =
   InferEntrySchema<"works">["content"][keyof InferEntrySchema<"works">["content"]]["blocks"][number];
 
 interface Props extends Block {}
+
+// FIXME do this in ortfodb
+const headingText =
+  // Get inside of <hn> tag if content is just that
+  Astro.props.content.match(/^<h[1-6]>(.*?)<\/h[1-6]>$/)?.[1];
+const anchor = slug(headingText || "", { lower: true });
 ---
 
-<div class="block-paragraph-content" set:html={Astro.props.content} />
+<div
+  class="block-paragraph-content"
+  set:html={Astro.props.content.replace(/^<h([1-6])>/, `<h$1 id="${anchor}">`)}
+/>
 
 <style>
   .block-paragraph-content {

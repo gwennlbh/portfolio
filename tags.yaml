@@ -1,7 +1,7 @@
 # todo: deprecate
 - singular: school
   plural: school
-  description: School projects and school-related projects
+  description: School-related projects
 
 - singular: science
   plural: science
