@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-10-06T23:27:09.9459654+02:00",
+    "builtAt": "2025-12-03T12:11:22.5723897+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10908,7 +10908,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "Jn9SHZILWPSiQlyV2cCtoA==",
+    "descriptionHash": "VUliFSG+RWnQqbIE5Mn0lg==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
@@ -10918,7 +10918,27 @@
           [null, "l3", "l4"],
           ["p2"]
         ],
-        "made_with": ["svelte", "sveltekit", "graphql", "typescript"],
+        "made_with": [
+          "svelte",
+          "sveltekit",
+          "graphql",
+          "typescript",
+          "kubernetes",
+          "fluxcd",
+          "gitlab-ci",
+          "docker",
+          "docker-compose",
+          "postgresql",
+          "redis",
+          "nodejs",
+          "express",
+          "prisma",
+          "penpot",
+          "figma",
+          "sass",
+          "pwa",
+          "nats"
+        ],
         "tagline": "Complete student life platform service, includes events, tickets, clubs, student directory and study material sharing"
       },
       "aliases": null,
@@ -10944,7 +10964,7 @@
   },
   "cigale": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:10.4873452+02:00",
+    "builtAt": "2025-12-03T12:11:22.77916+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -12331,7 +12351,7 @@
         "title": "CIGALE"
       }
     },
-    "descriptionHash": "ISnCicgnDeS7hJ1VpLwgeA==",
+    "descriptionHash": "3kUoS78QRIFpXXiq8FY0EQ==",
     "id": "cigale",
     "metadata": {
       "additionalMetadata": {
@@ -12348,7 +12368,18 @@
           ["p6", "l3"],
           ["p6", "l4"]
         ],
-        "made_with": ["javascript", "sveltekit", "onnx", "figma", "bun"],
+        "made_with": [
+          "javascript",
+          "sveltekit",
+          "onnx",
+          "figma",
+          "bun",
+          "github-actions",
+          "pwa",
+          "playwright",
+          "electron",
+          "drizzle"
+        ],
         "tagline": "Offline-ready web app that helps with insect photo cropping and annotation for entomological research"
       },
       "aliases": null,
@@ -19272,7 +19303,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-10-06T22:45:11.5641251+02:00",
+    "builtAt": "2025-12-03T12:11:23.6034271+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -19294,7 +19325,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language, that provides autocompletion, documentation on hover, and more</p>",
+            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -19305,7 +19336,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "TjSW8oo5CB",
+            "id": "PbpKHWpKJi",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19345,7 +19376,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "tiRhP2fdzC",
+            "id": "fZEJCQpqU6",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19355,7 +19386,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/hyprland-community/hyprls"
+            "url": "https://github.com/ewen-lbh/hyprlang-lsp.git"
           },
           {
             "alt": "",
@@ -19585,9 +19616,30 @@
         ],
         "footnotes": {},
         "layout": [
-          ["TjSW8oo5CB", "Eg7YPD89hJ", "7ld0Lr7NEW"],
-          ["tiRhP2fdzC", "Eg7YPD89hJ", "7ld0Lr7NEW"],
-          ["KBRObH0R6k", "G0uyZ4zgXk", "1BPGf0TkHh"]
+          [
+            "Eg7YPD89hJ",
+            "Eg7YPD89hJ",
+            "Eg7YPD89hJ",
+            "PbpKHWpKJi",
+            "PbpKHWpKJi",
+            "PbpKHWpKJi"
+          ],
+          [
+            "7ld0Lr7NEW",
+            "7ld0Lr7NEW",
+            "7ld0Lr7NEW",
+            "fZEJCQpqU6",
+            "fZEJCQpqU6",
+            "fZEJCQpqU6"
+          ],
+          [
+            "KBRObH0R6k",
+            "KBRObH0R6k",
+            "G0uyZ4zgXk",
+            "G0uyZ4zgXk",
+            "1BPGf0TkHh",
+            "1BPGf0TkHh"
+          ]
         ],
         "title": "HyprLS"
       },
@@ -19902,24 +19954,44 @@
         ],
         "footnotes": {},
         "layout": [
-          ["3wDe2klixt", "Eg7YPD89hJ", "7ld0Lr7NEW"],
-          ["fZEJCQpqU6", "Eg7YPD89hJ", "7ld0Lr7NEW"],
-          ["KBRObH0R6k", "G0uyZ4zgXk", "1BPGf0TkHh"]
+          [
+            "Eg7YPD89hJ",
+            "Eg7YPD89hJ",
+            "Eg7YPD89hJ",
+            "3wDe2klixt",
+            "3wDe2klixt",
+            "3wDe2klixt"
+          ],
+          [
+            "7ld0Lr7NEW",
+            "7ld0Lr7NEW",
+            "7ld0Lr7NEW",
+            "fZEJCQpqU6",
+            "fZEJCQpqU6",
+            "fZEJCQpqU6"
+          ],
+          [
+            "KBRObH0R6k",
+            "KBRObH0R6k",
+            "G0uyZ4zgXk",
+            "G0uyZ4zgXk",
+            "1BPGf0TkHh",
+            "1BPGf0TkHh"
+          ]
         ],
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "i3py7tzAI48hpvXS0XkeBw==",
+    "descriptionHash": "udmT5Flm2tbmRt6/PTEMHQ==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
         "layout": [
-          ["p1", "m1", "m2"],
-          ["l1", "m1", "m2"],
+          ["m1", "p1"],
+          ["m2", "l1"],
           ["m3", "m4", "m5"]
         ],
-        "made_with": ["go", "hyprland"],
-        "tagline": "Documentation on hover and autocompletion for Hyprland config files"
+        "made_with": ["go", "hyprland"]
       },
       "aliases": ["hyprlang-lsp"],
       "colors": {
