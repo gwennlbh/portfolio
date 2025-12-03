@@ -27092,7 +27092,7 @@
   },
   "loca7": {
     "Partial": false,
-    "builtAt": "2025-12-03T21:21:31.0040973+01:00",
+    "builtAt": "2025-12-03T21:26:13.9798648+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -27324,7 +27324,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Étant spécifique à l’ENSEEIHT, le site affiche les temps de trajet vers l’école en vélo et à pied.</p>",
+            "content": "<p>Étant spécifique à l’ENSEEIHT, le site affiche les temps de trajet vers l’école en vélo et à pied. Le site utilise diverses sources de données, comme <a href=\"https://openrouteservice.org/\">openroute service</a> pour calculer les temps de trajet, les [données de Tisséo]</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -27335,7 +27335,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "zqVz8XQdrh",
+            "id": "fJwzTnrPRg",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -27358,7 +27358,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "",
+            "caption": "Une annonce",
             "colors": {
               "primary": "#322923",
               "secondary": "#6D5C5A",
@@ -27650,7 +27650,7 @@
           ["UwcqSakHnI"],
           ["JNH2sI4TJN"],
           ["IIAMgh8292"],
-          ["zqVz8XQdrh"],
+          ["fJwzTnrPRg"],
           ["jzlwgcwMUy"],
           ["4P_80ULCnb"],
           ["3tfcwpdH7Y"],
@@ -27662,7 +27662,7 @@
         "title": ""
       }
     },
-    "descriptionHash": "41mz7MMa99NnLqarsA5h1g==",
+    "descriptionHash": "AK0UwSfs/XgunKU2vbc6xQ==",
     "id": "loca7",
     "metadata": {
       "additionalMetadata": {
@@ -27674,7 +27674,8 @@
           "docker-compose",
           "docker",
           "figma"
-        ]
+        ],
+        "tagline": "Apartment listing site for students of my engineering school students"
       },
       "aliases": null,
       "colors": {
@@ -27690,7 +27691,7 @@
       "pageBackground": "",
       "private": false,
       "started": "26-01-2023",
-      "tags": null,
+      "tags": ["web", "site"],
       "thumbnail": "",
       "titleStyle": "",
       "wip": false
