@@ -27092,7 +27092,7 @@
   },
   "loca7": {
     "Partial": false,
-    "builtAt": "2025-12-03T21:37:20.7767925+01:00",
+    "builtAt": "2025-12-03T21:39:32.3673391+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -27708,7 +27708,7 @@
         "title": ""
       }
     },
-    "descriptionHash": "nOCqbblDnOzPl3OzjXc7jQ==",
+    "descriptionHash": "tYwojsGwq4zXRYWmrZZocw==",
     "id": "loca7",
     "metadata": {
       "additionalMetadata": {
@@ -27726,7 +27726,7 @@
       },
       "aliases": null,
       "colors": {
-        "primary": "#006384",
+        "primary": "#00234bff",
         "secondary": "#ffffff",
         "tertiary": "#25c9ff"
       },
