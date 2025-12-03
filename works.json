@@ -10607,54 +10607,49 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-12-03T13:22:30.0276329+01:00",
+    "builtAt": "2025-12-03T20:15:49.887964+01:00",
     "content": {
       "default": {
         "abbreviations": {},
         "blocks": [
           {
-            "alt": "Logo",
-            "analyzed": true,
-            "anchor": "logo-loading",
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
             "attributes": {
               "autoplay": false,
-              "controls": true,
+              "controls": false,
               "loop": false,
               "muted": false,
               "playsinline": false
             },
             "caption": "",
             "colors": {
-              "primary": "#DEDEDE",
-              "secondary": "#9B9B9B",
-              "tertiary": "#414141"
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
             },
-            "content": "",
-            "contentType": "image/png",
+            "content": "<p>La plateforme et application accompagnant la vie étudiante à l’ENSEEIHT (et plus à venir).</p>",
+            "contentType": "",
             "dimensions": {
-              "aspectRatio": 1.003861,
-              "height": 259,
-              "width": 260
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
             },
-            "distSource": "churros\\.ortfo\\logo-loading.png",
+            "distSource": "",
             "duration": 0,
             "hasSound": false,
-            "hash": "k565Trk9qvxePeqX/0DgAw==",
-            "id": "bKt3xEgWER",
+            "hash": "",
+            "id": "x3a7eYA1oT",
             "index": 0,
             "online": false,
-            "relativeSource": "./logo-loading.png",
-            "size": 10127,
+            "relativeSource": "",
+            "size": 0,
             "text": "",
-            "thumbnails": {
-              "100": "churros/bKt3xEgWER@100.webp",
-              "1200": "churros/bKt3xEgWER@1200.webp",
-              "400": "churros/bKt3xEgWER@400.webp",
-              "600": "churros/bKt3xEgWER@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-10-02T16:53:07.564592+02:00",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
-            "type": "media",
+            "type": "paragraph",
             "url": ""
           },
           {
@@ -10674,7 +10669,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>L’application de l’AE. Plateforme servant de billetterie, d’annuaire et d’espace de communication pour les clubs.</p>",
+            "content": "<p>C’est une biletterie, un espace de communication des clubs et associations étudiantes, de partage de documents de révision, un annuaire étudiant, et un portal vers d’autres services offerts par l’association étudiante.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -10685,7 +10680,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "YYAgMHnXLp",
+            "id": "zN7q5zCYdj",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -10740,46 +10735,6 @@
           {
             "alt": "",
             "analyzed": false,
-            "anchor": "api",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "oM865TcIi2",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "API",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "link",
-            "url": "https://api-docs.churros.inpt.fr"
-          },
-          {
-            "alt": "",
-            "analyzed": false,
             "anchor": "code-source",
             "attributes": {
               "autoplay": false,
@@ -10820,7 +10775,7 @@
           {
             "alt": "",
             "analyzed": false,
-            "anchor": "sur-github",
+            "anchor": "code-source-sur-github",
             "attributes": {
               "autoplay": false,
               "controls": false,
@@ -10850,7 +10805,7 @@
             "online": false,
             "relativeSource": "",
             "size": 0,
-            "text": "Sur Github",
+            "text": "Code source (sur github)",
             "thumbnails": null,
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
@@ -10874,7 +10829,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>(page non terminée)</p>",
+            "content": "<h2>Contexte</h2>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -10885,7 +10840,3862 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "UhEvsvwp1P",
+            "id": "MMSn22lsjd",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "billetterie-inpt",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#5392BF",
+              "secondary": "#D6D7D9",
+              "tertiary": "#F3F5F5"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.518409,
+              "height": 679,
+              "width": 1031
+            },
+            "distSource": "churros\\.ortfo\\billetterie-inpt.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "fVwRorJyuUdGcZC4ZkF4rg==",
+            "id": "URji-G5AHN",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./billetterie-inpt.png",
+            "size": 125889,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/URji-G5AHN@100.webp",
+              "1200": "churros/URji-G5AHN@1200.webp",
+              "400": "churros/URji-G5AHN@400.webp",
+              "600": "churros/URji-G5AHN@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:29.3481675+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Quand j’arrive à l’ENSEEIHT en 2022, la gestion des billets venait de passer aux mains d’une entreprise tierce, alors même que net7, l’association informatique étudiante de l’école, maintient et développe une billetterie.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "nxGlj_zrne",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Les fonctions d’annuaires et de liste des membres de clubs sont elles dans un portail, simple site web, lui également veillissant et ne répondant plus vraiment aux attentes des étudiant·es.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "1OC2TW1w_-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Il y a alors deux ans, un ancien président de net7 avait démarré une refonte totale de ces deux sites, en une seule application moderne intégrant un système de billetterie et un annuaire. À ce stade, l’application comprend un système rudimentaire de comptes (authentification et inscriptions) et posts.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "8OzVijx48p",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "early-centraverse",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Les débuts d'application déjà développés",
+            "colors": {
+              "primary": "#B5B9D8",
+              "secondary": "#9D9EA6",
+              "tertiary": "#7A7A7D"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.53349,
+              "height": 851,
+              "width": 454
+            },
+            "distSource": "churros\\.ortfo\\early-centraverse.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "XJf9uSA/8katsN1qKy8mEg==",
+            "id": "mKMjIPmVgo",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./early-centraverse.png",
+            "size": 178278,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/mKMjIPmVgo@100.webp",
+              "1200": "churros/mKMjIPmVgo@1200.webp",
+              "400": "churros/mKMjIPmVgo@400.webp",
+              "600": "churros/mKMjIPmVgo@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:30.2374462+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "early-centraverse-event",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "L'application à un stade plus avancé. Ici, l'écran d'édition d'un évènement",
+            "colors": {
+              "primary": "#323A47",
+              "secondary": "#767B80",
+              "tertiary": "#161615"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.45,
+              "height": 2400,
+              "width": 1080
+            },
+            "distSource": "churros\\.ortfo\\early-centraverse-event.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "WZpK/y7CkxB1ry75hPjUoA==",
+            "id": "vuGPxHbh1Y",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./early-centraverse-event.png",
+            "size": 153655,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/vuGPxHbh1Y@100.webp",
+              "1200": "churros/vuGPxHbh1Y@1200.webp",
+              "400": "churros/vuGPxHbh1Y@400.webp",
+              "600": "churros/vuGPxHbh1Y@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:31.4646028+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Après avoir convaincu l’AE de rompre leur contrat avec l’entreprise tierce, dont l’application était remplie de failles de sécurité et globalement mal faite, je reprend les débuts de cette application, en offrant à l’AE des étapes et retours réguliers pour assurer de l’avancement de l’appli. Nous sommes alors en mai, 4 mois avant la rentrée. L’ensemble du corps étudiant s’inscrira dès le premier jour, et l’appli doit être prête à cette date.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "o9OtHoxYhZ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "ae-feedback-1",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#EEC6C7",
+              "secondary": "#D8E6EC",
+              "tertiary": "#BBB2B7"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.250909,
+              "height": 825,
+              "width": 1032
+            },
+            "distSource": "churros\\.ortfo\\ae-feedback-1.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "qoiZfsXbClo5WSkwbMy5BA==",
+            "id": "6g9de2FcQO",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./ae-feedback-1.png",
+            "size": 171754,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/6g9de2FcQO@100.webp",
+              "1200": "churros/6g9de2FcQO@1200.webp",
+              "400": "churros/6g9de2FcQO@400.webp",
+              "600": "churros/6g9de2FcQO@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:32.0198156+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "ae-roadmap-1",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#A4A9B8",
+              "secondary": "#B1B4C2",
+              "tertiary": "#BCBECD"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.981257,
+              "height": 907,
+              "width": 890
+            },
+            "distSource": "churros\\.ortfo\\ae-roadmap-1.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "Kvc67q42tgp0hNT020pehg==",
+            "id": "XsCzP1qJa1",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./ae-roadmap-1.png",
+            "size": 117791,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/XsCzP1qJa1@100.webp",
+              "1200": "churros/XsCzP1qJa1@1200.webp",
+              "400": "churros/XsCzP1qJa1@400.webp",
+              "600": "churros/XsCzP1qJa1@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:32.5549611+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "ae-roadmap-2",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#B1B2BF",
+              "secondary": "#A5A7B2",
+              "tertiary": "#BCBDCA"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.935966,
+              "height": 937,
+              "width": 877
+            },
+            "distSource": "churros\\.ortfo\\ae-roadmap-2.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "NpTq/Wu3KCL7yA1ULudZKA==",
+            "id": "U828kgW8Tg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./ae-roadmap-2.png",
+            "size": 155924,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/U828kgW8Tg@100.webp",
+              "1200": "churros/U828kgW8Tg@1200.webp",
+              "400": "churros/U828kgW8Tg@400.webp",
+              "600": "churros/U828kgW8Tg@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:33.3025759+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Notifications</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "SSSbjzGQSq",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Une des fonctionnalités phares de la nouvelle application est le support des notifications, pour par exemple prévenir qu’un <em>shotgun</em> (ouverture des inscriptions à un évènement) démarre. C’était un des arguments de vente principaux de l’entreprise tierce pour vendre son appli à l’AE.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "WSnDuMdBth",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "notification",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Une notification destinée aux admins, annonçant une nouvelle inscription (désactivée pendant la rentrée)",
+            "colors": {
+              "primary": "#2A3039",
+              "secondary": "#606670",
+              "tertiary": "#94989D"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 2.462415,
+              "height": 439,
+              "width": 1081
+            },
+            "distSource": "churros\\.ortfo\\notification.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "kRoGypHrDNMQEry9vV6fOQ==",
+            "id": "jpdqhnxDfd",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./notification.png",
+            "size": 38948,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/jpdqhnxDfd@100.webp",
+              "1200": "churros/jpdqhnxDfd@1200.webp",
+              "400": "churros/jpdqhnxDfd@400.webp",
+              "600": "churros/jpdqhnxDfd@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:33.683218+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Cependant, étant donné les contraintes de développement, Churros a démarré (voir <a href=\"#capacitor\">Capacitor</a>) comme une <em>PWA</em>, c’est-à-dire un site web avec des fonctionnalités supplémentaires qui la rapproche d’une application. Par exemple, les notifications Push.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "X6OgZjWcTa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Le support des notifications Push pour les sites web sur iOS était à l’époque très récent. Il fallait s’assurer que ces fameuses notifications fonctionnaient correctement au sein de la population générale, pas simplement sur quelques téléphones. On a donc demandé aux membres organisateurs de l’AE de tester massivement ces notifications, lors d’une de ces périodes de retours.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "mXx2DFBYIv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "notification-testing",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#82554B",
+              "secondary": "#8D7866",
+              "tertiary": "#A4947D"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.713608,
+              "height": 632,
+              "width": 451
+            },
+            "distSource": "churros\\.ortfo\\notification-testing.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "LY9mZmTEA/iwq8UWJ/BKpw==",
+            "id": "fF-B3c0rR0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./notification-testing.png",
+            "size": 353909,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/fF-B3c0rR0@100.webp",
+              "1200": "churros/fF-B3c0rR0@1200.webp",
+              "400": "churros/fF-B3c0rR0@400.webp",
+              "600": "churros/fF-B3c0rR0@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:34.3517428+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Cependant, à cette période, les notifications restent assez instables: lors du déploiement d’une mise à jour de l’application, on perd les notifications programmées (mais pas encore envoyées).</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ChAAezNEll",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Plus tard, un serveur de notifications dédiés sera développé (voir <a href=\"#notella\">Notella</a>).</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "SNse4wqyxE",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Enfin, avant la rentrée arrive, et l’on vérifie qu’elle supporte le pic de charge: la rentrée d’une nouvelle promotion d’n7ien·nes, quelques 200 personnes.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bExbpejqqn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "stress-test",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Stress test de l'application, on simule des dizaines d'inscriptions simultanées par seconde",
+            "colors": {
+              "primary": "#020949",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "image/gif",
+            "dimensions": {
+              "aspectRatio": 1.777778,
+              "height": 450,
+              "width": 800
+            },
+            "distSource": "churros\\.ortfo\\stress-test.gif",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "fc6axhpV4rfd63KiFLKn8Q==",
+            "id": "2ej02y6e0W",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./stress-test.gif",
+            "size": 49857366,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Et enfin, le jour J arrive, et l’appli est présentée aux premières années, qui s’inscrivent en masse. Globalement, tout se passe bien, et les inscriptions aux évènements d’intégration de l’AE se déroulent sans soucis.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "9egTO5MCu9",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "schoolstart-unveil",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Diffusion d'une vidéo annonçant l'appli dans le grand amphithéâtre de l'école, réalisée par l'asso vidéo étudiante, TVn7",
+            "colors": {
+              "primary": "#16181A",
+              "secondary": "#C0CBDB",
+              "tertiary": "#4D4C4C"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.746108,
+              "height": 835,
+              "width": 1458
+            },
+            "distSource": "churros\\.ortfo\\schoolstart-unveil.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GkunPZ88zuXA8oduJyW2/A==",
+            "id": "RQ__7rPO3H",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./schoolstart-unveil.png",
+            "size": 1312339,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/RQ__7rPO3H@100.webp",
+              "1200": "churros/RQ__7rPO3H@1200.webp",
+              "400": "churros/RQ__7rPO3H@400.webp",
+              "600": "churros/RQ__7rPO3H@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:40.2737486+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Fonctionnalités</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "C5sWD_AGAa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Annuaire, groupes et clubs</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "GNr9VhiEGs",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Churros étant aussi un “réseau social” étudiant, il est possible de se faire un profil, et de rejoindre des clubs ou associations.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "i_MjiJXdYd",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "mobile-user",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#134C5F",
+              "secondary": "#839BD1",
+              "tertiary": "#DBE1F0"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.562219,
+              "height": 667,
+              "width": 375
+            },
+            "distSource": "churros\\.ortfo\\mobile-user.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "2/65sTIdD4aC1YP5iYlIkw==",
+            "id": "i2hXfLIXGs",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./mobile-user.png",
+            "size": 59068,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/i2hXfLIXGs@100.webp",
+              "1200": "churros/i2hXfLIXGs@1200.webp",
+              "400": "churros/i2hXfLIXGs@400.webp",
+              "600": "churros/i2hXfLIXGs@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:40.9838334+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Être membre permet d’accéder aux évènements limités à celui-ci, et à la gestion des évènements, si l’on a des responsabilités. C’est aussi administrativement important d’avoir une liste des bureaux (président·e, et vices-président·es, trésorier·es et secréatires) de tout les clubs.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "6m1-yt8Q3R",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "mobile-group",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "La page de l'asso photo, Photo7",
+            "colors": {
+              "primary": "#E4E2E2",
+              "secondary": "#A2A2A2",
+              "tertiary": "#606060"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.55922,
+              "height": 667,
+              "width": 373
+            },
+            "distSource": "churros\\.ortfo\\mobile-group.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "GidJGjl1rF0pV5Kdo5Nr/Q==",
+            "id": "qNAyLbO2_X",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./mobile-group.png",
+            "size": 39568,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/qNAyLbO2_X@100.webp",
+              "1200": "churros/qNAyLbO2_X@1200.webp",
+              "400": "churros/qNAyLbO2_X@400.webp",
+              "600": "churros/qNAyLbO2_X@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:41.6338205+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Évènements</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "0py22-bfYD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Quand l’AE ou un club organise un évènement, il est visible dans l’application. C’est ici que l’on peut réserver sa place.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "y0hv_y5-1i",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "desktop-events",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Liste des évènements",
+            "colors": {
+              "primary": "#634F59",
+              "secondary": "#887876",
+              "tertiary": "#A89993"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.666667,
+              "height": 1005,
+              "width": 1675
+            },
+            "distSource": "churros\\.ortfo\\desktop-events.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "+yBVY+0TSa33kfrHRPkfCQ==",
+            "id": "6wDmiucCUy",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./desktop-events.png",
+            "size": 292163,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/6wDmiucCUy@100.webp",
+              "1200": "churros/6wDmiucCUy@1200.webp",
+              "400": "churros/6wDmiucCUy@400.webp",
+              "600": "churros/6wDmiucCUy@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:42.3362886+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "mobile-event",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Un évènement",
+            "colors": {
+              "primary": "#8C8C8C",
+              "secondary": "#DADADA",
+              "tertiary": "#3B3B3B"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.556054,
+              "height": 669,
+              "width": 372
+            },
+            "distSource": "churros\\.ortfo\\mobile-event.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "XRtLgMz3aEbpnO0Mq4Ls8A==",
+            "id": "_v176K9-ER",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./mobile-event.png",
+            "size": 35442,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/_v176K9-ER@100.webp",
+              "1200": "churros/_v176K9-ER@1200.webp",
+              "400": "churros/_v176K9-ER@400.webp",
+              "600": "churros/_v176K9-ER@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:42.957864+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Billetterie</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "pydYCQsK0K",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>La billetterie de Churros propose de nombreuses options pour représenter tout ce qu’une AE peut souhaiter d’avoir: limiter des billets à des promos, faire des évènements avec des personnes extérieures à l’école, pouvoir parrainer des personnes, faire des billets sur invitation, grouper des billets ensemble et limiter la somme de places sur les billets du groupe…</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ULFx3Sn6Pf",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "ticketing-settings",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Réglages possible sur la billetterie d'un évènement",
+            "colors": {
+              "primary": "#F3F2F2",
+              "secondary": "#D9D9D9",
+              "tertiary": "#B5B5B5"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.69281,
+              "height": 612,
+              "width": 1036
+            },
+            "distSource": "churros\\.ortfo\\ticketing-settings.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ESAaomH4XV2VL52Pg07KLQ==",
+            "id": "ByQrAR4JY0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./ticketing-settings.png",
+            "size": 200952,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/ByQrAR4JY0@100.webp",
+              "1200": "churros/ByQrAR4JY0@1200.webp",
+              "400": "churros/ByQrAR4JY0@400.webp",
+              "600": "churros/ByQrAR4JY0@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:43.4357869+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Une fois réservés, les billets sont scannables par les <em>managers</em> via un QR code, que la personne présente à l’entrée de l’évènement</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "uPYEbd_C1u",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "booking-scan",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#535549",
+              "secondary": "#908F82",
+              "tertiary": "#C4C4B6"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.386667,
+              "height": 675,
+              "width": 936
+            },
+            "distSource": "churros\\.ortfo\\booking-scan.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ClfvZlamwOmqz++VBgTRGw==",
+            "id": "TXwald6OF3",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./booking-scan.png",
+            "size": 525637,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/TXwald6OF3@100.webp",
+              "1200": "churros/TXwald6OF3@1200.webp",
+              "400": "churros/TXwald6OF3@400.webp",
+              "600": "churros/TXwald6OF3@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:43.9858507+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Les managers d’un évènement peuvent être rajoutés via un lien d’invitation, on en ayant un certain rôle (président·e, etc) au sein du groupe (club ou association) qui organise l’évènement en question.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "g94RsF_jRy",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "event-manager-invites",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#B0B6BF",
+              "secondary": "#9B9A9E",
+              "tertiary": "#4E4D4D"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.121464,
+              "height": 601,
+              "width": 674
+            },
+            "distSource": "churros\\.ortfo\\event-manager-invites.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "/hGD/lGo10bkuuS+ao/FHg==",
+            "id": "TPEsg5-EGf",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./event-manager-invites.png",
+            "size": 48277,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/TPEsg5-EGf@100.webp",
+              "1200": "churros/TPEsg5-EGf@1200.webp",
+              "400": "churros/TPEsg5-EGf@400.webp",
+              "600": "churros/TPEsg5-EGf@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:44.5211934+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Une communucation par Websockets permet à la page affichant le QR code de réagir en temps réel: dès que la place est scannée, et d’afficher une animation.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "UU0q6BjVAn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Paiement</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "G2atqhTysk",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’AE est paternaire avec Sumeria (anciennement Lydia), et utilise donc leur solution pour recevoir l’argent lors de l’organisation d’évènement paiements.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "xCbG8C1SS3",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Churros s’intègre avec Sumeria pour permettre aux étudiant·es de payer leur place aux évènements.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "r6-JVmEtX-",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Pour cela, Churros expose à Sumeria un <em>webhook</em>, sur lequel Sumeria envoie une requête pour notifier de la terminaison d’un paiement.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bla50vEGwP",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Par mesure de sécurité, Churros vient vérifier manuellement l’état du paiement au moment de l’accès au QR code.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "doy11G_UR4",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h3>Un API polyvalent</h3>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "x0VA9qBXmg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>La vision d’ensemble derrière Churros était que la plateforme serve d’endroit unique de stockage de toutes les données relatives à la vie étudiante.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "sB7aOuaaDu",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ces données sont ensuites réutilistables de manières très diverses par d’autres services.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Tift_2g3nt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>La technologie pour construire cette API n’est donc pas REST, comme c’est souvent le cas, mais GraphQL, une autre manière d’architecturer un API, qui permet <em>au client</em> d’exprimer ses besoins en données.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "DYCBlavnRV",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Par exemple, si un service tiers à besoin des photos de profils de l’ensemble des étudiants d’une promotion (pour faire un “trombinoscope”, par exemple), avec un API REST, si l’URL vers la photo n’est pas incluse dans la réponse d’un endpoint “lister les élèves d’une promo”, il faut faire $n+1$ requêtes, avec $n$ le nombre d’étudiants:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "-eZ2VLLzMG",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<pre><code>/students?promo=2025\n/students/1\n/students/2\n/students/3\n...\n</code></pre>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "yG4zPdM2CL",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Avec GraphQL, il suffit d’une requête: c’est <em>le client</em> qui décide quels données figurent dans la réponse. Il n’y a donc ni trop de données, ni pas assez:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "tdpAgA9z7F",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<pre tabindex=\"0\" style=\"background-color:#fff;\"><code><span style=\"display:flex;\"><span><span style=\"color:#000;font-weight:bold\">query</span><span style=\"color:#bbb\"> </span><span style=\"color:#458;font-weight:bold\">Trombinoscope</span><span style=\"color:#bbb\"> </span>{<span style=\"color:#bbb\">\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#bbb\">  </span>users(graduationYear:<span style=\"color:#bbb\"> </span><span style=\"color:#099\">2025</span>)<span style=\"color:#bbb\"> </span>{<span style=\"color:#bbb\">\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#bbb\">    </span><span style=\"color:#458;font-weight:bold\">profilePicture</span><span style=\"color:#bbb\">\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#bbb\">  </span>}<span style=\"color:#bbb\">\n</span></span></span><span style=\"display:flex;\"><span><span style=\"color:#bbb\"></span>}<span style=\"color:#bbb\">\n</span></span></span></code></pre>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "nMsj35xg1L",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Étant donné le projet de base de donnée centrale qu’est Churros, il nous fallait un API dont les besoins en données soient inconnus.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Aso8dVxNDj",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’API est développé avec les technologies suivantes:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "DNTYqNwAJR",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<ul>\n<li>Typescript: le langage de programmation. C’est un superset de Javascript, avec des types explicites.</li>\n<li>Express: un framework de développement d’API, qui permet notamment de servir les routes de l’API qui sont en dehors de GraphQL: les médias (photos de profils, documents de la frappe), un <em>webhook</em> pour Lydia (voir <a href=\"#paiements\">Paiements</a>), de quoi se connecter à Apple/Google Wallet, etc.</li>\n<li>Pothos: permet de faire un serveur GraphQL en définissant les implémentations des différents champs de l’API, appelés <em>resolvers</em> en GraphQL.</li>\n<li>Prisma: permet d’accéder à la base de données et de gérer l’évolution de sa structure, via des migrations.</li>\n<li>PostgreSQL: la base de données relationnelle utilisée. Intéréssante notamment pour ses capacités de recherche texte approximative (appelée “fuzzy search”), et tout simplement pour sa popularité.</li>\n</ul>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "nz90QMp2kB",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>GraphQL étant moins populaire, j’ai développé, parallèlement à Churros, un système de génération de site de documentation interactif, <a href=\"/graphinx\">Graphinx</a>, qui a donc pu servir à documenter l’API de Churros:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "2PKvcGpkvf",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "api-docs-home",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#A1B0B9",
+              "secondary": "#B8C9D2",
+              "tertiary": "#D5E7EF"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.474895,
+              "height": 956,
+              "width": 1410
+            },
+            "distSource": "churros\\.ortfo\\api-docs-home.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "8GpnIuI9FydSANXBlClVZA==",
+            "id": "J6R4fpSJEw",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./api-docs-home.png",
+            "size": 145124,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/J6R4fpSJEw@100.webp",
+              "1200": "churros/J6R4fpSJEw@1200.webp",
+              "400": "churros/J6R4fpSJEw@400.webp",
+              "600": "churros/J6R4fpSJEw@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:45.2512056+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "api-docs-item",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#8E9CA6",
+              "secondary": "#A2B0B9",
+              "tertiary": "#B4C3CB"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.457265,
+              "height": 702,
+              "width": 1023
+            },
+            "distSource": "churros\\.ortfo\\api-docs-item.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "p96SydAHG+AxavXR+hjv0w==",
+            "id": "ehbEvu19yw",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./api-docs-item.png",
+            "size": 97155,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/ehbEvu19yw@100.webp",
+              "1200": "churros/ehbEvu19yw@1200.webp",
+              "400": "churros/ehbEvu19yw@400.webp",
+              "600": "churros/ehbEvu19yw@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:45.7620075+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "api-docs-item-test-it-live",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#9AD5BE",
+              "secondary": "#B3D3D5",
+              "tertiary": "#000000"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.242273,
+              "height": 1003,
+              "width": 1246
+            },
+            "distSource": "churros\\.ortfo\\api-docs-item-test-it-live.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "q/zese9oN+Prz/H3v8vNsA==",
+            "id": "wHCcIcy69M",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./api-docs-item-test-it-live.png",
+            "size": 81273,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/wHCcIcy69M@100.webp",
+              "1200": "churros/wHCcIcy69M@1200.webp",
+              "400": "churros/wHCcIcy69M@400.webp",
+              "600": "churros/wHCcIcy69M@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:46.5014+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "documentation-de-lapi",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "oM865TcIi2",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Documentation de l’API",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://api-docs.churros.inpt.fr"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Réagir aux bugs</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bmloLnRwkg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’application étant jeune, on s’attendait à avoir des bugs.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "y2SPGWbUCC",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>On a donc rendu le signalement de problèmes le plus simple, en l’intégrant directement à l’application</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "crOfbrPi4P",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "bug-report",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2C4440",
+              "secondary": "#BDBDC3",
+              "tertiary": "#EDEBEC"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.165208,
+              "height": 914,
+              "width": 1065
+            },
+            "distSource": "churros\\.ortfo\\bug-report.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "osHyEXOUuLxUhvyT7petvQ==",
+            "id": "759rM3Uh_1",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./bug-report.png",
+            "size": 77459,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/759rM3Uh_1@100.webp",
+              "1200": "churros/759rM3Uh_1@1200.webp",
+              "400": "churros/759rM3Uh_1@400.webp",
+              "600": "churros/759rM3Uh_1@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:47.0493926+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Un signalement devient une <em>issue</em> sur Gitlab, l’endroit où l’on développe. Passer d’une demande utilisateur au développement est donc naturel et sans efforts.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "EW5qT2lSbj",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "bug-report-on-gitlab",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#ED8F63",
+              "secondary": "#B4BAC4",
+              "tertiary": "#EDEEF2"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.711069,
+              "height": 533,
+              "width": 912
+            },
+            "distSource": "churros\\.ortfo\\bug-report-on-gitlab.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "RM20gdkLTOArA5E31KBWkQ==",
+            "id": "gGdzkJdoyO",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./bug-report-on-gitlab.png",
+            "size": 89030,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/gGdzkJdoyO@100.webp",
+              "1200": "churros/gGdzkJdoyO@1200.webp",
+              "400": "churros/gGdzkJdoyO@400.webp",
+              "600": "churros/gGdzkJdoyO@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:47.4914558+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Notella</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "45eCA-qO62",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Afin de programmer les notifications et de les envoyer par la suite, un serveur séparé a été développé en Go, en utilisant NATS Jetstream pour communiquer en temps réel avec Churros.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "8qQmfk40N4",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "notella-logs-start",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#2C4453",
+              "secondary": "#314C5C",
+              "tertiary": "#000000"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 2.634043,
+              "height": 470,
+              "width": 1238
+            },
+            "distSource": "churros\\.ortfo\\notella-logs-start.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "ynJiic6khcJmF5dT4b6x9w==",
+            "id": "FdVYbhxwJG",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./notella-logs-start.png",
+            "size": 43552,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/FdVYbhxwJG@100.webp",
+              "1200": "churros/FdVYbhxwJG@1200.webp",
+              "400": "churros/FdVYbhxwJG@400.webp",
+              "600": "churros/FdVYbhxwJG@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:47.9102675+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Churros envoie un message Jetstream à Notella pour programmer une notification, et Notella la garde en mémoire.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Fzajdp5Cqz",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Au moment d’envoyer la notification, Notella récupère l’ensemble des appareils qui ont activé les notifications, détermine à qui envoyer la notification (par exemple, on n’envoie pas une notification “le shotgun se ferme bientôt” aux gens qui ont déjà réservé leur place), et l’envoie via le service push associé à l’appareil (APNS pour Apple, Mozilla pour Firefox, Firebase pour Android, etc.)</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "CPR5mfx5vM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "notella-logs-scheduling",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#080D11",
+              "secondary": "#1B2A33",
+              "tertiary": "#2A414F"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 6.666667,
+              "height": 120,
+              "width": 800
+            },
+            "distSource": "churros\\.ortfo\\notella-logs-scheduling.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "mlVdD15W9ar3aJUeyBLnTA==",
+            "id": "sFfxqzx-zn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./notella-logs-scheduling.png",
+            "size": 20108,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/sFfxqzx-zn@100.webp",
+              "1200": "churros/sFfxqzx-zn@1200.webp",
+              "400": "churros/sFfxqzx-zn@400.webp",
+              "600": "churros/sFfxqzx-zn@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:48.2263886+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>En cas de mise à jour ou de redémarrage, Notella récupère les notifications programmées depuis une instance Redis.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "JfbkQXq4O5",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "notella-logs-restoring",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#090F12",
+              "secondary": "#1B2A33",
+              "tertiary": "#2C4352"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 3.49807,
+              "height": 259,
+              "width": 906
+            },
+            "distSource": "churros\\.ortfo\\notella-logs-restoring.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "xqWRplcRYd1v4JTUdhqwuA==",
+            "id": "cjaiRo0iDH",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./notella-logs-restoring.png",
+            "size": 33209,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/cjaiRo0iDH@100.webp",
+              "1200": "churros/cjaiRo0iDH@1200.webp",
+              "400": "churros/cjaiRo0iDH@400.webp",
+              "600": "churros/cjaiRo0iDH@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:48.6548561+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Capacitor</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "_Hf907tP1n",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Capacitor permet de packager une application web et de la mettre sur les stores iOS et Android.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ookBh6o-I4",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Bien que le développement ne soit pas terminé par manque de resources, la <em>merge request</em> associé à ceci est quasiment finie, et les démarches administratives pour pouvoir publier en tant qu’association sur l’App Store sans payer ont été réalisées.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "RB_OiOW6UG",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Déploiement</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "JwK3Z1gyvY",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>L’application est packagée sous forme de container Docker, et nécéssite plusieurs services tierces: base de données (PostgreSQL), serveur de cache et de messages pub/sub pour la communication en temps réel (Redis), service de programmation de notifications (Notella), etc.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "agZyWgOtVi",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Il est facile, via Docker, de lancer la plateforme ainsi que tout ses services, que ce soit:</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "_aixbfh6yh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<ul>\n<li>En développement: avec Docker Compose (il suffit de taper <code>docker compose up</code> pour lancer tout les services tierces)</li>\n<li>En production: avec Kubernetes.</li>\n</ul>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "skpbXToqC0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "k8s-pods",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Pods k8s de Churros en production",
+            "colors": {
+              "primary": "#18232A",
+              "secondary": "#0F1619",
+              "tertiary": "#050608"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 6.353147,
+              "height": 286,
+              "width": 1817
+            },
+            "distSource": "churros\\.ortfo\\k8s-pods.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "C0KIrQYw/KDL+6bZ/YvQ4g==",
+            "id": "kyIpBKEnu7",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./k8s-pods.png",
+            "size": 61890,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/kyIpBKEnu7@100.webp",
+              "1200": "churros/kyIpBKEnu7@1200.webp",
+              "400": "churros/kyIpBKEnu7@400.webp",
+              "600": "churros/kyIpBKEnu7@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:49.0227083+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Quand une fonctionnalité est finie, de nombreux processus tournent sur notre instance Gitlab pour vérifier que le code fonctionne correctement (de la <em>CI/CD</em>)</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "Pl7FBGo7_1",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "gitlab-ci-schema-check",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#43A06D",
+              "secondary": "#74BA92",
+              "tertiary": "#BDBDBF"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 3.672176,
+              "height": 363,
+              "width": 1333
+            },
+            "distSource": "churros\\.ortfo\\gitlab-ci-schema-check.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "tXJ4cVr/SKvwVW+VqMKKCw==",
+            "id": "ZfsREVf5nh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./gitlab-ci-schema-check.png",
+            "size": 24582,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/ZfsREVf5nh@100.webp",
+              "1200": "churros/ZfsREVf5nh@1200.webp",
+              "400": "churros/ZfsREVf5nh@400.webp",
+              "600": "churros/ZfsREVf5nh@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:49.4581244+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Ensuite, au moment de sortir une nouvelle version de l’appli, les images Docker sont construites et publiées, et, par exemple, si la structure de la base de données à changer, elle est mise à jour dans le dépôt git de Notella</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "0w37zUUiFt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "gitlab-ci-triggers-notella",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#6BB68C",
+              "secondary": "#B3CCE6",
+              "tertiary": "#000000"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 2.960251,
+              "height": 478,
+              "width": 1415
+            },
+            "distSource": "churros\\.ortfo\\gitlab-ci-triggers-notella.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "UpPdai+QesPVkMrEfazJRA==",
+            "id": "maTfUnqH3a",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./gitlab-ci-triggers-notella.png",
+            "size": 44951,
+            "text": "",
+            "thumbnails": {
+              "100": "churros/maTfUnqH3a@100.webp",
+              "1200": "churros/maTfUnqH3a@1200.webp",
+              "400": "churros/maTfUnqH3a@400.webp",
+              "600": "churros/maTfUnqH3a@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T20:15:49.887964+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Enfin, quand la nouvelle version est prête à être déployée sur l’infrastructure de net7, <a href=\"https://docs.renovatebot.com/\">Renovate</a> propose de mettre à jour la version de Churros dans les fichiers de déploiement Kubernetes centraux.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "TdeLW23-Pw",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>En effet, net7 utilise FluxCD pour implémenter la pratique GitOps: le changement des fichiers Kubernetes dans le dépôt a pour conséquence leur modification dans les serveurs de production.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "r0A0z76lZY",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<h2>Documentation</h2>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "iLyT6jjZnM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Étant donné l’évolution rapide de l’équipe de développement, qui est une conséquence de la nature étudiante de l’association, il est essentiel de garder l’application maintenable, même après ma propre diplomation en 2025.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bx32XBaUyi",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Un <a href=\"https://git.inpt.fr/churros/wiki\">wiki pour développeurs</a> documente l’architecture du code et le développement de l’application. Un fichier CONTRIBUTING.md explique comment contribuer au code.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "y9nmb5HSlL",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Le prototype de l’application, expliquant son design, est disponible sur Penpot, une alternative open-source à Figma (net7 pensait à éventuellement héberger sa propre instance de Penpot)</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "6iZCn0c7Xz",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -10900,24 +14710,113 @@
         ],
         "footnotes": {},
         "layout": [
-          ["bKt3xEgWER", "YYAgMHnXLp", "YYAgMHnXLp"],
-          ["bKt3xEgWER", "9sNAmXk-oL", "oM865TcIi2"],
-          ["empty", "UCWFLEFMsb", "b2xEuJplk2"],
-          ["UhEvsvwp1P", "UhEvsvwp1P", "UhEvsvwp1P"]
+          ["x3a7eYA1oT"],
+          ["zN7q5zCYdj"],
+          ["9sNAmXk-oL"],
+          ["UCWFLEFMsb"],
+          ["b2xEuJplk2"],
+          ["MMSn22lsjd"],
+          ["URji-G5AHN"],
+          ["nxGlj_zrne"],
+          ["1OC2TW1w_-"],
+          ["8OzVijx48p"],
+          ["mKMjIPmVgo"],
+          ["vuGPxHbh1Y"],
+          ["o9OtHoxYhZ"],
+          ["6g9de2FcQO"],
+          ["XsCzP1qJa1"],
+          ["U828kgW8Tg"],
+          ["SSSbjzGQSq"],
+          ["WSnDuMdBth"],
+          ["jpdqhnxDfd"],
+          ["X6OgZjWcTa"],
+          ["mXx2DFBYIv"],
+          ["fF-B3c0rR0"],
+          ["ChAAezNEll"],
+          ["SNse4wqyxE"],
+          ["bExbpejqqn"],
+          ["2ej02y6e0W"],
+          ["9egTO5MCu9"],
+          ["RQ__7rPO3H"],
+          ["C5sWD_AGAa"],
+          ["GNr9VhiEGs"],
+          ["i_MjiJXdYd"],
+          ["i2hXfLIXGs"],
+          ["6m1-yt8Q3R"],
+          ["qNAyLbO2_X"],
+          ["0py22-bfYD"],
+          ["y0hv_y5-1i"],
+          ["6wDmiucCUy"],
+          ["_v176K9-ER"],
+          ["pydYCQsK0K"],
+          ["ULFx3Sn6Pf"],
+          ["ByQrAR4JY0"],
+          ["uPYEbd_C1u"],
+          ["TXwald6OF3"],
+          ["g94RsF_jRy"],
+          ["TPEsg5-EGf"],
+          ["UU0q6BjVAn"],
+          ["G2atqhTysk"],
+          ["xCbG8C1SS3"],
+          ["r6-JVmEtX-"],
+          ["bla50vEGwP"],
+          ["doy11G_UR4"],
+          ["x0VA9qBXmg"],
+          ["sB7aOuaaDu"],
+          ["Tift_2g3nt"],
+          ["DYCBlavnRV"],
+          ["-eZ2VLLzMG"],
+          ["yG4zPdM2CL"],
+          ["tdpAgA9z7F"],
+          ["nMsj35xg1L"],
+          ["Aso8dVxNDj"],
+          ["DNTYqNwAJR"],
+          ["nz90QMp2kB"],
+          ["2PKvcGpkvf"],
+          ["J6R4fpSJEw"],
+          ["ehbEvu19yw"],
+          ["wHCcIcy69M"],
+          ["oM865TcIi2"],
+          ["bmloLnRwkg"],
+          ["y2SPGWbUCC"],
+          ["crOfbrPi4P"],
+          ["759rM3Uh_1"],
+          ["EW5qT2lSbj"],
+          ["gGdzkJdoyO"],
+          ["45eCA-qO62"],
+          ["8qQmfk40N4"],
+          ["FdVYbhxwJG"],
+          ["Fzajdp5Cqz"],
+          ["CPR5mfx5vM"],
+          ["sFfxqzx-zn"],
+          ["JfbkQXq4O5"],
+          ["cjaiRo0iDH"],
+          ["_Hf907tP1n"],
+          ["ookBh6o-I4"],
+          ["RB_OiOW6UG"],
+          ["JwK3Z1gyvY"],
+          ["agZyWgOtVi"],
+          ["_aixbfh6yh"],
+          ["skpbXToqC0"],
+          ["kyIpBKEnu7"],
+          ["Pl7FBGo7_1"],
+          ["ZfsREVf5nh"],
+          ["0w37zUUiFt"],
+          ["maTfUnqH3a"],
+          ["TdeLW23-Pw"],
+          ["r0A0z76lZY"],
+          ["iLyT6jjZnM"],
+          ["bx32XBaUyi"],
+          ["y9nmb5HSlL"],
+          ["6iZCn0c7Xz"]
         ],
         "title": "Churros"
       }
     },
-    "descriptionHash": "VNWXrs0Ts/YsWpMBRstcDw==",
+    "descriptionHash": "zuoNYxwmOXiYK13Two8GeQ==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
-        "layout": [
-          ["m1", "p1", "p1"],
-          ["m1", "l1", "l2"],
-          [null, "l3", "l4"],
-          ["p2"]
-        ],
         "made_with": [
           "penpot",
           "figma",
@@ -10933,6 +14832,7 @@
           "prisma",
           "postgresql",
           "redis",
+          "go",
           "nats",
           "gitlab-ci",
           "docker",
@@ -10948,10 +14848,7 @@
           "centraverse",
           {
             "notella": "https://wakatime.com/@gwennlbh/projects/waxaqoyplq"
-          },
-          "churros-notella",
-          "churros-wiki",
-          "churros-mobile"
+          }
         ]
       },
       "aliases": null,
