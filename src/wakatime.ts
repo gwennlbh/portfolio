@@ -1,10 +1,10 @@
-import { writeFile, mkdir, readFile } from "node:fs/promises";
-import path from "node:path";
 import { file } from "astro/loaders";
-import { getSecret } from "astro:env/server";
-import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
-import { differenceInHours } from "date-fns";
+import { defineCollection } from "astro:content";
+import { getSecret } from "astro:env/server";
+import { differenceInMonths } from "date-fns";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
 
 export async function wakatimeCollection(
   cachepath: string,
@@ -32,7 +32,7 @@ export async function refreshWakatimeCache(cachepath: string) {
     const cachedResponse = JSON.parse((await readFile(cachepath)).toString());
     // cache is fresh enough
     if (
-      differenceInHours(new Date(), new Date(cachedResponse.writtenAt)) < 24
+      differenceInMonths(new Date(), new Date(cachedResponse.writtenAt)) < 2
     ) {
       return cachedResponse;
     }
