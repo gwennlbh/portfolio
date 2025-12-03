@@ -674,3 +674,8 @@
   name: Capacitor
   description: A cross-platform native runtime for building web apps that run natively on iOS, Android, and the web
   learn more at: https://capacitorjs.com/
+
+- slug: affinity
+  name: Affinity
+  description: A image manipulation software that combines raster graphics, vector design and print layout in a single application. Alternative to Adobe Photoshop, Illustrator and InDesign.
+  learn more at: https://www.affinity.studio/
