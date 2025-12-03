@@ -27092,11 +27092,56 @@
   },
   "loca7": {
     "Partial": false,
-    "builtAt": "2025-12-03T21:26:13.9798648+01:00",
+    "builtAt": "2025-12-03T21:29:34.9656665+01:00",
     "content": {
       "default": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "Loca7",
+            "analyzed": true,
+            "anchor": "wordmark",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#DBDBDB",
+              "secondary": "#1E1E1E",
+              "tertiary": "#727272"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 4.15508,
+              "height": 187,
+              "width": 777
+            },
+            "distSource": "loca7\\.ortfo\\wordmark.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "1hhyanthOwjnZHFCXeIr9w==",
+            "id": "HEaf2cXupt",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./wordmark.png",
+            "size": 19156,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/HEaf2cXupt@100.webp",
+              "1200": "loca7/HEaf2cXupt@1200.webp",
+              "400": "loca7/HEaf2cXupt@400.webp",
+              "600": "loca7/HEaf2cXupt@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:29:34.9492984+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -27645,6 +27690,7 @@
         ],
         "footnotes": {},
         "layout": [
+          ["HEaf2cXupt"],
           ["O8PR9w5Hci"],
           ["VCbQcfpjz5"],
           ["UwcqSakHnI"],
@@ -27662,7 +27708,7 @@
         "title": ""
       }
     },
-    "descriptionHash": "AK0UwSfs/XgunKU2vbc6xQ==",
+    "descriptionHash": "cL3Sps+EyjbHd6d2L41kBw==",
     "id": "loca7",
     "metadata": {
       "additionalMetadata": {
@@ -27675,13 +27721,14 @@
           "docker",
           "figma"
         ],
-        "tagline": "Apartment listing site for students of my engineering school students"
+        "tagline": "Apartment listing site for students of my engineering school students",
+        "title_style": "image"
       },
       "aliases": null,
       "colors": {
-        "primary": "#46413C",
-        "secondary": "#776A67",
-        "tertiary": "#ABA49C"
+        "primary": "#DBDBDB",
+        "secondary": "#1E1E1E",
+        "tertiary": "#727272"
       },
       "databaseMetadata": {
         "Partial": false
