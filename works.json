@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-12-03T20:46:23.7421898+01:00",
+    "builtAt": "2025-12-03T20:49:28.3622935+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -11109,51 +11109,6 @@
           },
           {
             "alt": "",
-            "analyzed": true,
-            "anchor": "early-centraverse-event",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "L'application à un stade plus avancé. Ici, l'écran d'édition d'un évènement",
-            "colors": {
-              "primary": "#323A47",
-              "secondary": "#767B80",
-              "tertiary": "#161615"
-            },
-            "content": "",
-            "contentType": "image/png",
-            "dimensions": {
-              "aspectRatio": 0.45,
-              "height": 2400,
-              "width": 1080
-            },
-            "distSource": "churros\\.ortfo\\early-centraverse-event.png",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "WZpK/y7CkxB1ry75hPjUoA==",
-            "id": "vuGPxHbh1Y",
-            "index": 0,
-            "online": false,
-            "relativeSource": "./early-centraverse-event.png",
-            "size": 153655,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/vuGPxHbh1Y@100.webp",
-              "1200": "churros/vuGPxHbh1Y@1200.webp",
-              "400": "churros/vuGPxHbh1Y@400.webp",
-              "600": "churros/vuGPxHbh1Y@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-12-03T20:15:31.4646028+01:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "",
             "analyzed": false,
             "anchor": "",
             "attributes": {
@@ -11203,7 +11158,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "",
+            "caption": "Document partagé de feedback avec l'AE",
             "colors": {
               "primary": "#EEC6C7",
               "secondary": "#D8E6EC",
@@ -11248,7 +11203,7 @@
               "muted": false,
               "playsinline": false
             },
-            "caption": "",
+            "caption": "Roadmap partagée avec l'AE",
             "colors": {
               "primary": "#A4A9B8",
               "secondary": "#B1B4C2",
@@ -11278,51 +11233,6 @@
               "600": "churros/XsCzP1qJa1@600.webp"
             },
             "thumbnailsBuiltAt": "2025-12-03T20:15:32.5549611+01:00",
-            "title": "",
-            "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "",
-            "analyzed": true,
-            "anchor": "ae-roadmap-2",
-            "attributes": {
-              "autoplay": false,
-              "controls": true,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "#B1B2BF",
-              "secondary": "#A5A7B2",
-              "tertiary": "#BCBDCA"
-            },
-            "content": "",
-            "contentType": "image/png",
-            "dimensions": {
-              "aspectRatio": 0.935966,
-              "height": 937,
-              "width": 877
-            },
-            "distSource": "churros\\.ortfo\\ae-roadmap-2.png",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "NpTq/Wu3KCL7yA1ULudZKA==",
-            "id": "U828kgW8Tg",
-            "index": 0,
-            "online": false,
-            "relativeSource": "./ae-roadmap-2.png",
-            "size": 155924,
-            "text": "",
-            "thumbnails": {
-              "100": "churros/U828kgW8Tg@100.webp",
-              "1200": "churros/U828kgW8Tg@1200.webp",
-              "400": "churros/U828kgW8Tg@400.webp",
-              "600": "churros/U828kgW8Tg@600.webp"
-            },
-            "thumbnailsBuiltAt": "2025-12-03T20:15:33.3025759+01:00",
             "title": "",
             "type": "media",
             "url": ""
@@ -12469,6 +12379,46 @@
               "secondary": "",
               "tertiary": ""
             },
+            "content": "<p>Une communucation par Websockets permet à la page affichant le QR code de réagir en temps réel: dès que la place est scannée, et d’afficher une animation.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "UU0q6BjVAn",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
             "content": "<p>Les managers d’un évènement peuvent être rajoutés via un lien d’invitation, on en ayant un certain rôle (président·e, etc) au sein du groupe (club ou association) qui organise l’évènement en question.</p>",
             "contentType": "",
             "dimensions": {
@@ -12535,46 +12485,6 @@
             "thumbnailsBuiltAt": "2025-12-03T20:15:44.5211934+01:00",
             "title": "",
             "type": "media",
-            "url": ""
-          },
-          {
-            "alt": "",
-            "analyzed": false,
-            "anchor": "",
-            "attributes": {
-              "autoplay": false,
-              "controls": false,
-              "loop": false,
-              "muted": false,
-              "playsinline": false
-            },
-            "caption": "",
-            "colors": {
-              "primary": "",
-              "secondary": "",
-              "tertiary": ""
-            },
-            "content": "<p>Une communucation par Websockets permet à la page affichant le QR code de réagir en temps réel: dès que la place est scannée, et d’afficher une animation.</p>",
-            "contentType": "",
-            "dimensions": {
-              "aspectRatio": 0,
-              "height": 0,
-              "width": 0
-            },
-            "distSource": "",
-            "duration": 0,
-            "hasSound": false,
-            "hash": "",
-            "id": "UU0q6BjVAn",
-            "index": 0,
-            "online": false,
-            "relativeSource": "",
-            "size": 0,
-            "text": "",
-            "thumbnails": null,
-            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
-            "title": "",
-            "type": "paragraph",
             "url": ""
           },
           {
@@ -14767,11 +14677,9 @@
           ["1OC2TW1w_-"],
           ["8OzVijx48p"],
           ["mKMjIPmVgo"],
-          ["vuGPxHbh1Y"],
           ["o9OtHoxYhZ"],
           ["6g9de2FcQO"],
           ["XsCzP1qJa1"],
-          ["U828kgW8Tg"],
           ["SSSbjzGQSq"],
           ["WSnDuMdBth"],
           ["jpdqhnxDfd"],
@@ -14799,9 +14707,9 @@
           ["ByQrAR4JY0"],
           ["uPYEbd_C1u"],
           ["TXwald6OF3"],
+          ["UU0q6BjVAn"],
           ["g94RsF_jRy"],
           ["TPEsg5-EGf"],
-          ["UU0q6BjVAn"],
           ["IjEWw7MyvZ"],
           ["xCbG8C1SS3"],
           ["r6-JVmEtX-"],
@@ -14859,7 +14767,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "t9HYXceS5BrN4fnZw+cM0w==",
+    "descriptionHash": "F4WzC8XCQug1LOzRmDX9Tw==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
