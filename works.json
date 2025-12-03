@@ -10607,7 +10607,7 @@
   },
   "churros": {
     "Partial": false,
-    "builtAt": "2025-12-03T20:49:28.3622935+01:00",
+    "builtAt": "2025-12-03T21:21:26.455999+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -10714,7 +10714,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>C’est une biletterie, un espace de communication des clubs et associations étudiantes, de partage de documents de révision, un annuaire étudiant, et un portal vers d’autres services offerts par l’association étudiante.</p>",
+            "content": "<p>C’est une biletterie, un espace de communication des clubs et associations étudiantes, de partage de documents de révision, un annuaire étudiant, et un portail vers d’autres services offerts par l’association étudiante.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -10725,7 +10725,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "zN7q5zCYdj",
+            "id": "ph6jhl9FDe",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -12864,7 +12864,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Par exemple, si un service tiers à besoin des photos de profils de l’ensemble des étudiants d’une promotion (pour faire un “trombinoscope”, par exemple), avec un API REST, si l’URL vers la photo n’est pas incluse dans la réponse d’un endpoint “lister les élèves d’une promo”, il faut faire $n+1$ requêtes, avec $n$ le nombre d’étudiants:</p>",
+            "content": "<p>Par exemple, si un service tiers à besoin des photos de profils de l’ensemble des étudiants d’une promotion (pour faire un “trombinoscope”, par exemple), avec un API REST, si l’URL vers la photo n’est pas incluse dans la réponse d’un endpoint “lister les élèves d’une promo”, il faut faire <code>n+1</code> requêtes, avec <code>n</code> le nombre d’étudiants:</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -12875,7 +12875,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "-eZ2VLLzMG",
+            "id": "zh81NiJ1Nt",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -14667,7 +14667,7 @@
         "layout": [
           ["bKt3xEgWER"],
           ["x3a7eYA1oT"],
-          ["zN7q5zCYdj"],
+          ["ph6jhl9FDe"],
           ["9sNAmXk-oL"],
           ["UCWFLEFMsb"],
           ["b2xEuJplk2"],
@@ -14719,7 +14719,7 @@
           ["sB7aOuaaDu"],
           ["Tift_2g3nt"],
           ["DYCBlavnRV"],
-          ["-eZ2VLLzMG"],
+          ["zh81NiJ1Nt"],
           ["yG4zPdM2CL"],
           ["tdpAgA9z7F"],
           ["nMsj35xg1L"],
@@ -14767,7 +14767,7 @@
         "title": "Churros"
       }
     },
-    "descriptionHash": "F4WzC8XCQug1LOzRmDX9Tw==",
+    "descriptionHash": "cM9HE4WmCLC5gUqvRSsVJA==",
     "id": "churros",
     "metadata": {
       "additionalMetadata": {
@@ -27089,6 +27089,613 @@
       "wip": false
     },
     "source": "C:\\Users\\ewen\\projects\\issurge\\.ortfo\\description.md"
+  },
+  "loca7": {
+    "Partial": false,
+    "builtAt": "2025-12-03T21:21:31.0040973+01:00",
+    "content": {
+      "default": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Loca7 est le site de recherche de logement pour les étudiants de l’ENSEEIHT. J’ai codé une refonte du site sur demande du gestionnaire du site, l’ancien étant vieillissant et manquant de fonctionnalités.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "O8PR9w5Hci",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "site",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "VCbQcfpjz5",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Site",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://loca7.fr"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "code-source",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "UwcqSakHnI",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Code source",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://github.com/inp-net/loca7"
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "list",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Liste des logements disponibles",
+            "colors": {
+              "primary": "#46413C",
+              "secondary": "#776A67",
+              "tertiary": "#ABA49C"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.623635,
+              "height": 1007,
+              "width": 1635
+            },
+            "distSource": "loca7\\.ortfo\\list.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "vNrgnx5syFelNKdRJc7ODg==",
+            "id": "JNH2sI4TJN",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./list.png",
+            "size": 548868,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/JNH2sI4TJN@100.webp",
+              "1200": "loca7/JNH2sI4TJN@1200.webp",
+              "400": "loca7/JNH2sI4TJN@400.webp",
+              "600": "loca7/JNH2sI4TJN@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:21:27.7562302+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "map",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Logements sur la carte",
+            "colors": {
+              "primary": "#CDC8BE",
+              "secondary": "#928E8A",
+              "tertiary": "#E0DCD7"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.658416,
+              "height": 1010,
+              "width": 1675
+            },
+            "distSource": "loca7\\.ortfo\\map.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "rs1NKuBJcTTN+84ALIYeZA==",
+            "id": "IIAMgh8292",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./map.png",
+            "size": 2749825,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/IIAMgh8292@100.webp",
+              "1200": "loca7/IIAMgh8292@1200.webp",
+              "400": "loca7/IIAMgh8292@400.webp",
+              "600": "loca7/IIAMgh8292@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:21:29.1333867+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Étant spécifique à l’ENSEEIHT, le site affiche les temps de trajet vers l’école en vélo et à pied.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "zqVz8XQdrh",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "listing",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#322923",
+              "secondary": "#6D5C5A",
+              "tertiary": "#C1BEC0"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.712753,
+              "height": 839,
+              "width": 1437
+            },
+            "distSource": "loca7\\.ortfo\\listing.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "1DlfOiSNPDVsa9VijZKCaQ==",
+            "id": "jzlwgcwMUy",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./listing.png",
+            "size": 606487,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/jzlwgcwMUy@100.webp",
+              "1200": "loca7/jzlwgcwMUy@1200.webp",
+              "400": "loca7/jzlwgcwMUy@400.webp",
+              "600": "loca7/jzlwgcwMUy@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:21:29.7481814+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Il y a une interface d’administration pour approuver les nouvelles annonces et archiver des annonces expirées.</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "4P_80ULCnb",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "admin",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Interface d'administration",
+            "colors": {
+              "primary": "#9ACDE3",
+              "secondary": "#404040",
+              "tertiary": "#B2B2B2"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.638806,
+              "height": 1005,
+              "width": 1647
+            },
+            "distSource": "loca7\\.ortfo\\admin.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "1U1oSek5PbAYIYvzgSWnlw==",
+            "id": "3tfcwpdH7Y",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./admin.png",
+            "size": 125761,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/3tfcwpdH7Y@100.webp",
+              "1200": "loca7/3tfcwpdH7Y@1200.webp",
+              "400": "loca7/3tfcwpdH7Y@400.webp",
+              "600": "loca7/3tfcwpdH7Y@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:21:30.4274016+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Le site a été designé au préalable sur Figma, et développé en concertation avec la personne qui gérait les annonces sur l’ancien site Loca7<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup></p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "UeI4mwnfx_",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "prototype-de-linterface",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "gHLQMmv03v",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Prototype de l’interface",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "https://www.figma.com/file/Y6xMoifKInWIAGuGGdZp49/loca7?node-id=0%3A1&t=UtmI53RLcQkMtKkV-1"
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Étant donné le peu d’icônes nécéssaire au site, j’en ai profité pour designer mes propres icônes, chose que j’ai rarement l’occasion de faire (sur des projets plus larges, il y a trop d’icônes pour justifier le temps passé à les créer).</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "ELtQ-Wa3Ay",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "icons",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "Icônes créées pour le site",
+            "colors": {
+              "primary": "#9C9C9B",
+              "secondary": "#B7B7B7",
+              "tertiary": "#515151"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.908046,
+              "height": 870,
+              "width": 790
+            },
+            "distSource": "loca7\\.ortfo\\icons.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "xYx4SZPqpOlQwSOem5unlQ==",
+            "id": "dw9MydeU9e",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./icons.png",
+            "size": 82583,
+            "text": "",
+            "thumbnails": {
+              "100": "loca7/dw9MydeU9e@100.webp",
+              "1200": "loca7/dw9MydeU9e@1200.webp",
+              "400": "loca7/dw9MydeU9e@400.webp",
+              "600": "loca7/dw9MydeU9e@600.webp"
+            },
+            "thumbnailsBuiltAt": "2025-12-03T21:21:31.0040973+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          }
+        ],
+        "footnotes": {},
+        "layout": [
+          ["O8PR9w5Hci"],
+          ["VCbQcfpjz5"],
+          ["UwcqSakHnI"],
+          ["JNH2sI4TJN"],
+          ["IIAMgh8292"],
+          ["zqVz8XQdrh"],
+          ["jzlwgcwMUy"],
+          ["4P_80ULCnb"],
+          ["3tfcwpdH7Y"],
+          ["UeI4mwnfx_"],
+          ["gHLQMmv03v"],
+          ["ELtQ-Wa3Ay"],
+          ["dw9MydeU9e"]
+        ],
+        "title": ""
+      }
+    },
+    "descriptionHash": "41mz7MMa99NnLqarsA5h1g==",
+    "id": "loca7",
+    "metadata": {
+      "additionalMetadata": {
+        "made_with": [
+          "sveltekit",
+          "prisma",
+          "mysql",
+          "kubernetes",
+          "docker-compose",
+          "docker",
+          "figma"
+        ]
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "#46413C",
+        "secondary": "#776A67",
+        "tertiary": "#ABA49C"
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "06-01-2024",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": false,
+      "started": "26-01-2023",
+      "tags": null,
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": false
+    },
+    "source": "C:\\Users\\ewen\\projects\\loca7\\.ortfo\\description.md"
   },
   "malwr": {
     "Partial": false,
