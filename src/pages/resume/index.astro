@@ -14,7 +14,22 @@ const wakatime = await getCollection("wakatimeLanguages").then((entries) =>
 );
 
 const timeSpent = {
-  htmlcssjs: wakatime.html + wakatime.css + wakatime.javascript + wakatime.typescript + wakatime.svelte + wakatime.astro + wakatime['vue.js'] + wakatime.sass + wakatime.livescript + wakatime.stylus + wakatime.scss + wakatime.pug + wakatime['go templ'] + wakatime.coffeescript + wakatime.slim ,
+  htmlcssjs:
+    wakatime.html +
+    wakatime.css +
+    wakatime.javascript +
+    wakatime.typescript +
+    wakatime.svelte +
+    wakatime.astro +
+    wakatime["vue.js"] +
+    wakatime.sass +
+    wakatime.livescript +
+    wakatime.stylus +
+    wakatime.scss +
+    wakatime.pug +
+    wakatime["go templ"] +
+    wakatime.coffeescript +
+    wakatime.slim,
   python: wakatime.python,
 };
 
