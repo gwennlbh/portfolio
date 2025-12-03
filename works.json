@@ -19303,7 +19303,7 @@
   },
   "hyprls": {
     "Partial": false,
-    "builtAt": "2025-12-03T12:11:23.6034271+01:00",
+    "builtAt": "2025-12-03T12:13:05.7072046+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -19325,7 +19325,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language</p>",
+            "content": "<p>A <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> server for <a href=\"https://hyprland.org\">Hyprland</a>’s configuration language, that provides autocompletion, documentation on hover and more.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -19336,7 +19336,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "PbpKHWpKJi",
+            "id": "5DvH_p2bol",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19376,7 +19376,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "fZEJCQpqU6",
+            "id": "AvCiYGUC39",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19386,7 +19386,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/hyprlang-lsp.git"
+            "url": "https://github.com/hyprland-community/hyprls.git"
           },
           {
             "alt": "",
@@ -19620,17 +19620,17 @@
             "Eg7YPD89hJ",
             "Eg7YPD89hJ",
             "Eg7YPD89hJ",
-            "PbpKHWpKJi",
-            "PbpKHWpKJi",
-            "PbpKHWpKJi"
+            "5DvH_p2bol",
+            "5DvH_p2bol",
+            "5DvH_p2bol"
           ],
           [
             "7ld0Lr7NEW",
             "7ld0Lr7NEW",
             "7ld0Lr7NEW",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6"
+            "AvCiYGUC39",
+            "AvCiYGUC39",
+            "AvCiYGUC39"
           ],
           [
             "KBRObH0R6k",
@@ -19663,7 +19663,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Un serveur <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> pour le langage de configuration de <a href=\"https://hyprland.org\">Hyprland</a></p>",
+            "content": "<p>Un serveur <a href=\"https://en.wikipedia.org/wiki/Language_Server_Protocol\">LSP</a> pour le langage de configuration de <a href=\"https://hyprland.org\">Hyprland</a>, qui fournit de l’autocomplétion, de la <em>documentation on hover</em> et plus encore.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -19674,7 +19674,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "3wDe2klixt",
+            "id": "CvbqTCHp3N",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19714,7 +19714,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "fZEJCQpqU6",
+            "id": "AvCiYGUC39",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -19724,7 +19724,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://github.com/ewen-lbh/hyprlang-lsp.git"
+            "url": "https://github.com/hyprland-community/hyprls.git"
           },
           {
             "alt": "",
@@ -19958,17 +19958,17 @@
             "Eg7YPD89hJ",
             "Eg7YPD89hJ",
             "Eg7YPD89hJ",
-            "3wDe2klixt",
-            "3wDe2klixt",
-            "3wDe2klixt"
+            "CvbqTCHp3N",
+            "CvbqTCHp3N",
+            "CvbqTCHp3N"
           ],
           [
             "7ld0Lr7NEW",
             "7ld0Lr7NEW",
             "7ld0Lr7NEW",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6",
-            "fZEJCQpqU6"
+            "AvCiYGUC39",
+            "AvCiYGUC39",
+            "AvCiYGUC39"
           ],
           [
             "KBRObH0R6k",
@@ -19982,7 +19982,7 @@
         "title": "HyprLS"
       }
     },
-    "descriptionHash": "udmT5Flm2tbmRt6/PTEMHQ==",
+    "descriptionHash": "CGQifsaaL/2V+w6f5xXzrw==",
     "id": "hyprls",
     "metadata": {
       "additionalMetadata": {
