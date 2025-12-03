@@ -1,36 +1,36 @@
-- time: 2017
-  title: Intern
-  location: Montpellier
-  skills: [premiere pro]
-  company:
-    name: Pages & Images
-    description: audiovisual agency
-    url: http://pagesimages.com/
+# - time: 2017
+#   title: Intern
+#   location: Montpellier
+#   skills: [premiere pro]
+#   company:
+#     name: Pages & Images
+#     description: audiovisual agency
+#     url: http://pagesimages.com/
 
-- time: 2018
-  title: Intern
-  location: Montpellier
-  skills: [premiere pro, html, css, js, php]
-  company:
-    name: Satellite
-    description: audiovisual agency
-    url: https://agence-satellite.com/
+# - time: 2018
+#   title: Intern
+#   location: Montpellier
+#   skills: [premiere pro, html, css, js, php]
+#   company:
+#     name: Satellite
+#     description: Audiovisual agency
+#     url: https://agence-satellite.com/
 
-- time: 2019
-  title: Intern
-  location: Lunel
-  skills: [photoshop, figma]
-  company:
-    name: l'Atelier
-    description: printing & graphic design
-    url: https://latelier34.fr/
+# - time: 2019
+#   title: Intern
+#   location: Lunel
+#   skills: [photoshop, figma]
+#   company:
+#     name: l'Atelier
+#     description: Printing & graphic design company
+#     url: https://latelier34.fr/
 
 - time: 2020
   title: Intern
   location: Sophia
   company:
     name: Sophia Engineering
-    description: engineering consulting
+    description: Engineering consulting firm
     url: https://sophiaengineering.com/
 
 - time: 2024
@@ -40,7 +40,7 @@
   skills: [python, kivy, android]
   company:
     name: IRIT
-    description: computer science research lab
+    description: Computer science research lab
     url: https://irit.fr
 
 - time: [2023, 2024]
@@ -52,7 +52,7 @@
     - https://git.inpt.fr/net7
   company:
     name: net7
-    description: student association
+    description: IT student association
     url: https://net7.dev/equipe/#2023
   description: |
     web infrastructure & development
@@ -66,14 +66,14 @@
     description: Video production student association
     url: https://tvn7.fr/anciens-membres
 
-- time: 2025
+- time: [2025, now]
   title: Contractor
   location: Toulouse
   links:
     - https://github.com/cigaleapp/cigale
   company:
     name: SETE-CNRS
-    description: Theoretical and Experimental Ecology Station
+    description: Theoretical and Experimental Ecology Station 
     url: https://sete-moulis-cnrs.fr/en/
 
 - time: 2025
@@ -85,3 +85,13 @@
     name: LAAS-CNRS
     description: NixOS in robotics research
     url: https://www.laas.fr/annuaire/1785
+
+- time: [2025, now]
+  title: Contractor
+  location: Toulouse
+  links:
+    - https://github.com/cigaleapp/cigale
+  company:
+    name: LIS-CNRS
+    description: Laboratory of Informatics and Systems 
+    url: https://www.lis-lab.fr/en/home/

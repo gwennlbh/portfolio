@@ -30,8 +30,5 @@ media
 # act secrets
 .secrets
 
-# wakatime response cache
-.wakatime-cache.json
-
 test-results/
 .netlify/

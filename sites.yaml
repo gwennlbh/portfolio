@@ -44,3 +44,7 @@
 - name: orcid
   url: https://orcid.org/0009-0008-9476-1463
   purpose: "research carreer"
+
+- name: wakatime
+  url: https://wakatime.com/@gwen_lbh
+  purpose: "time spent coding"
