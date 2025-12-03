@@ -527,7 +527,7 @@
   name: Bun
   description: A modern and really fast Javascript bundler, runtime and toolkit
   learn more at: https://bun.sh
-  files: [bun.lockb]
+  files: [bun.lockb, bun.lock]
 
 - slug: vitepress
   name: Vitepress
@@ -576,3 +576,96 @@
   autodetect:
     - wasm-pack in Justfile
     - wasm-bindgen in Justfile
+
+- slug: pwa
+  name: PWA
+  description: A Progressive Web App is a web application that uses modern web capabilities to deliver an app-like experience to users. They can be installed as apps on devices and work offline.
+
+- slug: electron
+  name: Electron
+  description: A framework for building cross-platform desktop applications with web technologies.
+  learn more at: https://www.electronjs.org
+  autodetect:
+    - electron in package.json
+
+- slug: playwright
+  name: Playwright
+  description: A Node.js library to write end-to-end browser tests for web applications, that test user interactions instead of code. It can test on Chrome, Firefox and Safari.
+  learn more at: https://playwright.dev
+  autodetect:
+    - "@playwright/test in package.json"
+
+- slug: github-actions
+  name: GitHub Actions
+  description: GitHub's continuous integration and continuous delivery (CI/CD) platform that automates build, test, and deployment pipelines.
+  learn more at: https://docs.github.com/en/actions
+
+- slug: kubernetes
+  name: Kubernetes
+  description: An open-source system for automating deployment, scaling, and management of containerized applications.
+  learn more at: https://kubernetes.io
+
+- slug: fluxcd
+  name: FluxCD
+  description: A way to automate Kubernetes deployments by pushing to Git repositories. Used to implement GitOps workflows.
+  learn more at: https://fluxcd.io
+
+- slug: gitlab-ci
+  name: GitLab CI
+  description: GitLab's built-in continuous integration and continuous delivery (CI/CD) platform that automates build, test, and deployment pipelines.
+  learn more at: https://docs.gitlab.com/ee/ci/
+
+- slug: docker
+  name: Docker
+  description: A platform for developing, shipping, and running applications in containers.
+  learn more at: https://www.docker.com
+
+- slug: docker-compose
+  name: Docker Compose
+  description: A tool for defining and running multi-container Docker applications.
+  learn more at: https://docs.docker.com/compose/
+
+- slug: postgresql
+  name: PostgreSQL
+  description: A industry-standard advanced open source relational database
+  learn more at: https://www.postgresql.org/
+
+- slug: mysql
+  name: MySQL
+  description: A popular open-source relational database management system
+  learn more at: https://www.mysql.com/
+
+- slug: sqlite
+  name: SQLite
+  description: A popular embedded relational database management system that stores everything in a single, portable file
+  learn more at: https://www.sqlite.org/
+
+- slug: redis
+  name: Redis
+  description: An open-source, in-memory data structure store, used as a database, cache, and message broker
+  learn more at: https://redis.io/
+
+- slug: nats
+  name: NATS
+  description: A high-performance messaging system for cloud-native applications, IoT messaging, and microservice-based architectures
+  learn more at: https://nats.io/
+
+- slug: nodejs
+  name: Node.js
+  description: A JavaScript runtime built on Chrome's V8 JavaScript engine that allows server-side execution of JavaScript code
+  learn more at: https://nodejs.org/
+
+- slug: express
+  name: Express.js
+  description: A industry-standard Node.js framework to build REST APIs
+  learn more at: https://expressjs.com/
+
+- slug: prisma
+  name: Prisma
+  description: A popular open-source ORM (Object-Relational Mapping) TypeScript library for database access and management.
+  learn more at: https://www.prisma.io/
+
+- slug: drizzle
+  name: Drizzle ORM
+  description: A modern TypeScript ORM for SQL databases, designed for type safety and developer productivity.
+  learn more at: https://orm.drizzle.team/
