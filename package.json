@@ -38,7 +38,7 @@
     "@types/picomatch": "^4.0.2",
     "@types/slug": "^5.0.9",
     "husky": "^9.1.7",
-    "netlify": "^23.12.2",
+    "netlify": "^23.12.3",
     "patch-package": "^8.0.1",
     "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
