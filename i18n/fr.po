@@ -566,3 +566,6 @@ msgstr "(brouillons)"
 
 msgid "resume"
 msgstr "curriculum vitæ"
+
+msgid "gwenn.lebihan7 (at-sign) gmail.com"
+msgstr "gwenn.lebihan7 (arobase) gmail.com"
