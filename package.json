@@ -23,7 +23,7 @@
     "@astrojs/netlify": "^6.5.13",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.6.0",
-    "@wuchale/astro": "^0.2.2",
+    "@wuchale/astro": "^0.2.4",
     "@wuchale/vite-plugin": "^0.16.2",
     "astro": "^5.14.6",
     "date-fns": "^4.1.0",
@@ -32,7 +32,7 @@
     "pofile": "^1.1.4",
     "slug": "^11.0.1",
     "tinycolor2": "^1.6.0",
-    "wuchale": "^0.19.1",
+    "wuchale": "^0.19.2",
     "yaml": "^2.8.2"
   },
   "devDependencies": {
