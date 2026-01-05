@@ -59,4 +59,8 @@ interface Props {
     height: calc(100% - 2 * var(--pad));
     gap: 2rem;
   }
+
+  :is(h1, h2, h3, h4, h5, h6, p, span, li, a, pre):not(.no-lowercase) {
+    text-transform: lowercase;
+  }
 </style>
