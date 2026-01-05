@@ -38,10 +38,10 @@ const works = await getCollection("works").then((works) =>
     editButton="~/projects.local/portfolio/tags.yaml"
   >
     <section class="description">
-      <div i18n class="description" set:html={entry.rendered!.html} />
+      <div class="description" set:html={entry.rendered!.html} />
       {
         learnMoreAt && (
-          <a href={learnMoreAt} class="learn-more" i18n>
+          <a href={learnMoreAt} class="learn-more">
             learn more
           </a>
         )

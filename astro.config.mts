@@ -2,6 +2,7 @@
 import mdx from "@astrojs/mdx";
 import netlify from "@astrojs/netlify";
 import sitemap from "@astrojs/sitemap";
+import { wuchale } from "@wuchale/vite-plugin";
 import { defineConfig } from "astro/config";
 import type { InferEntrySchema } from "astro:content";
 import { readFileSync } from "node:fs";
@@ -24,6 +25,19 @@ export default defineConfig({
       filter: (url) => !new URL(url).pathname.startsWith("/works/"),
     }),
   ],
+
+  vite: {
+    plugins: [wuchale()],
+  },
+
+  i18n: {
+    locales: ["en", "fr"],
+    defaultLocale: "en",
+    routing: {
+      prefixDefaultLocale: true,
+      redirectToDefaultLocale: true,
+    },
+  },
 
   site: `https://${process.env.LANG}.gwen.works`,
 

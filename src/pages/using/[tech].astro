@@ -51,12 +51,10 @@ const name = tech.data.name === "C Sharp" ? "C#" : tech.data.name;
     title={name}
     editButton="~/projects.local/portfolio/technologies.yaml"
   >
-    <div class="description" i18n set:html={tech.rendered!.html} />
+    <div class="description" set:html={tech.rendered!.html} />
     {
       tech.data["learn more at"] && (
-        <a i18n href={tech.data["learn more at"]}>
-          learn more
-        </a>
+        <a href={tech.data["learn more at"]}>learn more</a>
       )
     }
   </StrongHeader>
