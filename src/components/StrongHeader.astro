@@ -39,7 +39,7 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
             href={back}
             onclick="if (history.length > 1) { event.preventDefault(); history.back(); }"
           >
-            &lt;- <i18n>back</i18n>
+            &lt;- back
           </a>
         )}
         {editButton && (
@@ -66,7 +66,7 @@ const { title, wip, back, editButton, editFolderButton } = Astro.props;
 
   {
     typeof title === "string" ? (
-      <h1 i18n>{title}</h1>
+      <h1>{title}</h1>
     ) : "img" in title ? (
       <h1 class="image">
         <img {...title.img} />

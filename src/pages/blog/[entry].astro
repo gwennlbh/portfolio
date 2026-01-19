@@ -31,7 +31,7 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
     editButton={`~/projects.local/portfolio/blog/${Astro.params.entry}.md`}
   >
     <p class="intro">
-      <span i18n>published on</span>
+      <span>published on</span>
       <time datetime={date.toISOString()}>
         {dateFormatter.format(date)}
       </time>
@@ -41,7 +41,7 @@ const dateFormatter = new Intl.DateTimeFormat(Astro.locals.locale, {
   <main set:html={rendered!.html} />
 
   <section class="related">
-    <h2 i18n>related works</h2>
+    <h2>related works</h2>
     {
       await getEntries(works).then((entries) => (
         <WorksGrid works={entries.filter(Boolean).map((e) => e.data)} />
