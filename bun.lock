@@ -29,7 +29,7 @@
         "patch-package": "^8.0.1",
         "prettier": "^3.7.4",
         "prettier-plugin-astro": "^0.14.1",
-        "prettier-plugin-sort-json": "^4.1.1",
+        "prettier-plugin-sort-json": "^4.2.0",
         "rehype-katex": "^7.0.1",
         "remark-math": "^6.0.0",
         "sirv-cli": "^3.0.1",
@@ -1861,7 +1861,7 @@
 
     "prettier-plugin-astro": ["prettier-plugin-astro@0.14.1", "", { "dependencies": { "@astrojs/compiler": "^2.9.1", "prettier": "^3.0.0", "sass-formatter": "^0.7.6" } }, "sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw=="],
 
-    "prettier-plugin-sort-json": ["prettier-plugin-sort-json@4.1.1", "", { "peerDependencies": { "prettier": "^3.0.0" } }, "sha512-uJ49wCzwJ/foKKV4tIPxqi4jFFvwUzw4oACMRG2dcmDhBKrxBv0L2wSKkAqHCmxKCvj0xcCZS4jO2kSJO/tRJw=="],
+    "prettier-plugin-sort-json": ["prettier-plugin-sort-json@4.2.0", "", { "peerDependencies": { "prettier": "^3.0.0" } }, "sha512-jK1w3/7otTvHtv1eoLji2U9mEoOGeyl7QQQ/afLnjht1YtRLSUUk8o0rIIC/HUVXhoGPCFe4SVZbRGYjjUVgvA=="],
 
     "pretty-ms": ["pretty-ms@9.3.0", "", { "dependencies": { "parse-ms": "^4.0.0" } }, "sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ=="],
 
