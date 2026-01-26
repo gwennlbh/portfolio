@@ -19,7 +19,7 @@ jobs:
     name: Update screenshots
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/gwennlbh/playwright-bun:v1.57.0
+      image: ghcr.io/gwennlbh/playwright-bun:v1.58.0
     steps:
       - uses: actions/checkout@v6
         with:
@@ -61,7 +61,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/gwennlbh/playwright-bun:v1.57.0
+      image: ghcr.io/gwennlbh/playwright-bun:v1.58.0
     environment:
       name: Visual diffing for PR #${{ github.event.pull_request.number }}
       url: ${{ steps.deploy-to-gh-pages.outputs.page_url }}
