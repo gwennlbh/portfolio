@@ -24,7 +24,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.14.6",
     "date-fns": "^4.1.0",
-    "jsdom": "^27.4.0",
+    "jsdom": "^28.0.0",
     "picomatch": "^4.0.3",
     "pofile": "^1.1.4",
     "slug": "^11.0.1",
