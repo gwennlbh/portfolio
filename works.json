@@ -41145,7 +41145,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-11-17T14:05:18.9151622+01:00",
+    "builtAt": "2026-02-06T12:25:17.388345+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -41503,7 +41503,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "aW0pE7jpbZ",
+            "id": "2Md6co44rW",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -41513,7 +41513,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/swarpc/docs"
+            "url": "https://swarpc.js.org"
           },
           {
             "alt": "",
@@ -41606,8 +41606,8 @@
           [
             "hCXsc0viQI",
             "hCXsc0viQI",
-            "aW0pE7jpbZ",
-            "aW0pE7jpbZ",
+            "2Md6co44rW",
+            "2Md6co44rW",
             "eScdvIhsPg",
             "eScdvIhsPg"
           ]
@@ -41970,7 +41970,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "aW0pE7jpbZ",
+            "id": "2Md6co44rW",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -41980,7 +41980,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/swarpc/docs"
+            "url": "https://swarpc.js.org"
           },
           {
             "alt": "",
@@ -42073,8 +42073,8 @@
           [
             "hCXsc0viQI",
             "hCXsc0viQI",
-            "aW0pE7jpbZ",
-            "aW0pE7jpbZ",
+            "2Md6co44rW",
+            "2Md6co44rW",
             "eScdvIhsPg",
             "eScdvIhsPg"
           ]
@@ -42082,7 +42082,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "ecJwmUeoxAmXrE5ESU8wiw==",
+    "descriptionHash": "3VGpEgydDnZT1wazHwszGQ==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
