@@ -1,11 +1,16 @@
-import { getEntry } from "astro:content";
 import { defineMiddleware } from "astro:middleware";
-import { JSDOM } from "jsdom";
+import { loadLocales, runWithLocale } from "wuchale/load-utils/server";
+import { locales } from "../i18n/data.js";
+import * as main from "../i18n/main.loader.js";
 
-export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
+loadLocales(main.key, main.loadIDs, main.loadCatalog, locales);
+
+export const onRequest = defineMiddleware(async ({ locals }, next) => {
   locals.lang = process.env.LANG === "fr" ? "fr" : "en";
+
   locals.locale = (process.env.LOCALE ||
     "en-US") as `${typeof locals.lang}-${string}`;
+
   locals.buildCommit =
     // Explicit commit
     process.env.BUILD_COMMIT ||
@@ -16,48 +21,5 @@ export const onRequest = defineMiddleware(async ({ locals, url }, next) => {
     // Fallback
     "dev";
 
-  const response = await next();
-
-  if (
-    ["application/json", "text/plain"].includes(
-      response.headers.get("content-type")?.split(";")[0] || "",
-    )
-  ) {
-    return response;
-  }
-
-  const dom = new JSDOM(await response.text(), {
-    url: url.toString(),
-    contentType: response.headers.get("content-type") || "text/html",
-  });
-
-  for (const translatable of dom.window.document.querySelectorAll("[i18n]")) {
-    const key = translatable.textContent?.trim();
-    if (!key) continue;
-
-    const translation =
-      locals.lang === "fr"
-        ? await getEntry("frenchMessages", key)
-        : { data: { msgstr: key } };
-
-    translatable.removeAttribute("i18n");
-    if (translation) {
-      translatable.innerHTML = translation.data.msgstr;
-    }
-  }
-
-  for (const translatable of dom.window.document.querySelectorAll("i18n")) {
-    const key = translatable.innerHTML?.trim();
-    if (!key) continue;
-
-    const translation =
-      locals.lang === "fr" ? await getEntry("frenchMessages", key) : undefined;
-
-    translatable.outerHTML = translation?.data.msgstr ?? key;
-  }
-
-  return new Response(dom.serialize(), {
-    status: 200,
-    headers: response.headers,
-  });
+  return runWithLocale(locals.lang, next);
 });

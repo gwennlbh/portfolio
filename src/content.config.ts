@@ -1,11 +1,10 @@
 import { file, glob } from "astro/loaders";
-import type { ZodNullable, ZodObject, ZodRawShape, ZodString } from "astro/zod";
+import type { ZodObject, ZodRawShape } from "astro/zod";
 import { defineCollection, reference, z } from "astro:content";
-import * as YAML from "yaml";
-import PO from "pofile";
-import { wakatimeCollection } from "./wakatime";
 import { readFile } from "node:fs/promises";
 import slug from "slug";
+import * as YAML from "yaml";
+import { wakatimeCollection } from "./wakatime";
 
 const translatedString = z.object({
   en: z.string(),
@@ -21,8 +20,6 @@ const nullableDate = z
 const year = z.number().min(2003).max(new Date().getFullYear()).int();
 
 export const collections = {
-  frenchMessages: gettextPoMessages("i18n/fr.po"),
-  englishMessages: gettextPoMessages("i18n/en.po"),
   wakatimeLanguages: await wakatimeCollection(
     ".wakatime-cache.json",
     "languages",
@@ -364,25 +361,5 @@ function yamlDataCollection<
         }
       },
     },
-  });
-}
-
-function gettextPoMessages(filename: string) {
-  return defineCollection({
-    schema: z.object({
-      msgid: z.string(),
-      msgstr: z.string(),
-      msgctxt: z.string().optional(),
-    }),
-    loader: file(filename, {
-      parser(text) {
-        return PO.parse(text).items.map((item) => ({
-          id: item.msgid,
-          ...item,
-          msgstr: item.msgstr[0],
-          msgctxt: item.msgctxt || undefined,
-        }));
-      },
-    }),
   });
 }
