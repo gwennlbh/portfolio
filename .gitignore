@@ -33,3 +33,6 @@ media
 test-results/
 .netlify/
 src/pages/shs/pomi-documents.zip
+
+i18n/*
+!i18n/*.po

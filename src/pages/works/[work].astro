@@ -184,7 +184,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   {
     hoursSpent > 1 ? (
       <section class="big">
-        <h2 i18n>time spent*</h2>
+        <h2>time spent*</h2>
         <p>
           {timeSpent.length === 1 && timeSpent.at(0)?.url ? (
             <a
@@ -216,7 +216,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
         ) : null}
         <small>
           <br />
-          <i18n>*tracked by</i18n>
+          *tracked by
           <a href="https://wakatime.com/" target="_blank">
             WakaTime
           </a>
@@ -228,7 +228,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   {
     madeWith && madeWith.length > 0 && (
       <section class="big">
-        <h2 i18n>made with</h2>
+        <h2>made with</h2>
         <ul class="technologies">
           {madeWith.map(({ id, data: { name } }) => (
             <li>
@@ -243,7 +243,7 @@ const folderPath = entry.data.source.split("\\").slice(0, -2).join("\\");
   {
     Object.keys(footnotes).length ? (
       <section class="footnotes">
-        <h2 i18n>footnotes</h2>
+        <h2>footnotes</h2>
         <ul>
           {Object.entries(footnotes).map(([id, content]) => (
             <li id={`fn:${id}`}>
