@@ -44169,5 +44169,85 @@
       "wip": false
     },
     "source": "C:\\Users\\ewen\\projects\\vscode-pychemin\\.ortfo\\description.md"
+  },
+  "œstrodose-editions-limitées": {
+    "Partial": false,
+    "builtAt": "2026-03-04T19:48:57.4283774+01:00",
+    "content": {
+      "default": {
+        "abbreviations": {},
+        "blocks": [
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>test haha</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "N3z1XDTdLv",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          }
+        ],
+        "footnotes": {},
+        "layout": [["N3z1XDTdLv"]],
+        "title": "Œstrodose: éditions limitées"
+      }
+    },
+    "descriptionHash": "NJGFBcsJoHDBmJevfeV7hQ==",
+    "id": "œstrodose-editions-limitées",
+    "metadata": {
+      "additionalMetadata": {
+        "made_with": ["affinity", "blender"]
+      },
+      "aliases": null,
+      "colors": {
+        "primary": "",
+        "secondary": "",
+        "tertiary": ""
+      },
+      "databaseMetadata": {
+        "Partial": false
+      },
+      "finished": "",
+      "madeWith": null,
+      "pageBackground": "",
+      "private": true,
+      "started": "2026-03-03",
+      "tags": ["graphism"],
+      "thumbnail": "",
+      "titleStyle": "",
+      "wip": true
+    },
+    "source": "C:\\Users\\ewen\\projects\\œstrodose-editions-limitées\\.ortfo\\description.md"
   }
 }
