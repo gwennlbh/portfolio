@@ -44172,11 +44172,96 @@
   },
   "œstrodose-editions-limitées": {
     "Partial": false,
-    "builtAt": "2026-03-04T19:48:57.4283774+01:00",
+    "builtAt": "2026-03-04T21:01:16.451182+01:00",
     "content": {
       "default": {
         "abbreviations": {},
         "blocks": [
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "top-part-transfem-edition",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#E9B5C2",
+              "secondary": "#A2B8CF",
+              "tertiary": "#3D3C3C"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.239075,
+              "height": 389,
+              "width": 482
+            },
+            "distSource": "œstrodose-editions-limitées\\top-part-transfem-edition.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "OK4hSkOPS+y0Fd95aH0q9Q==",
+            "id": "QFOJesBDZ7",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../top-part-transfem-edition.png",
+            "size": 37842,
+            "text": "",
+            "thumbnails": {
+              "100": "œstrodose-editions-limitées/QFOJesBDZ7@100.webp",
+              "1200": "œstrodose-editions-limitées/QFOJesBDZ7@1200.webp",
+              "400": "œstrodose-editions-limitées/QFOJesBDZ7@400.webp",
+              "600": "œstrodose-editions-limitées/QFOJesBDZ7@600.webp"
+            },
+            "thumbnailsBuiltAt": "2026-03-04T21:01:14.0363992+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "aller-au-sondage",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "bRVJG5gAuM",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "Aller au sondage!",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "link",
+            "url": "http://forms.gwen.works/form/VaEaRYxP"
+          },
           {
             "alt": "",
             "analyzed": false,
@@ -44194,7 +44279,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>test haha</p>",
+            "content": "<h2>Making of</h2>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -44205,7 +44290,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "N3z1XDTdLv",
+            "id": "ThW7jycn5z",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -44216,24 +44301,307 @@
             "title": "",
             "type": "paragraph",
             "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>J’ai commencé par scanner le packaging avec mon tel</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "iBjXTLlIm0",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "photo du packaging scanné",
+            "analyzed": true,
+            "anchor": "scans",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#626D6A",
+              "secondary": "#A2B1B2",
+              "tertiary": "#BEC1BF"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.885101,
+              "height": 792,
+              "width": 701
+            },
+            "distSource": "œstrodose-editions-limitées\\.ortfo\\scans.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "PCFUtxNqbv7fq6gJm2k7Bw==",
+            "id": "FERhVT4-zJ",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./scans.png",
+            "size": 410955,
+            "text": "",
+            "thumbnails": {
+              "100": "œstrodose-editions-limitées/FERhVT4-zJ@100.webp",
+              "1200": "œstrodose-editions-limitées/FERhVT4-zJ@1200.webp",
+              "400": "œstrodose-editions-limitées/FERhVT4-zJ@400.webp",
+              "600": "œstrodose-editions-limitées/FERhVT4-zJ@600.webp"
+            },
+            "thumbnailsBuiltAt": "2026-03-04T21:01:14.6333746+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": false,
+            "anchor": "",
+            "attributes": {
+              "autoplay": false,
+              "controls": false,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "",
+              "secondary": "",
+              "tertiary": ""
+            },
+            "content": "<p>Puis j’ai retrouvé les polices d’écritures et j’ai recréé le packaging dans Affinity Studio</p>",
+            "contentType": "",
+            "dimensions": {
+              "aspectRatio": 0,
+              "height": 0,
+              "width": 0
+            },
+            "distSource": "",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "",
+            "id": "6T5NzbR-_7",
+            "index": 0,
+            "online": false,
+            "relativeSource": "",
+            "size": 0,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
+            "title": "",
+            "type": "paragraph",
+            "url": ""
+          },
+          {
+            "alt": "packaging recreéé",
+            "analyzed": true,
+            "anchor": "rebuilt",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#6AA29A",
+              "secondary": "#9DB9B6",
+              "tertiary": "#B7CECD"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 0.894872,
+              "height": 780,
+              "width": 698
+            },
+            "distSource": "œstrodose-editions-limitées\\.ortfo\\rebuilt.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "pZ9Fz3/gXSuAoPkf0LenqA==",
+            "id": "LkLNShZaKa",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./rebuilt.png",
+            "size": 98516,
+            "text": "",
+            "thumbnails": {
+              "100": "œstrodose-editions-limitées/LkLNShZaKa@100.webp",
+              "1200": "œstrodose-editions-limitées/LkLNShZaKa@1200.webp",
+              "400": "œstrodose-editions-limitées/LkLNShZaKa@400.webp",
+              "600": "œstrodose-editions-limitées/LkLNShZaKa@600.webp"
+            },
+            "thumbnailsBuiltAt": "2026-03-04T21:01:15.2382527+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "text-recreation",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#636D6C",
+              "secondary": "#B4B3AE",
+              "tertiary": "#F7FBFB"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.880553,
+              "height": 1013,
+              "width": 1905
+            },
+            "distSource": "œstrodose-editions-limitées\\.ortfo\\text-recreation.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "jvX7kHZl9sfnutvVYEUn0Q==",
+            "id": "-6G2aX29vg",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./text-recreation.png",
+            "size": 603009,
+            "text": "",
+            "thumbnails": {
+              "100": "œstrodose-editions-limitées/-6G2aX29vg@100.webp",
+              "1200": "œstrodose-editions-limitées/-6G2aX29vg@1200.webp",
+              "400": "œstrodose-editions-limitées/-6G2aX29vg@400.webp",
+              "600": "œstrodose-editions-limitées/-6G2aX29vg@600.webp"
+            },
+            "thumbnailsBuiltAt": "2026-03-04T21:01:15.9646885+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "workspace",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#BC707F",
+              "secondary": "#9DBDCA",
+              "tertiary": "#BACFDB"
+            },
+            "content": "",
+            "contentType": "image/png",
+            "dimensions": {
+              "aspectRatio": 1.64526,
+              "height": 654,
+              "width": 1076
+            },
+            "distSource": "œstrodose-editions-limitées\\.ortfo\\workspace.png",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "F3Dw6qtBn55GDZv3DUWHUw==",
+            "id": "wERyZp0GhY",
+            "index": 0,
+            "online": false,
+            "relativeSource": "./workspace.png",
+            "size": 146207,
+            "text": "",
+            "thumbnails": {
+              "100": "œstrodose-editions-limitées/wERyZp0GhY@100.webp",
+              "1200": "œstrodose-editions-limitées/wERyZp0GhY@1200.webp",
+              "400": "œstrodose-editions-limitées/wERyZp0GhY@400.webp",
+              "600": "œstrodose-editions-limitées/wERyZp0GhY@600.webp"
+            },
+            "thumbnailsBuiltAt": "2026-03-04T21:01:16.451182+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
           }
         ],
         "footnotes": {},
-        "layout": [["N3z1XDTdLv"]],
+        "layout": [
+          ["QFOJesBDZ7", "QFOJesBDZ7"],
+          ["bRVJG5gAuM", "bRVJG5gAuM"],
+          ["ThW7jycn5z", "ThW7jycn5z"],
+          ["iBjXTLlIm0", "iBjXTLlIm0"],
+          ["FERhVT4-zJ", "FERhVT4-zJ"],
+          ["6T5NzbR-_7", "6T5NzbR-_7"],
+          ["LkLNShZaKa", "-6G2aX29vg"],
+          ["LkLNShZaKa", "wERyZp0GhY"]
+        ],
         "title": "Œstrodose: éditions limitées"
       }
     },
-    "descriptionHash": "NJGFBcsJoHDBmJevfeV7hQ==",
+    "descriptionHash": "gdlIAVOsLMFOPEaJdECgrA==",
     "id": "œstrodose-editions-limitées",
     "metadata": {
       "additionalMetadata": {
+        "layout": [
+          "m1",
+          "l1",
+          "p1",
+          "p2",
+          "m2",
+          "p3",
+          ["m3", "m4"],
+          ["m3", "m5"]
+        ],
         "made_with": ["affinity", "blender"]
       },
-      "aliases": null,
+      "aliases": [
+        "œstrodose-éditions-limitées",
+        "oestrodose-editions-limitees",
+        "oestrodose"
+      ],
       "colors": {
-        "primary": "",
-        "secondary": "",
-        "tertiary": ""
+        "primary": "#E9B5C2",
+        "secondary": "#A2B8CF",
+        "tertiary": "#3D3C3C"
       },
       "databaseMetadata": {
         "Partial": false
