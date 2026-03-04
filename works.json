@@ -41145,7 +41145,7 @@
   },
   "swarpc": {
     "Partial": false,
-    "builtAt": "2025-11-17T14:05:18.9151622+01:00",
+    "builtAt": "2026-03-04T21:09:18.645929+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -41503,7 +41503,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "aW0pE7jpbZ",
+            "id": "2Md6co44rW",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -41513,7 +41513,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/swarpc/docs"
+            "url": "https://swarpc.js.org"
           },
           {
             "alt": "",
@@ -41606,8 +41606,8 @@
           [
             "hCXsc0viQI",
             "hCXsc0viQI",
-            "aW0pE7jpbZ",
-            "aW0pE7jpbZ",
+            "2Md6co44rW",
+            "2Md6co44rW",
             "eScdvIhsPg",
             "eScdvIhsPg"
           ]
@@ -41970,7 +41970,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "aW0pE7jpbZ",
+            "id": "2Md6co44rW",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -41980,7 +41980,7 @@
             "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "link",
-            "url": "https://gwennlbh.github.io/swarpc/docs"
+            "url": "https://swarpc.js.org"
           },
           {
             "alt": "",
@@ -42073,8 +42073,8 @@
           [
             "hCXsc0viQI",
             "hCXsc0viQI",
-            "aW0pE7jpbZ",
-            "aW0pE7jpbZ",
+            "2Md6co44rW",
+            "2Md6co44rW",
             "eScdvIhsPg",
             "eScdvIhsPg"
           ]
@@ -42082,7 +42082,7 @@
         "title": "swarpc"
       }
     },
-    "descriptionHash": "ecJwmUeoxAmXrE5ESU8wiw==",
+    "descriptionHash": "3VGpEgydDnZT1wazHwszGQ==",
     "id": "swarpc",
     "metadata": {
       "additionalMetadata": {
@@ -44172,7 +44172,7 @@
   },
   "œstrodose-editions-limitées": {
     "Partial": false,
-    "builtAt": "2026-03-04T21:01:16.451182+01:00",
+    "builtAt": "2026-03-04T21:09:24.9355959+01:00",
     "content": {
       "default": {
         "abbreviations": {},
@@ -44218,6 +44218,46 @@
               "600": "œstrodose-editions-limitées/QFOJesBDZ7@600.webp"
             },
             "thumbnailsBuiltAt": "2026-03-04T21:01:14.0363992+01:00",
+            "title": "",
+            "type": "media",
+            "url": ""
+          },
+          {
+            "alt": "",
+            "analyzed": true,
+            "anchor": "transfem-edition-teaser-hq",
+            "attributes": {
+              "autoplay": false,
+              "controls": true,
+              "loop": false,
+              "muted": false,
+              "playsinline": false
+            },
+            "caption": "",
+            "colors": {
+              "primary": "#1c1815",
+              "secondary": "#191513",
+              "tertiary": "#211d1b"
+            },
+            "content": "",
+            "contentType": "image/gif",
+            "dimensions": {
+              "aspectRatio": 1.777778,
+              "height": 720,
+              "width": 1280
+            },
+            "distSource": "œstrodose-editions-limitées\\transfem-edition-teaser-hq.gif",
+            "duration": 0,
+            "hasSound": false,
+            "hash": "1S6qlGxqGAXjv1ucC8nGgQ==",
+            "id": "b42j7SJjyD",
+            "index": 0,
+            "online": false,
+            "relativeSource": "../transfem-edition-teaser-hq.gif",
+            "size": 10584869,
+            "text": "",
+            "thumbnails": null,
+            "thumbnailsBuiltAt": "0001-01-01T00:00:00Z",
             "title": "",
             "type": "media",
             "url": ""
@@ -44566,6 +44606,7 @@
         "footnotes": {},
         "layout": [
           ["QFOJesBDZ7", "QFOJesBDZ7"],
+          ["b42j7SJjyD", "b42j7SJjyD"],
           ["bRVJG5gAuM", "bRVJG5gAuM"],
           ["ThW7jycn5z", "ThW7jycn5z"],
           ["iBjXTLlIm0", "iBjXTLlIm0"],
@@ -44577,19 +44618,20 @@
         "title": "Œstrodose: éditions limitées"
       }
     },
-    "descriptionHash": "gdlIAVOsLMFOPEaJdECgrA==",
+    "descriptionHash": "G6j0A97iaHVSAorr+HqUrg==",
     "id": "œstrodose-editions-limitées",
     "metadata": {
       "additionalMetadata": {
         "layout": [
           "m1",
+          "m2",
           "l1",
           "p1",
           "p2",
-          "m2",
+          "m3",
           "p3",
-          ["m3", "m4"],
-          ["m3", "m5"]
+          ["m4", "m5"],
+          ["m4", "m6"]
         ],
         "made_with": ["affinity", "blender"]
       },
