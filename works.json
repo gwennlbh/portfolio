@@ -38722,7 +38722,7 @@
   },
   "smooth-cursorify": {
     "Partial": false,
-    "builtAt": "2026-03-07T14:24:55.5851749+01:00",
+    "builtAt": "2026-03-07T15:06:06.6805476+01:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38824,7 +38824,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>This extension has received <a href=\"https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&amp;authuser=0\">25 reviews</a>, all of them favorable, with 5 stars. It was also mentioned in a <a href=\"https://www.reddit.com/r/firefox/comments/gpo9vu/is_there_a_way_to_get_a_smooth_typing/\">reddit post</a>.</p>",
+            "content": "<p>This extension has received <a href=\"https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&amp;authuser=0\">35 reviews</a>, all of them favorable, with 5 stars. It was also mentioned in a <a href=\"https://www.reddit.com/r/firefox/comments/gpo9vu/is_there_a_way_to_get_a_smooth_typing/\">reddit post</a>.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -38835,7 +38835,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "0lQUvq4uPZ",
+            "id": "x2_2Qhd1C-",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -38972,7 +38972,7 @@
         "layout": [
           ["njGXVESrtg", "njGXVESrtg"],
           ["NVyCZgFkIS", "NVyCZgFkIS"],
-          ["SnLZRa4sd8", "0lQUvq4uPZ"],
+          ["SnLZRa4sd8", "x2_2Qhd1C-"],
           ["JItvVWLk5E", "F1TAwAsPZs"]
         ],
         "title": "Smooth Cursorify"
@@ -39077,7 +39077,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Cette extension a reçu <a href=\"https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&amp;authuser=0\">25 avis</a>, tous étant favorables, avec 5 étoiles. Elle a également été citée dans un <a href=\"https://www.reddit.com/r/firefox/comments/gpo9vu/is_there_a_way_to_get_a_smooth_typing/\">post reddit</a>.</p>",
+            "content": "<p>Cette extension a reçu <a href=\"https://chrome.google.com/webstore/detail/smooth-cursorify/ohhjfajndpfpbimipmehmdkblnbelaec?hl=fr&amp;authuser=0\">35 avis</a>, tous étant favorables, avec 5 étoiles. Elle a également été citée dans un <a href=\"https://www.reddit.com/r/firefox/comments/gpo9vu/is_there_a_way_to_get_a_smooth_typing/\">post reddit</a>.</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -39088,7 +39088,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "ZQM6ooWK3x",
+            "id": "m54UwWqJQE",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -39225,13 +39225,13 @@
         "layout": [
           ["rxv0RcDtWv", "rxv0RcDtWv"],
           ["uAB-WoMjeM", "uAB-WoMjeM"],
-          ["SnLZRa4sd8", "ZQM6ooWK3x"],
+          ["SnLZRa4sd8", "m54UwWqJQE"],
           ["JItvVWLk5E", "F1TAwAsPZs"]
         ],
         "title": "Smooth Cursorify"
       }
     },
-    "descriptionHash": "rUBFiPO3+dB3fa4IJnJtVQ==",
+    "descriptionHash": "gM7GyOOSMmoeoEGmtJiG6w==",
     "id": "smooth-cursorify",
     "metadata": {
       "additionalMetadata": {
