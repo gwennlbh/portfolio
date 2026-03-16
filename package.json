@@ -18,11 +18,11 @@
     "works.json": "bunx prettier --write"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.7",
-    "@astrojs/netlify": "^6.5.13",
+    "@astrojs/mdx": "^5.0.1",
+    "@astrojs/netlify": "^7.0.3",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.6.0",
-    "astro": "^5.14.6",
+    "astro": "^6.0.5",
     "date-fns": "^4.1.0",
     "jsdom": "^29.0.0",
     "picomatch": "^4.0.3",
