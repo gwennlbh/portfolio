@@ -64,7 +64,7 @@ jobs:
       image: ghcr.io/gwennlbh/playwright-bun:v1.58.2
     environment:
       name: Visual diffing for PR #${{ github.event.pull_request.number }}
-      url: ${{ steps.deploy-to-gh-pages.outputs.page_url }}
+      url: https://gwennlbh.github.io/portfolio/pr-${{ github.event.pull_request.number }}/
     steps:
       - uses: actions/checkout@v6
 
