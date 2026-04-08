@@ -66,16 +66,6 @@
     description: Video production student association
     url: https://tvn7.fr/anciens-membres
 
-- time: [2025, now]
-  title: Contractor
-  location: Toulouse
-  links:
-    - https://github.com/cigaleapp/cigale
-  company:
-    name: SETE-CNRS
-    description: Theoretical and Experimental Ecology Station
-    url: https://sete-moulis-cnrs.fr/en/
-
 - time: 2025
   title: Paid intern
   location: Toulouse
@@ -95,3 +85,14 @@
     name: LIS-CNRS
     description: Laboratory of Informatics and Systems
     url: https://www.lis-lab.fr/en/home/
+
+
+- time: [2025, now]
+  title: Contractor
+  location: Toulouse
+  links:
+    - https://github.com/cigaleapp/cigale
+  company:
+    name: SETE-CNRS
+    description: Theoretical and Experimental Ecology Station
+    url: https://sete-moulis-cnrs.fr/en/
