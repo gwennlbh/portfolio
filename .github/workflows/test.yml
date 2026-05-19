@@ -31,7 +31,7 @@ jobs:
 
       - name: Remove git pre-push hook
         run: echo "" > .husky/pre-push
-        
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
