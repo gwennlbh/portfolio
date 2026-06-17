@@ -37595,7 +37595,7 @@
   },
   "shapemaker": {
     "Partial": false,
-    "builtAt": "2025-12-03T22:20:00.2417167+01:00",
+    "builtAt": "2026-06-17T15:44:42.9139493+02:00",
     "content": {
       "en": {
         "abbreviations": {},
@@ -38249,7 +38249,7 @@
               "secondary": "",
               "tertiary": ""
             },
-            "content": "<p>Je voulais m’essayer à l’art génératif, et, comme premier projet, créer un moyen de générer de petites formes en icône à partir d’un ensemble prédéfini de lignes, courbes et cercles possibles</p>",
+            "content": "<p>Je voulais m’essayer à l’art procédural, et, comme premier projet, créer un moyen de générer de petites formes en icône à partir d’un ensemble prédéfini de lignes, courbes et cercles possibles</p>",
             "contentType": "",
             "dimensions": {
               "aspectRatio": 0,
@@ -38260,7 +38260,7 @@
             "duration": 0,
             "hasSound": false,
             "hash": "",
-            "id": "pZLmQfFXQT",
+            "id": "MzUpXJQRpy",
             "index": 0,
             "online": false,
             "relativeSource": "",
@@ -38677,7 +38677,7 @@
         "layout": [
           ["V_6Mau2b57"],
           ["T-JUOUr9vK"],
-          ["pZLmQfFXQT"],
+          ["MzUpXJQRpy"],
           ["7JUt06-_iz"],
           ["XKqfEcQqmE"],
           ["Hqr9SM0xdW"],
@@ -38692,7 +38692,7 @@
         "title": "Shapemaker"
       }
     },
-    "descriptionHash": "Zy6AkTcgOrPBpRfkr5q6qg==",
+    "descriptionHash": "L76lQf1r4LjPUrpQl3P15w==",
     "id": "shapemaker",
     "metadata": {
       "additionalMetadata": {
