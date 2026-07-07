@@ -9,7 +9,7 @@ jobs:
   tangle:
     runs-on: ubuntu-latest
     steps:
-      - uses: gwennlbh/to-tangled@v0.4
+      - uses: gwennlbh/to-tangled@c2895c0be7bac6c87ca03ed04a649d66072a026e # v0.4
         with:
           repo: gwen.works/portfolio
           ssh-key: ${{ secrets.TANGLED_KEY }}

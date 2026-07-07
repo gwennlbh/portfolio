@@ -14,7 +14,7 @@ jobs:
     name: Rebuild database
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         with:
           ssh-key: ${{ secrets.AUTOCOMMIT_KEY }}
       - name: Install native dependencies
@@ -23,11 +23,11 @@ jobs:
           sudo apt update
           sudo apt-get install --yes imagemagick curl unzip jq google-drive-ocamlfuse
       - name: Install ffmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
+        uses: FedericoCarboni/setup-ffmpeg@36c6454b5a2348e7794ba2d82a21506605921e3d # v3
       - name: Install github cli
-        uses: sersoft-gmbh/setup-gh-cli-action@v3
+        uses: sersoft-gmbh/setup-gh-cli-action@3cb41a4434ca35de4d1c16e00dc7e16d38409494 # v3
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6
         with:
           go-version: "1.26.3"
       - name: Install ortfo/db
@@ -35,7 +35,7 @@ jobs:
           go install github.com/ortfo/db/cmd@v1.7.2
           mv ~/go/bin/cmd /usr/bin/ortfodb
       - name: Write service account key file
-        uses: mobiledevops/secret-to-file-action@v1
+        uses: mobiledevops/secret-to-file-action@be5f14e82c235ccde011f6ab0f6c984b35dc34c6 # v1
         with:
           base64-encoded-secret: ${{ secrets.GOOGLE_DRIVE_CLIENT_SERVICE_ACCOUNT_KEY_BASE64 }}
           filename: .serviceaccount.json
